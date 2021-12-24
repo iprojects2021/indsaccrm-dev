@@ -46,7 +46,7 @@ public static String getDirPath(){
 String path="E:\\LOG-DEV\\files\\crmfiles\\";
  return path;}
 public static String getProjectPath(){
-String path="E:\\indsac\\indsaccrm\\indsaccrm-dev\\web";
+String path="E:\\indsac\\indsaccrm\\indsaccrm-dev\\web";//depend upon developer project location
 return path;}
 public static String getWeblogsDirPath(){
 String path="E:\\LOG-DEV\\files\\weblogs\\"; 

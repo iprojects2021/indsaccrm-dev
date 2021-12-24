@@ -38,7 +38,7 @@ public class Poul {
 	Connection con=null;
 	try{
 		Class.forName("com.mysql.jdbc.Driver");
-		con=DriverManager.getConnection("jdbc:mysql://localhost:3306/indsaccr_ushaaicrm","root","mysql");
+		con=DriverManager.getConnection("jdbc:mysql://localhost:3306/indsaccr_development","root","mysql");
 	}catch(Exception e){System.out.println(e);}
 	return con;
     }  
@@ -62,7 +62,7 @@ return path;
 	Connection con=null;
 	try{ 
 		Class.forName("com.mysql.jdbc.Driver");
-		con=DriverManager.getConnection("jdbc:mysql://localhost:3306/indsaccr_ushaaicrm",Nd.Decrypt("2a2e2a746f74616c66696e64776f726b"),Nd.Decrypt("2a2e2a746135793875357568"));
+		con=DriverManager.getConnection("jdbc:mysql://localhost:3306/indsaccr_development",Nd.Decrypt("2a2e2a75736572646576656c6f706d656e74"),Nd.Decrypt("2a2e2a377937656861386573"));
 	}catch(Exception e){System.out.println(e);
          String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" \n Poul.java-----\n"
                    + "\nLINE=62 \n Production: getConnectionCRM() ";

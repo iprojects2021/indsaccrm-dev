@@ -43,13 +43,13 @@ public class Poul {
 	return con;
     }  
 public static String getDirPath(){
-String path="E:\\LOG\\files\\crmfiles\\";
+String path="E:\\LOG-DEV\\files\\crmfiles\\";
  return path;}
 public static String getProjectPath(){
-String path="E:\\indsac\\indsaccrm\\development\\indsaccrm\\web";
+String path="E:\\indsac\\indsaccrm\\indsaccrm-dev\\web";
 return path;}
 public static String getWeblogsDirPath(){
-String path="E:\\LOG\\files\\weblogs\\"; 
+String path="E:\\LOG-DEV\\files\\weblogs\\"; 
 return path;
 }
 //test environment end
@@ -57,7 +57,7 @@ return path;
 
 
 /*
-//prod environment start
+//server dev environment start
    public static Connection getConnectionCRM() {
 	Connection con=null;
 	try{ 
@@ -75,17 +75,17 @@ return path;
     } 
 
   public static String getDirPath(){
-String path="/home/indsaccr/files/crmfiles/";
+String path="/home/indsaccr/dev/crmfiles/";
 
  return path;}
  public static String getProjectPath(){
-String path="/home/indsaccr/webapps/myindsactools/";
+String path="/home/indsaccr/webapps/indsaccrm-dev/";
 return path;}
 public static String getWeblogsDirPath(){
-   String path="/home/indsaccr/files/weblogs/"; 
+   String path="/home/indsaccr/dev/weblogs/"; 
 return path;
 }
- //prod environ end
+ //prod server dev end
 */
    public static String getEmailResponseUser(){
 //String path="";

@@ -1,0 +1,4 @@
+# Group 1
+User-agent: *
+Disallow: /login.jsp
+Disallow: /checking.jsp

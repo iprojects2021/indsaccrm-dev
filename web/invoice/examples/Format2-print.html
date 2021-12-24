@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Format2 Print | Invoice</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <!-- Bootstrap 3.3.7 -->
+  <link rel="stylesheet" href="../../bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="../../bower_components/font-awesome/css/font-awesome.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="../../bower_components/Ionicons/css/ionicons.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="../../dist/css/AdminLTE.min.css">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  <!-- Google Font -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+</head>
+<body onload="window.print();">
+<div class="wrapper">
+  <!-- Main content -->
+  <section class="invoice">
+    <!-- title row -->
+    <div class="row">
+      <div class="col-xs-12">
+        <h2 class="page-header">
+            <img src="../../dist/img/u.png"> INDSAC-CRM
+          <small class="pull-right">Date: 2/07/2020</small>
+        </h2>
+      </div>
+      <!-- /.col -->
+    </div>
+    <!-- info row -->
+    <div class="row invoice-info">
+      <div class="col-sm-4 invoice-col">
+        From
+        <address>
+          <strong>Indsac, Co.</strong><br>
+          4654 Andre Ave, Suite 600<br>
+          Mexico,  8965<br>
+          Phone: (956) 834-5432<br>
+          Email: info@businessname.com
+        </address>
+      </div>
+      <!-- /.col -->
+      <div class="col-sm-4 invoice-col">
+        To
+        <address>
+          <strong>John Coel</strong><br>
+          589 Andre Ave, Suite 028<br>
+          Mexico,  4587<br>
+          Phone: (555) 539-1037<br>
+          Email: john.doe@customer.com
+        </address>
+      </div>
+      <!-- /.col -->
+      <div class="col-sm-4 invoice-col">
+        <b>Invoice #007612</b><br>
+        <br>
+        <b>Order ID:</b> 4F3S8J<br>
+        <b>Payment Due:</b> 2/05/2020<br>
+        <b>Account:</b> 968-34567
+      </div>
+      <!-- /.col -->
+    </div>
+    <!-- /.row -->
+
+    <!-- Table row -->
+    <div class="row">
+      <div class="col-xs-12 table-responsive">
+        <table class="table table-striped">
+          <thead>
+          <tr>
+            <th>Qty</th>
+            <th>Product</th>
+            <th>Code</th>
+            <th>Description</th>
+            <th>Subtotal</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td>1</td>
+            <td>Ace Micromatic</td>
+            <td>455-981-221</td>
+            <td>610(W) X250(D) x304.8(B) mm</td>
+            <td>$6584.50</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Waste Grinder Machine</td>
+            <td>247-925-726</td>
+            <td>PVC, PP, PET 50-100 kg/h</td>
+            <td>$500.00</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Chequered Header Grinder</td>
+            <td>735-845-642</td>
+            <td>Semi-Automatic  2800 rpm</td>
+            <td>$1050.70</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Attritor Mill</td>
+            <td>422-568-642</td>
+            <td>Stainless Steel, Mild Steel</td>
+            <td>$2565.99</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- /.col -->
+    </div>
+    <!-- /.row -->
+
+    <div class="row">
+      <!-- accepted payments column -->
+      <div class="col-xs-6">
+        <p class="lead">Terms And Conditions</p>
+       
+
+        <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
+         1) All products returned for refund/replacement or extended on credit must be returned in “saleable” condition with original packing.
+         \n
+         2)10% restocking charges are applicable on all non-defective replacements.
+         3)In case of a damaged product or item received please contact our toll-free number-1800-328-XXXX
+        </p>
+      </div>
+      <!-- /.col -->
+      <div class="col-xs-6">
+        <p class="lead">Amount Due 2/22/2014</p>
+
+        <div class="table-responsive">
+          <table class="table">
+            <tr>
+              <th style="width:50%">Subtotal:</th>
+              <td>$10701.19</td>
+            </tr>
+            <tr>
+              <th>Tax (9.3%)</th>
+              <td>$995.21</td>
+            </tr>
+            <tr>
+              <th>Shipping:</th>
+              <td>$5.80</td>
+            </tr>
+            <tr>
+              <th>Total:</th>
+              <td>$11702.2</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <!-- /.col -->
+    </div>
+    <!-- /.row -->
+  </section>
+  <!-- /.content -->
+</div>
+<!-- ./wrapper -->
+</body>
+</html>

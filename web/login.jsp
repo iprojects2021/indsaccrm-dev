@@ -359,7 +359,7 @@ if("register".equals(type)){
         <div class="col-xs-8">
           <div class="checkbox icheck">
             <label>
-                I agree to the <a href="#">terms</a><input type="checkbox" name="checkboxagree">
+                I agree to the <a href="navigate/termsofuse.jsp">terms</a><input type="checkbox" name="checkboxagree">
             </label>
           </div>
         </div>

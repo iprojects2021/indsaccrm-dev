@@ -317,7 +317,7 @@ if("register".equals(type)){
 %>
 <div class="register-box">
   <div class="register-logo">
-     <a href="www.indsac.com"><b>INDSAC</b>-CRM</a>
+     <a href="https://www.indsaccrm.com"><b>INDSAC</b>-CRM</a>
  </div>
 
   <div class="register-box-body">

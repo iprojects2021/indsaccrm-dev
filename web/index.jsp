@@ -255,7 +255,7 @@
                 <div class="grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1">
                     <div class="back-color">
                     <span class="fa fa-mobile" aria-hidden="true"></span>
-                    <h4><a href="aboutus.jsp" class="title-head">Digital & Mobile</a></h4>
+                    <h4><a href="navigate/digitalmobile.jsp" class="title-head">Digital & Mobile</a></h4>
                     <p class="para">Utilize the amazing technology where ever you are to benefits your business. View data and receive 
                     valuable alerts in mobile.</p>
                 </div>

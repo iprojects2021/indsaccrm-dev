@@ -124,23 +124,23 @@
    				    <div class="recent-work ">
    				        <div class="container">
 <div class="left-text">
-	<h3>CRM for Aerospace Industry </h3>
-	<p class="para">Aerospace companies are not customer-driven, most of them have come to recognize the importance of customer relationship management (CRM) when it comes to improving sales and business development 
-	effectiveness, delivering superior customer service, improving product, quote, and order configuration accuracy, 
-	and maximizing employee productivity and knowledge sharing, among other things. CRM software  now offer a broad selection of CRM software capable of satisfying the complex and unique demands of aerospace and defense companies. </p> 
+	<h3>Why is a mobile CRM important? </h3>
+	<p class="para">A mobile CRM goal is to grow sales. It does this by increasing productivity, 
+            streamlining communication, and building stronger client relationships.</p> 
 	<br>
-	<p class="para"> Aerospace contracts are characterized by their complexity and wide-ranging scope. Their management is further complicated by exceedingly intricate procedures, stringent regulations, and strict requirements from both clients and the government. 
-A Cloud CRM solution in this environment must address the need for management of information security with exchanges as a priority from both operational and administrative perspectives in the Aerospace Sector.</p>
+	<p class="para"> But different groups (businesses, their employees, and their customers) benefit 
+            in different ways. So let's see how mobile CRM help each set.</p>
 <br>
 <br>
 <br>
-	<h3>Benefits of INDSAC-CRM for Aerospace Industry</h3>
-	</div>
-<div class="row about-about">
+	<h3>Mobile CRM benefits for Employees</h3>
+	<div class="row about-about">
 	<div class="col-lg-4 col-md-6">
 		<div class="about-grids">
-		
-<p class="para">CRM software tools that target small and medium-sized businesses are seldom able to satisfy the complex requirements of aerospace companies. </p>
+
+<h4>Maintaining one central database</h4>
+<p class="para">A mobile CRM solution lets you and your team store, track, and manage all your lead and customer details in one central database. 
+    It makes it very easy to find customers data, past conversations, and interactions when needed. </p><br>
 <div class="mt-3 about-list">
 	
 </div>
@@ -148,9 +148,10 @@ A Cloud CRM solution in this environment must address the need for management of
 	</div>
 	<div class="col-lg-4 col-md-6 about-line-top">
 		<div class="about-grids">
+<h4>Getting detailed customer insights</h4>
 
-
-<p class="para ">The most powerful benefit of using a CRM in aviation is that sales team spends more time connecting with customers and developing deals, and less time analyzing data.. </p>
+<p class="para">A mobile CRM sorts your leads and customers into different groups based on their requirements,
+    personal preferences, background, etc. giving you detailed information for each of them.<br><br></p><br>
 <div class="mt-3 about-list">
 	
 </div>
@@ -158,17 +159,88 @@ A Cloud CRM solution in this environment must address the need for management of
 	</div>
 	<div class="col-lg-4 col-md-6 about-line-top">
 		<div class="about-grids">
-
-<p class="para"> Using CRM you can create much more effective and personalized marketing campaigns. CRM platforms allow you to really drill down into the data and get to know your passengers and their behavior.</p>
+<h4> Preparing for meetings better</h4>
+<p class="para">A mobile CRM helps you prepare well for customer meetings. Say you are having a busy day and are about to meet a customer whom you haven't spoken to in sometime. 
+    You can update yourself about who they are in seconds by looking them up on your mobile CRM.</p><br>
 <div class="mt-3 about-list">
 
 </div>
 		</div>
 	</div>
+</div> 
+<br>
+<br>
+        <h3>Mobile CRM benefits for Businesses</h3>
+	<div class="row about-about">
+	<div class="col-lg-4 col-md-6">
+		<div class="about-grids">
+
+<h4>Making customers happy</h4>
+<p class="para">When businesses use mobile CRMs to build relationships and offer personalised service, 
+    customers feel valued. When customers are happy, businesses enjoy repeat orders and referrals. This helps them maintain a good brand reputation. The result, more sales.
+
+ </p><br>
+<div class="mt-3 about-list">
+	
 </div>
-       </div>
+		</div>
+	</div>
+	<div class="col-lg-4 col-md-6 about-line-top">
+		<div class="about-grids">
+<h4>Keeping employees happy</h4>
+
+<p class="para">When employees use mobile CRMs to automate tasks, they have more time to follow up with customers. This helps them close more deals and increase their sales.
+    When employees use CRMs to coordinate on leads, they streamline interactions, leading to a positive working environment.</p><br>
+<div class="mt-3 about-list">
+	
+</div>
+		</div>
+	</div>
+	<div class="col-lg-4 col-md-6 about-line-top">
+		<div class="about-grids">
+<h4> Understanding the business better</h4>
+<p class="para">Mobile CRMs create customer reports giving management an overview of everything. By seeing what is selling well, businesses 
+    can consider new product innovation. They can also fix what isn't selling with discounts</p><br>
+<div class="mt-3 about-list">
+
+</div>
+		</div>
+	</div>
+</div> 
+        
+</section>
+<section class="w3l-recent-work-hobbies">
+    <div class="recent-work ">
+   <div class="container">
+<div class="left-text">
+	<h3>Features of a Mobile CRM </h3>
+
+  <h4>Customer profiling<h4>
+<p class="para" > A mobile CRM contains individual customer profiles based on their needs, likes, interests, budget, etc. This gives you personalised insights for each customer, 
+    so you can recommend the most relevant products.</p><br>
+
+<h4>Calendar and follow-up reminders <h4>
+<p class="para" > Good mobile CRM make following up with customers easy with built-in calendars and 
+    reminders. They make it stay in touch with customers and keep your relationships warm, increasing 
+    the likelihood they'll buy from you in the future.</p><br>
+
+<h4>Calls and messaging<h4>
+<p class="para" >Mobile CRM make it easy to contact your leads and view past conversations from one 
+    place. There is no need to switch back and forth between WhatsApp, SMS, iMessage, phone calls, 
+    and email just to send a simple follow-up message.</p><br>
+
+<h4>Customer timelines  <h4>
+<p class="para" >Mobile CRMs track all your customers no matter where they are in your sales pipeline, 
+    giving you a detailed timeline for each client. This includes notes about the customer, personal 
+    information, a history of past interactions, and follow up tasks.</p><br>
+
+<h4>Lead integrations and alerts <h4>
+<p class="para" >Many mobile CRMs have integrations to connect your lead sources to alert you of new 
+    leads and save them into your client list. With new lead notifications you can respond to people while they're still interested.</p><br>
+</div>
+  </div>
      </div>
-				</section>
+    </section>
 			
 
 

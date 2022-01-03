@@ -214,8 +214,8 @@
                 <div class="team-colomn col-lg-3 col-md-6 col-sm-6">
 				<div class="team-main-6">
 					<div class="right-team-9">
-						<a href=""><img class="img-responsive" src="assets/images/leadm.svg" alt=" "></a><br>
-						<h6><a href="" class="title-team-32">Lead Management</a></h6>
+						<a href="lead.jsp"><img class="img-responsive" src="assets/images/leadm.svg" alt=" "></a><br>
+						<h6><a href="lead.jsp" class="title-team-32">Lead Management</a></h6>
 				
 					</div>
                 </div>
@@ -223,8 +223,8 @@
             <div class="team-colomn col-lg-3 col-md-6 col-sm-6">
 				<div class="team-main-6">
 					<div class="right-team-9">
-						<a href=""><img class="img-responsive" src="assets/images/inventm.png" alt=" "></a><br>
-						<h6><a href="" class="title-team-32">Inventory Management</a></h6>
+						<a href="inventory.jsp"><img class="img-responsive" src="assets/images/inventm.png" alt=" "></a><br>
+						<h6><a href="inventory.jsp" class="title-team-32">Inventory Management</a></h6>
 					
 					</div>
                 </div>
@@ -253,8 +253,8 @@
 			<div class="team-colomn col-lg-4 col-md-6 scol-sm-6" >
 				<div class="team-main-6">
 					<div class="right-team-9">
-						<a href=""><img class="img-responsive" src="assets/images/more.gif" alt=" "></a>
-						<h6><a href="" class="title-team-32">Explore More Features</a></h6>
+						<a href="feature.jsp"><img class="img-responsive" src="assets/images/more.gif" alt=" "></a>
+						<h6><a href="feature.jsp" class="title-team-32">Explore More Features</a></h6>
 		
 					</div>
                 </div>

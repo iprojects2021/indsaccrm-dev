@@ -248,7 +248,7 @@
                 <div class="grids-effect-2 col-lg-4 col-md-6 col-sm-6">
                     <div class="back-color">
                     <span class="fa fa-pie-chart" aria-hidden="true"></span>
-                    <h4><a href="aboutus.jsp" class="title-head">360 Degree View</a></h4>
+                    <h4><a href="navigate/360view.jsp" class="title-head">360 Degree View</a></h4>
                     <p class="para">INDSAC 360 degree customer view strategic approach enabling businesses to offer the best customer experience across all channels</p>
                 </div>
             </div>

@@ -263,7 +263,7 @@
                 <div class=" grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1">
                     <div class="back-color">
                     <span class="fa fa-bolt" aria-hidden="true"></span>
-                    <h4><a href="aboutus.jsp" class="title-head"> Marketing</a></h4>
+                    <h4><a href="navigate/crmmarketing.jsp" class="title-head"> Marketing</a></h4>
                     <p class="para">Works best for you that will determine and pursue your business marketing goals. Boost visibility and increase sales while sustaining a profit</p>
                 </div>
             </div>

@@ -293,19 +293,19 @@
         digitally.</p>
             <div class="call-grids-w3">
                 <div class="grids-1 grids-effect-2">
-                    <h4><a href="aboutus.jsp" class="title-head">Data Analysis</a></h4>
+                    <h4><a href="navigate/crmanalysis.jsp" class="title-head">Data Analysis</a></h4>
                     <p class="para">Deeper understanding  which, in turn, builds better business relationships.</p>
                 </div>
                 <div class="grids-1 grids-effect-2">
-                    <h4><a href="aboutus.jsp" class="title-head">CRM Analytics</a></h4>
+                    <h4><a href="navigate/Analytics.jsp" class="title-head">CRM Analytics</a></h4>
                     <p class="para"> Enable decision makers to make better and more timely business decisions </p>
                 </div>
                 <div class="grids-1 grids-effect-2">
-                    <h4><a href="aboutus.jsp" class="title-head">Digital Marketing</a></h4>
+                    <h4><a href="navigate/digitalmarketing.jsp" class="title-head">Digital Marketing</a></h4>
                     <p class="para">Allows you to find new markets and trade globally for only a small investment. </p>
                 </div>
                 <div class="grids-1 grids-effect-2">
-                    <h4><a href="aboutus.jsp" class="title-head">Social Marketing</a></h4>
+                    <h4><a href="navigate/crmmarketing.jsp" class="title-head">Social Marketing</a></h4>
                     <p class="para">Increase your business's recognition, traffic, and sales with little to no cost. </p>
                 </div>
             </div>

@@ -234,14 +234,14 @@
                     
                     <div class="back-color">
                     <span class="fa fa-thumbs-up" aria-hidden="true"></span>
-                    <h4><a href="aboutus.jsp" class="title-head">Promotions</a></h4>
+                    <h4><a href="navigate/Promotions.jsp" class="title-head">Promotions</a></h4>
                     <p class="para">INDSAC CRM provides you with focused promotional activities which is an excellent way to introduce your product in the market. </p>
                 </div>
             </div>
                 <div class=" grids-effect-2 col-lg-4 col-md-6 col-sm-6">
                     <div class="back-color">
                     <span class="fa fa-picture-o" aria-hidden="true"></span>
-                    <h4><a href="aboutus.jsp" class="title-head">Social Media</a></h4>
+                    <h4><a href="navigate/crmmarketing.jsp" class="title-head">Social Media</a></h4>
                     <p class="para">With INDSAC CRM get campaigns based on your business goals will create a brand identity and positive brand association </p>
                     </div>
                 </div>
@@ -270,7 +270,7 @@
                 <div class="grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1 ">
                     <div class="back-color">
                     <span class="fa fa-cubes" aria-hidden="true"></span>
-                    <h4><a href="aboutus.jsp" class="title-head">Planing</a></h4>
+                    <h4><a href="navigate/Planning.jsp" class="title-head">Planing</a></h4>
                     <p class="para">Get high level overview of your entire business that will develop a better understanding 
                     of effective business planning process.</p>
                 </div>

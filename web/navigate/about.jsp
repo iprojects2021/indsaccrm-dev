@@ -232,8 +232,8 @@
             <div class="team-colomn col-lg-3 col-md-6 col-sm-6">
 				<div class="team-main-6">
 					<div class="right-team-9">
-						<a href=""><img class="img-responsive" src="assets/images/processm.png" alt=" "></a><br><br>
-						<h6><a href="" class="title-team-32">Process Management System</a></h6>
+						<a href="process.jsp"><img class="img-responsive" src="assets/images/processm.png" alt=" "></a><br><br>
+						<h6><a href="process.jsp" class="title-team-32">Process Management System</a></h6>
 					
 					</div>
                 </div>

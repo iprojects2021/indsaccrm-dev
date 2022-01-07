@@ -241,8 +241,8 @@
             <div class="team-colomn col-lg-3 col-md-6 col-sm-6">
 				<div class="team-main-6">
 					<div class="right-team-9">
-						<a href=" "><img class="img-responsive" src="assets/images/billingm.png" alt=" "></a><br><br>
-						<h6><a href=" " class="title-team-32">Invoice Management System</a></h6>
+						<a href="invoicemanagement.jsp  "><img class="img-responsive" src="assets/images/billingm.png" alt=" "></a><br><br>
+						<h6><a href="invoicemanagement.jsp " class="title-team-32">Invoice Management System</a></h6>
 		
 					</div>
                 </div>

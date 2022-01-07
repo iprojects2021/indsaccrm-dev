@@ -196,7 +196,7 @@ The telecom industry is spreading fast! New innovations are being discussed ever
                 <div class="grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1 ">
                     <div class="back-color">
                        <a href="#page"><img class="img-responsive" src="assets/images/tel9.png" alt=" "></a>
-                        <h4><a href="Telecommunication.jsp" class="title-head"> Billing System </h4>
+                        <h4><a href="invoicemanagement.jsp" class="title-head"> Billing System </h4>
                         <p class="para">Make billing information easy to access and transform. It allows to observe customer histories, check out invoices and  
 					 accepts payments, makes credit advice. </p>
                     </div>

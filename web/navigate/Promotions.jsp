@@ -123,7 +123,7 @@
         <br>
         
         <div class="left-text">
-	<h3>There are two main types of sales promotions</h3>
+	<h3> Types of Sales Promotions</h3>
 	<p class="para">    </p>
 </div>
 <p class="para"> A) Consumer sales promotions :<br>

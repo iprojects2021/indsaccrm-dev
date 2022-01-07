@@ -197,7 +197,7 @@
 	<div class="col-lg-4 col-md-6 about-line-top">
 		<div class="about-grids">
 <h4>Intelligent Dashboard</h4>
-<a href=""><img class="img-responsive" src="assets/images/i5.jpeg" alt=" "></a>
+<a href="dashboard.jsp"><img class="img-responsive" src="assets/images/i5.jpeg" alt=" "></a>
 <p class="para">Establish and track sales and operations goals, and monitor individual performance and contributions to business goals.</p><br><br>
 <div class="mt-3 about-list">
 

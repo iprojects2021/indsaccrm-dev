@@ -158,7 +158,7 @@
 
                     <div class="back-color">
                         <a href=""><img class="img-responsive" src="assets/images/sa1.png" alt=" "></a>
-                        <h4><a href="sales.jsp" class="title-head"> Digital Ordering</a></h4>
+                        <h4><a href="digitalmobile.jsp" class="title-head"> Digital Ordering</a></h4>
                         <p class="para">They have access to real-time stock and delivery data that enables them to make better sales pitches. </p>
                     </div>
                 </div>	
@@ -167,7 +167,7 @@
 
                     <div class="back-color">
                         <a href=""><img class="img-responsive" src="assets/images/sa3.jpg" alt=" "></a>
-                        <h4><a href="sales.jsp" class="title-head">Measure Productivity</a></h4>
+                        <h4><a href="panalysis.jsp" class="title-head">Measure Productivity</a></h4>
                         <p class="para">These metrics are accessible to the sales reps. Hence, they can self-assess themselves and improve their performance gradually.</p>
                     </div>
                 </div>

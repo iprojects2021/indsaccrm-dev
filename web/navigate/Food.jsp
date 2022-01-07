@@ -135,14 +135,14 @@
                     
                     <div class="back-color">
                     <span class="fa fa-tachometer" aria-hidden="true"></span>
-                    <h4><a href="" class="title-head">Dashboard</a></h4>
+                    <h4><a href="dashboard.jsp" class="title-head">Dashboard</a></h4>
                     <p class="para">INDSAC CRM provides you with focused promotional activities which is an excellent way to introduce your product in the market. </p>
                 </div>
             </div>
                 <div class=" grids-effect-2 col-lg-4 col-md-6 col-sm-6">
                     <div class="back-color">
                     <span class="fa fa-tasks" aria-hidden="true"></span>
-                    <h4><a href="" class="title-head">Managing Tasks</a></h4>
+                    <h4><a href="task.jsp" class="title-head">Managing Tasks</a></h4>
                     <p class="para">With INDSAC CRM get campaigns based on your business goals will create a brand identity and positive brand association. </p>
                     </div>
                 </div>
@@ -156,7 +156,7 @@
                 <div class="grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1">
                     <div class="back-color">
                     <span class="fa fa-mobile" aria-hidden="true"></span>
-                    <h4><a href="" class="title-head">Mobile Access To Data</a></h4>
+                    <h4><a href="digitalmobile.jsp" class="title-head">Mobile Access To Data</a></h4>
                     <p class="para">Utilize the amazing technology where ever you are to benefits your business. View data and receive 
                     valuable alerts in mobile.</p>
                 </div>
@@ -164,14 +164,14 @@
                 <div class=" grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1">
                     <div class="back-color">
                     <span class="fa fa-database" aria-hidden="true"></span>
-                    <h4><a href="" class="title-head"> Lead Capture Forms</a></h4>
+                    <h4><a href="lead.jsp" class="title-head"> Lead Capture Forms</a></h4>
                     <p class="para">Works best for you that will determine and pursue your business marketing goals. Boost visibility and increase sales while sustaining a profit.</p>
                 </div>
             </div>
                 <div class="grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1 ">
                     <div class="back-color">
                     <span class="fa fa-line-chart" aria-hidden="true"></span>
-                    <h4><a href="" class="title-head">Visualize Your Sales Process</a></h4>
+                    <h4><a href="salesforcasting.jsp" class="title-head">Visualize Your Sales Process</a></h4>
                     <p class="para">Get high level overview of your entire business that will develop a better understanding 
                     of effective business planning process.</p>
                 </div>

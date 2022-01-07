@@ -2,8 +2,8 @@
 <%@page import="blezz.Poul"%>
 <%@page import="log.Log"%>
 <!--
-   Author: indsaccrm.com
-   Author URL: http://indsaccrm.com.com
+   Author:indsaccrm.com
+   Author URL: http://indsaccrm.com
 -->
 <!doctype html>
 <html lang="en">
@@ -12,13 +12,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Contact Management | Best CRM Software | Indsac Crm :: indsaccrm.com</title>
-
+   <title>Best CRM Software | Invoice Management System :: indsaccrm.com</title>
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli:400,600,700&display=swap" rel="stylesheet">
-	 <style>
+ <style>
 .dropbtn {
   background-color: #4CAF50;
   color: white;
@@ -55,14 +54,13 @@
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
 </style>
   </head>
-  <body id="Contact Management">
+  <body id="about">
 
 
       <%  Log.writeWEBLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" "+request.getProtocol()+", "+Poul.getPublicIP()+""
-              + ", "+request.getRemoteHost()+", Entering contactmanagement.jsp");
+              + ", "+request.getRemoteHost()+", Entering about.jsp");
       %>
-<%@include file="header.jsp" %>
-
+ <%@include file="header.jsp" %>
     <script src="assets/js/jquery-3.3.1.min.js"></script> <!-- Common jquery plugin -->
     <!--bootstrap working-->
     <script src="assets/js/bootstrap.min.js"></script>
@@ -84,8 +82,7 @@
             <div class="container seen-w3">
                 <ul class="breadcrumbs-custom-path">
                     <li><a href="../index.jsp">Home <span class="fa fa-angle-right" aria-hidden="true"></span></a></li>
-                    <li ><a href="services.jsp">Services <span class="fa fa-angle-right" aria-hidden="true"></span></a></li>
-					 <li class="active">Contact Management</li>
+                    <li class="active"> Invoice Management System </li>
                 </ul>
             </div>
         </div>
@@ -94,70 +91,73 @@
 <section class="w3l-content-with-photo-4">
     <div class="content-with-photo4-block">
         <div class="container">
-		      <div class="main-titles-head text-center">
-                <h3 class="header-name">
-                    Contact Management
-                </h3> 
-
-            </div>
             <div class="cwp4-two row">
             <div class="col-xl-6 cwp4-image ">
-                <img src="assets/images/contactmgm.gif" alt="product" class="img-responsive ">
+                <img src="assets/images/invoice.gif" alt="product" class="img-responsive ">
             </div>
                 <div class="cwp4-text col-xl-6">
-                    <h4>The Key To Your Customer Success</h4>
-                    <p class="para"> INDSAC-CRM allows you to store and  loads all personal information about each customer. Provides customer conversation with all the information they need to form a quick rapport.
-                       
+                    <h4>INDSAC-CRM With Invoicing</h4>
+                    <p class="para">Easily organize your billing with INDSAC-CRM and invoicing software. 
+                        Perfect for large and small businesses, you get an all-round business tool that goes way beyond simply 
+                        quoting and invoicing. <br><br>Your CRM lets you grow your relationship with your customers, and quotes and 
+                        invoices are just one part of that. 
                     </p>
-                    <div class="jst-two-coloums mt-4">
-                        <div class="icon-text">
-                            <h5> Longer Customer Relationship</h5>
-                            <p class="para">Built strong relationships that have value. Empower you to deliver a world-class customer experience</p>
-                       </div>
-                        <div class="icon-text mt-lx-3 pt-lx-1">
-                            <h5 >Improve Data Management</h5>
-                            <p class="para"> Displays the metrics that you need to see and can be accessed in a moments notice, making data-driven decisions quickly.</p>
-                        </div>
-                    </div>
+                    <br>
+                     <p class="para">With so many integrations, you can talk to your clients on whatever platform they want 
+                         and keep a record of all interactions and billing in one place. When you're ready to send the invoice, 
+                         in just a click of a button, you can send it by email or print it as a PDF.
+                    </p>
+                    <br>
+                  
                 </div>
             </div>
         </div>
     </div>
 </section>
-<section class="w3l-content-with-photo-4">
-    <div class="content-with-photo4-block">
-        <div class="container">
-	
-            <div class="cwp4-two row">
-          
-                <div class="cwp4-text col-xl-6">
-                    <h4>Best insights of Contacts</h4>
-                    <p class="para"> Get critical information which will help developing the relationships and promote your products and services.
-                       
-                    </p>
-                    <div class="jst-two-coloums mt-4">
-                        <div class="icon-text">
-                            <h5> Increased Productivity </h5>
-                            <p class="para">Automates the entire scheduling process which dramatically increases the productivity of business</p>
-                       </div>
-                        <div class="icon-text mt-lx-3 pt-lx-1">
-                            <h5 >Improving Marketing Effectiveness </h5>
-                            <p class="para">A well designed INDSAC-CRM contact database  provides you a wealth of analytical data including better insight into the people and companies exhibiting interest in your products and services.</p>
-                        </div>
-                    </div>
-                </div>
-				  <div class="col-xl-6 cwp4-image ">
-                <img src="assets/images/contactanalytics.png" alt="product" class="img-responsive ">
-            </div>
-            </div>
-        </div>
-    </div>
+   				<section class="w3l-recent-work-hobbies">
+   				    <div class="recent-work ">
+   				        <div class="container">
+<div class="left-text">
+	<h3>Function of Invoice Management System</h3><br>
+        <h3>Create</h3>
+	<p class="para"> Create invoice either directly adding up customer information such as addresS  and contact details or from finalized quotation
+            invoice system is thoroughly integrated with quotation system. 
+            The contact could be new contact or contact from contact database.
+        </p>
+        <br>
+        
+        <h3>Update</h3>
+	<p class="para"> Updation for created invoices are allowed. Onces the invoice is created you can send invoice
+            directly to client email address from your crm, save the invoice as PDF, and even print out
+            right from your web browser. Stored invoice in secured formate with advance search function
+            and active history.
+        </p>
+        <br>
+        
+        <h3>Customize</h3>
+	<p class="para"> INDSAC-CRM Invoices serve you to create and send proficient invoices in a minute that 
+            help you get paid faster. Customize invoices from an variety of templates with your logo to make them perfect.
+            Customize header, footer details along with tax details.
+        </p>
+        <br>
+        
+        <h3>Alert</h3>
+	<p class="para">Set alert and reminders for invoice due dates and bill receivable pop-ups emails and notifications.
+        </p>
+        <br>
+        
+        <h3>Payment Terms</h3>
+	<p class="para">Select one of the default payment terms or create your own payment terms, 
+            customizing the customer payment periods specifying your required duration to allow your 
+            customers to make their payments.
+        </p>
+        <br>
+</div>                                        
+</div>
+</div>                                                             
 </section>
-   				
 
 <%@include file="footer.jsp" %>
-
-
 
 <!-- move top -->
 <button onclick="topFunction()" id="movetop" title="Go to top">
@@ -185,7 +185,7 @@
 </script>
 <!-- /move top -->
 <%  Log.writeWEBLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" "+request.getProtocol()+", "+Poul.getPublicIP()+""
-              + ", "+request.getRemoteHost()+", Leaving contactmanagement.jsp");
+              + ", "+request.getRemoteHost()+", Leaving about.jsp");
       %>
 </body>
 

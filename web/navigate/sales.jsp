@@ -186,7 +186,7 @@
 
                     <div class="back-color">
                         <a href=""><img class="img-responsive" src="assets/images/sa5.png" alt=" "></a>
-                        <h4><a href="sales.jsp" class="title-head"> Instant Custom Surveys </a></h4><br>
+                        <h4><a href="Survey.jsp" class="title-head"> Instant Customer Surveys </a></h4><br>
                         <p class="para">This helps you understand anything and everything wrong with your sales strategies, and revamp them accordingly. </p>
                     </div>
                 </div>

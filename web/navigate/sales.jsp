@@ -157,7 +157,7 @@
                 <div class="grids-effect-2 col-lg-4 col-md-6 col-sm-6">
 
                     <div class="back-color">
-                        <a href=""><img class="img-responsive" src="assets/images/sa1.png" alt=" "></a>
+                        <a href="digitalmobile.jsp"><img class="img-responsive" src="assets/images/sa1.png" alt=" "></a>
                         <h4><a href="digitalmobile.jsp" class="title-head"> Digital Ordering</a></h4>
                         <p class="para">They have access to real-time stock and delivery data that enables them to make better sales pitches. </p>
                     </div>
@@ -166,7 +166,7 @@
                 <div class="grids-effect-2 col-lg-4 col-md-6 col-sm-6">
 
                     <div class="back-color">
-                        <a href=""><img class="img-responsive" src="assets/images/sa3.jpg" alt=" "></a>
+                        <a href="panalysis.jsp"><img class="img-responsive" src="assets/images/sa3.jpg" alt=" "></a>
                         <h4><a href="panalysis.jsp" class="title-head">Measure Productivity</a></h4>
                         <p class="para">These metrics are accessible to the sales reps. Hence, they can self-assess themselves and improve their performance gradually.</p>
                     </div>
@@ -185,7 +185,7 @@
                 <div class=" grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1">
 
                     <div class="back-color">
-                        <a href=""><img class="img-responsive" src="assets/images/sa5.png" alt=" "></a>
+                        <a href="Survey.jsp"><img class="img-responsive" src="assets/images/sa5.png" alt=" "></a>
                         <h4><a href="Survey.jsp" class="title-head"> Instant Customer Surveys </a></h4><br>
                         <p class="para">This helps you understand anything and everything wrong with your sales strategies, and revamp them accordingly. </p>
                     </div>
@@ -205,8 +205,8 @@
                 <div class=" grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1">
 
                     <div class="back-color">
-                        <a href=""><img class="img-responsive" src="assets/images/sa8.png" alt=" "></a>
-                        <h4><a href="sales.jsp" class="title-head"> Predictive Analytics</a></h4><br>
+                        <a href="PredictiveAnalystics.jsp"><img class="img-responsive" src="assets/images/sa8.png" alt=" "></a>
+                        <h4><a href="PredictiveAnalystics.jsp" class="title-head"> Predictive Analytics</a></h4><br>
                         <p class="para">The predictive analysis allows your sales reps to suggest orders based on the specific point of sale history and enables them to offer 
                             a seamless purchase experience to the distributors.  </p>
                     </div>

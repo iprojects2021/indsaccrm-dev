@@ -156,7 +156,7 @@
 	<div class="col-lg-4 col-md-6 about-line-top">
 		<div class="about-grids">
 <h4>Resource management </h4>
-<a href=""><img class="img-responsive" src="assets/images/rc1.png" alt=" "></a>
+<a href="resources.jsp"><img class="img-responsive" src="assets/images/rc1.png" alt=" "></a>
 <p class="para">  Depending on the current and future market trends and the company's goals, CRM software can allocate resources and plan budgets accordingly.</p>
 <div class="mt-3 about-list">
 

@@ -152,8 +152,8 @@ customer service, and creating a strong connection with the customer. </p><br>
                 </div>
                 <div class=" grids-effect-2 col-lg-4 col-md-6 col-sm-6">
                     <div class="back-color">
-                          <a href=""><img class="img-responsive" src="assets/images/ph2.jpeg" alt=" "></a><br><br>
-                        <h4><a href="Pharmaceutical.jsp" class="title-head">Establish A Strong Connection With Customers</a></h4>
+                          <a href="strongconnection.jsp"><img class="img-responsive" src="assets/images/ph2.jpeg" alt=" "></a><br><br>
+                        <h4><a href="strongconnection.jsp" class="title-head">Establish A Strong Connection With Customers</a></h4>
                         <p class="para">CRM help you to maintain & intensify connection with your potential customers. With the reminder facility, 
 						it is simple to get a reminder when the service expires.</p><br>
                     </div>
@@ -161,8 +161,8 @@ customer service, and creating a strong connection with the customer. </p><br>
                
 			    <div class=" grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1">
                     <div class="back-color">
-                       <a href=""><img class="img-responsive" src="assets/images/ph5.png" alt=" "></a><br>
-                        <h4><a href="Pharmaceutical.jsp" class="title-head">Well-Optimized Products And Services</a></h4>
+                       <a href="inventory.jsp"><img class="img-responsive" src="assets/images/ph5.png" alt=" "></a><br>
+                        <h4><a href="inventory.jsp" class="title-head">Well-Optimized Products And Services</a></h4>
                         <p class="para">The data of various drugs can be stored securely via CRM. And, it is easy to fetch the details when needed. Also, you can identify the products and services customized for clients.</p>
                     </div>
                 </div>
@@ -177,8 +177,8 @@ customer service, and creating a strong connection with the customer. </p><br>
 				
 				 <div class="grids-effect-2 col-lg-4 col-md-6 col-sm-6">
                     <div class="back-color">
-                          <a href=""><img class="img-responsive" src="assets/images/ph3.jpg" alt=" "></a><br><br>
-                        <h4><a href="Pharmaceutical.jsp" class="title-head">Offer improved Customer Services</a></h4>
+                          <a href="services.jsp"><img class="img-responsive" src="assets/images/ph3.jpg" alt=" "></a><br><br>
+                        <h4><a href="services.jsp" class="title-head">Offer improved Customer Services</a></h4>
                         <p class="para">A INDSAC-CRM allows to efficiently manage customer database and offer them customized services. In the case of a past query, t
 						he system can fetch all data within seconds.</p>
                     </div>

@@ -154,7 +154,7 @@
 
                     <div class="back-color">
                         <a href=""><img class="img-responsive" src="assets/images/opp7.jpg" alt=" "></a><br>
-                        <h4><a href="sales.jsp" class="title-head"> Improve Your Win Rates</a></h4>
+                        <h4><a href="" class="title-head"> Improve Your Win Rates</a></h4>
                         <p class="para">Implement sales methodologies and guide reps through predefined steps so important stages are never missed and opportunities 
                             continue progressing through your pipeline. </p>
                     </div>
@@ -164,7 +164,7 @@
 
                     <div class="back-color">
                         <a href=""><img class="img-responsive" src="assets/images/opp4.png" alt=" "></a>
-                        <h4><a href="sales.jsp" class="title-head">Manage Your Pipeline</a></h4>
+                        <h4><a href="" class="title-head">Manage Your Pipeline</a></h4>
                         <p class="para">ales and management reports and dashboards provide access to data and analytics, including an opportunity funnel, sales reports, 
                             key performance indicators and pending activities.</p>
                     </div>
@@ -174,7 +174,7 @@
 
                     <div class="back-color">
                         <a href=""><img class="img-responsive" src="assets/images/opp5.png" alt=" "></a><br>
-                        <h4><a href="sales.jsp" class="title-head"> Expose Hot Opportunities</a></h4>
+                        <h4><a href="" class="title-head"> Expose Hot Opportunities</a></h4>
                         <p class="para"> With more information at your fingertips, you can uncover the best opportunities and focus resources where they matter most. </p>
                     </div>
                 </div>

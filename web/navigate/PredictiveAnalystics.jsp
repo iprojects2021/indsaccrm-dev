@@ -82,7 +82,7 @@
             <div class="container seen-w3">
                 <ul class="breadcrumbs-custom-path">
                     <li><a href="../index.jsp">Services <span class="fa fa-angle-right" aria-hidden="true"></span></a></li>
-                    <li><a href="../index.jsp">Sales Automation <span class="fa fa-angle-right" aria-hidden="true"></span></a></li>
+                    <li><a href="sales.jsp">Sales Automation <span class="fa fa-angle-right" aria-hidden="true"></span></a></li>
                     <li class="active"> Predictive Analytics </li>
                 </ul>
             </div>

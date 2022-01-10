@@ -11,7 +11,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Best Customer Relationship Management Software | Resources :: indsaccrm.com</title>
+    <title>Best Customer Relationship Management Software | Industry :: indsaccrm.com</title>
 
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">

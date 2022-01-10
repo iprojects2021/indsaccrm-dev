@@ -83,7 +83,7 @@
             <div class="container seen-w3">
                 <ul class="breadcrumbs-custom-path">
                     <li><a href="../index.jsp">Home <span class="fa fa-angle-right" aria-hidden="true"></span></a></li>
-                    <li class="active">Contact Uss</li>
+                    <li class="active">Contact Us</li>
                 </ul>
             </div>
         </div>

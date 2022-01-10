@@ -12,7 +12,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Best Customer Relationship Management Software | Resources :: indsaccrm.com</title>
+    <title>Best Customer Relationship Management Software | Industry :: indsaccrm.com</title>
 
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
@@ -136,7 +136,7 @@
 		<div class="about-grids">
 
 <h4>Stable Growth </h4>
- <a href=""><img class="img-responsive" src="assets/images/sg.png" alt=" "></a>
+ <a href="StableGrowth.jsp"><img class="img-responsive" src="assets/images/sg.png" alt=" "></a>
 <p class="para">INDSAC-CRM tool helps in growing the company scientifically and substainably in the national and international landscape.</p>
 <div class="mt-3 about-list">
 	
@@ -146,7 +146,7 @@
 	<div class="col-lg-4 col-md-6 about-line-top">
 		<div class="about-grids">
 <h4>Improved Communication </h4>
-<a href=""><img class="img-responsive" src="assets/images/ic.jpg" alt=" "></a><br>
+<a href="impcomm.jsp"><img class="img-responsive" src="assets/images/ic.jpg" alt=" "></a><br>
 <p class="para"> Customers, partners, employees, and other stackeholders communicate in clearer and faster ways with each other.</p>
 <div class="mt-3 about-list">
 	
@@ -177,7 +177,7 @@
 		<div class="about-grids">
 
 <h4>Feedback and Referrals</h4>
-<a href=""><img class="img-responsive" src="assets/images/ind.jpeg" alt=" "></a>
+<a href="Survey.jsp"><img class="img-responsive" src="assets/images/ind.jpeg" alt=" "></a>
 <p class="para"> Collect customer feedback to improve overall experience, and generate referrals to convert into customers and increase sales for your dealership. </p>
 <div class="mt-3 about-list">
 	
@@ -187,7 +187,7 @@
 	<div class="col-lg-4 col-md-6 about-line-top">
 		<div class="about-grids">
 <h4>Customer Support Tool </h4>
-<a href=""><img class="img-responsive" src="assets/images/cst.jpg" alt=" "></a>
+<a href="contact.jsp"><img class="img-responsive" src="assets/images/cst.jpg" alt=" "></a>
 <p class="para">Get a helpdesk tool to provide top-notch support and service to your customers. Make it easier for them to know the status of their queries.</p>
 <div class="mt-3 about-list">
 	

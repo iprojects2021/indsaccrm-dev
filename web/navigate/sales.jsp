@@ -175,8 +175,8 @@
                  <div class=" grids-effect-2 col-lg-4 col-md-6 col-sm-6">
 
                     <div class="back-color">
-                        <a href=""><img class="img-responsive" src="assets/images/sa6.png" alt=" "></a><br>
-                        <h4><a href="sales.jsp" class="title-head"> Targets and Achievements</a></h4><br>
+                        <a href="TargetAchivments.jsp"><img class="img-responsive" src="assets/images/sa6.png" alt=" "></a><br>
+                        <h4><a href="TargetAchivments.jsp" class="title-head"> Targets and Achievements</a></h4><br>
                         <p class="para">Using this feature you can set periodic targets for the sales reps and compare them against their achievements to measure productivity and efficiency. </p>
                     </div>
                 </div>
@@ -194,8 +194,8 @@
                   <div class=" grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1">
 
                     <div class="back-color">
-                        <a href=""><img class="img-responsive" src="assets/images/sa4.png" alt=" "></a>
-                        <h4><a href="sales.jsp" class="title-head"> Catalogue Sync</a></h4>
+                        <a href="ContSync.jsp"><img class="img-responsive" src="assets/images/sa4.png" alt=" "></a>
+                        <h4><a href="ContSync.jsp" class="title-head"> Catalog Sync</a></h4>
                         <p class="para">Sales force automation in India that allows your sales teams to display a digital product catalogue that is continuously 
                             synced with the main server in real-time. </p>
                     </div>

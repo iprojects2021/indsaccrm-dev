@@ -536,7 +536,7 @@ Statement st=c.createStatement();
               </div>
               <!-- /.box-body -->
 			  <div class="box-footer clearfix">
-              <a href="javascript:void(0)" class="btn btn-sm btn-default btn-flat pull-left">Cancel</a>
+             <button type="button" class="btn btn-default pull-left" onclick="goBack()"> Cancel</button>
                <button class="btn btn-sm btn-info btn-flat pull-right" onClick="return validateForm()">Save</button>
             </div>
             <!-- /.box-footer -->
@@ -616,6 +616,13 @@ Statement st=c.createStatement();
     })
   })
 </script>
+
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
+
 <script>
     function validateForm(){
         if(document.getElementById("mobile").value==""){

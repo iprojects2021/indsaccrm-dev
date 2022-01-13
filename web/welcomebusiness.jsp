@@ -1,7 +1,8 @@
 
+<%@page import="log.Log"%>
 <!DOCTYPE html>
 <html>
-<head>
+<head><link rel="shortcut icon" href="dist/img/u.png" type="image/x-icon" />
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Welcome | INDSAC CRM</title>
@@ -26,30 +27,56 @@
   <!-- Google Font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 </head>
+<% 
+    String type=request.getParameter("type");
+    if("newname".equals(type)){
+    String companyname=request.getParameter("businessname");
+     out.println(companyname);
+    }
+    HttpSession session1 = request.getSession(); // reuse existing
+    
+          String usercid_id=(String)session1.getAttribute("usercid_id");
+          String usercid_email=(String)session1.getAttribute("usercid_email");
+          String useraccountype=(String)session1.getAttribute("useraccountype");
+          String usercid_name=(String)session1.getAttribute("usercid_name");
+          String usercid_adminid=(String)session1.getAttribute("usercid_adminid");
+             String usercid_company=(String)session1.getAttribute("usercid_company");
+          String usercid_website=(String)session1.getAttribute("usercid_website"); 
+        	
+if (session != null) {
+			if (session1.getAttribute("usercid_id") == null) {
+				response.sendRedirect("signout.jsp");
+			} 
+		}
+
+Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+request.getRemoteAddr()+" ,useradminid="+usercid_adminid+" ,usercid="+usercid_id+" --Entering vendor.jsp----------Vendor Dashboard---");
+   System.out.println("usercid_id="+usercid_id+" , usercid_name="+usercid_name);	
+   
+%>
 <body class="hold-transition lockscreen">
 <!-- Automatic element centering -->
 <div class="lockscreen-wrapper">
   <div class="lockscreen-logo">
-    <a href="index2.html"><b>Admin</b>LTE</a>
+    <a href="index2.html"><b>INDSAC</b>-CRM</a>
   </div>
   <!-- User name -->
-  <div class="lockscreen-name">John Doe</div>
+  <div class="lockscreen-name">Welcome, <%=usercid_name  %></div>
 
   <!-- START LOCK SCREEN ITEM -->
   <div class="lockscreen-item">
     <!-- lockscreen image -->
     <div class="lockscreen-image">
-      <img src="dist/img/user1-128x128.jpg" alt="User Image">
+     <img src="navigate/assets/images/w1.png" alt="happy" class="img-responsive " alt="User Image">
     </div>
     <!-- /.lockscreen-image -->
 
     <!-- lockscreen credentials (contains the form) -->
-    <form class="lockscreen-credentials">
+    <form class="lockscreen-credentials" action="welcomebusiness.jsp" method='post'>
       <div class="input-group">
-        <input type="password" class="form-control" placeholder="password">
-
+        <input type="text" class="form-control" name='businessname' placeholder="Your Business Name">
+        <input type="hidden" class="form-control" name='type' value="newname">
         <div class="input-group-btn">
-          <button type="button" class="btn"><i class="fa fa-arrow-right text-muted"></i></button>
+          <button type="submit" class="btn"><i class="fa fa-arrow-right text-muted"></i></button>
         </div>
       </div>
     </form>
@@ -58,7 +85,7 @@
   </div>
   <!-- /.lockscreen-item -->
   <div class="help-block text-center">
-    Enter your password to retrieve your session
+    Enter your Business Name 
   </div>
   <div class="text-center">
     <a href="login.html">Or sign in as a different user</a>

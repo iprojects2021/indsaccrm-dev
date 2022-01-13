@@ -173,8 +173,8 @@ The telecom industry is spreading fast! New innovations are being discussed ever
                 </div>
                 <div class=" grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1">
                     <div class="back-color">
-                       <a href="#page"><img class="img-responsive" src="assets/images/tel5.jpg" alt=" "></a>
-                        <h4><a href="Telecommunication.jsp" class="title-head"> Instant Feedback</a></h4>
+                       <a href="Survey.jsp"><img class="img-responsive" src="assets/images/tel5.jpg" alt=" "></a>
+                        <h4><a href="Survey.jsp" class="title-head"> Instant Feedback</a></h4>
                         <p class="para">A CRM provides the sales manager a chance to track and analyze the individual performance of every sales individual. An instant feedback function improve their performance.</p><br>
                     </div>
                 </div>
@@ -187,10 +187,10 @@ The telecom industry is spreading fast! New innovations are being discussed ever
                 </div>
                 <div class="grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1">
                     <div class="back-color">
-                          <a href="#page"><img class="img-responsive" src="assets/images/tel8.png" alt=" "></a>
-                        <h4><a href="Telecommunication.jsp" class="title-head">Workflow management</a></h4>
+                          <a href="workflowmanagement.jsp"><img class="img-responsive" src="assets/images/tel8.png" alt=" "></a>
+                        <h4><a href="workflowmanagement.jsp" class="title-head">Workflow management</a></h4>
                         <p class="para">CRM incorporates a workflow management engine to assure that promises to customers are kept, avoiding errors and customer complaints down the line. 
-						It handles critical business methods including order management, sales management.</p><br>
+		It handles critical business methods including order management, sales management.</p><br>
                     </div>
                 </div> 
                 <div class="grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1 ">

@@ -12,7 +12,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Operational Management | Best CRM Software |Pharmaceutical Industry :: indsaccrm.com</title>
+    <title>Workflow Management | Best CRM Software |Pharmaceutical Industry :: indsaccrm.com</title>
 
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
@@ -85,7 +85,7 @@
                 <ul class="breadcrumbs-custom-path">
                     <li><a href="../index.jsp">Home <span class="fa fa-angle-right" aria-hidden="true"></span></a></li>
                     <li><a href="Pharmaceutical.jsp">Pharmaceutical Industry <span class="fa fa-angle-right" aria-hidden="true"></span></a></li>
-                    <li class="active">Operational Management</li>
+                    <li class="active">Workflow Management</li>
                 </ul>
             </div>
         </div>
@@ -96,23 +96,19 @@
         <div class="container">
 		      <div class="main-titles-head text-center">
                 <h3 class="header-name">
-                  Operational Management
+                  INDSAC-CRM Workflow Management
                 </h3> 
 
             </div>
             <div class="cwp4-two row">
             <div class="col-xl-6 cwp4-image ">
-                <img src="assets/images/email1.png" alt="product" class="img-responsive ">
+                <img src="assets/images/wm2.jpg" alt="product" class="img-responsive ">
             </div>
                 <div class="cwp4-text col-xl-6">
                    
-                    <p class="para"> An operational CRM is designed to improve routine business operations and 
-                        securely store data on all your business activities with customers and prospects.</p>
-                 <br><br>     <p class="para">   CRM features enable businesses to measure, analyze, and tailor the customer journey 
-                        in real-time.</p><br><br> 
- <p class="para"> A centralized system that supports the sales, marketing, and customer service functions
-     within a company that stores information on customers, leads, and employees using a shared interface. </p>
-
+                    <p class="para">With INDSAC-CRM workflows, you can automate several sales, marketing, customer support and account management tasks, thus freeing your team's time for more complex, meaningful tasks. </p>
+                <br> <p class="para">   CRM workflows can also alert your team to major lead and prospect updates that could help you for your next customer or client. Best of all, CRM workflows are easy to set up.</p><br>
+                        <p class="para"> Workflow management helps you to automate your sales, marketing and support. You can automatically assign tasks to users, based on the criteria defined in the rules and update certain fields. </p>
                 </div>
             </div>
         </div>
@@ -125,40 +121,38 @@
             <div class="cwp4-two row">
           
                 <div class="cwp4-text col-xl-6">
-                    <h4>What makes operational CRM different?</h4>
-                    <p class="para"> 1. Primary Functions: Sales, Service, and Support.<br><br>
-                    2. Perfect for customer-facing functions. <br> <br>
-                    3. Connects marketing, sales, and customer service teams. <br><br>
-                    4. Automates many functions including scheduling, follow-ups, and contacts.<br><br>
-                    5. Facilitates customer self-service functions.<br><br>
+                    <h4>Benefits of Workflow Management</h4>
+                    <p class="para"> 1. Improves efficiency by eliminating the manual work of assigning tasks.<br><br>
+                    2. Reduces operating costs. <br> <br>
+                    3. Improves business processes through standardized working methods.<br><br>
+                    4. You can automatically assign tasks to users, based on the criteria defined in the rules and update certain fields.<br><br>
+                   
                   </p>
                    </div>
 	 <div class="col-xl-6 cwp4-image ">
-                <img src="assets/images/op7.png" alt="product" class="img-responsive ">
+                <img src="assets/images/wm1.png" alt="product" class="img-responsive ">
             </div>
             </div>
-           </div><br><br><br>
-        <div class="main-titles-head text-center">
-
-                <h3 class="header-name">
-				Operational CRM help you add a personal touch<br> without the personal effort. 
-                </h3>
-            </div>
+           </div><br>   
     </div>
 </section>
    		
 <section class="w3l-content-with-photo-4">
     <div class="content-with-photo4-block">
         <div class="container">
+            <div class="left-text">
+	<h3 class="header-name">INDSAC-CRM can automate a wide range of tasks</h3><br><br>
+        </div>
             <div class="cwp4-two row">
                 <div class="cwp4-text col-xl-6">
-                     <h3 class="header-name">Increased Customer Satisfaction </h3> <br>
-                   <p class="para"> An operational CRM provides all this data and more, so your customer service team can have 
-                       a holistic view of the customer's relationship with your company.</p>
+                     <h3 class="header-name">Email Newsletters </h3> <br>
+                   <p class="para">Any time a customer joins your email list, your CRM can set up an automated workflow to send the 
+                       new subscriber an email thanking them for joining and informing them what they can expect from future newsletters or emails from your company. Your workflow could also include internal measures, such as generating a 
+                       CRM file for the customer and appropriately scoring your new lead.</p>
                 </div>
                 
                 <div class="col-xl-6 cwp4-image ">
-                <img src="assets/images/opm1.png" alt="product" class="img-responsive ">
+                <img src="assets/images/wm3.jpg" alt="product" class="img-responsive ">
             </div>
 	
             </div>
@@ -172,13 +166,12 @@
         <div class="container">
             <div class="cwp4-two row">
             <div class="col-xl-6 cwp4-image ">
-                <img src="assets/images/opm2.jpg" alt="product" class="img-responsive ">
+                <img src="assets/images/wm4.png" alt="product" class="img-responsive ">
             </div>
                 <div class="cwp4-text col-xl-6">
-                    <h3 class="header-name">Increase Revenue </h3> <br>
-                <p class="para">Operational CRMs are known to produce more than $8 of value for every $1 invested in them. 
-                    At an 8:1 ROI, you can't go wrong with a CRM for your business. 
-                    Scaling your sales team and giving them tools to sell and close better will undoubtedly increase your company's revenue.</p>
+                    <h3 class="header-name">Lead scoring </h3> <br>
+                <p class="para">CRM can also score leads any time they take actions that move them through the sales funnel. 
+                    It can also notify your sales team of worthwhile lead follow-up opportunities.</p>
                     </div>
                 </div>
             </div>
@@ -190,14 +183,14 @@
         <div class="container">
             <div class="cwp4-two row">
                 <div class="cwp4-text col-xl-6">
-                     <h3 class="header-name">Increase internal communication</h3> <br>
-                   <p class="para"> When an organization has access to the same information it puts them all on the same field,
-                       playing the same game. The operational CRM's ability to capture, store, and disseminate data 
-                       makes it a great tool for inter-departmental communication and information sharing.  </p>
+                     <h3 class="header-name">Lead alerts</h3> <br>
+                   <p class="para"> CRM workflows can notify sales managers when leads that meet certain criteria 
+                       are entered into your database. You can also set up workflows that alert your managers to 
+                       key changes with these accounts or when urgent follow-up is needed.</p>
                 </div>
                 
                 <div class="col-xl-6 cwp4-image ">
-                <img src="assets/images/opm3.png" alt="product" class="img-responsive ">
+                <img src="assets/images/wm5.gif" alt="product" class="img-responsive ">
             </div>
 	
             </div>
@@ -210,14 +203,13 @@
         <div class="container">
             <div class="cwp4-two row">
             <div class="col-xl-6 cwp4-image ">
-                <img src="assets/images/o[pm4.png" alt="product" class="img-responsive ">
+                <img src="assets/images/wm6.gif" alt="product" class="img-responsive ">
             </div>
                 <div class="cwp4-text col-xl-6">
-                    <h3 class="header-name">Maximize up-selling <br>and cross-selling</h3> <br>
-                <p class="para">Operational CRM start capturing your customers data from the first touch-point and it maintains
-                    those records through the life-cycle of the customer, logging each sale, contact, and issue. 
-                    This sets up your sales team for the perfect up-sell and cross-sell opportunities. 
-                    With purchase history available to them, sales reps can use sales tactics tailored for each client.</p>
+                    <h3 class="header-name">Customer service</h3> <br>
+                <p class="para">ith CRM workflows, you can automate the process through which help tickets get completed. 
+                    You can send customer service emails, flag customers for personal follow-up and alert relevant support reps.
+                    These workflows can also escalate and de-escalate issues or close help tickets.</p>
                     
                     </div>
                 </div>

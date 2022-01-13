@@ -189,7 +189,7 @@ Statement st=c.createStatement();
                   </div>
                 </div>
                 <div class="form-group">
-                  <label for="inputEmail3" class="col-sm-3 control-label">Contact <span style="color:red">*</span> </label>
+                  <label for="inputEmail3" class="col-sm-3 control-label">Contact Name <span style="color:red">*</span> </label>
 
                   <div class="col-sm-4">
                       <input type="text" class="form-control" id="cfn" name="cfn" placeholder="First Name"  autocomplete="off">

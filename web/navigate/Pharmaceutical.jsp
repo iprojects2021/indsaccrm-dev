@@ -128,7 +128,7 @@
 customer service, and creating a strong connection with the customer. </p><br>
 <p class="para">  The main objectives of INDSAC-CRM : </p><br>
 <p class="para"> <ul>
-<li>1.  Improve business relationships </li><br>
+<li>1. Improve business relationships </li><br>
 <li>2. Connect with customers </li><br>
 <li>3. Streamline operational processes</li><br>
 <li>4. Increase productivity</li><br>

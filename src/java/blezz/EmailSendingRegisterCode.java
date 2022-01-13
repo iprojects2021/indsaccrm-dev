@@ -30,9 +30,7 @@ public class EmailSendingRegisterCode {
      String port;
      String user;
      String pass;
-      //host="smtp.mail.yahoo.com";port="465";user="indsaccrmservice@yahoo.com";pass="polo9070321";
-  // host="smtp.gmail.com";port="587";user="indsaccrmservice@gmail.com";pass="polo9070321";
-      host="mail.indsaccrm.com";port="587";user="noreply@indsaccrm.com";pass="polo9070321";
+     host="java02.hostingraja.org";port="587";user="noreply@indsaccrm.com";pass="polo9070321";
     HttpServletRequest request = null; 
     HttpServletResponse response=null;
       
@@ -76,9 +74,7 @@ public class EmailSendingRegisterCode {
      String port;
      String user;
      String pass;
-   // host="smtp.gmail.com";port="587";user="indsaccrmservice@gmail.com";pass="polo9070321";
- // host="smtp.mail.yahoo.com";port="465";user="indsaccrmservice@yahoo.com";pass="polo9070321";
-      host="mail.indsaccrm.com";port="587";user="noreply@indsaccrm.com";pass="polo9070321";
+     host="java02.hostingraja.org";port="587";user="noreply@indsaccrm.com";pass="polo9070321";
     HttpServletRequest request = null; 
     HttpServletResponse response=null;
       

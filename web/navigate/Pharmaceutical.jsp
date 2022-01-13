@@ -187,8 +187,8 @@ customer service, and creating a strong connection with the customer. </p><br>
                
                 <div class="grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1 ">
                     <div class="back-color">
-                          <a href=""><img class="img-responsive" src="assets/images/ph6.png" alt=" "></a><br>
-                        <h4><a href="services.jsp" class="title-head">Operational Management </a></h4>
+                          <a href="OPManagement.jsp"><img class="img-responsive" src="assets/images/ph6.png" alt=" "></a><br>
+                        <h4><a href="OPManagement.jsp" class="title-head">Operational Management </a></h4>
                         <p class="para">INDSAC-CRM offers distinct features to manage operational tasks including sales forecast, supply chain management, quality control, and many more so, that you can deliver better customer services.   </p>
                     </div>
                 </div>

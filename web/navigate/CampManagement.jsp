@@ -130,10 +130,102 @@
 <li>2. Efficient marketing solution allows for tracking the efficiency of your campaign as well as finding things that are not working. By using testing, marketer's can gauge the probability of success of two different campaigns. By tracing the progress of a marketing campaign, marketer's can find what is working and what is not. </li><br><br>
 <li>3. According to statistics, personalization significantly improves customer satisfaction and eventually conversion rates. Marketer's can relate specific behaviors to individuals and then modify emails, landing pages, and offers.</li><br><br>
 </ul> </p>
-</div>
+<br><br>
+          <div class="main-titles-head text-center">
+
+                <h3 class="header-name">
+				Automation's that are always on-even <br>when you,re off
+                </h3>
+            </div>
      </div>
        </div>
       </section>
+
+<section class="w3l-content-with-photo-4">
+    <div class="content-with-photo4-block">
+        <div class="container">
+            <div class="cwp4-two row">
+                <div class="cwp4-text col-xl-6">
+                     <h3 class="header-name">Email Campaigns</h3> <br>
+                   <p class="para"> Use INSAC-CRM campaign management tools for email marketing campaign automation. 
+                       Select the email's you wish to send, insert the time you want the system to wait between each email, 
+                       and select the criteria for your campaign member list. Then turn it on and the system does the rest. 
+                       Include as many email's as you want in your email campaign. 
+                       It's a great way to manage you B2C or B2B email marketing efforts.
+                   </p>
+                </div>
+                
+                <div class="col-xl-6 cwp4-image ">
+                <img src="assets/images/cm5.png" alt="product" class="img-responsive ">
+            </div>
+	
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="w3l-content-with-photo-4">
+    <div class="content-with-photo4-block">
+        <div class="container">
+            <div class="cwp4-two row">
+            <div class="col-xl-6 cwp4-image ">
+                <img src="assets/images/cm4.jpg" alt="product" class="img-responsive ">
+            </div>
+                <div class="cwp4-text col-xl-6">
+                    <h3 class="header-name">Multichannel Campaigns</h3> <br>
+                <p class="para">You can effortlessly create complex, multichannel marketing campaigns. 
+                    With so many campaign nodes to choose from, you can generate campaigns that leverage email sends, 
+                    SMS text messaging, automatic social media posts, landing pages, web forms and more.</p>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+
+<section class="w3l-content-with-photo-4">
+    <div class="content-with-photo4-block">
+        <div class="container">
+            <div class="cwp4-two row">
+                <div class="cwp4-text col-xl-6">
+                     <h3 class="header-name">Campaign Reporting and Analytics</h3> <br>
+                   <p class="para"> With INDSAC-CRM campaign reporting and analysis features, you can do so in a matter of 
+                       minutes. Simply navigate to the campaign in question and click the reporting icon to display campaign 
+                       metrics such as email's opened, email links clicked, email bounces, unsubscribes, and spam complaints 
+                       related to the campaign. You can view campaign report data in a chronological time-line view, and drill 
+                       down into individual metrics for a more granular view.
+                   </p>
+                </div>
+                
+                <div class="col-xl-6 cwp4-image ">
+                <img src="assets/images/cm6.png" alt="product" class="img-responsive ">
+            </div>
+	
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="w3l-content-with-photo-4">
+    <div class="content-with-photo4-block">
+        <div class="container">
+            <div class="cwp4-two row">
+            <div class="col-xl-6 cwp4-image ">
+                <img src="assets/images/cm3.png" alt="product" class="img-responsive ">
+            </div>
+                <div class="cwp4-text col-xl-6">
+                    <h3 class="header-name">Add Contacts to Live Campaigns</h3> <br>
+                <p class="para">If you have a drip marketing campaign, or other campaign that's ongoing over a long period of time, 
+                    you can add a campaign node that pulls new contacts into that campaign. </p>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
 
 
 <%@include file="footer.jsp" %>

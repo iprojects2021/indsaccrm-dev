@@ -11,7 +11,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Best Customer Relationship Management Software | Industry :: indsaccrm.com</title>
+    <title>Best Customer Relationship Management Software | Pharmaceutical Industry :: indsaccrm.com</title>
 
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
@@ -83,7 +83,8 @@
             <div class="container seen-w3">
                 <ul class="breadcrumbs-custom-path">
                     <li><a href="../index.jsp">Home <span class="fa fa-angle-right" aria-hidden="true"></span></a></li>
-                    <li class="active">Pharmaceutical Industry</li>
+                    <li><a href="Pharmaceutical.jsp">Pharmaceutical Industry <span class="fa fa-angle-right" aria-hidden="true"></span></a></li>
+                    <li class="active">Automated Campaign Management </li>
                 </ul>
             </div>
         </div>

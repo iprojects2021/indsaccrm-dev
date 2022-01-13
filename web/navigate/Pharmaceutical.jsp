@@ -145,8 +145,8 @@ customer service, and creating a strong connection with the customer. </p><br>
                 <div class="grids-effect-2 col-lg-4 col-md-6 col-sm-6">
 
                     <div class="back-color">
-                        <a href="Pharmaceutical.jsp"><img class="img-responsive" src="assets/images/ph1.png" alt=" "></a>
-                        <h4><a href="Pharmaceutical.jsp" class="title-head">Automated Campaign Management</a></h4>
+                        <a href="CampManagement.jsp"><img class="img-responsive" src="assets/images/ph1.png" alt=" "></a>
+                        <h4><a href="CampManagement.jsp" class="title-head">Automated Campaign Management</a></h4>
                         <p class="para">Campaigns are an efficient way to promote your business. The facilities from CRM enable the sales team to execute well-planned marketing activities to drive more sales. </p>
                     </div>
                 </div>

@@ -185,7 +185,7 @@ Statement st=c.createStatement();
                   <label for="inputEmail3" class="col-sm-3 control-label">Company Name</label>
 
                   <div class="col-sm-9">
-                      <input type="text" class="form-control" id="cn" name="cn" placeholder="Comapany Name" autocomplete="off">
+                      <input type="text" class="form-control" id="cn" name="cn" placeholder="Company Name" autocomplete="off">
                   </div>
                 </div>
                 <div class="form-group">
@@ -469,29 +469,29 @@ Statement st=c.createStatement();
                   </div>
                 </div>
                 <div class="form-group">
-                  <label for="inputPassword3" class="col-sm-2 control-label">City</label>
+                  <label for="inputPassword3" class="col-sm-3 control-label">City</label>
 
-                  <div class="col-sm-4">
+                  <div class="col-sm-3">
                     <input type="text" class="form-control" id="city" name="city"  placeholder="City" autocomplete="off">
                   </div>
                 
-                  <label for="inputPassword3" class="col-sm-2 control-label">Pincode</label>
+                  <label for="inputPassword3" class="col-sm-3 control-label">Pincode</label>
 
-                  <div class="col-sm-4">
+                  <div class="col-sm-3">
                    <input type="text" class="form-control" id="pincode" name="pincode"  placeholder="Pincode" autocomplete="off">
                   </div>
                 </div>
 				<div class="form-group">
-                  <label for="inputPassword3" class="col-sm-2 control-label">State</label>
+                  <label for="inputPassword3" class="col-sm-3 control-label">State</label>
 
-                  <div class="col-sm-10">
+                  <div class="col-sm-9">
                   <input type="text" class="form-control" id="state" name="state"  placeholder="State" autocomplete="off">
                   </div>
                 </div>
 				     <div class="form-group">
-                  <label for="inputPassword3" class="col-sm-2 control-label">Country</label>
+                  <label for="inputPassword3" class="col-sm-3 control-label">Country</label>
 
-                  <div class="col-sm-10">
+                  <div class="col-sm-9">
                     <input type="text" class="form-control" id="country" name="country"  placeholder="Country" autocomplete="off">
                   </div>
                 </div>
@@ -536,7 +536,7 @@ Statement st=c.createStatement();
               </div>
               <!-- /.box-body -->
 			  <div class="box-footer clearfix">
-              <a href="javascript:void(0)" class="btn btn-sm btn-default btn-flat pull-left">Cancel</a>
+              <button type="button" class="btn btn-default pull-left" onclick="goBack()"> Cancel</button>
                <button class="btn btn-sm btn-info btn-flat pull-right" onClick="return validateForm()">Save</button>
             </div>
             <!-- /.box-footer -->
@@ -616,51 +616,15 @@ Statement st=c.createStatement();
     })
   })
 </script>
+
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
+
 <script>
     function validateForm(){
-        if(document.getElementById("mobile").value==""){
-                    document.getElementById("alert-message").innerHTML = "Mobile cannot be empty ";
-    $('#show-alert').modal('show')
-     
-           
-           document.getElementById("mobile").focus();
-           return false;
-        }
-       else if(document.getElementById("source").value==""){
-                    document.getElementById("alert-message").innerHTML = "Source cannot be empty ";
-    $('#show-alert').modal('show')
-     
-           
-           document.getElementById("source").focus();
-           return false;
-        }
-        else if(document.getElementById("mobile").value!=""){
-           
-           if(!document.getElementById("mobile").value.match(/^[0-9]+$/)){
-                          document.getElementById("alert-message").innerHTML = " Mobile :Only numbers allowed ";
-    $('#show-alert').modal('show')
-     
-          
-           document.getElementById("mobile").focus();
-     return false;
-            } 
-        if(document.getElementById("mobile").value.length>10){
-         document.getElementById("alert-message").innerHTML = " Mobile :Only 10 digits allowed ";
-    $('#show-alert').modal('show')
-               
-           document.getElementById("mobile").focus();
-           
-           return false;
-       }  if(document.getElementById("mobile").value.length<10){
-          document.getElementById("alert-message").innerHTML = "Mobile :Only 10 digits allowed  ";
-    $('#show-alert').modal('show')
-                
-           document.getElementById("mobile").focus();
-           
-           return false;
-       }
-   }
-       
    
        if(document.getElementById("cfn").value==""){
    
@@ -713,6 +677,45 @@ Statement st=c.createStatement();
            
            return false;
        }
+       if(document.getElementById("mobile").value==""){
+                    document.getElementById("alert-message").innerHTML = "Mobile cannot be empty ";
+    $('#show-alert').modal('show')
+     
+           document.getElementById("mobile").focus();
+           return false;
+        }
+       else if(document.getElementById("source").value==""){
+                    document.getElementById("alert-message").innerHTML = "Source cannot be empty ";
+    $('#show-alert').modal('show')
+   
+           document.getElementById("source").focus();
+           return false;
+        }
+        else if(document.getElementById("mobile").value!=""){
+           
+           if(!document.getElementById("mobile").value.match(/^[0-9]+$/)){
+                          document.getElementById("alert-message").innerHTML = " Mobile :Only numbers allowed ";
+    $('#show-alert').modal('show')
+ 
+           document.getElementById("mobile").focus();
+     return false;
+            } 
+        if(document.getElementById("mobile").value.length>10){
+         document.getElementById("alert-message").innerHTML = " Mobile :Only 10 digits allowed ";
+    $('#show-alert').modal('show')
+               
+           document.getElementById("mobile").focus();
+           
+           return false;
+       }  if(document.getElementById("mobile").value.length<10){
+          document.getElementById("alert-message").innerHTML = "Mobile :Only 10 digits allowed  ";
+    $('#show-alert').modal('show')
+                
+           document.getElementById("mobile").focus();
+           
+           return false;
+       }
+     }
        if(document.getElementById("cn").value!=""){
            
            if(!document.getElementById("cn").value.match(/^[0-9 a-z.A-Z]+$/)){
@@ -746,8 +749,7 @@ Statement st=c.createStatement();
         if(document.getElementById("department").value.length>30){
                          document.getElementById("alert-message").innerHTML = "Department Name: Only 30 Characters allowed";
     $('#show-alert').modal('show')
-     
-                  
+            
            document.getElementById("department").focus();
            
            return false;
@@ -766,8 +768,7 @@ Statement st=c.createStatement();
         if(document.getElementById("designation").value.length>30){
                          document.getElementById("alert-message").innerHTML = "Designation: Only 30 Characters allowed";
     $('#show-alert').modal('show')
-     
-                  
+         
            document.getElementById("designation").focus();
            
            return false;
@@ -786,15 +787,12 @@ Statement st=c.createStatement();
         if(document.getElementById("category").value.length>30){
                          document.getElementById("alert-message").innerHTML = "Category: Only 30 Characters allowed";
     $('#show-alert').modal('show')
-     
-                  
+           
            document.getElementById("category").focus();
            
            return false;
        }}
-      
-    
-      
+ 
        if(document.getElementById("gstin").value!=""){
            
            if(!document.getElementById("gstin").value.match(/^[0-9A-Z]+$/)){
@@ -808,8 +806,7 @@ Statement st=c.createStatement();
         if(document.getElementById("gstin").value.length>15){
                          document.getElementById("alert-message").innerHTML = "GSTIN: Only 15 Characters allowed";
     $('#show-alert').modal('show')
-     
-                  
+          
            document.getElementById("gstin").focus();
            
            return false;
@@ -838,13 +835,11 @@ Statement st=c.createStatement();
         if(document.getElementById("rt").value.length>30){
                          document.getElementById("alert-message").innerHTML = "Report To: Only 30 Characters allowed";
     $('#show-alert').modal('show')
-     
-                  
+          
            document.getElementById("rt").focus();
            
            return false;
        }}
-       
      
         if(document.getElementById("ap").value!=""){
            
@@ -886,8 +881,7 @@ Statement st=c.createStatement();
         if(document.getElementById("email").value.length>30){
                          document.getElementById("alert-message").innerHTML = "Email id: Only 40 Characters allowed";
     $('#show-alert').modal('show')
-     
-                  
+          
            document.getElementById("email").focus();
            
            return false;
@@ -906,14 +900,12 @@ Statement st=c.createStatement();
         if(document.getElementById("address1").value.length>30){
                          document.getElementById("alert-message").innerHTML = "Address1:Only 30 Characters allowed";
     $('#show-alert').modal('show')
-     
-                  
+           
            document.getElementById("address1").focus();
            
            return false;
        }} 
       
-       
       if(document.getElementById("address2").value!=""){
            
            if(!document.getElementById("address2").value.match(/^[a-zA-Z:,'-'' '\.0-9\n]+$/)){
@@ -927,8 +919,7 @@ Statement st=c.createStatement();
         if(document.getElementById("address2").value.length>30){
                          document.getElementById("alert-message").innerHTML = "Address2:Only 30 Characters allowed";
     $('#show-alert').modal('show')
-     
-                  
+           
            document.getElementById("address2").focus();
            
            return false;
@@ -947,8 +938,7 @@ Statement st=c.createStatement();
         if(document.getElementById("address3").value.length>30){
                          document.getElementById("alert-message").innerHTML = "Address3:Only 30 Characters allowed";
     $('#show-alert').modal('show')
-     
-                  
+           
            document.getElementById("address3").focus();
            
            return false;
@@ -967,8 +957,7 @@ Statement st=c.createStatement();
         if(document.getElementById("city").value.length>30){
                          document.getElementById("alert-message").innerHTML = "City: Only 30 Characters allowed";
     $('#show-alert').modal('show')
-     
-                  
+         
            document.getElementById("city").focus();
            
            return false;
@@ -987,8 +976,7 @@ Statement st=c.createStatement();
         if(document.getElementById("pincode").value.length>10){
                          document.getElementById("alert-message").innerHTML = "Pincode:Only 10 digits allowed";
     $('#show-alert').modal('show')
-     
-                  
+           
            document.getElementById("pincode").focus();
            
            return false;
@@ -1007,8 +995,7 @@ Statement st=c.createStatement();
         if(document.getElementById("state").value.length>30){
                          document.getElementById("alert-message").innerHTML = "State: Only 30 Characters allowed";
     $('#show-alert').modal('show')
-     
-                  
+           
            document.getElementById("state").focus();
            
            return false;
@@ -1026,16 +1013,10 @@ Statement st=c.createStatement();
             } else
         if(document.getElementById("notes").value.length>2000){
                          document.getElementById("alert-message").innerHTML = "Notes: Only 2000 Characters allowed";
-    $('#show-alert').modal('show')
-     
-                  
+    $('#show-alert').modal('show')       
            document.getElementById("notes").focus();
-           
            return false;
        }}
-      
-       
-      
        return true;
     }
 </script>

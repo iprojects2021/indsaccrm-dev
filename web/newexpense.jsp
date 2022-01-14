@@ -45,6 +45,8 @@
           String usercid_adminid=(String)session1.getAttribute("usercid_adminid");
              String usercid_company=(String)session1.getAttribute("usercid_company");
           String usercid_website=(String)session1.getAttribute("usercid_website"); 
+          String currency=(String)session1.getAttribute("usercid_currency");
+                
       
           String vid=Poul.escapeHtml(request.getParameter("vid"));	
 Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+request.getRemoteAddr()+" ,useradminid="+usercid_adminid+" ,usercid="+usercid_id+"  --Entering newexpense.jsp----------New Expense---");
@@ -387,57 +389,8 @@ Statement st=c.createStatement();
 </script>
 <script>
    function validateForm(){
-     if(document.getElementById("productname").value==""){
-      if(document.getElementById("newproductname").value==""){
-       document.getElementById("alert-message").innerHTML = " Please Enter Product Name ";
-    $('#show-alert').modal('show')
-          document.getElementById("productname").focus();
-     return false;
-     }
-     }
-    
-          if(document.getElementById("productname").value!=""){
-           
-           if(!document.getElementById("productname").value.match(/^[0-9 a-z.A-Z]+$/)){
-                          document.getElementById("alert-message").innerHTML = " Product Name :Only alphabets allowed ";
-    $('#show-alert').modal('show')
-     
-          
-           document.getElementById("productname").focus();
-     return false;
-            } 
-        if(document.getElementById("productname").value.length>30){
-         document.getElementById("alert-message").innerHTML = " Product Name :Only 30 characters allowed ";
-    $('#show-alert').modal('show')
-               
-           document.getElementById("productname").focus();
-           
-           return false;
-       } 
-   } 
        
-         if(document.getElementById("newproductname").value!=""){
-           
-           if(!document.getElementById("newproductname").value.match(/^[0-9 a-z.A-Z]+$/)){
-                          document.getElementById("alert-message").innerHTML = " New Product Name :Only alphabets allowed ";
-    $('#show-alert').modal('show')
-     
-          
-           document.getElementById("newproductname").focus();
-     return false;
-            } 
-        if(document.getElementById("newproductname").value.length>30){
-         document.getElementById("alert-message").innerHTML = " New Product Name :Only 30 digits allowed ";
-    $('#show-alert').modal('show')
-               
-           document.getElementById("newproductname").focus();
-           
-           return false;
-       } 
-   }
-      
-        if(document.getElementById("billnumber").value!=""){
-           
+           if(document.getElementById("billnumber").value!=""){
            if(!document.getElementById("billnumber").value.match(/^[0-9 a-z.A-Z]+$/)){
                      document.getElementById("alert-message").innerHTML = "Bill Number: Only alphanumeric allowed";
     $('#show-alert').modal('show')
@@ -456,45 +409,23 @@ Statement st=c.createStatement();
            return false;
        }}
        
-       if(document.getElementById("website").value!=""){
-           
-           if(!document.getElementById("website").value.match(/^[.0-9]+$/)){
-                     document.getElementById("alert-message").innerHTML = "Buying Price: Only numbers allowed";
+       if(document.getElementById("subject").value==""){
+   
+            document.getElementById("alert-message").innerHTML = "Subject cannot be empty";
     $('#show-alert').modal('show')
-       
-           //alert("Only alphanumeric allowed");
-           document.getElementById("website").focus();
-     return false;
-            } else
-        if(document.getElementById("website").value.length>30){
-                         document.getElementById("alert-message").innerHTML = "Buying Price: Only 30 digits allowed";
-    $('#show-alert').modal('show')
-     
-                  
-           document.getElementById("website").focus();
-           
+       document.getElementById("subject").focus();
            return false;
-       }}
-       
-       if(document.getElementById("quantity").value!=""){
+        }else if(document.getElementById("subject").value!=""){
            
-           if(!document.getElementById("quantity").value.match(/^[0-9]+$/)){
-                     document.getElementById("alert-message").innerHTML = "Quantity Ordered: Only numbers allowed";
+           if(!document.getElementById("subject").value.match(/^[0-9 a-z.A-Z]+$/)){
+              document.getElementById("alert-message").innerHTML = "Subject: only alphanumeric allowed";
     $('#show-alert').modal('show')
-       
-           //alert("Only alphanumeric allowed");
-           document.getElementById("quantity").focus();
+           
+           document.getElementById("subject").focus();
      return false;
-            } else
-        if(document.getElementById("quantity").value.length>30){
-                         document.getElementById("alert-message").innerHTML = "Quantity Ordered: Only 30 digits allowed";
-    $('#show-alert').modal('show')
-     
-                  
-           document.getElementById("quantity").focus();
-           
-           return false;
-       }}
+            } 
+        } 
+       
        
         if(document.getElementById("notes").value!=""){
            
@@ -535,28 +466,7 @@ Statement st=c.createStatement();
            
            return false;
        }}
-       
-      
-       if(document.getElementById("limit").value!=""){
-           
-           if(!document.getElementById("limit").value.match(/^[0-9]+$/)){
-                     document.getElementById("alert-message").innerHTML = "New Limit: Only numbers allowed";
-    $('#show-alert').modal('show')
-       
-           //alert("Only alphanumeric allowed");
-           document.getElementById("limit").focus();
-     return false;
-            } else
-        if(document.getElementById("limit").value.length>30){
-                         document.getElementById("alert-message").innerHTML = "New Limit: Only 30 digits allowed";
-    $('#show-alert').modal('show')
      
-                  
-           document.getElementById("limit").focus();
-           
-           return false;
-       }}
-       
        if(document.getElementById("newcategory").value!=""){
            
            if(!document.getElementById("newcategory").value.match(/^[0-9 a-z.A-Z]+$/)){

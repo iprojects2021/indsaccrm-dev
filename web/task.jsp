@@ -285,20 +285,10 @@ Statement st=c.createStatement();
                      </select>
                   </div>
                 </div>
-          
-		
-              
-              </div>
+           </div>
               <!-- /.box-body -->
-             
-             
-           
-              
-              
-          </div>
+        </div>
           <!-- /.box -->
-        
-
         </div>
         <!--/.col (left) -->
        <div class="col-md-6">
@@ -476,7 +466,22 @@ function goBack() {
            
            return false;
        }}
+        if(document.getElementById("notes").value!=""){
+           
+           if(!document.getElementById("notes").value.match(/^[a-zA-Z:,'-'' '\.0-9\n]+$/)){
+                     document.getElementById("alert-message").innerHTML = "Notes: Only alphanumeric allowed";
+    $('#show-alert').modal('show')
        
+           //alert("Only alphanumeric allowed");
+           document.getElementById("notes").focus();
+     return false;
+            } else
+        if(document.getElementById("notes").value.length>2000){
+                         document.getElementById("alert-message").innerHTML = "Notes: Only 2000 Characters allowed";
+    $('#show-alert').modal('show')       
+           document.getElementById("notes").focus();
+           return false;
+       }}
         
          return true;
   }

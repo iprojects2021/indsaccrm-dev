@@ -622,6 +622,26 @@ function goBack() {
            return false;
        }}
        
+       if(document.getElementById("notes").value!=""){
+           
+           if(!document.getElementById("notes").value.match(/^[0-9 a-z.A-Z]+$/)){
+                     document.getElementById("alert-message").innerHTML = "Notes: Only alphanumeric allowed";
+    $('#show-alert').modal('show')
+       
+           //alert("Only alphanumeric allowed");
+           document.getElementById("notes").focus();
+     return false;
+            } else
+        if(document.getElementById("notes").value.length>2000){
+                         document.getElementById("alert-message").innerHTML = "Notes: Only 2000 Characters allowed";
+    $('#show-alert').modal('show')
+     
+                  
+           document.getElementById("notes").focus();
+           
+           return false;
+       }}
+       
         
          return true;
   }

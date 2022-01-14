@@ -466,29 +466,29 @@ Statement st=c.createStatement();
                   </div>
                 </div>
                 <div class="form-group">
-                  <label for="inputPassword3" class="col-sm-2 control-label">City</label>
+                  <label for="inputPassword3" class="col-sm-3 control-label">City</label>
 
-                  <div class="col-sm-4">
+                  <div class="col-sm-3">
                     <input type="text" class="form-control" id="city" name="city"  placeholder="City" autocomplete="off">
                   </div>
                 
-                  <label for="inputPassword3" class="col-sm-2 control-label">Pincode</label>
+                  <label for="inputPassword3" class="col-sm-3 control-label">Pincode</label>
 
-                  <div class="col-sm-4">
+                  <div class="col-sm-3">
                    <input type="text" class="form-control" id="pincode" name="pincode"  placeholder="Pincode" autocomplete="off">
                   </div>
                 </div>
 				<div class="form-group">
-                  <label for="inputPassword3" class="col-sm-2 control-label">State</label>
+                  <label for="inputPassword3" class="col-sm-3 control-label">State</label>
 
-                  <div class="col-sm-10">
+                  <div class="col-sm-9">
                   <input type="text" class="form-control" id="state" name="state"  placeholder="State" autocomplete="off">
                   </div>
                 </div>
 				     <div class="form-group">
-                  <label for="inputPassword3" class="col-sm-2 control-label">Country</label>
+                  <label for="inputPassword3" class="col-sm-3 control-label">Country</label>
 
-                  <div class="col-sm-10">
+                  <div class="col-sm-9">
                     <input type="text" class="form-control" id="country" name="country"  placeholder="Country" autocomplete="off">
                   </div>
                 </div>
@@ -533,7 +533,7 @@ Statement st=c.createStatement();
               </div>
               <!-- /.box-body -->
 			  <div class="box-footer clearfix">
-              <a href="javascript:void(0)" class="btn btn-sm btn-default btn-flat pull-left">Cancel</a>
+             <button type="button" class="btn btn-default pull-left" onclick="goBack()"> Cancel</button>
                <button class="btn btn-sm btn-info btn-flat pull-right" onClick="return validateForm()">Save</button>
             </div>
             <!-- /.box-footer -->
@@ -613,50 +613,16 @@ Statement st=c.createStatement();
     })
   })
 </script>
+
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
+
 <script>
     function validateForm(){
-        if(document.getElementById("mobile").value==""){
-                    document.getElementById("alert-message").innerHTML = "Mobile cannot be empty ";
-    $('#show-alert').modal('show')
-     
-           
-           document.getElementById("mobile").focus();
-           return false;
-        }
-       else if(document.getElementById("source").value==""){
-                    document.getElementById("alert-message").innerHTML = "Source cannot be empty ";
-    $('#show-alert').modal('show')
-     
-           
-           document.getElementById("source").focus();
-           return false;
-        }
-        else if(document.getElementById("mobile").value!=""){
-           
-           if(!document.getElementById("mobile").value.match(/^[0-9]+$/)){
-                          document.getElementById("alert-message").innerHTML = " Mobile :Only numbers allowed ";
-    $('#show-alert').modal('show')
-     
-          
-           document.getElementById("mobile").focus();
-     return false;
-            } 
-        if(document.getElementById("mobile").value.length>10){
-         document.getElementById("alert-message").innerHTML = " Mobile :Only 10 digits allowed ";
-    $('#show-alert').modal('show')
-               
-           document.getElementById("mobile").focus();
-           
-           return false;
-       }  if(document.getElementById("mobile").value.length<10){
-          document.getElementById("alert-message").innerHTML = "Mobile :Only 10 digits allowed  ";
-    $('#show-alert').modal('show')
-                
-           document.getElementById("mobile").focus();
-           
-           return false;
-       }
-   }
+        
        
    
        if(document.getElementById("cfn").value==""){
@@ -710,6 +676,48 @@ Statement st=c.createStatement();
            
            return false;
        }
+       if(document.getElementById("mobile").value==""){
+                    document.getElementById("alert-message").innerHTML = "Mobile cannot be empty ";
+    $('#show-alert').modal('show')
+     
+           
+           document.getElementById("mobile").focus();
+           return false;
+        }
+       else if(document.getElementById("source").value==""){
+                    document.getElementById("alert-message").innerHTML = "Source cannot be empty ";
+    $('#show-alert').modal('show')
+     
+           
+           document.getElementById("source").focus();
+           return false;
+        }
+        else if(document.getElementById("mobile").value!=""){
+           
+           if(!document.getElementById("mobile").value.match(/^[0-9]+$/)){
+                          document.getElementById("alert-message").innerHTML = " Mobile :Only numbers allowed ";
+    $('#show-alert').modal('show')
+     
+          
+           document.getElementById("mobile").focus();
+     return false;
+            } 
+        if(document.getElementById("mobile").value.length>10){
+         document.getElementById("alert-message").innerHTML = " Mobile :Only 10 digits allowed ";
+    $('#show-alert').modal('show')
+               
+           document.getElementById("mobile").focus();
+           
+           return false;
+       }  if(document.getElementById("mobile").value.length<10){
+          document.getElementById("alert-message").innerHTML = "Mobile :Only 10 digits allowed  ";
+    $('#show-alert').modal('show')
+                
+           document.getElementById("mobile").focus();
+           
+           return false;
+       }
+   }
        if(document.getElementById("cn").value!=""){
            
            if(!document.getElementById("cn").value.match(/^[0-9 a-z.A-Z]+$/)){

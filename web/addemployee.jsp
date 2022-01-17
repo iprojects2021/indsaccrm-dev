@@ -159,10 +159,7 @@ Statement st=c.createStatement();
  
 	
 	 <section class="content-header">
-    
-
-
-	
+  
 	
              <% if("error".equals(errormessage)){  %>
 <div class="alert alert-danger alert-dismissible">

@@ -677,8 +677,8 @@ function goBack() {
      return false;
             } 
         }else
-        if(document.getElementById("mobile").value.length>45){
-         document.getElementById("alert-message").innerHTML = " Mobile: Only 45 digits allowed ";
+        if(document.getElementById("mobile").value.length>15){
+         document.getElementById("alert-message").innerHTML = " Mobile: Only 15 digits allowed ";
     $('#show-alert').modal('show')
                
            document.getElementById("mobile").focus();
@@ -830,8 +830,8 @@ function goBack() {
            document.getElementById("gstin").focus();
      return false;
             }else
-        if(document.getElementById("gstin").value.length>45){
-                         document.getElementById("alert-message").innerHTML = "GSTIN: Only 45 Characters allowed";
+        if(document.getElementById("gstin").value.length>15){
+                         document.getElementById("alert-message").innerHTML = "GSTIN: Only 15 Characters allowed";
     $('#show-alert').modal('show')
           
            document.getElementById("gstin").focus();
@@ -889,8 +889,8 @@ function goBack() {
            document.getElementById("ap").focus();
      return false;
             } esle
-        if(document.getElementById("ap").value.length>45){
-         document.getElementById("alert-message").innerHTML = "Alternate Mobile: Only 45 digits allowed ";
+        if(document.getElementById("ap").value.length>15){
+         document.getElementById("alert-message").innerHTML = "Alternate Mobile: Only 15 digits allowed ";
     $('#show-alert').modal('show')
                
            document.getElementById("ap").focus();
@@ -1004,8 +1004,8 @@ function goBack() {
            document.getElementById("pincode").focus();
      return false;
             } else
-        if(document.getElementById("pincode").value.length>45){
-                         document.getElementById("alert-message").innerHTML = "Pincode: Only 45 digits allowed";
+        if(document.getElementById("pincode").value.length>10){
+                         document.getElementById("alert-message").innerHTML = "Pincode: Only 10 digits allowed";
     $('#show-alert').modal('show')
            
            document.getElementById("pincode").focus();

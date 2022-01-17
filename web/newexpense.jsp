@@ -424,14 +424,14 @@ Statement st=c.createStatement();
         }else if(document.getElementById("datepicker1").value!=""){
            
            if(!document.getElementById("datepicker1").value.match(/^[0-9 /]+$/)){
-              document.getElementById("alert-message").innerHTML = "Expense Date: Only Characters allowed";
+              document.getElementById("alert-message").innerHTML = "Expense Date: Only 45 Characters allowed";
     $('#show-alert').modal('show')
            
            document.getElementById("datepicker1").focus();
      return false;
             } else
         if(document.getElementById("datepicker1").value.length>45){
-                document.getElementById("alert-message").innerHTML = "Expense Date: Only  Characters allowed";
+                document.getElementById("alert-message").innerHTML = "Expense Date: Only digit allowed";
     $('#show-alert').modal('show')
          
            // alert("Only 30 Characters allowed ");

@@ -12,7 +12,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Best Customer Relationship Management Software | Resources :: indsaccrm.com</title>
+    <title>Best Customer Relationship Management Software | Telecommunication :: indsaccrm.com</title>
 
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
@@ -144,7 +144,7 @@ The telecom industry is spreading fast! New innovations are being discussed ever
 
                     <div class="back-color">
                         <a href="contactmanagement.jsp"><img class="img-responsive" src="assets/images/tel1.jpg" alt=" "></a>
-                        <h4><a href="Telecommunication.jsp" class="title-head">Handle customer interactions comprehensively</a></h4>
+                        <h4><a href="contactmanagement.jsp" class="title-head">Handle customer interactions comprehensively</a></h4>
                         <p class="para">Use one single tool to manage business processes such as task management, lead management, contact management etc. </p><br>
                     </div>
                 </div>
@@ -166,8 +166,8 @@ The telecom industry is spreading fast! New innovations are being discussed ever
                 </div>
                 <div class="grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1">
                     <div class="back-color">
-                         <a href="#page"><img class="img-responsive" src="assets/images/tel4.jpg" alt=" "></a>
-                        <h4><a href="Telecommunication.jsp" class="title-head">Minimizing the Risk</a></h4>
+                         <a href="Risk.jsp"><img class="img-responsive" src="assets/images/tel4.jpg" alt=" "></a>
+                        <h4><a href="Risk.jsp" class="title-head">Minimizing the Risk</a></h4>
                         <p class="para">The managers can benefit from this feature and they can have a look at all the interaction between a customer and their employee to rectify any problem the moment it occurs.</p>
                     </div>
                 </div>
@@ -180,8 +180,8 @@ The telecom industry is spreading fast! New innovations are being discussed ever
                 </div>
                 <div class="grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1 ">
                     <div class="back-color">
-                          <a href="#page"><img class="img-responsive" src="assets/images/tel7.png" alt=" "></a>
-                        <h4><a href="Telecommunication.jsp" class="title-head">Streamline document handling </a></h4>
+                          <a href="Docmangement.jsp"><img class="img-responsive" src="assets/images/tel7.png" alt=" "></a>
+                        <h4><a href="Docmangement.jsp" class="title-head">Streamline document handling </a></h4>
                         <p class="para">By using CRM ready product produces a complete and fully consolidated set of functions to handle all types of documents. This includes controlling customer contracts, bills, collecting letters. </p>
                     </div>
                 </div>
@@ -195,7 +195,7 @@ The telecom industry is spreading fast! New innovations are being discussed ever
                 </div> 
                 <div class="grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1 ">
                     <div class="back-color">
-                       <a href="#page"><img class="img-responsive" src="assets/images/tel9.png" alt=" "></a>
+                       <a href="invoicemanagement.jsp"><img class="img-responsive" src="assets/images/tel9.png" alt=" "></a>
                         <h4><a href="invoicemanagement.jsp" class="title-head"> Billing System </h4>
                         <p class="para">Make billing information easy to access and transform. It allows to observe customer histories, check out invoices and  
 					 accepts payments, makes credit advice. </p>
@@ -203,8 +203,8 @@ The telecom industry is spreading fast! New innovations are being discussed ever
                 </div>
                 <div class="grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1 ">
                     <div class="back-color">
-                          <a href="#page"><img class="img-responsive" src="assets/images/tel10.png" alt=" "></a>
-                        <h4><a href="Telecommunication.jsp" class="title-head"> Expand Business</a></h4>
+                          <a href="ExpandBusi.jsp"><img class="img-responsive" src="assets/images/tel10.png" alt=" "></a>
+                        <h4><a href="ExpandBusi.jsp" class="title-head"> Expand Business</a></h4>
                         <p class="para"> It helps employees cultivate leads from seminars, conferences, trade shows, and webinars. 
 						It helps generate leads from email lists and website visitors. It allows managers to forward those leads to salespeople so that follow-up can be done immediately.</p><br><br>
                     </div>

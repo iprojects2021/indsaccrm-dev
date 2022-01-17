@@ -169,8 +169,8 @@ customer service, and creating a strong connection with the customer. </p><br>
 			   
                 <div class="grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1">
                     <div class="back-color">
-                         <a href=""><img class="img-responsive" src="assets/images/ph4.png" alt=" "></a>
-                        <h4><a href="Pharmaceutical.jsp" class="title-head">Integrated Customer Database</a></h4>
+                         <a href="DBIntigration.jsp"><img class="img-responsive" src="assets/images/ph4.png" alt=" "></a>
+                        <h4><a href="DBIntigration.jsp" class="title-head">Integrated Customer Database</a></h4>
                         <p class="para">INDSAC-CRM helps your sales team to save time while communicating with the cabinets.  The system will perform the actions for you so you can effectively use the details. </p>
                     </div>
                 </div>

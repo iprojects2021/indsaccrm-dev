@@ -77,7 +77,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
          String pagetype=request.getParameter("pagetype");
        if("eventsubmit".equals(pagetype)){
             
-        String subject=Poul.escapeHtml(request.getParameter("subject"));
+        String Name=Poul.escapeHtml(request.getParameter("Name"));
         String datepicker=Poul.escapeHtml(request.getParameter("datepicker"));
         String importance=Poul.escapeHtml(request.getParameter("importance"));
         String status=Poul.escapeHtml(request.getParameter("status"));
@@ -109,7 +109,7 @@ Statement st=c.createStatement();
           }
            int i = Integer.parseInt( SR ); 
            ++i; out.print("value of i="+i+"  ");
-             st.addBatch("insert into events values('"+i+"','"+sqlTime+"','0','"+subject+"','"+datepicker+"','"+importance+"','"+status+"','','"+usercid_adminid+"','"+usercid_id+"','"+cid+"','"+notes+"','"+assignedto+"','','','','','','','','','','','','','','','','','','','','')");
+             st.addBatch("insert into events values('"+i+"','"+sqlTime+"','0','"+Name+"','"+datepicker+"','"+importance+"','"+status+"','','"+usercid_adminid+"','"+usercid_id+"','"+cid+"','"+notes+"','"+assignedto+"','','','','','','','','','','','','','','','','','','','','')");
       
             
        st.executeBatch(); 
@@ -342,7 +342,7 @@ Statement st=c.createStatement();
             </div>
             <!-- /.box-body -->
              <div class="box-footer clearfix">
-              <a href="#subject "class="btn btn-sm btn-info btn-flat pull-left">Create Event</a>
+              <a href="#Name "class="btn btn-sm btn-info btn-flat pull-left">Create Event</a>
             </div>
             <!-- /.box-footer -->
           </div>
@@ -377,7 +377,7 @@ Statement st=c.createStatement();
                   <label for="inputEmail3" class="col-sm-2 control-label"> Name <span style="color:red">*</span></label>
 
                   <div class="col-sm-10">
-                      <input type="text" class="form-control" id="subject"  name="subject" placeholder="Name" autocomplete="off">
+                      <input type="text" class="form-control" id="Name"  name="Name" placeholder="Name" autocomplete="off">
                   </div>
                 </div>
 				
@@ -388,7 +388,7 @@ Statement st=c.createStatement();
                   <div class="input-group-addon">
                     <i class="fa fa-calendar"></i>
                   </div>
-                    <input type="text" class="form-control pull-right" name="datepicker" id="datepicker1" required="" autocomplete="off">
+                    <input type="text" class="form-control pull-right" name="datepicker" id="datepicker1" autocomplete="off">
                 </div>
 </div>
                 <!-- /.input group -->
@@ -427,16 +427,10 @@ Statement st=c.createStatement();
                      </select>
                   </div>
                 </div>
-          
-		
-              
+       
               </div>
               <!-- /.box-body -->
-             
-             
-           
-              
-              
+      
           </div>
           <!-- /.box -->
         
@@ -477,12 +471,7 @@ Statement st=c.createStatement();
                 </div>
 		
    <input type="hidden" name="pagetype" value="eventsubmit">                 
-				
-				
-			
-          
-		
-              
+
               </div>
               <!-- /.box-body -->
                  <div class="box-footer clearfix no-border">
@@ -491,10 +480,7 @@ Statement st=c.createStatement();
             </div>
            
             </form>
-             
-           
-              
-              
+         
           </div>
           <!-- /.box -->
         
@@ -506,16 +492,6 @@ Statement st=c.createStatement();
       <!-- /.box -->
 </div>
 		</div>
-		
-	
-
-
-
- 
-		
-
-	
-		
 		
     </section>
     <!-- /.content -->
@@ -563,12 +539,12 @@ Statement st=c.createStatement();
     })
   })
 </script>
+
 <script>
 function goBack() {
     window.history.back();
 }
 </script>
-
 
 <script>
   $(function () {
@@ -577,32 +553,103 @@ function goBack() {
     $('#datepicker1').datepicker({
       autoclose: true
     })  
-      
-        })
+       })
   
 </script>
 
   <script>
       function validateForm(){
           
-           if(document.getElementById("subject").value==""){
+           if(document.getElementById("Name").value==""){
    
-            document.getElementById("alert-message").innerHTML = "Name cannot be empty";
+            document.getElementById("alert-message").innerHTML = "Name: Cannot be empty";
     $('#show-alert').modal('show')
-       document.getElementById("subject").focus();
+       document.getElementById("Name").focus();
            return false;
-        }else if(document.getElementById("subject").value!=""){
+        }else 
+            if(document.getElementById("Name").value!=""){
+            if(document.getElementById("Name").value.length>45){
+                         document.getElementById("alert-message").innerHTML = "Name: Only 45 Characters allowed";
+    $('#show-alert').modal('show')
+    
+           document.getElementById("Name").focus();
            
-           if(!document.getElementById("subject").value.match(/^[0-9 a-z.A-Z]+$/)){
-              document.getElementById("alert-message").innerHTML = "Name only alphanumeric allowed";
+           return false;
+       }else           
+           if(!document.getElementById("Name").value.match(/^[0-9 a-z.A-Z]+$/)){
+              document.getElementById("alert-message").innerHTML = "Name: Only alphanumeric allowed";
     $('#show-alert').modal('show')
            
-           document.getElementById("subject").focus();
+           document.getElementById("Name").focus();
      return false;
             } 
         } 
         
-        if(document.getElementById("assigned").value!=""){
+        if(document.getElementById("datepicker1").value==""){
+   
+            document.getElementById("alert-message").innerHTML = "Due Date: Cannot be empty";
+    $('#show-alert').modal('show')
+       document.getElementById("datepicker1").focus();
+           return false;
+        }else if(document.getElementById("datepicker1").value!=""){
+            if(document.getElementById("datepicker1").value.length>45){
+                         document.getElementById("alert-message").innerHTML = "Due Date: Only 45 Characters allowed";
+    $('#show-alert').modal('show')
+    
+           document.getElementById("datepicker1").focus();
+           
+           return false;
+       }else           
+           if(!document.getElementById("datepicker1").value.match(/^[0-9 /]+$/)){
+              document.getElementById("alert-message").innerHTML = "Due Date: Only digit allowed";
+    $('#show-alert').modal('show')
+           
+           document.getElementById("datepicker1").focus();
+     return false;
+            } 
+        } 
+    
+        if(document.getElementById("importance").value!=""){
+           
+           if(!document.getElementById("importance").value.match(/^[0-9 a-z.A-Z]+$/)){
+                     document.getElementById("alert-message").innerHTML = "Priority: Only alphanumeric allowed";
+    $('#show-alert').modal('show')
+       
+           //alert("Only alphanumeric allowed");
+           document.getElementById("importance").focus();
+     return false;
+            } else
+        if(document.getElementById("importance").value.length>45){
+                         document.getElementById("alert-message").innerHTML = "Priority: Only 45 Characters allowed";
+    $('#show-alert').modal('show')
+         
+           document.getElementById("importance").focus();
+           
+           return false;
+       }
+      }
+      
+      if(document.getElementById("status").value!=""){
+           
+           if(!document.getElementById("status").value.match(/^[0-9 a-z.A-Z]+$/)){
+                     document.getElementById("alert-message").innerHTML = "Status: Only alphanumeric allowed";
+    $('#show-alert').modal('show')
+       
+           //alert("Only alphanumeric allowed");
+           document.getElementById("status").focus();
+     return false;
+            } else
+        if(document.getElementById("status").value.length>45){
+                         document.getElementById("alert-message").innerHTML = "Status: Only 45 Characters allowed";
+    $('#show-alert').modal('show')
+         
+           document.getElementById("status").focus();
+           
+           return false;
+       }
+      }
+      
+      if(document.getElementById("assigned").value!=""){
            
            if(!document.getElementById("assigned").value.match(/^[0-9 a-z.A-Z]+$/)){
                      document.getElementById("alert-message").innerHTML = "Assigned To: Only alphanumeric allowed";
@@ -612,16 +659,16 @@ function goBack() {
            document.getElementById("assigned").focus();
      return false;
             } else
-        if(document.getElementById("assigned").value.length>30){
-                         document.getElementById("alert-message").innerHTML = "Assigned To: Only 30 Characters allowed";
+        if(document.getElementById("assigned").value.length>45){
+                         document.getElementById("alert-message").innerHTML = "Assigned To: Only 45 Characters allowed";
     $('#show-alert').modal('show')
-     
-                  
+         
            document.getElementById("assigned").focus();
            
            return false;
-       }}
-       
+       }
+      }
+      
        if(document.getElementById("notes").value!=""){
            
            if(!document.getElementById("notes").value.match(/^[0-9 a-z.A-Z]+$/)){
@@ -635,19 +682,16 @@ function goBack() {
         if(document.getElementById("notes").value.length>2000){
                          document.getElementById("alert-message").innerHTML = "Notes: Only 2000 Characters allowed";
     $('#show-alert').modal('show')
-     
-                  
+        
            document.getElementById("notes").focus();
            
            return false;
        }}
-       
-        
          return true;
   }
   
 </script>
-  
 
+ 
 </body>
 </html>

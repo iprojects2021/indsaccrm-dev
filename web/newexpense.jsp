@@ -179,7 +179,7 @@ Statement st=c.createStatement();
                   </div>
                 </div>
                    <div class="form-group" >
-                  <label for="inputEmail3" class="col-sm-2 control-label">Subject</label>
+                  <label for="inputEmail3" class="col-sm-2 control-label">Subject<span style="color:red">*</span></label>
    <div class="col-sm-10" >
                     <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" autocomplete="off">
                 </div>
@@ -192,7 +192,7 @@ Statement st=c.createStatement();
                   <div class="input-group-addon">
                     <i class="fa fa-calendar"></i>
                   </div>
-                    <input type="text" class="form-control pull-right" name="expensedate" id="datepicker1" required="" autocomplete="off">
+                    <input type="text" class="form-control pull-right" name="expensedate" id="datepicker1" autocomplete="off">
                 </div>
 </div>
                 <!-- /.input group -->
@@ -256,7 +256,7 @@ Statement st=c.createStatement();
                   <label for="inputPassword3" class="col-sm-2 control-label">Amount<span style="color:red">*</span></label>
 
                   <div class="col-sm-10">
-                    <input type="text" class="form-control" id="expenseamount" name="expenseamount" placeholder="Amount" autocomplete="off" required="" >
+                    <input type="text" class="form-control" id="expenseamount" name="expenseamount" placeholder="Amount" autocomplete="off"  >
                   </div>
                 </div>
                         <div class="form-group">
@@ -388,7 +388,108 @@ Statement st=c.createStatement();
   })
 </script>
 <script>
-   function validateForm(){
+   function validateForm(){ 
+       
+               if(document.getElementById("subject").value==""){
+   
+            document.getElementById("alert-message").innerHTML = "Subject: Cannot be empty";
+    $('#show-alert').modal('show')
+       document.getElementById("subject").focus();
+           return false;
+        }else if(document.getElementById("subject").value!=""){
+           
+           if(!document.getElementById("subject").value.match(/^[0-9 a-z.A-Z]+$/)){
+              document.getElementById("alert-message").innerHTML = "Subject: Only alphanumeric allowed";
+    $('#show-alert').modal('show')
+           
+           document.getElementById("subject").focus();
+     return false;
+            } else
+        if(document.getElementById("subject").value.length>45){
+                document.getElementById("alert-message").innerHTML = "Subject :Only 45 Characters allowed";
+    $('#show-alert').modal('show')
+         
+           // alert("Only 30 Characters allowed ");
+           document.getElementById("subject").focus();
+           
+           return false;
+       }
+        } 
+           if(document.getElementById("datepicker1").value==""){
+   
+            document.getElementById("alert-message").innerHTML = "Expense Date: Cannot be empty";
+    $('#show-alert').modal('show')
+       document.getElementById("datepicker1").focus();
+           return false;
+        }else if(document.getElementById("datepicker1").value!=""){
+           
+           if(!document.getElementById("datepicker1").value.match(/^[0-9 /]+$/)){
+              document.getElementById("alert-message").innerHTML = "Expense Date: Only Characters allowed";
+    $('#show-alert').modal('show')
+           
+           document.getElementById("datepicker1").focus();
+     return false;
+            } else
+        if(document.getElementById("datepicker1").value.length>45){
+                document.getElementById("alert-message").innerHTML = "Expense Date: Only  Characters allowed";
+    $('#show-alert').modal('show')
+         
+           // alert("Only 30 Characters allowed ");
+           document.getElementById("datepicker1").focus();
+           
+           return false;
+       }
+        } 
+          if(document.getElementById("newcategory").value==""){
+   
+            document.getElementById("alert-message").innerHTML = "New Category: Cannot be empty";
+    $('#show-alert').modal('show')
+       document.getElementById("newcategory").focus();
+           return false;
+        }else if(document.getElementById("newcategory").value!=""){
+           
+           if(!document.getElementById("newcategory").value.match(/^[0-9 a-z.A-Z]+$/)){
+              document.getElementById("alert-message").innerHTML = "New Category: Only alphanumeric allowed";
+    $('#show-alert').modal('show')
+           
+           document.getElementById("newcategory").focus();
+     return false;
+            } else
+        if(document.getElementById("newcategory").value.length>45){
+                document.getElementById("alert-message").innerHTML = "New Category: Only 45 Characters allowed";
+    $('#show-alert').modal('show')
+         
+           // alert("Only 30 Characters allowed ");
+           document.getElementById("newcategory").focus();
+           
+           return false;
+       }
+        } 
+           if(document.getElementById("status").value==""){
+   
+            document.getElementById("alert-message").innerHTML = "Satus: Cannot be empty";
+    $('#show-alert').modal('show')
+       document.getElementById("status").focus();
+           return false;
+        }else if(document.getElementById("status").value!=""){
+           
+           if(!document.getElementById("status").value.match(/^[0-9 a-z.A-Z]+$/)){
+              document.getElementById("alert-message").innerHTML = "Status: Only alphanumeric allowed";
+    $('#show-alert').modal('show')
+           
+           document.getElementById("status").focus();
+     return false;
+            } else
+        if(document.getElementById("status").value.length>45){
+                document.getElementById("alert-message").innerHTML = "Status: Only 45 Characters allowed";
+    $('#show-alert').modal('show')
+         
+           // alert("Only 30 Characters allowed ");
+           document.getElementById("status").focus();
+           
+           return false;
+       }
+        } 
        
            if(document.getElementById("billnumber").value!=""){
            if(!document.getElementById("billnumber").value.match(/^[0-9 a-z.A-Z]+$/)){
@@ -399,32 +500,34 @@ Statement st=c.createStatement();
            document.getElementById("billnumber").focus();
      return false;
             } else
-        if(document.getElementById("billnumber").value.length>30){
-                         document.getElementById("alert-message").innerHTML = "Bill Number: Only 30 characters allowed";
+        if(document.getElementById("billnumber").value.length>45){
+                         document.getElementById("alert-message").innerHTML = "Bill Number: Only 45 characters allowed";
     $('#show-alert').modal('show')
-     
-                  
+        
            document.getElementById("billnumber").focus();
            
            return false;
        }}
        
-       if(document.getElementById("subject").value==""){
-   
-            document.getElementById("alert-message").innerHTML = "Subject cannot be empty";
-    $('#show-alert').modal('show')
-       document.getElementById("subject").focus();
-           return false;
-        }else if(document.getElementById("subject").value!=""){
+       if(document.getElementById("reportto").value!=""){
            
-           if(!document.getElementById("subject").value.match(/^[0-9 a-z.A-Z]+$/)){
-              document.getElementById("alert-message").innerHTML = "Subject: only alphanumeric allowed";
+           if(!document.getElementById("reportto").value.match(/^[0-9 a-z.A-Z]+$/)){
+                     document.getElementById("alert-message").innerHTML = "Report To: Only alphanumeric allowed";
     $('#show-alert').modal('show')
-           
-           document.getElementById("subject").focus();
+       
+           //alert("Only alphanumeric allowed");
+           document.getElementById("reportto").focus();
      return false;
-            } 
-        } 
+            } else
+        if(document.getElementById("reportto").value.length>45){
+                         document.getElementById("alert-message").innerHTML = "Report To: Only 45 Characters allowed";
+    $('#show-alert').modal('show')
+     
+                  
+           document.getElementById("reportto").focus();
+           
+           return false;
+       }}
        
        
         if(document.getElementById("notes").value!=""){
@@ -437,66 +540,16 @@ Statement st=c.createStatement();
            document.getElementById("notes").focus();
      return false;
             } else
-        if(document.getElementById("notes").value.length>2000){
-                         document.getElementById("alert-message").innerHTML = "Notes: Only 2000 Characters allowed";
+        if(document.getElementById("notes").value.length>1000){
+                         document.getElementById("alert-message").innerHTML = "Notes: Only 1000 Characters allowed";
     $('#show-alert').modal('show')
      
-                  
            document.getElementById("notes").focus();
            
            return false;
        }}
      
-       if(document.getElementById("newproductname").value!=""){
-           
-           if(!document.getElementById("newproductname").value.match(/^[0-9 a-z.A-Z]+$/)){
-                     document.getElementById("alert-message").innerHTML = "Product Name: Only alphanumeric allowed";
-    $('#show-alert').modal('show')
-       
-           //alert("Only alphanumeric allowed");
-           document.getElementById("newproductname").focus();
-     return false;
-            } else
-        if(document.getElementById("newproductname").value.length>30){
-                         document.getElementById("alert-message").innerHTML = "Product Name: Only 30 characters allowed";
-    $('#show-alert').modal('show')
-     
-                  
-           document.getElementById("newproductname").focus();
-           
-           return false;
-       }}
-     
-       if(document.getElementById("newcategory").value!=""){
-           
-           if(!document.getElementById("newcategory").value.match(/^[0-9 a-z.A-Z]+$/)){
-                     document.getElementById("alert-message").innerHTML = "New Category: Only alphanumeric allowed";
-    $('#show-alert').modal('show')
-       
-           //alert("Only alphanumeric allowed");
-           document.getElementById("newcategory").focus();
-     return false;
-            } else
-        if(document.getElementById("newcategory").value.length>30){
-                         document.getElementById("alert-message").innerHTML = "New Category: Only 30 charactersallowed";
-    $('#show-alert').modal('show')
-     
-                  
-           document.getElementById("newcategory").focus();
-           
-           return false;
-       }}
-
-        if(document.getElementById("vid").value=="" ||document.getElementById("vid").value=="null" ){
-                    document.getElementById("alert-message").innerHTML = "Please select vendor for addstock <br> Goto:  Vendor > VendorDashboard > Select Vendor > Click Add Stock";
-    $('#show-alert').modal('show')
-     
-           
-           document.getElementById("vid").focus();
-           return false;
-        }
-       
-       return true;
+              return true;
     }
 </script>
 <script>

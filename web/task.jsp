@@ -246,7 +246,7 @@ Statement st=c.createStatement();
                   <div class="input-group-addon">
                     <i class="fa fa-calendar"></i>
                   </div>
-                    <input type="text" class="form-control pull-right" name="datepicker" id="datepicker1" required="" autocomplete="off">
+                    <input type="text" class="form-control pull-right" name="datepicker" id="datepicker1"  autocomplete="off">
                 </div>
 </div>
                 <!-- /.input group -->
@@ -327,12 +327,7 @@ Statement st=c.createStatement();
                  <input type="hidden" name="2a2e2a72657175657374636964" value="<%=Nd.Encrypt(cid) %>">
                  <% } %>
    <input type="hidden" name="pagetype" value="tasksubmit">                 
-				
-				
-			
-          
-		
-              
+	
               </div>
               <!-- /.box-body -->
                  <div class="box-footer clearfix no-border">
@@ -341,10 +336,7 @@ Statement st=c.createStatement();
             </div>
            
             </form>
-             
-           
-              
-              
+       
           </div>
           <!-- /.box -->
         
@@ -356,12 +348,7 @@ Statement st=c.createStatement();
       <!-- /.box -->
 </div>
 		</div>
-		
-	
-		
 
-	
-		
 		
     </section>
     <!-- /.content -->
@@ -432,20 +419,91 @@ function goBack() {
           
            if(document.getElementById("subject").value==""){
    
-            document.getElementById("alert-message").innerHTML = "Subject cannot be empty";
+            document.getElementById("alert-message").innerHTML = "Subject: Cannot be empty";
     $('#show-alert').modal('show')
        document.getElementById("subject").focus();
            return false;
         }else if(document.getElementById("subject").value!=""){
            
            if(!document.getElementById("subject").value.match(/^[0-9 a-z.A-Z]+$/)){
-              document.getElementById("alert-message").innerHTML = "Subject: only alphanumeric allowed";
+              document.getElementById("alert-message").innerHTML = "Subject: Only alphanumeric allowed";
     $('#show-alert').modal('show')
            
            document.getElementById("subject").focus();
      return false;
+            } else
+        if(document.getElementById("subject").value.length>150){
+                document.getElementById("alert-message").innerHTML = "Subject: Only 150 Characters allowed";
+    $('#show-alert').modal('show')
+         
+           // alert("Only 30 Characters allowed ");
+           document.getElementById("subject").focus();
+           
+           return false;
+       }
+        } 
+           if(document.getElementById("datepicker1").value==""){
+   
+            document.getElementById("alert-message").innerHTML = "Due Date: Cannot be empty";
+    $('#show-alert').modal('show')
+       document.getElementById("datepicker1").focus();
+           return false;
+        }else if(document.getElementById("datepicker1").value!=""){
+            if(document.getElementById("datepicker1").value.length>45){
+                         document.getElementById("alert-message").innerHTML = "Due Date: Only Characters allowed";
+    $('#show-alert').modal('show')
+    
+           document.getElementById("datepicker1").focus();
+           
+           return false;
+       }else           
+           if(!document.getElementById("datepicker1").value.match(/^[0-9 /]+$/)){
+              document.getElementById("alert-message").innerHTML = "Due Date: Only alphanumeric allowed";
+    $('#show-alert').modal('show')
+           
+           document.getElementById("datepicker1").focus();
+     return false;
             } 
         } 
+          if(document.getElementById("importance").value!=""){
+           
+           if(!document.getElementById("importance").value.match(/^[0-9 a-z.A-Z]+$/)){
+                     document.getElementById("alert-message").innerHTML = "Priority: Only alphanumeric allowed";
+    $('#show-alert').modal('show')
+       
+           //alert("Only alphanumeric allowed");
+           document.getElementById("importance").focus();
+     return false;
+            } else
+        if(document.getElementById("importance").value.length>45){
+                         document.getElementById("alert-message").innerHTML = "Priority: Only 45 Characters allowed";
+    $('#show-alert').modal('show')
+         
+           document.getElementById("importance").focus();
+           
+           return false;
+       }
+      }
+      
+      if(document.getElementById("status").value!=""){
+           
+           if(!document.getElementById("status").value.match(/^[0-9 a-z.A-Z]+$/)){
+                     document.getElementById("alert-message").innerHTML = "Status: Only alphanumeric allowed";
+    $('#show-alert').modal('show')
+       
+           //alert("Only alphanumeric allowed");
+           document.getElementById("status").focus();
+     return false;
+            } else
+        if(document.getElementById("status").value.length>45){
+                         document.getElementById("alert-message").innerHTML = "Status: Only 45 Characters allowed";
+    $('#show-alert').modal('show')
+         
+           document.getElementById("status").focus();
+           
+           return false;
+       }
+      }
         
         if(document.getElementById("assigned").value!=""){
            
@@ -457,8 +515,8 @@ function goBack() {
            document.getElementById("assigned").focus();
      return false;
             } else
-        if(document.getElementById("assigned").value.length>30){
-                         document.getElementById("alert-message").innerHTML = "Assigned To: Only 30 Characters allowed";
+        if(document.getElementById("assigned").value.length>45){
+                         document.getElementById("alert-message").innerHTML = "Assigned To: Only 45 Characters allowed";
     $('#show-alert').modal('show')
      
                   

@@ -537,24 +537,13 @@ Statement st=c.createStatement();
                <button class="btn btn-sm btn-info btn-flat pull-right" onClick="return validateForm()">Save</button>
             </div>
             <!-- /.box-footer -->
-
-         
-        
-			
+		
           </div>
           <!-- /.box -->
 
-    
-
-    
-      
         </div>
         <!--/.col (right) -->
 
-	   
-	   
-	   
-	   
       </div>
       <!-- /.box -->
 		
@@ -622,12 +611,10 @@ function goBack() {
 
 <script>
     function validateForm(){
-        
-       
-   
+  
        if(document.getElementById("cfn").value==""){
    
-            document.getElementById("alert-message").innerHTML = "First name cannot be empty";
+            document.getElementById("alert-message").innerHTML = "First Name: Cannot be empty";
     $('#show-alert').modal('show')
        document.getElementById("cfn").focus();
            return false;
@@ -641,8 +628,8 @@ function goBack() {
      return false;
             } 
         } 
-        if(document.getElementById("cfn").value.length>30){
-                document.getElementById("alert-message").innerHTML = "First Name :Only 30 Characters allowed";
+        if(document.getElementById("cfn").value.length>150){
+                document.getElementById("alert-message").innerHTML = "First Name: Only 150 Characters allowed";
     $('#show-alert').modal('show')
          
            // alert("Only 30 Characters allowed ");
@@ -653,7 +640,7 @@ function goBack() {
        
        if(document.getElementById("cln").value==""){
    
-            document.getElementById("alert-message").innerHTML = "Last name cannot be empty";
+            document.getElementById("alert-message").innerHTML = "Last Name: Cannot be empty";
     $('#show-alert').modal('show')
        document.getElementById("cln").focus();
            return false;
@@ -667,8 +654,8 @@ function goBack() {
      return false;
             } 
         } 
-        if(document.getElementById("cln").value.length>30){
-                document.getElementById("alert-message").innerHTML = "Last Name: Only 30 Characters allowed";
+        if(document.getElementById("cln").value.length>150){
+                document.getElementById("alert-message").innerHTML = "Last Name: Only 150 Characters allowed";
     $('#show-alert').modal('show')
          
            // alert("Only 30 Characters allowed ");
@@ -676,47 +663,31 @@ function goBack() {
            
            return false;
        }
+       
        if(document.getElementById("mobile").value==""){
-                    document.getElementById("alert-message").innerHTML = "Mobile cannot be empty ";
+                    document.getElementById("alert-message").innerHTML = "Mobile: Cannot be empty ";
     $('#show-alert').modal('show')
      
-           
            document.getElementById("mobile").focus();
-           return false;
-        }
-       else if(document.getElementById("source").value==""){
-                    document.getElementById("alert-message").innerHTML = "Source cannot be empty ";
-    $('#show-alert').modal('show')
-     
-           
-           document.getElementById("source").focus();
            return false;
         }
         else if(document.getElementById("mobile").value!=""){
            
            if(!document.getElementById("mobile").value.match(/^[0-9]+$/)){
-                          document.getElementById("alert-message").innerHTML = " Mobile :Only numbers allowed ";
+                          document.getElementById("alert-message").innerHTML = " Mobile: Only numbers allowed ";
     $('#show-alert').modal('show')
-     
-          
+           
            document.getElementById("mobile").focus();
      return false;
-            } 
+            } else
         if(document.getElementById("mobile").value.length>10){
-         document.getElementById("alert-message").innerHTML = " Mobile :Only 10 digits allowed ";
+         document.getElementById("alert-message").innerHTML = " Mobile: Only 10 digits allowed ";
     $('#show-alert').modal('show')
                
            document.getElementById("mobile").focus();
            
            return false;
-       }  if(document.getElementById("mobile").value.length<10){
-          document.getElementById("alert-message").innerHTML = "Mobile :Only 10 digits allowed  ";
-    $('#show-alert').modal('show')
-                
-           document.getElementById("mobile").focus();
-           
-           return false;
-       }
+       }  
    }
        if(document.getElementById("cn").value!=""){
            
@@ -728,8 +699,8 @@ function goBack() {
            document.getElementById("cn").focus();
      return false;
             } else
-        if(document.getElementById("cn").value.length>30){
-                         document.getElementById("alert-message").innerHTML = "Company Name: Only 30 Characters allowed";
+        if(document.getElementById("cn").value.length>45){
+                         document.getElementById("alert-message").innerHTML = "Company Name: Only 45 Characters allowed";
     $('#show-alert').modal('show')
      
                   
@@ -748,8 +719,8 @@ function goBack() {
            document.getElementById("department").focus();
      return false;
             } else
-        if(document.getElementById("department").value.length>30){
-                         document.getElementById("alert-message").innerHTML = "Department Name: Only 30 Characters allowed";
+        if(document.getElementById("department").value.length>45){
+                         document.getElementById("alert-message").innerHTML = "Department Name: Only 45 Characters allowed";
     $('#show-alert').modal('show')
      
                   
@@ -768,8 +739,8 @@ function goBack() {
            document.getElementById("designation").focus();
      return false;
             } else
-        if(document.getElementById("designation").value.length>30){
-                         document.getElementById("alert-message").innerHTML = "Designation: Only 30 Characters allowed";
+        if(document.getElementById("designation").value.length>45){
+                         document.getElementById("alert-message").innerHTML = "Designation: Only 45 Characters allowed";
     $('#show-alert').modal('show')
      
                   
@@ -788,8 +759,8 @@ function goBack() {
            document.getElementById("category").focus();
      return false;
             } else
-        if(document.getElementById("category").value.length>30){
-                         document.getElementById("alert-message").innerHTML = "Category: Only 30 Characters allowed";
+        if(document.getElementById("category").value.length>45){
+                         document.getElementById("alert-message").innerHTML = "Category: Only 45 Characters allowed";
     $('#show-alert').modal('show')
      
                   
@@ -797,9 +768,7 @@ function goBack() {
            
            return false;
        }}
-      
     
-      
        if(document.getElementById("gstin").value!=""){
            
            if(!document.getElementById("gstin").value.match(/^[0-9A-Z]+$/)){
@@ -810,17 +779,8 @@ function goBack() {
            document.getElementById("gstin").focus();
      return false;
             }
-        if(document.getElementById("gstin").value.length>15){
-                         document.getElementById("alert-message").innerHTML = "GSTIN: Only 15 Characters allowed";
-    $('#show-alert').modal('show')
-     
-                  
-           document.getElementById("gstin").focus();
-           
-           return false;
-       }
-       if(document.getElementById("gstin").value.length<15){
-                         document.getElementById("alert-message").innerHTML = " GSTIN: Only 15 Characters allowed";
+        if(document.getElementById("gstin").value.length>45){
+                         document.getElementById("alert-message").innerHTML = "GSTIN: Only 45 Characters allowed";
     $('#show-alert').modal('show')
      
                   
@@ -829,7 +789,26 @@ function goBack() {
            return false;
        }
    }
-   
+        if(document.getElementById("status").value!=""){
+           
+           if(!document.getElementById("status").value.match(/^[0-9 a-z.A-Z]+$/)){
+                     document.getElementById("alert-message").innerHTML = "Status: Only alphanumeric allowed";
+    $('#show-alert').modal('show')
+       
+           //alert("Only alphanumeric allowed");
+           document.getElementById("status").focus();
+     return false;
+            }else
+        if(document.getElementById("status").value.length>45){
+                         document.getElementById("alert-message").innerHTML = "Status: Only 45 Characters allowed";
+    $('#show-alert').modal('show')
+         
+           document.getElementById("status").focus();
+           
+           return false;
+       }
+      }
+      
     if(document.getElementById("rt").value!=""){
            
            if(!document.getElementById("rt").value.match(/^[0-9 a-z.A-Z]+$/)){
@@ -840,8 +819,8 @@ function goBack() {
            document.getElementById("rt").focus();
      return false;
             } else
-        if(document.getElementById("rt").value.length>30){
-                         document.getElementById("alert-message").innerHTML = "Report To: Only 30 Characters allowed";
+        if(document.getElementById("rt").value.length>45){
+                         document.getElementById("alert-message").innerHTML = "Report To: Only 45 Characters allowed";
     $('#show-alert').modal('show')
      
                   
@@ -849,35 +828,81 @@ function goBack() {
            
            return false;
        }}
+        
+        if(document.getElementById("source").value!=""){
+           
+           if(!document.getElementById("source").value.match(/^[0-9 a-z.A-Z]+$/)){
+                     document.getElementById("alert-message").innerHTML = "Source: Only alphanumeric allowed";
+    $('#show-alert').modal('show')
        
-     
+           //alert("Only alphanumeric allowed");
+           document.getElementById("source").focus();
+     return false;
+            }else
+        if(document.getElementById("source").value.length>45){
+                         document.getElementById("alert-message").innerHTML = "Source: Only 45 Characters allowed";
+    $('#show-alert').modal('show')
+         
+           document.getElementById("source").focus();
+           return false;
+       }
+      }
+        if(document.getElementById("website").value!=""){
+           
+           if(!document.getElementById("website").value.match(/^[0-9A-Z]+$/)){
+                     document.getElementById("alert-message").innerHTML = "Please enter valid website";
+    $('#show-alert').modal('show')
+       
+           //alert("Only alphanumeric allowed");
+           document.getElementById("website").focus();
+     return false;
+            }else
+        if(document.getElementById("website").value.length>45){
+                         document.getElementById("alert-message").innerHTML = "Website: Only 45 Characters allowed";
+    $('#show-alert').modal('show')
+          
+           document.getElementById("website").focus();
+           
+           return false;
+       }
+   }
         if(document.getElementById("ap").value!=""){
            
             if(!document.getElementById("ap").value.match(/^[0-9]+$/)){
-                          document.getElementById("alert-message").innerHTML = "Alternate Mobile :Only numbers allowed ";
+                          document.getElementById("alert-message").innerHTML = "Alternate Mobile: Only numbers allowed ";
     $('#show-alert').modal('show')
      
-          
            document.getElementById("ap").focus();
      return false;
             } 
         if(document.getElementById("ap").value.length>10){
-         document.getElementById("alert-message").innerHTML = "Alternate Mobile :Only 10 digits allowed ";
+         document.getElementById("alert-message").innerHTML = "Alternate Mobile: Only 10 digits allowed ";
     $('#show-alert').modal('show')
                
            document.getElementById("ap").focus();
            
            return false;
-       }  if(document.getElementById("ap").value.length<10){
-          document.getElementById("alert-message").innerHTML = "Alternate Mobile :Only 10 digits allowed  ";
-    $('#show-alert').modal('show')
-                
-           document.getElementById("ap").focus();
+       }  
+   }
+      if(document.getElementById("bwtc").value!=""){
            
+           if(!document.getElementById("bwtc").value.match(/^[0-9 a-z.A-Z]+$/)){
+                     document.getElementById("alert-message").innerHTML = "Best Way to Contact: Only alphanumeric allowed";
+    $('#show-alert').modal('show')
+       
+           //alert("Only alphanumeric allowed");
+           document.getElementById("bwtc").focus();
+     return false;
+            }else
+        if(document.getElementById("bwtc").value.length>45){
+                         document.getElementById("alert-message").innerHTML = "Best Way to Contact: Only 45 Characters allowed";
+    $('#show-alert').modal('show')
+         
+           document.getElementById("bwtc").focus();
            return false;
        }
-   }
-   
+      }
+      
   if(document.getElementById("email").value!=""){
            
            if(!document.getElementById("email").value.match(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/)){
@@ -888,8 +913,8 @@ function goBack() {
            document.getElementById("email").focus();
      return false;
             } else
-        if(document.getElementById("email").value.length>30){
-                         document.getElementById("alert-message").innerHTML = "Email id: Only 40 Characters allowed";
+        if(document.getElementById("email").value.length>45){
+                         document.getElementById("alert-message").innerHTML = "Email id: Only 45 Characters allowed";
     $('#show-alert').modal('show')
      
                   
@@ -908,8 +933,8 @@ function goBack() {
            document.getElementById("address1").focus();
      return false;
             } else
-        if(document.getElementById("address1").value.length>30){
-                         document.getElementById("alert-message").innerHTML = "Address1:Only 30 Characters allowed";
+        if(document.getElementById("address1").value.length>150){
+                         document.getElementById("alert-message").innerHTML = "Address1: Only 150 Characters allowed";
     $('#show-alert').modal('show')
      
                   
@@ -929,8 +954,8 @@ function goBack() {
            document.getElementById("address2").focus();
      return false;
             } else
-        if(document.getElementById("address2").value.length>30){
-                         document.getElementById("alert-message").innerHTML = "Address2:Only 30 Characters allowed";
+        if(document.getElementById("address2").value.length>150){
+                         document.getElementById("alert-message").innerHTML = "Address2: Only 150 Characters allowed";
     $('#show-alert').modal('show')
      
                   
@@ -949,8 +974,8 @@ function goBack() {
            document.getElementById("address3").focus();
      return false;
             } else
-        if(document.getElementById("address3").value.length>30){
-                         document.getElementById("alert-message").innerHTML = "Address3:Only 30 Characters allowed";
+        if(document.getElementById("address3").value.length>150){
+                         document.getElementById("alert-message").innerHTML = "Address3: Only 150 Characters allowed";
     $('#show-alert').modal('show')
      
                   
@@ -969,8 +994,8 @@ function goBack() {
            document.getElementById("city").focus();
      return false;
             } else
-        if(document.getElementById("city").value.length>30){
-                         document.getElementById("alert-message").innerHTML = "City: Only 30 Characters allowed";
+        if(document.getElementById("city").value.length>45){
+                         document.getElementById("alert-message").innerHTML = "City: Only 45 Characters allowed";
     $('#show-alert').modal('show')
      
                   
@@ -989,8 +1014,8 @@ function goBack() {
            document.getElementById("pincode").focus();
      return false;
             } else
-        if(document.getElementById("pincode").value.length>10){
-                         document.getElementById("alert-message").innerHTML = "Pincode:Only 10 digits allowed";
+        if(document.getElementById("pincode").value.length>45){
+                         document.getElementById("alert-message").innerHTML = "Pincode: Only 45 digits allowed";
     $('#show-alert').modal('show')
      
                   
@@ -1009,8 +1034,8 @@ function goBack() {
            document.getElementById("state").focus();
      return false;
             } else
-        if(document.getElementById("state").value.length>30){
-                         document.getElementById("alert-message").innerHTML = "State: Only 30 Characters allowed";
+        if(document.getElementById("state").value.length>45){
+                         document.getElementById("alert-message").innerHTML = "State: Only 45 Characters allowed";
     $('#show-alert').modal('show')
      
                   
@@ -1018,6 +1043,25 @@ function goBack() {
            
            return false;
        }}
+         if(document.getElementById("country").value!=""){
+           
+           if(!document.getElementById("country").value.match(/^[a-zA-Z:,'-'' '\.0-9\n]+$/)){
+                     document.getElementById("alert-message").innerHTML = "Country: Only characters allowed";
+    $('#show-alert').modal('show')
+       
+           //alert("Only alphanumeric allowed");
+           document.getElementById("country").focus();
+     return false;
+            } else
+        if(document.getElementById("country").value.length>45){
+                         document.getElementById("alert-message").innerHTML = "Country: Only 45 Characters allowed";
+    $('#show-alert').modal('show')
+           
+           document.getElementById("country").focus();
+           
+           return false;
+       }
+      }
       
       if(document.getElementById("notes").value!=""){
            

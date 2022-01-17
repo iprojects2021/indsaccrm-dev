@@ -150,16 +150,16 @@ The telecom industry is spreading fast! New innovations are being discussed ever
                 </div>
                 <div class=" grids-effect-2 col-lg-4 col-md-6 col-sm-6">
                     <div class="back-color">
-                          <a href="#page"><img class="img-responsive" src="assets/images/tel2.png" alt=" "></a>
-                        <h4><a href="Telecommunication.jsp" class="title-head">Analyze Your Competitors</a></h4>
+                          <a href="CompAnalysis.jsp"><img class="img-responsive" src="assets/images/tel2.png" alt=" "></a>
+                        <h4><a href="CompAnalysis.jsp" class="title-head">Analyze Your Competitors</a></h4>
                         <p class="para"> The telecom industry is an extremely competitive industry. The competitive analysis provides you with complete information like 
 						brand equity, distribution channels, post-purchase service etc.  </p>
                     </div>
                 </div>
                 <div class="grids-effect-2 col-lg-4 col-md-6 col-sm-6">
                     <div class="back-color">
-                          <a href="#page"><img class="img-responsive" src="assets/images/tel3.png" alt=" "></a>
-                        <h4><a href="Telecommunication.jsp" class="title-head">Future forecasting</a></h4>
+                          <a href="salesforcasting.jsp"><img class="img-responsive" src="assets/images/tel3.png" alt=" "></a>
+                        <h4><a href="salesforcasting.jsp" class="title-head">Sales forecasting</a></h4>
                         <p class="para">A CRM provide a telecom company a future overview by analyzing the historical data and performance of the company in previous years  
 						so, telecom company to prepare for the future tasks.</p>
                     </div>

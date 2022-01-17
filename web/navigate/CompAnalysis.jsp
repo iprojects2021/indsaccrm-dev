@@ -12,7 +12,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-   <title>Best CRM Software |  Minimizing The Risk:: indsaccrm.com</title>
+   <title>Best CRM Software |  Analyze Your Competitors :: indsaccrm.com</title>
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700&display=swap" rel="stylesheet">
@@ -83,7 +83,7 @@
                 <ul class="breadcrumbs-custom-path">
                     <li><a href="../index.jsp">Home <span class="fa fa-angle-right" aria-hidden="true"></span></a></li>
                       <li><a href="Telecommunications.jsp">Telecommunication Industry<span class="fa fa-angle-right" aria-hidden="true"></span></a></li>
-                    <li class="active">Minimizing The Risk </li>
+                    <li class="active">Analyze Your Competitors </li>
                 </ul>
             </div>
         </div>
@@ -94,13 +94,19 @@
         <div class="container">
             <div class="cwp4-two row">
             <div class="col-xl-6 cwp4-image ">
-                <img src="assets/images/mr1.jpg" alt="product" class="img-responsive ">
+                <img src="assets/images/ca1.png" alt="product" class="img-responsive ">
             </div>
-                <div class="cwp4-text col-xl-6">
-                    <h4> CRM Risk Management </h4>
-                    <p class="para">All businesses start with risk on the part of the enterprise, including Indsac. Running a business means investing your money into something without being 100% convinced about the outcome. Many entrepreneurs succeed just because they risked a million dollars.<br> <br>
-                        A CRM strategy does not only reduce risks but helps you to make sound decisions for your business. Many business start-ups fear getting a CRM within their business. But with effective plans, your CRM will be a good asset for your business.<br>  <br>
-                        CRM enables you to cultivate customer loyalty. Loyal customers are the people that make a good percentage in your total revenue. Loyal customers will always turn to you even if you are experiencing a problem.
+                <div  class="cwp4-text col-xl-6">
+                   <h4> What is a competitor analysis?</h4>
+                    <p class="para">A competitor analysis is the process of identifying businesses in 
+                        your market that offer similar products or services to yours and evaluating them
+                        based on a set of predetermined business criteria. <br> <br>A good competitor analysis 
+                        will help you see your business and competitors through your customers 
+                        eyes to pinpoint where you can improve.  <br> <br>
+                        A competitor analysis focuses on identifying market participants positioned to 
+                        encroach on your opportunity and isolates each participants operational 
+                        strengths, substantive weaknesses, product offerings, market dominance, and 
+                        missed opportunities
                     </p>
                 </div>
             </div>
@@ -111,34 +117,22 @@
    				    <div class="recent-work ">
    				        <div class="container">
 <div class="left-text">
-	<h3>CRM Risk Management Strategies</h3>
+	<h3>Benefits of conducting a competitor analysis</h3>
 	<p class="para">    </p>
 </div>
-<p class="para"><h4>1. Risk Avoidance </h4>
-Risk avoidance involves strategies to avoid the identified risks altogether. You're taking proactive
-steps to eliminate the risk by putting the right measures in place to start with. Some examples of 
-this might be ensuring your requirements are clear so that customizations are developed correctly the 
-first time or performing product selection against your requirements so that the CRM you choose is 
-already known to meet the majority of your needs. </p>
+<p class="para">1. Analyzing your business against your competitors can help you in many ways. For example, 
+    it will reveal which areas of your business, product or service need improvement. With this knowledge,
+    you can adjust your processes to better serve your target market and increase profit.
+    It can also show you new strategic opportunities to enhance your products or services and grow your
+    business.</p>
               <br>      <br>   
               
-       <p class="para"><h4>2. Risk Transfer</h4> 
-    Transferring the risk involves sharing or completely shifting the ownership of the risk with a 
-    third party. In most cases, this transferring of risk is specific to financial risks that are taken 
-    on by an organization like an insurance company, a GDPR consultant, etc. When you transfer risk, 
-    you are shifting the liability in addition to the ownership of the risk itself.</p>                                 
+       <p class="para">2.Once you conduct a competitor analysis, you can use it for benchmarking and measuring future growth.</p>                                 
         <br><br>
-        <p class="para"><h4>3. Risk Mitigation </h4> 
-      When you work to mitigate risk, you are trying to lessen its potential effect by lowering its 
-      exposure below your acceptable threshold. You defined whats acceptable during the initial 
-      phases of your risk analysis, so now you'll use those standards to help you target a response</p>   
+        <p class="para">3. Routine analyses will reveal market trends to keep track of and new players to be aware of.</p>   
         <br>      <br> 
-        <p class="para"><h4>4. Risk Acceptance</h4>
-           we must accept the things we cannot change. In certain cases, you will have to do just that.
-           It's not ideal of course, but it is a necessary strategy for two main situations: Either 
-           the risks are minor enough that you can choose to handle them in the moment if they come 
-           up, or the necessary response is simply not possible due to lack of resources, budget, 
-           or time.
+        <p class="para">4. It will also help reveal who your current competitors are throughout 
+            every stage of business. Be sure to keep your analyses up to date. 
 </p>
 <br><br>
  
@@ -150,27 +144,38 @@ already known to meet the majority of your needs. </p>
    				    <div class="recent-work ">
    				        <div class="container">
 <div class="left-text">
-	<h3>How to reduce risk when choosing & implementing CRM</h3>
+	<h3>Components of competitor analysis </h3>
 	<p class="para">    </p>
 </div>
-   <p class="para"><h4>1. Your CRM partner</h4>
-if you are new to CRM, you will need much more guidance from your CRM partner, so you
-should choose one with an approach that matches your needs.</p><br><br>
+   <p class="para"><h4>1. Feature matrix</h4>
+Find all the features that each direct competitor's product or service has. Keep this in a
+competitor insight spreadsheet to visualize how companies stack up against one another.</p><br><br>
 
- <p class="para"><h4>2. The CRM software</h4>
-The CRM software
-Taking the risk out of the software you choose to run involves a lot of checks which will vary
-depending on what you need from CRM.</p><br><br>
+ <p class="para"><h4>2. Market share percentage</h4>
+This helps to identify who your main competitors in your market are. Don't exclude larger 
+competitors completely, as they have much to teach about how to succeed in your industry.</p><br><br>
 
-<p class="para"><h4>3. The CRM vendor</h4>
-When thinking about the company that owns and manages the product, you want to be sure that, 
-their reputation within the community on their own customer centricity is strong.</p><br><br>
+<p class="para"><h4>3. Marketing</h4>
+What type of marketing strategy does each competitor employ? Look at competitors
+websites, social media presence, the type of events they sponsor, their SEO strategies, 
+their taglines and current marketing campaigns.</p><br><br>
 
-<p class="para"><h4>4. Your people </h4>
-Many professionals in the CRM industry believe that the biggest risk involved in adopting a CRM culture 
-is not the software involved, but rather, the openness and ability to embrace change within companies 
-considering CRM. </p><br><br>
+<p class="para"><h4>4. Pricing</h4>
+Pinpoint how much your competitors charge and where they fall on the quantity vs. quality spectrum. </p><br><br>
 
+ <p class="para"><h4>5. Differentiators</h4>
+ What makes your competitors unique, and what do they advertise as their best qualities. </p><br><br> 
+ 
+ <p class="para"><h4>6. Strengths </h4>
+  Identify what your competitors are doing well and what works for them. </p><br><br> 
+ 
+ <p class="para"><h4>7. Customer reviews</h4>
+ Analyze your competitors' customer reviews, recording both pros and cons. 
+ In a 5-star system, look at 5-star, 3-star and 1-star reviews. </p><br><br> 
+ 
+  <p class="para"><h4>8. Culture</h4>
+ Evaluate your competitors' objectives, employee satisfaction and company culture. </p><br><br> 
+</div>
 </div>
 </div>                                                             
 </section>

@@ -12,7 +12,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-   <title>Best CRM Software | Secure And Reliable :: indsaccrm.com</title>
+   <title>Best CRM Software |Customer On-boarding  :: indsaccrm.com</title>
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700&display=swap" rel="stylesheet">
@@ -83,7 +83,7 @@
                 <ul class="breadcrumbs-custom-path">
                     <li><a href="../index.jsp">Home <span class="fa fa-angle-right" aria-hidden="true"></span></a></li>
                      <li><a href="whychooseus.jsp">Why Choose INDSAC-CRM <span class="fa fa-angle-right" aria-hidden="true"></span></a></li>
-                    <li class="active"> Secure And Reliable </li>
+                    <li class="active"> Customer On-boarding  </li>
                 </ul>
             </div>
         </div>
@@ -94,15 +94,16 @@
         <div class="container">
             <div class="cwp4-two row">
             <div class="col-xl-6 cwp4-image ">
-                <img src="assets/images/s3.gif" alt="product" class="img-responsive ">
+                <img src="assets/images/onb1.jpg" alt="product" class="img-responsive ">
             </div>
                 <div class="cwp4-text col-xl-6">
-                    <h4>Secure And Reliable</h4>
-                    <p class="para">CRM systems are one of the most useful applications for every organization. 
-                     <br>  <br>   They enable businesses to store customer data, which can be utilized to build meaningful 
-                        customer relationships, find new customers and grow revenues.<br><br>Since CRM 
-                        data contains such valuable information, it's extremely tantalizing for hackers
-                        who are looking to steal personal information.
+                    <h4>Customer On-boarding</h4>
+                    <p class="para">Customer onboarding is the nurturing process that gets new users and
+                        customers acquainted and comfortable with your product. <br><br>
+                        An exceptional customer onboarding program involves step-by-step tutorials,
+                        helpful guidance and support, and celebrations.
+                        <br><br>when a customer achieves success
+                        milestones using your product or service.
                       <br>  <br>
                 </div>
             </div>
@@ -113,29 +114,29 @@
    				    <div class="recent-work ">
    				        <div class="container">
 <div class="left-text">
-    <h3>Ways to secure your CRM data</h3>
+    <h3>The Customer On-boarding Process</h3>
 	<p class="para">    </p>
 </div>
-<p class="para"><h4>1. Monitor CRM Activity Regularly </h4>
- You don't need to monitor every activity of your employees as they use CRM system.
- Using security alerts that notify you in case of unauthorized access or security breaches.
- Real-time online dashboards to regularly monitor the security status of your
- CRM system and company network.   </p>
+<p class="para"><h4>1. Welcome Email </h4>
+ Your first correspondence with your new customer needs to be a positive one. Congratulate them on 
+ their new purchase. Thank them for choosing you over 
+ the other options and let them know how excited you are to have them on board.</p>
               <br>      <br>                                
-       <p class="para"><h4>2. Secure Your Infrastructure </h4> 
-     It's also important to secure the very IT infrastructure that hosts your CRM data. 
-     We create multiple layers of security that makes it more difficult for hackers to get in. 
-     Start by installing a reputed firewall that will enable you to precisely control data access 
-     and permissions. </p>                                 
+       <p class="para"><h4>2. Greeting Message </h4> 
+     Different from a welcome email, a greeting message is an in-app welcome message that greets users 
+     on their first login and encourages them to take the first step in setting up their account. 
+     It's best practice to ask the user to do only one thing 
+     (i.e. change their password or turn on email notifications) and should include a video to guide them. </p>                                 
         <br><br>
-        <p class="para"><h4>3. Use Passwords Effectively  </h4> 
-       One of the most common reasons for which a system can be hacked is that it uses common, 
-       easy-to-guess passwords. Ensure that your employees use strong passwords (a strong password 
-       is a sentence that's at least 12 characters long) and use a unique password for each account. </p>   
+        <p class="para"><h4>3. Product Setup  </h4> 
+      Create a guided tutorial or setup wizard to take your customers through the setup process, 
+      step-by-step. Make this tutorial short and optional. Guided setup is most commonly needed when 
+      there are multiple steps or when steps need to be taken in a particular order. </p>   
         <br>      <br> 
-<p class="para"><h4>4. Educate Your Employees</h4>
-Many data breaches happen because employees unintentionally or carelessly pass around documents, data and even passwords.
-Train your employees on using their hardware, software and data and the right way to safeguard against breaches. </p>
+<p class="para"><h4>4. Feature Callouts</h4>
+Use a tip banner that guides users around the product and calls out any important features that 
+they should know about. 
+The banners serve as an introduction, not a substitute for an actual tutorial. </p>
 </div>
 </div>                                                             
 </section>

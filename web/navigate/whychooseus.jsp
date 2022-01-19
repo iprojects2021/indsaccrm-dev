@@ -161,7 +161,7 @@ are so confident in the strength of our product that we offer flexible, month-to
                 <div class="grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1">
                     <div class="back-color">
                     <span class="fa fa-paper-plane" aria-hidden="true"></span>
-                    <h4><a href="aboutus.jsp" class="title-head">Quick onboarding</a></h4>
+                    <h4><a href="coustomeronbording.jsp" class="title-head">Customer On-boarding</a></h4>
                     <p class="para">Worried about migrating from your existing customer relationship management solutions. Our migration system, switch, 
 					helps you bring all your existing sales data into INDSAC CRM in just a few clicks.</p>
                 </div>
@@ -169,7 +169,7 @@ are so confident in the strength of our product that we offer flexible, month-to
                 <div class=" grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1">
                     <div class="back-color">
                     <span class="fa fa-inr" aria-hidden="true"></span>
-                    <h4><a href="aboutus.jsp" class="title-head"> No hidden costs</a></h4>
+                    <h4><a href="costofcrm.jsp" class="title-head"> No hidden costs</a></h4>
                     <p class="para">With INDSAC CRM, there are no forced contracts or additional surprise costs. What you pay for is what you get. 
 					The pricing is flexible as well you can opt to pay either monthly or annually.</p>
                 </div>

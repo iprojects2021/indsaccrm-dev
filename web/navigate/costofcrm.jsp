@@ -12,7 +12,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-   <title>Best CRM Software | Secure And Reliable :: indsaccrm.com</title>
+   <title>Best CRM Software | No Hidden Costs :: indsaccrm.com</title>
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700&display=swap" rel="stylesheet">
@@ -97,12 +97,10 @@
                 <img src="assets/images/s3.gif" alt="product" class="img-responsive ">
             </div>
                 <div class="cwp4-text col-xl-6">
-                    <h4>Secure And Reliable</h4>
-                    <p class="para">CRM systems are one of the most useful applications for every organization. 
-                     <br>  <br>   They enable businesses to store customer data, which can be utilized to build meaningful 
-                        customer relationships, find new customers and grow revenues.<br><br>Since CRM 
-                        data contains such valuable information, it's extremely tantalizing for hackers
-                        who are looking to steal personal information.
+                    <h4>No hidden costs</h4>
+                    <p class="para">CRM vendors have different options on how they price their software and services.  
+                     <br>  <br>CRM vendors have different options on how they price their software and services. <br><br>Since CRM 
+                         It can change the dynamics of the total cost of the application.
                       <br>  <br>
                 </div>
             </div>
@@ -113,29 +111,31 @@
    				    <div class="recent-work ">
    				        <div class="container">
 <div class="left-text">
-    <h3>Ways to secure your CRM data</h3>
+    <h3>CRM Pricing Base On Following Factors</h3>
 	<p class="para">    </p>
 </div>
-<p class="para"><h4>1. Monitor CRM Activity Regularly </h4>
- You don't need to monitor every activity of your employees as they use CRM system.
- Using security alerts that notify you in case of unauthorized access or security breaches.
- Real-time online dashboards to regularly monitor the security status of your
- CRM system and company network.   </p>
+<p class="para"><h4>1. CRM Training</h4>
+Training is an essential part of installing a CRM system. If your users don't know how to 
+use the software, they want use it at all. So it's very important that all of your users are 
+trained. The ideal situation is to have your business processes already set up in the system before 
+everyone is trained. And the training is by role or team.</p>
               <br>      <br>                                
-       <p class="para"><h4>2. Secure Your Infrastructure </h4> 
-     It's also important to secure the very IT infrastructure that hosts your CRM data. 
-     We create multiple layers of security that makes it more difficult for hackers to get in. 
-     Start by installing a reputed firewall that will enable you to precisely control data access 
-     and permissions. </p>                                 
+       <p class="para"><h4>2. CRM Integration </h4> 
+     Most companies today want to integrate or share data across all their major software applications. 
+     Connecting systems creates one central location (CRM) where important information can access by 
+     all team members. 
+     And also prevents double or trip data entry and keeps everyone and all records up to date. </p>                                 
         <br><br>
-        <p class="para"><h4>3. Use Passwords Effectively  </h4> 
-       One of the most common reasons for which a system can be hacked is that it uses common, 
-       easy-to-guess passwords. Ensure that your employees use strong passwords (a strong password 
-       is a sentence that's at least 12 characters long) and use a unique password for each account. </p>   
+        <p class="para"><h4>3. CRM Implementation   </h4> 
+   Implementation consists of configuring and customizing your CRM system so that it fits your 
+   business model. This makes the interface more intuitive and users will be able to immediately 
+   start using the system without much of a learning curve.
+Implementation services are a one-time, upfront fee and are priced based on the number of
+man-hours needed. </p>   
         <br>      <br> 
-<p class="para"><h4>4. Educate Your Employees</h4>
-Many data breaches happen because employees unintentionally or carelessly pass around documents, data and even passwords.
-Train your employees on using their hardware, software and data and the right way to safeguard against breaches. </p>
+<p class="para"><h4>4. Additional Services</h4>
+The cost of the subscription per user is just the starting point for CRM implementation. Most CRM
+allow customization with third-party add-ons, and the price tag for these can be considerable.</p>
 </div>
 </div>                                                             
 </section>

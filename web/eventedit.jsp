@@ -142,9 +142,7 @@ Statement st=c.createStatement();
         
        }
         %>
-    
-    
-    
+  
     
 <%        String warningmsg="",successmsg="";
           String al[]=new String[35];

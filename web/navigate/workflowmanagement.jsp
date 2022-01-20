@@ -12,7 +12,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>E-Mail Integration | Best CRM Software | Indsac Crm :: indsaccrm.com</title>
+    <title>Workflow Management | Best CRM Software |Telecommunication Industry :: indsaccrm.com</title>
 
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
@@ -84,8 +84,8 @@
             <div class="container seen-w3">
                 <ul class="breadcrumbs-custom-path">
                     <li><a href="../index.jsp">Home <span class="fa fa-angle-right" aria-hidden="true"></span></a></li>
-                    <li ><a href="services.jsp">Services <span class="fa fa-angle-right" aria-hidden="true"></span></a></li>
-					 <li class="active">E-Mail Integration</li>
+                    <li><a href="Pharmaceutical.jsp">Telecommunication Industry<span class="fa fa-angle-right" aria-hidden="true"></span></a></li>
+                    <li class="active">Workflow Management</li>
                 </ul>
             </div>
         </div>
@@ -96,19 +96,19 @@
         <div class="container">
 		      <div class="main-titles-head text-center">
                 <h3 class="header-name">
-                   E-Mail Integration
+                  INDSAC-CRM Workflow Management
                 </h3> 
 
             </div>
             <div class="cwp4-two row">
             <div class="col-xl-6 cwp4-image ">
-                <img src="assets/images/email1.png" alt="product" class="img-responsive ">
+                <img src="assets/images/wm2.jpg" alt="product" class="img-responsive ">
             </div>
                 <div class="cwp4-text col-xl-6">
                    
-                    <p class="para"> Email integration in your CRM lets you automatically capture your messages to and from your contacts to your account.  </p><br>
-                       <p class="para">  INDSAC-CRM automatically associates all e-mails with their respective customer records, so you'll never have to comb through a mountain of messages to send your next round of follow-ups.</p><br>
-                     <p class="para"> These tools offer you a wide variety of additional ways to engage with your customers and subscribers at different points in the campaign..</p>
+                    <p class="para">With INDSAC-CRM workflows, you can automate several sales, marketing, customer support and account management tasks, thus freeing your team's time for more complex, meaningful tasks. </p>
+                <br> <p class="para">   CRM workflows can also alert your team to major lead and prospect updates that could help you for your next customer or client. Best of all, CRM workflows are easy to set up.</p><br>
+                        <p class="para"> Workflow management helps you to automate your sales, marketing and support. You can automatically assign tasks to users, based on the criteria defined in the rules and update certain fields. </p>
                 </div>
             </div>
         </div>
@@ -121,42 +121,38 @@
             <div class="cwp4-two row">
           
                 <div class="cwp4-text col-xl-6">
-                    <h4>Benefits of E-Mail Integration</h4>
-                    <p class="para"> 1. CRM makes the outreach highly appealing due to collecting prospects personal data, creating a holistic view of a prospect, and crafting e-mails based on it. <br><br>
-                    2. CRM has pre-designed email templates, which allow customers to create visually appealing branded messages.<br> <br>
-                    3. Saves any documents attached to an email to the company account record. <br><br>
-                    4. Synchronizes in real-time so your team will always see the latest correspondence.<br><br>
-                    5. Automatically create new customer support cases from incoming email.<br><br>
-                    6. Automatically capture e-mails to and from your CRM contacts to your activities timeline.</p>
+                    <h4>Benefits of Workflow Management</h4>
+                    <p class="para"> 1. Improves efficiency by eliminating the manual work of assigning tasks.<br><br>
+                    2. Reduces operating costs. <br> <br>
+                    3. Improves business processes through standardized working methods.<br><br>
+                    4. You can automatically assign tasks to users, based on the criteria defined in the rules and update certain fields.<br><br>
+                   
+                  </p>
                    </div>
 	 <div class="col-xl-6 cwp4-image ">
-                <img src="assets/images/email2.png" alt="product" class="img-responsive ">
+                <img src="assets/images/wm1.png" alt="product" class="img-responsive ">
             </div>
             </div>
-           </div><br><br><br>
-        <div class="main-titles-head text-center">
-
-                <h3 class="header-name">
-				INDSAC-CRM email integration for complete transparency<br> of every interaction across your team.
-                </h3>
-            </div>
+           </div><br>   
     </div>
 </section>
    		
 <section class="w3l-content-with-photo-4">
     <div class="content-with-photo4-block">
         <div class="container">
+            <div class="left-text">
+	<h3 class="header-name">INDSAC-CRM can automate a wide range of tasks</h3><br><br>
+        </div>
             <div class="cwp4-two row">
                 <div class="cwp4-text col-xl-6">
-                     <h3 class="header-name">Automatic Email Capture</h3> <br>
-                   <p class="para"> Our email integration creates a history of every interaction with your prospects and customers. 
-                       Your system automatically captures your incoming and outgoing e-mails and stores them in your account activities.
-                   <br>The -emails are stored in chronological order, with a summary grid letting you select what information to display and store any attached documents.
-                   </p>
+                     <h3 class="header-name">Email Newsletters </h3> <br>
+                   <p class="para">Any time a customer joins your email list, your CRM can set up an automated workflow to send the 
+                       new subscriber an email thanking them for joining and informing them what they can expect from future newsletters or emails from your company. Your workflow could also include internal measures, such as generating a 
+                       CRM file for the customer and appropriately scoring your new lead.</p>
                 </div>
                 
                 <div class="col-xl-6 cwp4-image ">
-                <img src="assets/images/email3.jpg" alt="product" class="img-responsive ">
+                <img src="assets/images/wm3.jpg" alt="product" class="img-responsive ">
             </div>
 	
             </div>
@@ -170,13 +166,12 @@
         <div class="container">
             <div class="cwp4-two row">
             <div class="col-xl-6 cwp4-image ">
-                <img src="assets/images/email7.jpg" alt="product" class="img-responsive ">
+                <img src="assets/images/wm4.png" alt="product" class="img-responsive ">
             </div>
                 <div class="cwp4-text col-xl-6">
-                    <h3 class="header-name">Email Attachments </h3> <br>
-                <p class="para">The CRM will store any attached documents to the email record. 
-                    This might be your proposal documents, meeting minutes, quotations or images. The volume of documents stored is determined by your CRM price plan.</p>
-                    
+                    <h3 class="header-name">Lead scoring </h3> <br>
+                <p class="para">CRM can also score leads any time they take actions that move them through the sales funnel. 
+                    It can also notify your sales team of worthwhile lead follow-up opportunities.</p>
                     </div>
                 </div>
             </div>
@@ -188,14 +183,14 @@
         <div class="container">
             <div class="cwp4-two row">
                 <div class="cwp4-text col-xl-6">
-                     <h3 class="header-name">Real-time Sync</h3> <br>
-                   <p class="para"> Email integration works across the email accounts of all your CRM users and all your CRM contacts. 
-                       As it synchronizes in real-time, you'll be able to see all the messages to and from your customers, along with other activities, whether you're in the office or out on the road.
-                   </p>
+                     <h3 class="header-name">Lead alerts</h3> <br>
+                   <p class="para"> CRM workflows can notify sales managers when leads that meet certain criteria 
+                       are entered into your database. You can also set up workflows that alert your managers to 
+                       key changes with these accounts or when urgent follow-up is needed.</p>
                 </div>
                 
                 <div class="col-xl-6 cwp4-image ">
-                <img src="assets/images/email10.jpg" alt="product" class="img-responsive ">
+                <img src="assets/images/wm5.gif" alt="product" class="img-responsive ">
             </div>
 	
             </div>
@@ -208,38 +203,18 @@
         <div class="container">
             <div class="cwp4-two row">
             <div class="col-xl-6 cwp4-image ">
-                <img src="assets/images/email4.png" alt="product" class="img-responsive ">
+                <img src="assets/images/wm6.gif" alt="product" class="img-responsive ">
             </div>
                 <div class="cwp4-text col-xl-6">
-                    <h3 class="header-name">Email status updates </h3> <br>
-                <p class="para">INDSAC-CRM informs you when your e-mails were delivered, if they've been opened, and when they were read. 
-                    You can also use advanced filters to identify leads who haven't responded within a certain time-frame as well as leads that are responding well and are ready to close. 
-                    This analysis allows you to strategically plan your follow-ups for maximum benefit.</p>
+                    <h3 class="header-name">Customer service</h3> <br>
+                <p class="para">ith CRM workflows, you can automate the process through which help tickets get completed. 
+                    You can send customer service emails, flag customers for personal follow-up and alert relevant support reps.
+                    These workflows can also escalate and de-escalate issues or close help tickets.</p>
                     
                     </div>
                 </div>
             </div>
         </div>
-</section>
-
-<section class="w3l-content-with-photo-4">
-    <div class="content-with-photo4-block">
-        <div class="container">
-            <div class="cwp4-two row">
-                <div class="cwp4-text col-xl-6">
-                     <h3 class="header-name">Email Templates</h3> <br>
-                   <p class="para"> Templates are a quick, easy way to free yourself from the tedium of drafting e-mails. Design a template to suit your business, or choose from our gallery of handpicked templates and customize them with text, images, tables, and columns. 
-                       You can also get reports to find out which email templates had the best open rates and which ones failed to click. 
-                   </p>
-                </div>
-                
-                <div class="col-xl-6 cwp4-image ">
-                <img src="assets/images/email9.jpg" alt="product" class="img-responsive ">
-            </div>
-	
-            </div>
-        </div>
-    </div>
 </section>
 
 <%@include file="footer.jsp" %>

@@ -155,8 +155,28 @@
             </div><br><br>
             
  <div class="text-center">
-	<h3>Improve customer satisfaction with surveys</h3><br><br>
-     </div>
+   <h3 class="header-name">Instant Feedback</h3>
+     </div><br>
+            <p class="para">An instant customer feedback system is a key function of understanding what your customers 
+                think and feel, as well as understanding their interactions with your site and product. 
+                Customer feedback and reviews are more important than ever in today's ever-changing digital world.
+            Businesses of all sizes can benefit from customer feedback, but growing ones especially. </p>
+            <br><br><br>
+            <div class="cwp4-two row">
+            
+                <div class="cwp4-text col-xl-6">
+                    <h3 class="header-name"> Accurate Results </h3> <br>
+                <p class="para">With Feedback Management, customers don't have to leave the chat window to provide feedback. 
+                    Post-Chat Surveys reduce the need for the survey taker to recall information, ensuring that you're gathering accurate feedback.</p>
+                    </div>
+                
+                <div class="cwp4-text col-xl-6">
+                    <h3 class="header-name">  Capture Feedback </h3> <br>
+                <p class="para">Customer send their feedback via web link or email, then efficiently share insights 
+                    with your teams so you can deepen customer relationships and improve retention.</p>
+                    </div>
+                </div>
+            
         </div>
     </div>
 </section>

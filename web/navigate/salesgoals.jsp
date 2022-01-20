@@ -12,7 +12,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-   <title>Best CRM Software | Targets And Achievements :: indsaccrm.com</title>
+   <title>Best CRM Software | Sales Goals :: indsaccrm.com</title>
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700&display=swap" rel="stylesheet">
@@ -84,7 +84,7 @@
                     <li><a href="../index.jsp">Home <span class="fa fa-angle-right" aria-hidden="true"></span></a></li>
                     <li><a href="services.jsp">services <span class="fa fa-angle-right" aria-hidden="true"></span></a></li>
                     <li><a href="sales.jsp">Sales Automation<span class="fa fa-angle-right" aria-hidden="true"></span></a></li>
-                    <li class="active"> Targets And Achievements </li>
+                    <li class="active"> Sales Goals </li>
                 </ul>
             </div>
         </div>
@@ -95,15 +95,14 @@
         <div class="container">
             <div class="cwp4-two row">
             <div class="col-xl-6 cwp4-image ">
-                <img src="assets/images/planning.jpg" alt="product" class="img-responsive ">
+                <img src="assets/images/salesgoals.gif" alt="product" class="img-responsive ">
             </div>
                 <div class="cwp4-text col-xl-6">
-                    <h4>Targets And Achievements</h4>
-                    <p class="para">CRM Planning is a term used to describe all activities, strategies, and tools used by a company to 
-                        manage the way it interacts with its customer base.<br> <br>The right CRM strategy can help you build solid 
-                        relationships with your customers and increase customer loyalty and retention. 
-                      <br>  <br>However, for it to work, your strategy must align with your sales and marketing plan and your 
-                        customer service department.
+                    <h4>Sales Goals</h4>
+                    <p class="para">Goals provide a way to measure the success of your business. <br><br> If you're focussed on 
+                        closing deals or increasing revenue, goals help you understand what you need to accomplish and how 
+                        to take action.<br><br> With Sales Goals, you can define your sales objectives as 
+                        measurable goals in your CRM, track progress, and reach your targets.
                     </p>
                 </div>
             </div>
@@ -114,23 +113,30 @@
    				    <div class="recent-work ">
    				        <div class="container">
 <div class="left-text">
-	<h3>Key Elements Of CRM Planning</h3>
+	<h3>Sale CRM Goals</h3>
 	<p class="para">    </p>
 </div>
-<p class="para"><h4>1. Technology </h4>We used latest technology for developed CRM for our clients. 
-   Data is collected from the entire customer lifecycle, including marketing and sales platforms,
-    digital commerce, and customer service interactions.  </p>
+<p class="para"><h4>1.Increase customer retention</h4>Happy customers are loyal customers and they also offer good word of mouth advertising, which can be invaluable.
+One of the major benefits in mapping out your CRM plan with increased customer satisfaction as your
+primary goal is the fact that all other goals and objectives will invariably support this effort. 
+In this way, each method that you use or measure that you take will share a symbiotic relationship 
+with the rest. As a result, all of your investments in CRM will be supporting your goals in a balanced
+and seamless fashion.</p>
               <br>      <br>                                
-       <p class="para"><h4>2. Strategy </h4> 
-       Our CRM strategy should be based on clear goals and objectives. 
-       It should also align with coustomer company's positioning, culture, vision and values.  </p>                                 
+       <p class="para"><h4>2. Improve The Efficiency Of Your Business </h4> 
+       A good CRM platform will collect and organize a wealth of data pertaining to individual and group consumer profiles. Another part of these endeavors can be the implementation and use of knowledge management systems that increase the speed at which customer inquiries are addressed and problems are resolved. 
+       Greater levels of efficiency will also lead to improved client satisfaction.  </p>                                 
         <br><br>
-        <p class="para"><h4>3. Processes </h4> 
-       INDSAC-CRM strategy to work, all internal and external processes should be customer centric. 
- We provide the best possible customer experience. </p>   
+        <p class="para"><h4>3. Expand You Customer Base </h4> 
+       CRM program that is linked to a high-quality knowledge management platform will allow you to 
+       stay in contact with prospects that have yet to convert. It will also allow you to identify 
+       commonalities and relationships among the clients that you already have, so that you can hone and 
+       improve your future efforts in outreach. A larger customer base will allow for increased continuity 
+       in profits, even in a seasonal industry. </p>   
         <br>      <br> 
-<p class="para"><h4>4. People</h4>
-Developers focused on customer engagement.<br><br>
+<p class="para"><h4>4. Enhance Your Sales And Support Teams</h4>
+CRM helps you replace undesirable additions to your team or gives you a framework for increasing the customer service skills of existing employees, it is certain to 
+improve the benefits that hired workers are providing.<br><br>
 </div>
 </div>                                                             
 </section>

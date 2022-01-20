@@ -77,8 +77,8 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
-    <%  String vs=Poul.escapeHtml(request.getParameter("vs"));  %>
-   <%    
+    <%  
+String vs=Poul.escapeHtml(request.getParameter("vs"));     
               
          int ii=1,jj=0;
            String count123="0";
@@ -151,8 +151,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
    Connection con =Poul.getConnectionCRM();
   
     PreparedStatement smt=con.prepareStatement("select * from register");
-        smt.setString(1,usercid_adminid);
-        smt.setString(2,"customer");
+        
         ResultSet rs=smt.executeQuery();
    while(rs.next()){
        
@@ -341,6 +340,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
        <div class="modal fade" id="forgot-password">
           <div class="modal-dialog">
             <div class="modal-content">
+                <form action="ForgotPasswordGenerateLink" method="post">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span></button>
@@ -352,9 +352,10 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                   </div>
               </div>
               <div class="modal-footer">
-               
-                <button type="button" class="btn btn-primary">Generate Link</button>
+                  <input type="hidden" name="formtype" value="forgetpasswordsubmit">
+                <button type="submit" class="btn btn-primary">Generate Link</button>
               </div>
+                </form>
             </div>
             <!-- /.modal-content -->
           </div>

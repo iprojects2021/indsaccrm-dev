@@ -43,15 +43,22 @@ public class Poul {
 	return con;
     }  
 public static String getDirPath(){
-String path="E:\\LOG-DEV\\files\\crmfiles\\";
- return path;}
+ return "E:\\LOG-DEV\\files\\crmfiles\\";}
 public static String getProjectPath(){
-String path="E:\\indsac\\indsaccrm\\indsaccrm-dev\\web";//depend upon developer project location
-return path;}
-public static String getWeblogsDirPath(){
-String path="E:\\LOG-DEV\\files\\weblogs\\"; 
-return path;
+//depend upon developer project location
+return "E:\\indsac\\indsaccrm\\indsaccrm-dev\\web";
 }
+public static String getWeblogsDirPath(){ 
+return "E:\\LOG-DEV\\files\\weblogs\\";
+}
+
+public static String getDevServerLink(){
+    return  "http://103.171.180.74:33230/indsaccrm-dev/";
+}
+public static String getProdServerLink(){
+    return  "http://localhost:8084/indsaccrm-dev/";
+}
+
 //test environment end
 
 
@@ -84,6 +91,9 @@ return path;}
 public static String getWeblogsDirPath(){
    String path="/home/indsaccr/dev/weblogs/"; 
 return path;
+}
+public static String getProdServerLink(){
+    return  "https://indsaccrm.com/";
 }
  //prod server dev end
 */

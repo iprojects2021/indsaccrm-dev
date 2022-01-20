@@ -128,7 +128,7 @@
 customer service, and creating a strong connection with the customer. </p><br>
 <p class="para">  The main objectives of INDSAC-CRM : </p><br>
 <p class="para"> <ul>
-<li>1.  Improve business relationships </li><br>
+<li>1. Improve business relationships </li><br>
 <li>2. Connect with customers </li><br>
 <li>3. Streamline operational processes</li><br>
 <li>4. Increase productivity</li><br>
@@ -169,8 +169,8 @@ customer service, and creating a strong connection with the customer. </p><br>
 			   
                 <div class="grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1">
                     <div class="back-color">
-                         <a href=""><img class="img-responsive" src="assets/images/ph4.png" alt=" "></a>
-                        <h4><a href="Pharmaceutical.jsp" class="title-head">Integrated Customer Database</a></h4>
+                         <a href="DBIntigration.jsp"><img class="img-responsive" src="assets/images/ph4.png" alt=" "></a>
+                        <h4><a href="DBIntigration.jsp" class="title-head">Integrated Customer Database</a></h4>
                         <p class="para">INDSAC-CRM helps your sales team to save time while communicating with the cabinets.  The system will perform the actions for you so you can effectively use the details. </p>
                     </div>
                 </div>
@@ -187,8 +187,8 @@ customer service, and creating a strong connection with the customer. </p><br>
                
                 <div class="grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1 ">
                     <div class="back-color">
-                          <a href=""><img class="img-responsive" src="assets/images/ph6.png" alt=" "></a><br>
-                        <h4><a href="services.jsp" class="title-head">Operational Management </a></h4>
+                          <a href="OPManagement.jsp"><img class="img-responsive" src="assets/images/ph6.png" alt=" "></a><br>
+                        <h4><a href="OPManagement.jsp" class="title-head">Operational Management </a></h4>
                         <p class="para">INDSAC-CRM offers distinct features to manage operational tasks including sales forecast, supply chain management, quality control, and many more so, that you can deliver better customer services.   </p>
                     </div>
                 </div>

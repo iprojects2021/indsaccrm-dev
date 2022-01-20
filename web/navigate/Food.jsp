@@ -12,7 +12,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Best Customer Relationship Management Software | Industry :: indsaccrm.com</title>
+    <title>Best Customer Relationship Management Software | Food Industry :: indsaccrm.com</title>
 
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
@@ -149,7 +149,7 @@
                 <div class="grids-effect-2 col-lg-4 col-md-6 col-sm-6">
                     <div class="back-color">
                     <span class="fa fa-file-text-o" aria-hidden="true"></span>
-                    <h4><a href="" class="title-head">Managing Documents</a></h4>
+                    <h4><a href="Docmangement.jsp" class="title-head">Managing Documents</a></h4>
                     <p class="para">INDSAC 360 degree customer view strategic approach enabling businesses to offer the best customer experience across all channels.</p>
                 </div>
             </div>

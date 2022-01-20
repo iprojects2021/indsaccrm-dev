@@ -12,7 +12,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>E-Mail Integration | Best CRM Software | Indsac Crm :: indsaccrm.com</title>
+    <title>Operational Management | Best CRM Software |Pharmaceutical Industry :: indsaccrm.com</title>
 
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
@@ -84,8 +84,8 @@
             <div class="container seen-w3">
                 <ul class="breadcrumbs-custom-path">
                     <li><a href="../index.jsp">Home <span class="fa fa-angle-right" aria-hidden="true"></span></a></li>
-                    <li ><a href="services.jsp">Services <span class="fa fa-angle-right" aria-hidden="true"></span></a></li>
-					 <li class="active">E-Mail Integration</li>
+                    <li><a href="Pharmaceutical.jsp">Pharmaceutical Industry <span class="fa fa-angle-right" aria-hidden="true"></span></a></li>
+                    <li class="active">Operational Management</li>
                 </ul>
             </div>
         </div>
@@ -96,7 +96,7 @@
         <div class="container">
 		      <div class="main-titles-head text-center">
                 <h3 class="header-name">
-                   E-Mail Integration
+                  Operational Management
                 </h3> 
 
             </div>
@@ -106,9 +106,13 @@
             </div>
                 <div class="cwp4-text col-xl-6">
                    
-                    <p class="para"> Email integration in your CRM lets you automatically capture your messages to and from your contacts to your account.  </p><br>
-                       <p class="para">  INDSAC-CRM automatically associates all e-mails with their respective customer records, so you'll never have to comb through a mountain of messages to send your next round of follow-ups.</p><br>
-                     <p class="para"> These tools offer you a wide variety of additional ways to engage with your customers and subscribers at different points in the campaign..</p>
+                    <p class="para"> An operational CRM is designed to improve routine business operations and 
+                        securely store data on all your business activities with customers and prospects.</p>
+                 <br><br>     <p class="para">   CRM features enable businesses to measure, analyze, and tailor the customer journey 
+                        in real-time.</p><br><br> 
+ <p class="para"> A centralized system that supports the sales, marketing, and customer service functions
+     within a company that stores information on customers, leads, and employees using a shared interface. </p>
+
                 </div>
             </div>
         </div>
@@ -121,23 +125,23 @@
             <div class="cwp4-two row">
           
                 <div class="cwp4-text col-xl-6">
-                    <h4>Benefits of E-Mail Integration</h4>
-                    <p class="para"> 1. CRM makes the outreach highly appealing due to collecting prospects personal data, creating a holistic view of a prospect, and crafting e-mails based on it. <br><br>
-                    2. CRM has pre-designed email templates, which allow customers to create visually appealing branded messages.<br> <br>
-                    3. Saves any documents attached to an email to the company account record. <br><br>
-                    4. Synchronizes in real-time so your team will always see the latest correspondence.<br><br>
-                    5. Automatically create new customer support cases from incoming email.<br><br>
-                    6. Automatically capture e-mails to and from your CRM contacts to your activities timeline.</p>
+                    <h4>What makes operational CRM different?</h4>
+                    <p class="para"> 1. Primary Functions: Sales, Service, and Support.<br><br>
+                    2. Perfect for customer-facing functions. <br> <br>
+                    3. Connects marketing, sales, and customer service teams. <br><br>
+                    4. Automates many functions including scheduling, follow-ups, and contacts.<br><br>
+                    5. Facilitates customer self-service functions.<br><br>
+                  </p>
                    </div>
 	 <div class="col-xl-6 cwp4-image ">
-                <img src="assets/images/email2.png" alt="product" class="img-responsive ">
+                <img src="assets/images/op7.png" alt="product" class="img-responsive ">
             </div>
             </div>
            </div><br><br><br>
         <div class="main-titles-head text-center">
 
                 <h3 class="header-name">
-				INDSAC-CRM email integration for complete transparency<br> of every interaction across your team.
+				Operational CRM help you add a personal touch<br> without the personal effort. 
                 </h3>
             </div>
     </div>
@@ -148,15 +152,13 @@
         <div class="container">
             <div class="cwp4-two row">
                 <div class="cwp4-text col-xl-6">
-                     <h3 class="header-name">Automatic Email Capture</h3> <br>
-                   <p class="para"> Our email integration creates a history of every interaction with your prospects and customers. 
-                       Your system automatically captures your incoming and outgoing e-mails and stores them in your account activities.
-                   <br>The -emails are stored in chronological order, with a summary grid letting you select what information to display and store any attached documents.
-                   </p>
+                     <h3 class="header-name">Increased Customer Satisfaction </h3> <br>
+                   <p class="para"> An operational CRM provides all this data and more, so your customer service team can have 
+                       a holistic view of the customer's relationship with your company.</p>
                 </div>
                 
                 <div class="col-xl-6 cwp4-image ">
-                <img src="assets/images/email3.jpg" alt="product" class="img-responsive ">
+                <img src="assets/images/opm1.png" alt="product" class="img-responsive ">
             </div>
 	
             </div>
@@ -170,13 +172,13 @@
         <div class="container">
             <div class="cwp4-two row">
             <div class="col-xl-6 cwp4-image ">
-                <img src="assets/images/email7.jpg" alt="product" class="img-responsive ">
+                <img src="assets/images/opm2.jpg" alt="product" class="img-responsive ">
             </div>
                 <div class="cwp4-text col-xl-6">
-                    <h3 class="header-name">Email Attachments </h3> <br>
-                <p class="para">The CRM will store any attached documents to the email record. 
-                    This might be your proposal documents, meeting minutes, quotations or images. The volume of documents stored is determined by your CRM price plan.</p>
-                    
+                    <h3 class="header-name">Increase Revenue </h3> <br>
+                <p class="para">Operational CRMs are known to produce more than $8 of value for every $1 invested in them. 
+                    At an 8:1 ROI, you can't go wrong with a CRM for your business. 
+                    Scaling your sales team and giving them tools to sell and close better will undoubtedly increase your company's revenue.</p>
                     </div>
                 </div>
             </div>
@@ -188,14 +190,14 @@
         <div class="container">
             <div class="cwp4-two row">
                 <div class="cwp4-text col-xl-6">
-                     <h3 class="header-name">Real-time Sync</h3> <br>
-                   <p class="para"> Email integration works across the email accounts of all your CRM users and all your CRM contacts. 
-                       As it synchronizes in real-time, you'll be able to see all the messages to and from your customers, along with other activities, whether you're in the office or out on the road.
-                   </p>
+                     <h3 class="header-name">Increase internal communication</h3> <br>
+                   <p class="para"> When an organization has access to the same information it puts them all on the same field,
+                       playing the same game. The operational CRM's ability to capture, store, and disseminate data 
+                       makes it a great tool for inter-departmental communication and information sharing.  </p>
                 </div>
                 
                 <div class="col-xl-6 cwp4-image ">
-                <img src="assets/images/email10.jpg" alt="product" class="img-responsive ">
+                <img src="assets/images/opm3.png" alt="product" class="img-responsive ">
             </div>
 	
             </div>
@@ -208,38 +210,19 @@
         <div class="container">
             <div class="cwp4-two row">
             <div class="col-xl-6 cwp4-image ">
-                <img src="assets/images/email4.png" alt="product" class="img-responsive ">
+                <img src="assets/images/o[pm4.png" alt="product" class="img-responsive ">
             </div>
                 <div class="cwp4-text col-xl-6">
-                    <h3 class="header-name">Email status updates </h3> <br>
-                <p class="para">INDSAC-CRM informs you when your e-mails were delivered, if they've been opened, and when they were read. 
-                    You can also use advanced filters to identify leads who haven't responded within a certain time-frame as well as leads that are responding well and are ready to close. 
-                    This analysis allows you to strategically plan your follow-ups for maximum benefit.</p>
+                    <h3 class="header-name">Maximize up-selling <br>and cross-selling</h3> <br>
+                <p class="para">Operational CRM start capturing your customers data from the first touch-point and it maintains
+                    those records through the life-cycle of the customer, logging each sale, contact, and issue. 
+                    This sets up your sales team for the perfect up-sell and cross-sell opportunities. 
+                    With purchase history available to them, sales reps can use sales tactics tailored for each client.</p>
                     
                     </div>
                 </div>
             </div>
         </div>
-</section>
-
-<section class="w3l-content-with-photo-4">
-    <div class="content-with-photo4-block">
-        <div class="container">
-            <div class="cwp4-two row">
-                <div class="cwp4-text col-xl-6">
-                     <h3 class="header-name">Email Templates</h3> <br>
-                   <p class="para"> Templates are a quick, easy way to free yourself from the tedium of drafting e-mails. Design a template to suit your business, or choose from our gallery of handpicked templates and customize them with text, images, tables, and columns. 
-                       You can also get reports to find out which email templates had the best open rates and which ones failed to click. 
-                   </p>
-                </div>
-                
-                <div class="col-xl-6 cwp4-image ">
-                <img src="assets/images/email9.jpg" alt="product" class="img-responsive ">
-            </div>
-	
-            </div>
-        </div>
-    </div>
 </section>
 
 <%@include file="footer.jsp" %>

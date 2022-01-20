@@ -12,7 +12,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Best Customer Relationship Management Software | Resources :: indsaccrm.com</title>
+    <title>Best Customer Relationship Management Software | Why Choose INDSAC-CRM :: indsaccrm.com</title>
 
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
@@ -83,7 +83,7 @@
             <div class="container seen-w3">
                 <ul class="breadcrumbs-custom-path">
                     <li><a href="../index.jsp">Home <span class="fa fa-angle-right" aria-hidden="true"></span></a></li>
-                    <li class="active">Why Choose INDSAC-CRM?</li>
+                    <li class="active">Why Choose INDSAC-CRM ?</li>
                 </ul>
             </div>
         </div>
@@ -137,7 +137,7 @@ are so confident in the strength of our product that we offer flexible, month-to
                     
                     <div class="back-color">
                     <span class="fa fa-shield" aria-hidden="true"></span>
-                    <h4><a href="aboutus.jsp" class="title-head">Secure and reliable</a></h4>
+                    <h4><a href="security.jsp" class="title-head">Secure and reliable</a></h4>
                     <p class="para">With advanced security features like encryption, audit logs, IP restrictions, and two-factor authentication, INDSAC CRM conveniently protects 
 					your data, only allowing access to the users you authorize. </p>
                 </div>
@@ -145,7 +145,7 @@ are so confident in the strength of our product that we offer flexible, month-to
                 <div class=" grids-effect-2 col-lg-4 col-md-6 col-sm-6">
                     <div class="back-color">
                     <span class="fa fa-mobile" aria-hidden="true"></span>
-                    <h4><a href="aboutus.jsp" class="title-head">Mobile accessibility</a></h4>
+                    <h4><a href="digitalmobile.jsp" class="title-head">Mobile accessibility</a></h4>
                     <p class="para">If you have a sales team in the field, it's important to ensure that they have access to customer data at all times. 
 					INDSAC CRM allows them to stay on the move, close deals more effectively, and keep everyone in the loop. </p>
                     </div>
@@ -153,7 +153,7 @@ are so confident in the strength of our product that we offer flexible, month-to
                 <div class="grids-effect-2 col-lg-4 col-md-6 col-sm-6">
                     <div class="back-color">
                     <span class="fa fa-phone-square" aria-hidden="true"></span>
-                    <h4><a href="aboutus.jsp" class="title-head">Customer support</a></h4>
+                    <h4><a href="contact.jsp" class="title-head">Customer support</a></h4>
                     <p class="para">With our support system, you will have access to a team of highly skilled support engineers on standby 24 hours a day, all year long. 
 					They can assist you with all your issues, big and small, generating solutions in average time period.</p>
                 </div>
@@ -161,7 +161,7 @@ are so confident in the strength of our product that we offer flexible, month-to
                 <div class="grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1">
                     <div class="back-color">
                     <span class="fa fa-paper-plane" aria-hidden="true"></span>
-                    <h4><a href="aboutus.jsp" class="title-head">Quick onboarding</a></h4>
+                    <h4><a href="coustomeronbording.jsp" class="title-head">Customer On-boarding</a></h4>
                     <p class="para">Worried about migrating from your existing customer relationship management solutions. Our migration system, switch, 
 					helps you bring all your existing sales data into INDSAC CRM in just a few clicks.</p>
                 </div>
@@ -169,7 +169,7 @@ are so confident in the strength of our product that we offer flexible, month-to
                 <div class=" grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1">
                     <div class="back-color">
                     <span class="fa fa-inr" aria-hidden="true"></span>
-                    <h4><a href="aboutus.jsp" class="title-head"> No hidden costs</a></h4>
+                    <h4><a href="costofcrm.jsp" class="title-head"> No hidden costs</a></h4>
                     <p class="para">With INDSAC CRM, there are no forced contracts or additional surprise costs. What you pay for is what you get. 
 					The pricing is flexible as well you can opt to pay either monthly or annually.</p>
                 </div>
@@ -177,7 +177,7 @@ are so confident in the strength of our product that we offer flexible, month-to
                 <div class="grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1 ">
                     <div class="back-color">
                     <span class="fa fa-industry" aria-hidden="true"></span>
-                    <h4><a href="aboutus.jsp" class="title-head">Marketing</a></h4>
+                    <h4><a href="crmmarketing.jsp" class="title-head">Marketing</a></h4>
                     <p class="para">Marketing software to help you grow traffic, convert more visitors, and run complete inbound marketing campaigns at scale.</p>
                 </div>
             </div>

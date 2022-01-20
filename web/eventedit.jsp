@@ -111,12 +111,9 @@ Statement st=c.createStatement();
                       am=rsmd.getColumnName(13);
                        an=rsmd.getColumnName(14);
                         ap=rsmd.getColumnName(15);
-                      
-         
-         
-  st.addBatch("update events set   "+ad+"='"+subject+"',"+ae+"='"+datepicker+"',"+af+"='"+importance+"',"+ag+"='"+status+"',"+al+"='"+notes+"',"+am+"='"+assignedto+"'  where id='"+tid+"'");
    
-            
+  st.addBatch("update events set   "+ad+"='"+subject+"',"+ae+"='"+datepicker+"',"+af+"='"+importance+"',"+ag+"='"+status+"',"+al+"='"+notes+"',"+am+"='"+assignedto+"'  where id='"+tid+"'");
+       
        st.executeBatch(); 
         
              msg="success";    
@@ -145,11 +142,9 @@ Statement st=c.createStatement();
         
        }
         %>
+  
     
-    
-    
-    
-<%
+<%        String warningmsg="",successmsg="";
           String al[]=new String[35];
           String cid=request.getParameter("cid");
           String tid=request.getParameter("2a2e2a746964");
@@ -290,9 +285,9 @@ Statement st=c.createStatement();
                 </div>
                   <br><br>
 				<div class="form-group">
-                <label class="col-sm-2 control-label">Due Date</label>
+                <label for="inputEmail3" class="col-sm-2 control-label">Due Date:</label>
 
-                <div class="input-group date" class="col-sm-6">
+                <div class="input-group date" class="col-sm-10">
                   <div class="input-group-addon">
                     <i class="fa fa-calendar"></i>
                   </div> <% 
@@ -613,6 +608,22 @@ function goBack() {
         })
   
 </script>
+<script>
+  window.onload = function()        
+{     var x='<%=warningmsg.length()%>'
+      var y='<%=successmsg.length()%>'
+   
+     if(y>0){       
+    document.getElementById("alert-message-success").innerHTML = "<%=successmsg %>";
+     $('#show-success').modal('show')
+ }
+    
+    if(x>0){       
+    document.getElementById("alert-message-warning").innerHTML = "<%=warningmsg %>";
+     $('#show-warning').modal('show')
+ }
+ 
+}   </script> 
   
 
 </body>

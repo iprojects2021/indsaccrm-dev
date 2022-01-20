@@ -44,9 +44,14 @@
           String usercid_name=(String)session1.getAttribute("usercid_name");
           String usercid_adminid=(String)session1.getAttribute("usercid_adminid");
              String usercid_company=(String)session1.getAttribute("usercid_company");
+<<<<<<< HEAD
+          String usercid_website=(String)session1.getAttribute("usercid_website");
+          String currency=(String)session1.getAttribute("usercid_currency");
+=======
           String usercid_website=(String)session1.getAttribute("usercid_website"); 
           String currency=(String)session1.getAttribute("usercid_currency");
                 
+>>>>>>> devmaster
       
           String vid=Poul.escapeHtml(request.getParameter("vid"));	
 Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+request.getRemoteAddr()+" ,useradminid="+usercid_adminid+" ,usercid="+usercid_id+"  --Entering newexpense.jsp----------New Expense---");
@@ -144,12 +149,12 @@ Statement st=c.createStatement();
   <div class="content-wrapper">
       <%String msg=(String)session.getAttribute("submitmsg");if(msg!=null && msg.equals("success")){ %>
       <div class="alert alert-success alert-dismissable">
-    <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">?</a>
     <strong>Success!</strong> Lead detail submitted successfully.
   </div>
     <%}else if(msg!=null && msg.equals("fail")){%>
     <div class="alert alert-danger alert-dismissable">
-    <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">?</a>
     <strong>Failed!</strong> Something wrong please try again...
   </div>
     <%}
@@ -254,10 +259,21 @@ Statement st=c.createStatement();
                   	   
 		           	  <div class="form-group">
                   <label for="inputPassword3" class="col-sm-2 control-label">Amount<span style="color:red">*</span></label>
+<<<<<<< HEAD
+<div class="col-sm-10">
+                <div class="input-group date">
+                  <div class="input-group-addon">
+                    <i class="fa fa-fw fa-<%=currency%>"></i>
+=======
 
                   <div class="col-sm-10">
                     <input type="text" class="form-control" id="expenseamount" name="expenseamount" placeholder="Amount" autocomplete="off"  >
+>>>>>>> devmaster
                   </div>
+                    <input type="text" class="form-control pull-right"  id="expenseamount" name="expenseamount" placeholder="Amount" required="" autocomplete="off">
+                </div>
+</div>
+                  
                 </div>
                         <div class="form-group">
                   <label for="inputPassword3" class="col-sm-2 control-label"> Status<span style="color:red">*</span></label>

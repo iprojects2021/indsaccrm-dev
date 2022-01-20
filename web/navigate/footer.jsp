@@ -76,7 +76,7 @@
 					</div>
 					
 				<div class="col-lg- col-md- col-12 copyright-grid ">
-					<p class="copy-footer-29">© 2020 | All rights reserved | Design by <a
+					<p class="copy-footer-29">© 2022 | All rights reserved | Design by <a
 							href="https://indsac.com" target="_blank"> INDSAC SOFTECH</a>
 					</p>
 				</div>

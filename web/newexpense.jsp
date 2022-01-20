@@ -143,12 +143,12 @@ Statement st=c.createStatement();
   <div class="content-wrapper">
       <%String msg=(String)session.getAttribute("submitmsg");if(msg!=null && msg.equals("success")){ %>
       <div class="alert alert-success alert-dismissable">
-    <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">?</a>
     <strong>Success!</strong> Lead detail submitted successfully.
   </div>
     <%}else if(msg!=null && msg.equals("fail")){%>
     <div class="alert alert-danger alert-dismissable">
-    <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">?</a>
     <strong>Failed!</strong> Something wrong please try again...
   </div>
     <%}

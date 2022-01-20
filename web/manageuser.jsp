@@ -32,8 +32,6 @@
        folder instead of downloading all of them to reduce the load. -->
   <link rel="stylesheet" href="dist/css/skins/_all-skins.min.css">
 
-
-
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
     <% HttpSession session1 = request.getSession(); // reuse existing
@@ -108,10 +106,7 @@ Statement st=con.createStatement();
        
        
               } else {msg3="mailnotsent";}
-          
-          
-          
-          
+ 
           }
           
           //Check if new user is already registered in register and validateuser
@@ -231,11 +226,7 @@ Statement st=c.createStatement();
  
 	
 	 <section class="content-header">
-    
-
-
-	
-	
+ 
 
 <form class="form-horizontal" action="manageuser.jsp" method="POST">
 
@@ -336,10 +327,6 @@ Statement st=c.createStatement();
         </div>
         <!--/.col (right) -->
 
-	   
-	   
-	   
-	   
       </div>
       <!-- /.box -->
 		
@@ -499,22 +486,22 @@ Statement st=c.createStatement();
        
        if(document.getElementById("fullname").value==""){
    
-            document.getElementById("alert-message").innerHTML = "Name cannot be empty";
+            document.getElementById("alert-message").innerHTML = "Full Name: Cannot be empty";
     $('#show-alert').modal('show')
        document.getElementById("fullname").focus();
            return false;
         }else if(document.getElementById("fullname").value!=""){
            
            if(!document.getElementById("fullname").value.match(/^[0-9 a-z.A-Z]+$/)){
-              document.getElementById("alert-message").innerHTML = "Only alphanumeric allowed";
+              document.getElementById("alert-message").innerHTML = "Full Name: Only alphanumeric allowed";
     $('#show-alert').modal('show')
            
            document.getElementById("fullname").focus();
      return false;
             } 
         } 
-        if(document.getElementById("fullname").value.length>30){
-                document.getElementById("alert-message").innerHTML = "Only 30 Characters allowed";
+        if(document.getElementById("fullname").value.length>45){
+                document.getElementById("alert-message").innerHTML = "Full Name: Only 45 Characters allowed";
     $('#show-alert').modal('show')
          
            // alert("Only 30 Characters allowed ");
@@ -522,8 +509,32 @@ Statement st=c.createStatement();
            
            return false;
        }
-     
-    
+        
+        if(document.getElementById("email").value==""){
+   
+            document.getElementById("alert-message").innerHTML = "Email: Cannot be empty";
+    $('#show-alert').modal('show')
+       document.getElementById("email").focus();
+           return false;
+        }else
+           if(document.getElementById("email").value!=""){
+           
+           if(!document.getElementById("email").value.match(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/)){
+                     document.getElementById("alert-message").innerHTML = "Enter valid email id";
+    $('#show-alert').modal('show')
+       
+           //alert("Only alphanumeric allowed");
+           document.getElementById("email").focus();
+     return false;
+            } else
+        if(document.getElementById("email").value.length>45){
+                         document.getElementById("alert-message").innerHTML = "Email id: Only 45 Characters allowed";
+    $('#show-alert').modal('show')
+          
+           document.getElementById("email").focus();
+           
+           return false;
+       }}
        
       
        return true;

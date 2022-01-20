@@ -175,8 +175,8 @@
                  <div class=" grids-effect-2 col-lg-4 col-md-6 col-sm-6">
 
                     <div class="back-color">
-                        <a href="TargetAchivments.jsp"><img class="img-responsive" src="assets/images/sa6.png" alt=" "></a><br>
-                        <h4><a href="TargetAchivments.jsp" class="title-head"> Targets and Achievements</a></h4><br>
+                        <a href="salesgoals.jsp"><img class="img-responsive" src="assets/images/sa6.png" alt=" "></a><br>
+                        <h4><a href="salesgoals.jsp" class="title-head"> Sales Goals</a></h4><br>
                         <p class="para">Using this feature you can set periodic targets for the sales reps and compare them against their achievements to measure productivity and efficiency. </p>
                     </div>
                 </div>

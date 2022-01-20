@@ -12,7 +12,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Best Customer Relationship Management Software | Resources :: indsaccrm.com</title>
+    <title>Best Customer Relationship Management Software | Telecommunication :: indsaccrm.com</title>
 
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
@@ -144,58 +144,58 @@ The telecom industry is spreading fast! New innovations are being discussed ever
 
                     <div class="back-color">
                         <a href="contactmanagement.jsp"><img class="img-responsive" src="assets/images/tel1.jpg" alt=" "></a>
-                        <h4><a href="Telecommunication.jsp" class="title-head">Handle customer interactions comprehensively</a></h4>
+                        <h4><a href="contactmanagement.jsp" class="title-head">Handle customer interactions comprehensively</a></h4>
                         <p class="para">Use one single tool to manage business processes such as task management, lead management, contact management etc. </p><br>
                     </div>
                 </div>
                 <div class=" grids-effect-2 col-lg-4 col-md-6 col-sm-6">
                     <div class="back-color">
-                          <a href="#page"><img class="img-responsive" src="assets/images/tel2.png" alt=" "></a>
-                        <h4><a href="Telecommunication.jsp" class="title-head">Analyze Your Competitors</a></h4>
+                          <a href="CompAnalysis.jsp"><img class="img-responsive" src="assets/images/tel2.png" alt=" "></a>
+                        <h4><a href="CompAnalysis.jsp" class="title-head">Analyze Your Competitors</a></h4>
                         <p class="para"> The telecom industry is an extremely competitive industry. The competitive analysis provides you with complete information like 
 						brand equity, distribution channels, post-purchase service etc.  </p>
                     </div>
                 </div>
                 <div class="grids-effect-2 col-lg-4 col-md-6 col-sm-6">
                     <div class="back-color">
-                          <a href="#page"><img class="img-responsive" src="assets/images/tel3.png" alt=" "></a>
-                        <h4><a href="Telecommunication.jsp" class="title-head">Future forecasting</a></h4>
+                          <a href="salesforcasting.jsp"><img class="img-responsive" src="assets/images/tel3.png" alt=" "></a>
+                        <h4><a href="salesforcasting.jsp" class="title-head">Sales forecasting</a></h4>
                         <p class="para">A CRM provide a telecom company a future overview by analyzing the historical data and performance of the company in previous years  
 						so, telecom company to prepare for the future tasks.</p>
                     </div>
                 </div>
                 <div class="grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1">
                     <div class="back-color">
-                         <a href="#page"><img class="img-responsive" src="assets/images/tel4.jpg" alt=" "></a>
-                        <h4><a href="Telecommunication.jsp" class="title-head">Minimizing the Risk</a></h4>
+                         <a href="Risk.jsp"><img class="img-responsive" src="assets/images/tel4.jpg" alt=" "></a>
+                        <h4><a href="Risk.jsp" class="title-head">Minimizing the Risk</a></h4>
                         <p class="para">The managers can benefit from this feature and they can have a look at all the interaction between a customer and their employee to rectify any problem the moment it occurs.</p>
                     </div>
                 </div>
                 <div class=" grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1">
                     <div class="back-color">
-                       <a href="#page"><img class="img-responsive" src="assets/images/tel5.jpg" alt=" "></a>
-                        <h4><a href="Telecommunication.jsp" class="title-head"> Instant Feedback</a></h4>
+                       <a href="Survey.jsp"><img class="img-responsive" src="assets/images/tel5.jpg" alt=" "></a>
+                        <h4><a href="Survey.jsp" class="title-head"> Instant Feedback</a></h4>
                         <p class="para">A CRM provides the sales manager a chance to track and analyze the individual performance of every sales individual. An instant feedback function improve their performance.</p><br>
                     </div>
                 </div>
                 <div class="grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1 ">
                     <div class="back-color">
-                          <a href="#page"><img class="img-responsive" src="assets/images/tel7.png" alt=" "></a>
-                        <h4><a href="Telecommunication.jsp" class="title-head">Streamline document handling </a></h4>
+                          <a href="Docmangement.jsp"><img class="img-responsive" src="assets/images/tel7.png" alt=" "></a>
+                        <h4><a href="Docmangement.jsp" class="title-head">Streamline document handling </a></h4>
                         <p class="para">By using CRM ready product produces a complete and fully consolidated set of functions to handle all types of documents. This includes controlling customer contracts, bills, collecting letters. </p>
                     </div>
                 </div>
                 <div class="grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1">
                     <div class="back-color">
-                          <a href="#page"><img class="img-responsive" src="assets/images/tel8.png" alt=" "></a>
-                        <h4><a href="Telecommunication.jsp" class="title-head">Workflow management</a></h4>
+                          <a href="workflowmanagement.jsp"><img class="img-responsive" src="assets/images/tel8.png" alt=" "></a>
+                        <h4><a href="workflowmanagement.jsp" class="title-head">Workflow management</a></h4>
                         <p class="para">CRM incorporates a workflow management engine to assure that promises to customers are kept, avoiding errors and customer complaints down the line. 
-						It handles critical business methods including order management, sales management.</p><br>
+		It handles critical business methods including order management, sales management.</p><br>
                     </div>
                 </div> 
                 <div class="grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1 ">
                     <div class="back-color">
-                       <a href="#page"><img class="img-responsive" src="assets/images/tel9.png" alt=" "></a>
+                       <a href="invoicemanagement.jsp"><img class="img-responsive" src="assets/images/tel9.png" alt=" "></a>
                         <h4><a href="invoicemanagement.jsp" class="title-head"> Billing System </h4>
                         <p class="para">Make billing information easy to access and transform. It allows to observe customer histories, check out invoices and  
 					 accepts payments, makes credit advice. </p>
@@ -203,8 +203,8 @@ The telecom industry is spreading fast! New innovations are being discussed ever
                 </div>
                 <div class="grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1 ">
                     <div class="back-color">
-                          <a href="#page"><img class="img-responsive" src="assets/images/tel10.png" alt=" "></a>
-                        <h4><a href="Telecommunication.jsp" class="title-head"> Expand Business</a></h4>
+                          <a href="ExpandBusi.jsp"><img class="img-responsive" src="assets/images/tel10.png" alt=" "></a>
+                        <h4><a href="ExpandBusi.jsp" class="title-head"> Expand Business</a></h4>
                         <p class="para"> It helps employees cultivate leads from seminars, conferences, trade shows, and webinars. 
 						It helps generate leads from email lists and website visitors. It allows managers to forward those leads to salespeople so that follow-up can be done immediately.</p><br><br>
                     </div>

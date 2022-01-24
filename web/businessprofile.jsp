@@ -250,7 +250,7 @@ Statement st=c.createStatement();
               <ul class="list-group list-group-unbordered">
                 
                 <li class="list-group-item">
-                  <strong><i class="fa fa-spinner margin-r-5"></i>Website</strong>
+                  <strong><i class="fa fa-diamond margin-r-5"></i>Website</strong>
 
               <p class="text-muted">
             xyz 
@@ -258,7 +258,7 @@ Statement st=c.createStatement();
                 </li>
 
                 <li class="list-group-item">
-                  <strong><i class=" fa fa-percent margin-r-5"></i>GSTIN No.</strong>
+                  <strong><i class=" fa fa-pencil margin-r-5"></i>GSTIN No.</strong>
 
                   <p class="text-muted">
                    AGB345ATH356ER1
@@ -293,7 +293,7 @@ Statement st=c.createStatement();
             </li>
 
             <li class="list-group-item">
-              <strong><i class="fa fa-mobile margin-r-5"></i> Phone No </strong>
+              <strong><i class="fa fa-phone margin-r-5"></i> Phone No </strong>
 
             <p class="text-muted">
           799814068

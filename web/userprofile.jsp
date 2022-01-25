@@ -20,7 +20,7 @@
     <head> <link rel="shortcut icon" href="dist/img/u.png" type="image/x-icon" /> 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title> Business Profile | INDSAC CRM</title>
+  <title> User Profile | INDSAC CRM</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.7 -->
@@ -243,14 +243,23 @@ Statement st=c.createStatement();
           <!-- Profile Image -->
           <div class="box box-primary">
             <div class="box-body box-profile">
-              <img class="profile-user-img img-responsive img-circle" src="dist/img/u.png" alt="User profile picture">
+              <img class="profile-user-img img-responsive img-circle" src="dist/img/up1.png" alt="User profile picture">
 
-              <h3 class="profile-username text-center">INDSAC CRM</h3>
+              <h3 class="profile-username text-center">Neha Choudhary</h3>
+
+              <p class="text-muted text-center">Software Developer</p>
 
               <ul class="list-group list-group-unbordered">
-                
                 <li class="list-group-item">
-                  <strong><i class="fa fa-diamond margin-r-5"></i>Website</strong>
+                  <strong><i class="fa fa-university margin-r-5"></i>Department</strong>
+
+              <p class="text-muted">
+                IT
+              </p>
+                </li>
+
+                <li class="list-group-item">
+                  <strong><i class="fa fa-diamond margin-r-5"></i>Manager</strong>
 
               <p class="text-muted">
             xyz 
@@ -258,42 +267,49 @@ Statement st=c.createStatement();
                 </li>
 
                 <li class="list-group-item">
-                  <strong><i class=" fa fa-pencil margin-r-5"></i>GSTIN No.</strong>
+                  <strong><i class=" fa fa-cube margin-r-5"></i>Projects</strong>
 
                   <p class="text-muted">
-                   AGB345ATH356ER1
+                    CRM 
                   </p>
                 </li>
 
                 <li class="list-group-item">
-                  <strong><i class="fa fa-user-circle margin-r-5"></i>Owner Name</strong>
+                  <strong><i class="fa fa-mortar-board margin-r-5"></i>Designation</strong>
 
               <p class="text-muted">
-            XYZ
+                Java Developer
               </p>
                 </li>
 
               </li>
 
               <li class="list-group-item">
-                <strong><i class="fa  fa-calendar-check-o margin-r-5"></i>Year of Established</strong>
+                <strong><i class="fa  fa-calendar-check-o margin-r-5"></i>Years of Experience</strong>
 
             <p class="text-muted">
             3.5 Yreas
             </p>
               </li>
 
-              
+              <li class="list-group-item">
+                <strong><i class=" fa fa-edit margin-r-5"></i>Skills</strong>
+
+            <p class="text-muted">
+          Coding , Designe, Testing
+            </p>
+              </li>
+
                 <li class="list-group-item">
-                <strong><i class="fa fa-envelope margin-r-5"></i> Business Email </strong>
+                <strong><i class="fa fa-envelope margin-r-5"></i> Email </strong>
 
               <p class="text-muted">
-             info@indsac.com
+               nehachaudhari1398@gmail.com
               </p>
             </li>
 
             <li class="list-group-item">
-              <strong><i class="fa fa-phone margin-r-5"></i> Phone No </strong>
+              <strong><i class="fa fa-mobile margin-r-5"></i> Mobile No </strong>
 
             <p class="text-muted">
           799814068
@@ -301,7 +317,7 @@ Statement st=c.createStatement();
           </li>
 
                 <li class="list-group-item">
-                <strong><i class="fa fa-map-marker margin-r-5"></i> Office Location</strong>
+                <strong><i class="fa fa-map-marker margin-r-5"></i> Location</strong>
 
               <p class="text-muted">Bangalore, India</p>
 
@@ -319,8 +335,8 @@ Statement st=c.createStatement();
         <div class="col-md-9">
           <div class="nav-tabs-custom">
             <ul class="nav nav-tabs">
-              <li class="active"><a href="#general" data-toggle="tab">General Info</a></li>
-              <li><a href="#businessdetails" data-toggle="tab">Business Details</a></li>
+              <li class="active"><a href="#general" data-toggle="tab">General</a></li>
+              <li><a href="#about" data-toggle="tab">About</a></li>
               
               <li><a href="#settings" data-toggle="tab">Settings</a></li>
             </ul>
@@ -329,35 +345,49 @@ Statement st=c.createStatement();
                 
                 <form class="form-horizontal">
                   <div class="form-group">
-                    <label for="inputName" class="col-sm-2 control-label">Business Name</label>
+                    <label for="inputName" class="col-sm-2 control-label">First Name</label>
   
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="inputName" placeholder=" Business Name">
+                      <input type="text" class="form-control" id="inputName" placeholder="Frist Name">
                     </div>
                   </div>
   
                   <div class="form-group">
-                    <label for="inputEmail" class="col-sm-2 control-label"> Business Email</label>
+                    <label for="inputName" class="col-sm-2 control-label">Last Name</label>
   
                     <div class="col-sm-10">
-                      <input type="email" class="form-control" id="inputEmail" placeholder=" Business Email">
+                      <input type="text" class="form-control" id="inputName" placeholder="Last Name">
+                    </div>
+                  </div>
+  
+                  <div class="form-group">
+                    <label for="inputEmail" class="col-sm-2 control-label">Email</label>
+  
+                    <div class="col-sm-10">
+                      <input type="email" class="form-control" id="inputEmail" placeholder="Email">
                     </div>
                   </div>
                   <div class="form-group">
-                    <label for="inputName" class="col-sm-2 control-label">Website</label>
+                    <label for="inputName" class="col-sm-2 control-label">Gender</label>
   
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="inputName" placeholder="Website">
+                      <input type="text" class="form-control" id="inputName" placeholder="Gender">
                     </div>
                   </div>
                   
-                    
-                    
-                  <div class="form-group">
-                    <label for="inputSkills" class="col-sm-2 control-label">Telephone No</label>
+                    <div class="form-group">
+                    <label for="inputName" class="col-sm-2 control-label">Date Of Birth</label>
   
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="inputSkills" placeholder="Telephone No">
+                      <input type="text" class="form-control" id="inputName" placeholder="Date Of Births">
+                    </div>
+                  </div>
+                    
+                  <div class="form-group">
+                    <label for="inputSkills" class="col-sm-2 control-label">Phone</label>
+  
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" id="inputSkills" placeholder="Phone">
                     </div>
                   </div>
   
@@ -370,18 +400,10 @@ Statement st=c.createStatement();
                   </div>
   
                   <div class="form-group">
-                    <label for="inputExperience" class="col-sm-2 control-label">Head Office Address</label>
+                    <label for="inputExperience" class="col-sm-2 control-label">Address</label>
   
                     <div class="col-sm-10">
-                      <textarea class="form-control" id="inputExperience" placeholder="Head Office Address"></textarea>
-                    </div>
-                  </div>
-                    
-                    <div class="form-group">
-                    <label for="inputExperience" class="col-sm-2 control-label"> Office Address</label>
-  
-                    <div class="col-sm-10">
-                      <textarea class="form-control" id="inputExperience" placeholder="Office Address"></textarea>
+                      <textarea class="form-control" id="inputExperience" placeholder="Address"></textarea>
                     </div>
                   </div>
   
@@ -460,79 +482,51 @@ Statement st=c.createStatement();
                 
               </div>
               <!-- /.tab-pane -->
-              <div class="tab-pane" id="businessdetails">
+              <div class="tab-pane" id="about">
                 <!-- The timeline -->
                 
                 <form class="form-horizontal">
-                     <div class="form-group">
-                    <label for="inputEmail" class="col-sm-2 control-label"> Person in Charge Details</label>
-  
-                    <div class="col-sm-10">
-                      <input type="text" class="form-control" id="inputEmail" placeholder=" Person in Charge Details ">
-                    </div>
-                  </div>
-                    
-                     <div class="form-group">
-                  <label for="inputPassword3" class="col-sm-2  control-label">Company Status</label>
-
-                  <div class="col-sm-10">
-                    <select id="status" name="status" class="form-control">
-                          <option value="Active"> Active</option>
-                        </select></div>
-                </div>
-                    
                   <div class="form-group">
-                    <label for="inputSkills" class="col-sm-2 control-label">No. of Branch with Location</label>
+                    <label for="inputSkills" class="col-sm-2 control-label">Manager</label>
   
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="inputSkills" placeholder="No. of Branch with Location">
+                      <input type="text" class="form-control" id="inputSkills" placeholder="Manager">
                     </div>
                   </div>
-                    
-                    <div class="form-group">
-                    <label for="inputName" class="col-sm-2 control-label">Type Of Business</label>
+                  
+                  <div class="form-group">
+                    <label for="inputName" class="col-sm-2 control-label">Project</label>
   
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="inputName" placeholder="Type Of Business">
+                      <input type="text" class="form-control" id="inputName" placeholder="Project">
                     </div>
                   </div>
-
-                 
 
                   <div class="form-group">
-                    <label for="inputName" class="col-sm-2 control-label">No. of Employees</label>
+                    <label for="inputEmail" class="col-sm-2 control-label">Designation</label>
   
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="inputName" placeholder="No. of Employees">
+                      <input type="text" class="form-control" id="inputEmail" placeholder="Designation">
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="inputName" class="col-sm-2 control-label">Years of Experience</label>
+  
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" id="inputName" placeholder="Years of Experience">
                     </div>
                   </div>
 
 
                   <div class="form-group">
-                    <label for="inputName" class="col-sm-2 control-label">Year Of Established</label>
+                    <label for="inputName" class="col-sm-2 control-label">Skills</label>
   
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="inputName" placeholder="Year Of Established">
+                      <input type="text" class="form-control" id="inputName" placeholder="Skills">
                     </div>
                   </div>
   
-                     <div class="form-group">
-                    <label for="inputName" class="col-sm-2 control-label">Gross Annual Turnover</label>
-  
-                    <div class="col-sm-10">
-                      <input type="text" class="form-control" id="inputName" placeholder="Gross Annual Turnover">
-                    </div>
-                  </div>
-                    
-                    
-                     <div class="form-group">
-                    <label for="inputName" class="col-sm-2 control-label">Annual Export Turnover</label>
-  
-                    <div class="col-sm-10">
-                      <input type="text" class="form-control" id="inputName" placeholder="Annual Export Turnover">
-                    </div>
-                  </div>
-                    
                   <div class="form-group">
                     <div class="col-sm-offset-2 col-sm-10">
                       <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-about1">
@@ -624,12 +618,12 @@ Statement st=c.createStatement();
                     
                   
                     <div class="box-header">
-                     <a  class="box-title">Logo Settings </a>
-                     <a  href="selectavatar.jsp" class="btn btn-info pull-right">Select Default Logo </a>
+                     <a  class="box-title">Profile Photo </a>
+                     <a  href="selectavatar.jsp" class="btn btn-info pull-right">Select Avatar </a>
                     </div>
 
                   <div class="form-group">
-                    <label for="inputSkills" class="col-sm-2 control-label">Upload Business Logo</label>
+                    <label for="inputSkills" class="col-sm-2 control-label">Upload Profile Photo</label>
                     <input type="file" id="exampleInputFile">
                   </div>
                   <div class="form-group">

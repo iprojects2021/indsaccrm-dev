@@ -464,19 +464,28 @@ Statement st=c.createStatement();
                 <!-- The timeline -->
                 
                 <form class="form-horizontal">
+                     <div class="form-group">
+                    <label for="inputEmail" class="col-sm-2 control-label"> Person in Charge Details</label>
+  
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" id="inputEmail" placeholder=" Person in Charge Details ">
+                    </div>
+                  </div>
+                    
+                     <div class="form-group">
+                  <label for="inputPassword3" class="col-sm-2  control-label">Company Status</label>
+
+                  <div class="col-sm-10">
+                    <select id="status" name="status" class="form-control">
+                          <option value="Active"> Active</option>
+                        </select></div>
+                </div>
+                    
                   <div class="form-group">
                     <label for="inputSkills" class="col-sm-2 control-label">No. of Branch with Location</label>
   
                     <div class="col-sm-10">
                       <input type="text" class="form-control" id="inputSkills" placeholder="No. of Branch with Location">
-                    </div>
-                  </div>
-                  
-                  <div class="form-group">
-                    <label for="inputName" class="col-sm-2 control-label">Company Status</label>
-  
-                    <div class="col-sm-10">
-                      <input type="text" class="form-control" id="inputName" placeholder="Company Status">
                     </div>
                   </div>
                     
@@ -488,13 +497,7 @@ Statement st=c.createStatement();
                     </div>
                   </div>
 
-                  <div class="form-group">
-                    <label for="inputEmail" class="col-sm-2 control-label"> Person in Charge Details</label>
-  
-                    <div class="col-sm-10">
-                      <input type="text" class="form-control" id="inputEmail" placeholder=" Person in Charge Details ">
-                    </div>
-                  </div>
+                 
 
                   <div class="form-group">
                     <label for="inputName" class="col-sm-2 control-label">No. of Employees</label>

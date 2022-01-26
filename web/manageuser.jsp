@@ -173,7 +173,7 @@ Statement st=con.createStatement();
         java.util.Date date=new java.util.Date();
         java.sql.Date sqlDate=new java.sql.Date(date.getTime());
         java.sql.Timestamp sqlTime=new java.sql.Timestamp(date.getTime());  
-        out.print("message:"+message+", code:"+", check:"+check+", email:"+email+", fullname:"+fullname);
+        
       String SR=null;
         try{
         
@@ -490,8 +490,15 @@ Statement st=c.createStatement();
     $('#show-alert').modal('show')
        document.getElementById("fullname").focus();
            return false;
-        }else if(document.getElementById("fullname").value!=""){
+        }else 
+            if(document.getElementById("fullname").value!=""){
+            if(document.getElementById("fullname").value.length>45){
+            document.getElementById("alert-message").innerHTML = "Full Name: Only 45 Characters allowed";
+    $('#show-alert').modal('show')
+           document.getElementById("fullname").focus();
            
+           return false;
+       }else           
            if(!document.getElementById("fullname").value.match(/^[0-9 a-z.A-Z]+$/)){
               document.getElementById("alert-message").innerHTML = "Full Name: Only alphanumeric allowed";
     $('#show-alert').modal('show')
@@ -500,15 +507,6 @@ Statement st=c.createStatement();
      return false;
             } 
         } 
-        if(document.getElementById("fullname").value.length>45){
-                document.getElementById("alert-message").innerHTML = "Full Name: Only 45 Characters allowed";
-    $('#show-alert').modal('show')
-         
-           // alert("Only 30 Characters allowed ");
-           document.getElementById("fullname").focus();
-           
-           return false;
-       }
         
         if(document.getElementById("email").value==""){
    
@@ -518,7 +516,14 @@ Statement st=c.createStatement();
            return false;
         }else
            if(document.getElementById("email").value!=""){
+           if(document.getElementById("email").value.length>45){
+                         document.getElementById("alert-message").innerHTML = "Email: Only 45 Characters allowed";
+    $('#show-alert').modal('show')
+          
+           document.getElementById("email").focus();
            
+           return false;
+       }else
            if(!document.getElementById("email").value.match(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/)){
                      document.getElementById("alert-message").innerHTML = "Enter valid email id";
     $('#show-alert').modal('show')
@@ -526,15 +531,9 @@ Statement st=c.createStatement();
            //alert("Only alphanumeric allowed");
            document.getElementById("email").focus();
      return false;
-            } else
-        if(document.getElementById("email").value.length>45){
-                         document.getElementById("alert-message").innerHTML = "Email id: Only 45 Characters allowed";
-    $('#show-alert').modal('show')
-          
-           document.getElementById("email").focus();
-           
-           return false;
-       }}
+            } 
+
+       }
        
       
        return true;

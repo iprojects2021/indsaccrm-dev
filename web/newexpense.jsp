@@ -44,11 +44,7 @@
           String usercid_name=(String)session1.getAttribute("usercid_name");
           String usercid_adminid=(String)session1.getAttribute("usercid_adminid");
              String usercid_company=(String)session1.getAttribute("usercid_company");
-          String usercid_website=(String)session1.getAttribute("usercid_website");
-          String currency=(String)session1.getAttribute("usercid_currency");
-          
-         
-          
+          String usercid_website=(String)session1.getAttribute("usercid_website"); 
       
           String vid=Poul.escapeHtml(request.getParameter("vid"));	
 Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+request.getRemoteAddr()+" ,useradminid="+usercid_adminid+" ,usercid="+usercid_id+"  --Entering newexpense.jsp----------New Expense---");
@@ -181,7 +177,7 @@ Statement st=c.createStatement();
                   </div>
                 </div>
                    <div class="form-group" >
-                  <label for="inputEmail3" class="col-sm-2 control-label">Subject<span style="color:red">*</span></label>
+                  <label for="inputEmail3" class="col-sm-2 control-label">Subject</label>
    <div class="col-sm-10" >
                     <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" autocomplete="off">
                 </div>
@@ -194,7 +190,7 @@ Statement st=c.createStatement();
                   <div class="input-group-addon">
                     <i class="fa fa-calendar"></i>
                   </div>
-                    <input type="text" class="form-control pull-right" name="expensedate" id="datepicker1" autocomplete="off">
+                    <input type="text" class="form-control pull-right" name="expensedate" id="datepicker1" required="" autocomplete="off">
                 </div>
 </div>
                 <!-- /.input group -->
@@ -256,21 +252,10 @@ Statement st=c.createStatement();
                   	   
 		           	  <div class="form-group">
                   <label for="inputPassword3" class="col-sm-2 control-label">Amount<span style="color:red">*</span></label>
-<<<<<<< HEAD
-<div class="col-sm-10">
-                <div class="input-group date">
-                  <div class="input-group-addon">
-                    <i class="fa fa-fw fa-<%=currency%>"></i>
-=======
 
                   <div class="col-sm-10">
-                    <input type="text" class="form-control" id="expenseamount" name="expenseamount" placeholder="Amount" autocomplete="off"  >
->>>>>>> devmaster
+                    <input type="text" class="form-control" id="expenseamount" name="expenseamount" placeholder="Amount" autocomplete="off" required="" >
                   </div>
-                    <input type="text" class="form-control pull-right"  id="expenseamount" name="expenseamount" placeholder="Amount" required="" autocomplete="off">
-                </div>
-</div>
-                  
                 </div>
                         <div class="form-group">
                   <label for="inputPassword3" class="col-sm-2 control-label"> Status<span style="color:red">*</span></label>
@@ -401,106 +386,58 @@ Statement st=c.createStatement();
   })
 </script>
 <script>
-   function validateForm(){ 
+   function validateForm(){
+     if(document.getElementById("productname").value==""){
+      if(document.getElementById("newproductname").value==""){
+       document.getElementById("alert-message").innerHTML = " Please Enter Product Name ";
+    $('#show-alert').modal('show')
+          document.getElementById("productname").focus();
+     return false;
+     }
+     }
+    
+          if(document.getElementById("productname").value!=""){
+           
+           if(!document.getElementById("productname").value.match(/^[0-9 a-z.A-Z]+$/)){
+                          document.getElementById("alert-message").innerHTML = " Product Name :Only alphabets allowed ";
+    $('#show-alert').modal('show')
+     
+          
+           document.getElementById("productname").focus();
+     return false;
+            } 
+        if(document.getElementById("productname").value.length>30){
+         document.getElementById("alert-message").innerHTML = " Product Name :Only 30 characters allowed ";
+    $('#show-alert').modal('show')
+               
+           document.getElementById("productname").focus();
+           
+           return false;
+       } 
+   } 
        
-              if(document.getElementById("subject").value==""){
-   
-            document.getElementById("alert-message").innerHTML = "Subject: Cannot be empty";
-          $('#show-alert').modal('show')
-         document.getElementById("subject").focus();
-           return false;
-        }else 
-            if(document.getElementById("subject").value!=""){
-            if(document.getElementById("subject").value.length>45){
-            document.getElementById("alert-message").innerHTML = "Subject: Only 45 Characters allowed";
-    $('#show-alert').modal('show')
-           document.getElementById("subject").focus();
+         if(document.getElementById("newproductname").value!=""){
            
-           return false;
-       }else           
-           if(!document.getElementById("subject").value.match(/^[0-9 a-z.A-Z]+$/)){
-              document.getElementById("alert-message").innerHTML = "Subject: Only alphanumeric allowed";
+           if(!document.getElementById("newproductname").value.match(/^[0-9 a-z.A-Z]+$/)){
+                          document.getElementById("alert-message").innerHTML = " New Product Name :Only alphabets allowed ";
     $('#show-alert').modal('show')
-           
-           document.getElementById("subject").focus();
+     
+          
+           document.getElementById("newproductname").focus();
      return false;
             } 
-        } 
-    
-           if(document.getElementById("datepicker1").value==""){
-   
-            document.getElementById("alert-message").innerHTML = "Expense Date: Cannot be empty";
+        if(document.getElementById("newproductname").value.length>30){
+         document.getElementById("alert-message").innerHTML = " New Product Name :Only 30 digits allowed ";
     $('#show-alert').modal('show')
-       document.getElementById("datepicker1").focus();
-           return false;
-        }else if(document.getElementById("datepicker1").value!=""){
-            if(document.getElementById("datepicker1").value.length>45){
-                         document.getElementById("alert-message").innerHTML = "Expense Date: Only 45 Characters allowed";
-    $('#show-alert').modal('show')
-    
-           document.getElementById("datepicker1").focus();
+               
+           document.getElementById("newproductname").focus();
            
            return false;
-       }else           
-           if(!document.getElementById("datepicker1").value.match(/^[0-9 /]+$/)){
-              document.getElementById("alert-message").innerHTML = "Expense Date: Only digit allowed";
-    $('#show-alert').modal('show')
+       } 
+   }
+      
+        if(document.getElementById("billnumber").value!=""){
            
-           document.getElementById("datepicker1").focus();
-     return false;
-            } 
-        } 
-        
-          if(document.getElementById("newcategory").value==""){
-   
-            document.getElementById("alert-message").innerHTML = "New Category Cannot be empty";
-          $('#show-alert').modal('show')
-         document.getElementById("newcategory").focus();
-           return false;
-        }else 
-            if(document.getElementById("newcategory").value!=""){
-            if(document.getElementById("newcategory").value.length>45){
-            document.getElementById("alert-message").innerHTML = "New Category Only 45 Characters allowed";
-    $('#show-alert').modal('show')
-           document.getElementById("newcategory").focus();
-           
-           return false;
-       }else           
-           if(!document.getElementById("newcategory").value.match(/^[0-9 a-z.A-Z]+$/)){
-              document.getElementById("alert-message").innerHTML = "New Category Only alphanumeric allowed";
-    $('#show-alert').modal('show')
-           
-           document.getElementById("newcategory").focus();
-     return false;
-            } 
-        } 
-    
-           if(document.getElementById("status").value==""){
-   
-            document.getElementById("alert-message").innerHTML = "Satus: Cannot be empty";
-    $('#show-alert').modal('show')
-       document.getElementById("status").focus();
-           return false;
-        }else if(document.getElementById("status").value!=""){
-               if(document.getElementById("status").value.length>45){
-                document.getElementById("alert-message").innerHTML = "Status: Only 45 Characters allowed";
-    $('#show-alert').modal('show')
-         
-           // alert("Only 30 Characters allowed ");
-           document.getElementById("status").focus();
-           
-           return false;
-       }else
-           if(!document.getElementById("status").value.match(/^[0-9 a-z.A-Z]+$/)){
-              document.getElementById("alert-message").innerHTML = "Status: Only alphanumeric allowed";
-    $('#show-alert').modal('show')
-           
-           document.getElementById("status").focus();
-     return false;
-            } 
-        } 
-       
-           if(document.getElementById("billnumber").value!=""){
            if(!document.getElementById("billnumber").value.match(/^[0-9 a-z.A-Z]+$/)){
                      document.getElementById("alert-message").innerHTML = "Bill Number: Only alphanumeric allowed";
     $('#show-alert').modal('show')
@@ -509,35 +446,55 @@ Statement st=c.createStatement();
            document.getElementById("billnumber").focus();
      return false;
             } else
-        if(document.getElementById("billnumber").value.length>45){
-                         document.getElementById("alert-message").innerHTML = "Bill Number: Only 45 characters allowed";
+        if(document.getElementById("billnumber").value.length>30){
+                         document.getElementById("alert-message").innerHTML = "Bill Number: Only 30 characters allowed";
     $('#show-alert').modal('show')
-        
+     
+                  
            document.getElementById("billnumber").focus();
            
            return false;
        }}
        
-       if(document.getElementById("reportto").value!=""){
+       if(document.getElementById("website").value!=""){
            
-           if(!document.getElementById("reportto").value.match(/^[0-9 a-z.A-Z]+$/)){
-                     document.getElementById("alert-message").innerHTML = "Report To: Only alphanumeric allowed";
+           if(!document.getElementById("website").value.match(/^[.0-9]+$/)){
+                     document.getElementById("alert-message").innerHTML = "Buying Price: Only numbers allowed";
     $('#show-alert').modal('show')
        
            //alert("Only alphanumeric allowed");
-           document.getElementById("reportto").focus();
+           document.getElementById("website").focus();
      return false;
             } else
-        if(document.getElementById("reportto").value.length>45){
-                         document.getElementById("alert-message").innerHTML = "Report To: Only 45 Characters allowed";
+        if(document.getElementById("website").value.length>30){
+                         document.getElementById("alert-message").innerHTML = "Buying Price: Only 30 digits allowed";
     $('#show-alert').modal('show')
      
                   
-           document.getElementById("reportto").focus();
+           document.getElementById("website").focus();
            
            return false;
        }}
        
+       if(document.getElementById("quantity").value!=""){
+           
+           if(!document.getElementById("quantity").value.match(/^[0-9]+$/)){
+                     document.getElementById("alert-message").innerHTML = "Quantity Ordered: Only numbers allowed";
+    $('#show-alert').modal('show')
+       
+           //alert("Only alphanumeric allowed");
+           document.getElementById("quantity").focus();
+     return false;
+            } else
+        if(document.getElementById("quantity").value.length>30){
+                         document.getElementById("alert-message").innerHTML = "Quantity Ordered: Only 30 digits allowed";
+    $('#show-alert').modal('show')
+     
+                  
+           document.getElementById("quantity").focus();
+           
+           return false;
+       }}
        
         if(document.getElementById("notes").value!=""){
            
@@ -549,16 +506,87 @@ Statement st=c.createStatement();
            document.getElementById("notes").focus();
      return false;
             } else
-        if(document.getElementById("notes").value.length>10000){
-                         document.getElementById("alert-message").innerHTML = "Notes: Only 10000 Characters allowed";
+        if(document.getElementById("notes").value.length>2000){
+                         document.getElementById("alert-message").innerHTML = "Notes: Only 2000 Characters allowed";
     $('#show-alert').modal('show')
      
+                  
            document.getElementById("notes").focus();
            
            return false;
        }}
      
-              return true;
+       if(document.getElementById("newproductname").value!=""){
+           
+           if(!document.getElementById("newproductname").value.match(/^[0-9 a-z.A-Z]+$/)){
+                     document.getElementById("alert-message").innerHTML = "Product Name: Only alphanumeric allowed";
+    $('#show-alert').modal('show')
+       
+           //alert("Only alphanumeric allowed");
+           document.getElementById("newproductname").focus();
+     return false;
+            } else
+        if(document.getElementById("newproductname").value.length>30){
+                         document.getElementById("alert-message").innerHTML = "Product Name: Only 30 characters allowed";
+    $('#show-alert').modal('show')
+     
+                  
+           document.getElementById("newproductname").focus();
+           
+           return false;
+       }}
+       
+      
+       if(document.getElementById("limit").value!=""){
+           
+           if(!document.getElementById("limit").value.match(/^[0-9]+$/)){
+                     document.getElementById("alert-message").innerHTML = "New Limit: Only numbers allowed";
+    $('#show-alert').modal('show')
+       
+           //alert("Only alphanumeric allowed");
+           document.getElementById("limit").focus();
+     return false;
+            } else
+        if(document.getElementById("limit").value.length>30){
+                         document.getElementById("alert-message").innerHTML = "New Limit: Only 30 digits allowed";
+    $('#show-alert').modal('show')
+     
+                  
+           document.getElementById("limit").focus();
+           
+           return false;
+       }}
+       
+       if(document.getElementById("newcategory").value!=""){
+           
+           if(!document.getElementById("newcategory").value.match(/^[0-9 a-z.A-Z]+$/)){
+                     document.getElementById("alert-message").innerHTML = "New Category: Only alphanumeric allowed";
+    $('#show-alert').modal('show')
+       
+           //alert("Only alphanumeric allowed");
+           document.getElementById("newcategory").focus();
+     return false;
+            } else
+        if(document.getElementById("newcategory").value.length>30){
+                         document.getElementById("alert-message").innerHTML = "New Category: Only 30 charactersallowed";
+    $('#show-alert').modal('show')
+     
+                  
+           document.getElementById("newcategory").focus();
+           
+           return false;
+       }}
+
+        if(document.getElementById("vid").value=="" ||document.getElementById("vid").value=="null" ){
+                    document.getElementById("alert-message").innerHTML = "Please select vendor for addstock <br> Goto:  Vendor > VendorDashboard > Select Vendor > Click Add Stock";
+    $('#show-alert').modal('show')
+     
+           
+           document.getElementById("vid").focus();
+           return false;
+        }
+       
+       return true;
     }
 </script>
 <script>

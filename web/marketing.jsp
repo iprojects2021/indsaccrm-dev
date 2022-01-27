@@ -98,8 +98,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
           String ownr=(String)session.getAttribute("ownr"); 
         try{
    Connection c=Poul.getConnectionCRM();
-out.print("entered page");
-Statement st=c.createStatement();
+   Statement st=c.createStatement();
            ResultSet rs3;
                rs3 = st.executeQuery("select  *  FROM events  ");
     while(rs3.next())
@@ -108,7 +107,7 @@ Statement st=c.createStatement();
           
           }
            int i = Integer.parseInt( SR ); 
-           ++i; out.print("value of i="+i+"  ");
+           
              st.addBatch("insert into events values('"+i+"','"+sqlTime+"','0','"+Name+"','"+datepicker+"','"+importance+"','"+status+"','','"+usercid_adminid+"','"+usercid_id+"','"+cid+"','"+notes+"','"+assignedto+"','','','','','','','','','','','','','','','','','','','','')");
       
             
@@ -130,10 +129,7 @@ Statement st=c.createStatement();
         }
        
        }
-       
-            
-       
-       
+     
       %>
 <div class="wrapper">
 
@@ -150,8 +146,7 @@ Statement st=c.createStatement();
     </section>
 	
 	 <section class="content">
-    
-
+ 
  <div class="row">
         <div class="col-lg-3 col-xs-6">
           <!-- small box -->
@@ -349,7 +344,6 @@ Statement st=c.createStatement();
           <!-- /.box -->
         </div>
         <!-- /.col -->
-	
 
 </div> <!--/.row  -->	
 	
@@ -423,7 +417,6 @@ Statement st=c.createStatement();
                           <option value="Cancelled"> Cancelled</option>
                           <option value="Rejected">Rejected</option>
                           
-                          
                      </select>
                   </div>
                 </div>
@@ -433,8 +426,7 @@ Statement st=c.createStatement();
       
           </div>
           <!-- /.box -->
-        
-
+ 
         </div>
         <!--/.col (left) -->
        <div class="col-md-6">
@@ -592,8 +584,8 @@ function goBack() {
        document.getElementById("datepicker1").focus();
            return false;
         }else if(document.getElementById("datepicker1").value!=""){
-            if(document.getElementById("datepicker1").value.length>45){
-                         document.getElementById("alert-message").innerHTML = "Due Date: Only 45 Characters allowed";
+            if(document.getElementById("datepicker1").value.length>10){
+                         document.getElementById("alert-message").innerHTML = "Due Date: Only 10 Characters allowed";
     $('#show-alert').modal('show')
     
            document.getElementById("datepicker1").focus();
@@ -671,7 +663,7 @@ function goBack() {
       
        if(document.getElementById("notes").value!=""){
            
-           if(!document.getElementById("notes").value.match(/^[0-9 a-z.A-Z]+$/)){
+           if(!document.getElementById("notes").value.match(/^[a-zA-Z:,'-'' '\.0-9\n]+$/)){
                      document.getElementById("alert-message").innerHTML = "Notes: Only alphanumeric allowed";
     $('#show-alert').modal('show')
        
@@ -679,14 +671,13 @@ function goBack() {
            document.getElementById("notes").focus();
      return false;
             } else
-        if(document.getElementById("notes").value.length>2000){
-                         document.getElementById("alert-message").innerHTML = "Notes: Only 2000 Characters allowed";
-    $('#show-alert').modal('show')
-        
+        if(document.getElementById("notes").value.length>10000){
+                         document.getElementById("alert-message").innerHTML = "Notes: Only 10000 Characters allowed";
+    $('#show-alert').modal('show')       
            document.getElementById("notes").focus();
-           
            return false;
-       }}
+       }
+       }
          return true;
   }
   

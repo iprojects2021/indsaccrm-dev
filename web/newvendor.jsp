@@ -368,7 +368,7 @@ Statement st=c.createStatement();
                   <label for="inputPassword3" class="col-sm-2 control-label">Website</label>
 
                   <div class="col-sm-10">
-                   <input type="url" class="form-control" id="website" name="website" placeholder=" https://abc.com/" autocomplete="off">
+                    <input type="url" class="form-control" id="website" name="website" placeholder=" https://abc.com/" autocomplete="off">
                   </div>
                 </div>
 		
@@ -565,8 +565,15 @@ function goBack() {
     $('#show-alert').modal('show')
        document.getElementById("cfn").focus();
            return false;
-        }else if(document.getElementById("cfn").value!=""){
+        }else 
+            if(document.getElementById("cfn").value!=""){
+            if(document.getElementById("cfn").value.length>150){
+            document.getElementById("alert-message").innerHTML = "First Name: Only 150 Characters allowed";
+    $('#show-alert').modal('show')
+           document.getElementById("cfn").focus();
            
+           return false;
+       }else           
            if(!document.getElementById("cfn").value.match(/^[0-9 a-z.A-Z]+$/)){
               document.getElementById("alert-message").innerHTML = "First Name: Only alphanumeric allowed";
     $('#show-alert').modal('show')
@@ -574,16 +581,7 @@ function goBack() {
            document.getElementById("cfn").focus();
      return false;
             } 
-        } else
-        if(document.getElementById("cfn").value.length>150){
-                document.getElementById("alert-message").innerHTML = "First Name: Only 150 Characters allowed";
-    $('#show-alert').modal('show')
-         
-           // alert("Only 30 Characters allowed ");
-           document.getElementById("cfn").focus();
-           
-           return false;
-       }
+        } 
        
        if(document.getElementById("cln").value==""){
    
@@ -591,8 +589,15 @@ function goBack() {
     $('#show-alert').modal('show')
        document.getElementById("cln").focus();
            return false;
-        }else if(document.getElementById("cln").value!=""){
+        }else 
+            if(document.getElementById("cln").value!=""){
+            if(document.getElementById("cln").value.length>150){
+            document.getElementById("alert-message").innerHTML = "Last Name: Only 150 Characters allowed";
+    $('#show-alert').modal('show')
+           document.getElementById("cln").focus();
            
+           return false;
+       }else           
            if(!document.getElementById("cln").value.match(/^[0-9 a-z.A-Z]+$/)){
               document.getElementById("alert-message").innerHTML = "Last Name: Only alphanumeric allowed";
     $('#show-alert').modal('show')
@@ -600,40 +605,30 @@ function goBack() {
            document.getElementById("cln").focus();
      return false;
             } 
-        } else
-        if(document.getElementById("cln").value.length>150){
-                document.getElementById("alert-message").innerHTML = "Last Name: Only 150 Characters allowed";
-    $('#show-alert').modal('show')
-         
-           // alert("Only 30 Characters allowed ");
-           document.getElementById("cln").focus();
-           
-           return false;
-       }
+        } 
          if(document.getElementById("mobile").value==""){
-                    document.getElementById("alert-message").innerHTML = "Mobile: Cannot be empty ";
+   
+            document.getElementById("alert-message").innerHTML = "Mobile: Cannot be empty";
     $('#show-alert').modal('show')
-     
-           document.getElementById("mobile").focus();
+       document.getElementById("mobile").focus();
            return false;
-        }else if(document.getElementById("mobile").value!=""){
-           
-           if(!document.getElementById("mobile").value.match(/^[0-9]+$/)){
-                          document.getElementById("alert-message").innerHTML = " Mobile: Only numbers allowed ";
+        }else 
+            if(document.getElementById("mobile").value!=""){
+            if(document.getElementById("mobile").value.length>15){
+            document.getElementById("alert-message").innerHTML = "Mobile:: Only 15 digit allowed";
     $('#show-alert').modal('show')
- 
+           document.getElementById("mobile").focus();
+           
+           return false;
+       }else           
+           if(!document.getElementById("mobile").value.match(/^[0-9]+$/)){
+              document.getElementById("alert-message").innerHTML = "Mobile:: Only number allowed";
+    $('#show-alert').modal('show')
+           
            document.getElementById("mobile").focus();
      return false;
             } 
-        }else
-        if(document.getElementById("mobile").value.length>15){
-         document.getElementById("alert-message").innerHTML = " Mobile: Only 15 digits allowed ";
-    $('#show-alert').modal('show')
-               
-           document.getElementById("mobile").focus();
-           
-           return false;
-       }
+        } 
        
        if(document.getElementById("cn").value!=""){
            
@@ -767,6 +762,18 @@ function goBack() {
            
            return false;
        }}
+       
+          if(document.getElementById("website").value!=""){
+           
+        if(document.getElementById("website").value.length>45){
+                         document.getElementById("alert-message").innerHTML = "Website: Only 45 Characters allowed";
+    $('#show-alert').modal('show')
+          
+           document.getElementById("website").focus();
+           
+           return false;
+       }
+   }
       
        if(document.getElementById("gstin").value!=""){
            
@@ -827,8 +834,16 @@ function goBack() {
        } 
    }
    
-  if(document.getElementById("email").value!=""){
+        if(document.getElementById("email").value!=""){
            
+                         if(document.getElementById("email").value.length>45){
+                         document.getElementById("alert-message").innerHTML = "Email: Only 45 Characters allowed";
+    $('#show-alert').modal('show')
+          
+           document.getElementById("email").focus();
+           
+           return false;
+       }else
            if(!document.getElementById("email").value.match(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/)){
                      document.getElementById("alert-message").innerHTML = "Enter valid email id";
     $('#show-alert').modal('show')
@@ -836,16 +851,8 @@ function goBack() {
            //alert("Only alphanumeric allowed");
            document.getElementById("email").focus();
      return false;
-            } else
-        if(document.getElementById("email").value.length>45){
-                         document.getElementById("alert-message").innerHTML = "Email id: Only 45 Characters allowed";
-    $('#show-alert').modal('show')
-     
-                  
-           document.getElementById("email").focus();
-           
-           return false;
-       }}
+            } 
+   }
        
         if(document.getElementById("address1").value!=""){
            
@@ -993,8 +1000,8 @@ function goBack() {
            document.getElementById("notes").focus();
      return false;
             } else
-        if(document.getElementById("notes").value.length>2000){
-                         document.getElementById("alert-message").innerHTML = "Notes: Only 2000 Characters allowed";
+        if(document.getElementById("notes").value.length>10000){
+                         document.getElementById("alert-message").innerHTML = "Notes: Only 10000 Characters allowed";
     $('#show-alert').modal('show')
          
            document.getElementById("notes").focus();

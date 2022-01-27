@@ -423,24 +423,22 @@ function goBack() {
     $('#show-alert').modal('show')
        document.getElementById("subject").focus();
            return false;
-        }else if(document.getElementById("subject").value!=""){
+        }else 
+            if(document.getElementById("subject").value!=""){
+            if(document.getElementById("subject").value.length>45){
+            document.getElementById("alert-message").innerHTML = "Subject: Only 45 Characters allowed";
+    $('#show-alert').modal('show')
+           document.getElementById("subject").focus();
            
+           return false;
+       }else           
            if(!document.getElementById("subject").value.match(/^[0-9 a-z.A-Z]+$/)){
               document.getElementById("alert-message").innerHTML = "Subject: Only alphanumeric allowed";
     $('#show-alert').modal('show')
            
            document.getElementById("subject").focus();
      return false;
-            } else
-        if(document.getElementById("subject").value.length>150){
-                document.getElementById("alert-message").innerHTML = "Subject: Only 150 Characters allowed";
-    $('#show-alert').modal('show')
-         
-           // alert("Only 30 Characters allowed ");
-           document.getElementById("subject").focus();
-           
-           return false;
-       }
+            } 
         } 
            if(document.getElementById("datepicker1").value==""){
    
@@ -449,8 +447,8 @@ function goBack() {
        document.getElementById("datepicker1").focus();
            return false;
         }else if(document.getElementById("datepicker1").value!=""){
-            if(document.getElementById("datepicker1").value.length>45){
-                         document.getElementById("alert-message").innerHTML = "Due Date: Only 45 Characters allowed";
+            if(document.getElementById("datepicker1").value.length>10){
+                         document.getElementById("alert-message").innerHTML = "Due Date: Only 10 Characters allowed";
     $('#show-alert').modal('show')
     
            document.getElementById("datepicker1").focus();
@@ -523,7 +521,9 @@ function goBack() {
            document.getElementById("assigned").focus();
            
            return false;
-       }}
+       }
+       }
+       
         if(document.getElementById("notes").value!=""){
            
            if(!document.getElementById("notes").value.match(/^[a-zA-Z:,'-'' '\.0-9\n]+$/)){
@@ -534,10 +534,12 @@ function goBack() {
            document.getElementById("notes").focus();
      return false;
             } else
-        if(document.getElementById("notes").value.length>2000){
-                         document.getElementById("alert-message").innerHTML = "Notes: Only 2000 Characters allowed";
-    $('#show-alert').modal('show')       
+        if(document.getElementById("notes").value.length>10000){
+                         document.getElementById("alert-message").innerHTML = "Notes: Only 10000 Characters allowed";
+    $('#show-alert').modal('show')
+         
            document.getElementById("notes").focus();
+           
            return false;
        }}
         

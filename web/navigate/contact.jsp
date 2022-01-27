@@ -1,3 +1,7 @@
+<%@page import="Resource.WebContact"%>
+<%@page import="java.sql.PreparedStatement"%>
+<%@page import="java.sql.Connection"%>
+<%@page import="java.sql.DriverManager"%>
 <%@page import="blezz.Poul"%>
 <%@page import="log.Log"%>
 <!--
@@ -25,12 +29,10 @@
   font-size: 16px;
   border: none;
 }
-
 .dropdown {
   position: relative;
   display: inline-block;
 }
-
 .dropdown-content {
   display: none;
   position: absolute;
@@ -39,27 +41,54 @@
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
-
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
-
 .dropdown-content a:hover {background-color: #ddd;}
 
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
 </style>
-  </head>
-  <body id="contact">
-
-
+</head>
+<body id="contact">
+      
       <%  Log.writeWEBLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" "+request.getProtocol()+", "+Poul.getPublicIP()+""
               + ", "+request.getRemoteHost()+", Entering contact.jsp");
       %>
+     
+    <% 
+         String firstname=request.getParameter("firstname");
+         String lastname=request.getParameter("lastname");
+         String email=request.getParameter("email");
+         String message=request.getParameter("message");
+         String status=request.getParameter("status");
+        
+         Connection con=null;
+        
+        try{
+              Class.forName("com.mysql.jdbc.Driver");
+              con=DriverManager.getConnection("jdbc:mysql://localhost:3306/indsaccr_development","root","mysql");
+              PreparedStatement ps=con.prepareStatement("insert into webcontactus(firstname,lastname,email,message,status) values (?,?,?,?,?)");
+               
+              ps.setString(1,firstname);
+              ps.setString(2,lastname);
+              ps.setString(3,email);
+              ps.setString(4,message);
+              ps.setString(5,"Open");
+              ps.executeUpdate();
+              
+              con.close();
+        
+            }catch(Exception e){
+             System.out.println(e);
+        }
+             
+    %>
+          
  <%@include file="header.jsp" %>
 
     <script src="assets/js/jquery-3.3.1.min.js"></script> <!-- Common jquery plugin -->
@@ -75,7 +104,6 @@
     });
   </script>
   <!-- disable body scroll which navbar is in active -->
-
 
 <!-- breadcrumbs -->
     <section class="w3l-inner-banner-main">
@@ -142,37 +170,39 @@
                 </div>
             </div>
             </div>
-            <form method="post" class="indsaccrm.com-contact-fm" action="https://sendmail.indsaccrm.com.com/submitForm">
+            <form method="post" class="indsaccrm.com-contact-fm" action="">
                 <div class="row main-cont-sec">
                     <div class="col-lg-6 left-cont-contact">
+                       
                         <div class="form-group input-gap">
-                            <input class="form-control" type="text" name="w3lName" id="w3lName" placeholder="First Name"
-                                required="">
+                           <input class="form-control" type="text" name="firstname" id="firstname" placeholder="First Name" autocomplete="off">
+                              
                         </div>
+                        
                         <div class="form-group input-gap">
-                            <input class="form-control" type="text" name="w3lName" id="w3lName" placeholder="Last Name"
-                                required="">
+                            <input class="form-control" type="text" name="lastname" id="lastname" placeholder="Last Name" autocomplete="off">
+                             
                         </div>
+                        
                         <div class="form-group input-gap">
-                            <input class="form-control" type="email" name="w3lSender" id="w3lSender" placeholder="Email"
-                                required="">
+                            <input class="form-control" type="email" name="email" id="email" placeholder="Email" autocomplete="off">
+                                
                         </div>
+                        
                     </div>
                     <div class="col-lg-6 right-cont-contact">
                         <div class="form-group">
-                            <textarea class="form-control" name="w3lMessage" id="w3lMessage" placeholder="Write Message"
-                                required=""></textarea>
+                            <textarea class="form-control" name="message" id="message" placeholder="Message" autocomplete="off"></textarea>
                         </div>
                     </div>
                 </div>
                 <div class="form-group-2">
-                    <button type="submit" class="btn action-button mt-3">Send Now</button>
+                    <button type="submit" class="btn action-button mt-3" onClick="return validateForm()">Send Now</button>
                 </div>
             </form>
+                   
              <div class=" contact-map">
-                   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15552.882637193943!2d77.7034409!3d12.9577274!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x357fd0906e5de67e!2sIndsac%20Softech!5e0!3m2!1sen!2sin!4v1614863435029!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        
-  
+                   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15552.882637193943!2d77.7034409!3d12.9577274!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x357fd0906e5de67e!2sIndsac%20Softech!5e0!3m2!1sen!2sin!4v1614863435029!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> 
             </div>
         </div>
     </div>
@@ -180,8 +210,6 @@
 </section>
 
 <%@include file="footer.jsp" %>
-
-
 
 <!-- move top -->
 <button onclick="topFunction()" id="movetop" title="Go to top">
@@ -208,9 +236,90 @@
 	}
 </script>
 <!-- /move top -->
-<%  Log.writeWEBLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" "+request.getProtocol()+", "+Poul.getPublicIP()+""
-              + ", "+request.getRemoteHost()+", Leaving contact.jsp");
-      %>
+<%  Log.writeWEBLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" "+request.getProtocol()+", "+Poul.getPublicIP()+"" + ", "+request.getRemoteHost()+", Leaving contact.jsp");
+ %>
+     
+ <script>
+           function validateForm(){
+               
+           if(document.getElementById("firstname").value==""){
+           alert("First Name: Cannot be empty");
+           document.getElementById("firstname").focus();
+           return false;
+       }else
+           if(document.getElementById("firstname").value!=""){
+               if(document.getElementById("firstname").value.length>45){
+             alert("First Name: Only 45 Characters allowed");
+             document.getElementById("firstname").focus();
+            return false;
+       }else
+           if(!document.getElementById("firstname").value.match(/^[0-9 a-z.A-Z]+$/)){ 
+           alert("First Name: Only alphanumeric allowed");
+           document.getElementById("firstname").focus();
+           return false;
+            }
+        }
+    
+          if(document.getElementById("lastname").value==""){
+           alert("Last Name: Cannot be empty");
+           document.getElementById("lastname").focus();
+           return false;
+       }else
+           if(document.getElementById("lastname").value!=""){
+               if(document.getElementById("lastname").value.length>45){
+             alert("Last Name: Only 45 Characters allowed");
+             document.getElementById("lastname").focus();
+            return false;
+       }else
+           if(!document.getElementById("lastname").value.match(/^[0-9 a-z.A-Z]+$/)){ 
+            alert("Last Name: Only alphanumeric allowed");
+           document.getElementById("lastname").focus();
+           return false;
+            }
+        }
+            
+       
+       if(document.getElementById("email").value==""){
+           alert("Email: Cannot be empty");
+           document.getElementById("email").focus();
+           return false;
+       }else
+           if(document.getElementById("email").value!=""){
+               if(document.getElementById("email").value.length>45){
+             alert("Email: Only 45 Characters allowed");
+             document.getElementById("email").focus();
+            return false;
+       }else
+           if(!document.getElementById("email").value.match(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/)){ 
+               alert("Email: Only alphanumeric allowed");
+           document.getElementById("email").focus();
+           return false;
+            }
+        } 
+   
+            
+   if(document.getElementById("message").value==""){
+           alert("Message: Cannot be empty");
+           document.getElementById("message").focus();
+           return false;
+       }else
+           if(document.getElementById("message").value!=""){
+            if(document.getElementById("message").value.length>45){
+             alert("Message: Only 45 Characters allowed");
+             document.getElementById("message").focus();
+            return false;
+       }else
+           if(!document.getElementById("message").value.match(/^[0-9 a-z.A-Z]+$/)){ 
+                alert("Message: Only alphanumeric allowed");
+           document.getElementById("message").focus();
+           return false;
+            }
+        }
+            
+   
+  }     
+ </script>
+ 
 </body>
 
 </html>

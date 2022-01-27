@@ -44,14 +44,7 @@
           String usercid_name=(String)session1.getAttribute("usercid_name");
           String usercid_adminid=(String)session1.getAttribute("usercid_adminid");
              String usercid_company=(String)session1.getAttribute("usercid_company");
-<<<<<<< HEAD
-          String usercid_website=(String)session1.getAttribute("usercid_website");
-          String currency=(String)session1.getAttribute("usercid_currency");
-=======
-          String usercid_website=(String)session1.getAttribute("usercid_website"); 
-          String currency=(String)session1.getAttribute("usercid_currency");
-                
->>>>>>> devmaster
+
       
           String vid=Poul.escapeHtml(request.getParameter("vid"));	
 Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+request.getRemoteAddr()+" ,useradminid="+usercid_adminid+" ,usercid="+usercid_id+"  --Entering newexpense.jsp----------New Expense---");
@@ -263,7 +256,7 @@ Statement st=c.createStatement();
 <div class="col-sm-10">
                 <div class="input-group date">
                   <div class="input-group-addon">
-                    <i class="fa fa-fw fa-<%=currency%>"></i>
+                    <i class="fa fa-fw fa-dollar"></i>
 =======
 
                   <div class="col-sm-10">

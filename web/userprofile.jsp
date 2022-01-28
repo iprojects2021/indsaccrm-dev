@@ -343,7 +343,7 @@ Statement st=c.createStatement();
             <div class="tab-content">
               <div class="active tab-pane" id="general">
                 
-                <form class="form-horizontal">
+                <form class="form-horizontal" method="post" action="ProfileFormSubmit">
                   <div class="form-group">
                     <label for="inputName" class="col-sm-2 control-label">First Name</label>
   
@@ -438,9 +438,7 @@ Statement st=c.createStatement();
                       <input type="text" class="form-control" id="inputSkills" placeholder="Zip Code">
                     </div>
                   </div>
-  
-                  
-      
+    
                   <div class="form-group">
                     <div class="col-sm-offset-2 col-sm-10">
                       <div class="checkbox">
@@ -452,9 +450,7 @@ Statement st=c.createStatement();
                   </div>
                   <div class="form-group">
                     <div class="col-sm-offset-2 col-sm-10">
-                      <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-default">
-                      Submit
-                      </button>
+                      <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-default">Submit</button>
                     </div>
                     <div class="modal fade" id="modal-default">
                       <div class="modal-dialog">
@@ -469,7 +465,7 @@ Statement st=c.createStatement();
                           </div>
                           <div class="modal-footer">
                             <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save </button>
+                            <button type="button" class="btn btn-primary" onClick="return validateForm()>Save</button>
                           </div>
                         </div>
                         <!-- /.modal-content -->
@@ -529,9 +525,7 @@ Statement st=c.createStatement();
   
                   <div class="form-group">
                     <div class="col-sm-offset-2 col-sm-10">
-                      <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-about1">
-                      Submit
-                      </button>
+                      <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-about1">Submit</button>
                     </div>
                     <div class="modal fade" id="modal-about1">
                       <div class="modal-dialog">

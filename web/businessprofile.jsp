@@ -1,3 +1,4 @@
+<%@page import="menu.BusinessProfileService"%>
 <%@page import="blezz.Nd"%>
 <%@page import="email.EmergencyEmail"%>
 <%@page import="email.EmergencyEmail"%>
@@ -64,7 +65,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
           
           String msgurl=request.getParameter("message");
           if("updatesuccessfully".equals(msgurl)||"successfullysaved".equals(msgurl) ){successmsg="Updated  Successfully";}
-          
+          String businesProfileData[]=BusinessProfileService.getBusinessProfile(usercid_adminid);
         %>
     
     
@@ -191,10 +192,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                       <input type="text" class="form-control" id="website" name="website" placeholder="Website">
                     </div>
                   </div>
-                  
-                    
-                    
-                  <div class="form-group">
+                <div class="form-group">
                     <label for="inputSkills" class="col-sm-2 control-label"> Landline Telephone </label>
   
                     <div class="col-sm-10">
@@ -306,19 +304,18 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                     </div>
                   </div>
                 </form>
-
-                
+             
               </div>
               <!-- /.tab-pane -->
               <div class="tab-pane" id="businessdetails">
                 <!-- The timeline -->
                 
-                <form class="form-horizontal" method="post" action="">
+                <form class="form-horizontal" method="post" action="BusinessFormSubmit">
                      <div class="form-group">
-                    <label for="inputEmail" class="col-sm-2 control-label"> Person in Charge Details</label>
+                    <label for="inputEmail" class="col-sm-2 control-label"> Owner Details</label>
   
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="personinchargedetails" name="personinchargedetails" placeholder=" Person in Charge Details ">
+                      <input type="text" class="form-control" id="ownerdetails" name="ownerdetails" placeholder=" Owner Details">
                     </div>
                   </div>
                     
@@ -332,33 +329,29 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                 </div>
                     
                   <div class="form-group">
-                    <label for="inputSkills" class="col-sm-2 control-label">No. of Branch with Location</label>
+                    <label for="inputSkills" class="col-sm-2 control-label"> Branch Location</label>
   
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="branchlocation"  name="branchlocation" placeholder="No. of Branch with Location">
+                      <input type="text" class="form-control" id="branchlocation"  name="branchlocation" placeholder="Branch Location">
                     </div>
                   </div>
                     
                     <div class="form-group">
-                    <label for="inputName" class="col-sm-2 control-label">Type Of Business</label>
+                    <label for="inputName" class="col-sm-2 control-label"> Business Type</label>
   
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="typeofbusiness"  name="typeofbusiness" placeholder="Type Of Business">
+                      <input type="text" class="form-control" id="businesstype"  name="businesstype" placeholder="Business Type">
                     </div>
                   </div>
 
-                 
-
                   <div class="form-group">
-                    <label for="inputName" class="col-sm-2 control-label">No. of Employees</label>
+                    <label for="inputName" class="col-sm-2 control-label">Total Employees</label>
   
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="employees"  name="employees" placeholder="No. of Employees">
+                      <input type="text" class="form-control" id="totalemployee"  name="totalemployee" placeholder="Total Employees">
                     </div>
                   </div>
-
-
-                  <div class="form-group">
+                         <div class="form-group">
                     <label for="inputName" class="col-sm-2 control-label">Year Of Established</label>
   
                     <div class="col-sm-10">
@@ -385,7 +378,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                     
                   <div class="form-group">
                     <div class="col-sm-offset-2 col-sm-10">
-                      <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-about1" >
+                      <button type="button" class="btn btn-danger"  onClick="return detailForm()" >
                       Submit
                       </button>
                     </div>
@@ -400,9 +393,11 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                           <div class="modal-body">
                             <p>Do You Want To Really Save Changes&hellip;</p>
                           </div>
+                            <input type="hidden" name="useradminid" value="<%=usercid_adminid  %>">
+                            <input type="hidden" name="usercid" value="<%=usercid_id  %>">
                           <div class="modal-footer">
                             <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary" >Save </button>
+                            <button type="submit" class="btn btn-primary" >Save </button>
                           </div>
                         </div>
                         <!-- /.modal-content -->
@@ -419,7 +414,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
               
               <!-- /.tab-pane -->
               <div class="tab-pane" id="settings">
-                <form class="form-horizontal">
+                <form class="form-horizontal" >
 
                   <div class="box box-info">
                     <div class="box-header">
@@ -430,17 +425,16 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                     <label for="inputName" class="col-sm-2 control-label">New Paasword</label>
 
                     <div class="col-sm-6">
-                      <input type="text" class="form-control" id="inputName" placeholder="New Paasword">
+                      <input type="text" class="form-control" id="newpaasword" placeholder="New Paasword">
                     </div>
                   </div>
                   <div class="form-group">
                     <label for="inputName" class="col-sm-2 control-label">Confirm Password</label>
 
                     <div class="col-sm-6">
-                      <input type="text" class="form-control" id="inputEmail" placeholder="Confirm Password">
+                      <input type="text" class="form-control" id="confirmpassword" placeholder="Confirm Password">
                     </div>
-                  </div>
-                  
+                  </div> 
                   <div class="form-group">
                     <div class="col-sm-offset-2 col-sm-10">
                       <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-setting1">
@@ -465,21 +459,16 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                         </div>
                         <!-- /.modal-content -->
                       </div>
-                    
                     </div>
-                  </div>
-
+                   </div>
                   <div class="box box-info">
-                    
-                  
                     <div class="box-header">
                      <a  class="box-title">Logo Settings </a>
                      <a  href="selectavatar.jsp" class="btn btn-info pull-right">Select Default Logo </a>
                     </div>
-
                   <div class="form-group">
                     <label for="inputSkills" class="col-sm-2 control-label">Upload Business Logo</label>
-                    <input type="file" id="exampleInputFile">
+                    <input type="file" id="uploadbusinesslogo" >
                   </div>
                   <div class="form-group">
                     <div class="col-sm-offset-2 col-sm-10">
@@ -505,12 +494,12 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                         </div>
                         <!-- /.modal-content -->
                       </div>
-                    
                     </div>
                   </div>
                   </div>
-                </form>
+            
               </div>
+            </form>
               <!-- /.tab-pane -->
             </div>
             <!-- /.tab-content -->
@@ -613,8 +602,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
      return false;
             } 
         } 
-       
-   
+ 
       if(document.getElementById("mobileno").value==""){
    
             document.getElementById("alert-message").innerHTML = "Mobile No: Cannot be empty";
@@ -662,7 +650,6 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
      return false;
             } 
         } 
-     
            if(document.getElementById("state").value==""){
    
             document.getElementById("alert-message").innerHTML = "State: Cannot be empty";
@@ -679,7 +666,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
            return false;
        }else           
            if(!document.getElementById("state").value.match(/^[a-zA-Z:,'-'' '\.0-9\n]+$/)){
-              document.getElementById("alert-message").innerHTML = "State: Only alphanumeric allowed";
+              document.getElementById("alert-message").innerHTML = "State: Only Characters allowed";
     $('#show-alert').modal('show')
            
            document.getElementById("state").focus();
@@ -734,8 +721,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
      return false;
             } 
         } 
-    
-      
+  
        if(document.getElementById("businessemail").value!=""){
            
        if(document.getElementById("businessemail").value.length>45){
@@ -755,8 +741,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
      return false;
             } 
    }
-       
-     
+        
     if(document.getElementById("website").value!=""){
            
         if(document.getElementById("website").value.length>45){
@@ -780,7 +765,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
            
            return false;
        }else
-           if(!document.getElementById("landlinetelephone").value.match(/^[0-9 a-z.A-Z]+$/)){
+           if(!document.getElementById("landlinetelephone").value.match(/^[0-9]+$/)){
                      document.getElementById("alert-message").innerHTML = "Landline Telephone: Only number allowed";
     $('#show-alert').modal('show')
        
@@ -830,7 +815,6 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
        }
        } 
        
-      
       if(document.getElementById("notes").value!=""){
            
            if(!document.getElementById("notes").value.match(/^[a-zA-Z:,'-'' '\.0-9\n]+$/)){
@@ -856,6 +840,135 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
    
    return true;
    }
+                function detailForm(){
+                    
+                    if(document.getElementById("ownerdetails").value!=""){
+           if(!document.getElementById("ownerdetails").value.match(/^[0-9 a-z.A-Z]+$/)){
+           document.getElementById("alert-message").innerHTML = "Owner Details: Only alphanumeric allowed";
+            $('#show-alert').modal('show')
+           //alert("Only alphanumeric allowed");
+           document.getElementById("ownerdetails").focus();
+           return false;
+            } else
+           if(document.getElementById("ownerdetails").value.length>45){
+           document.getElementById("alert-message").innerHTML = "Owner Details: Only 45 Characters allowed";
+            $('#show-alert').modal('show')
+           document.getElementById("ownerdetails").focus();
+           return false;
+           }
+          }
+               if(document.getElementById("companystatus").value!=""){
+           if(!document.getElementById("companystatus").value.match(/^[0-9 a-z.A-Z]+$/)){
+           document.getElementById("alert-message").innerHTML = "Company Status: Only alphanumeric allowed";
+            $('#show-alert').modal('show')
+           //alert("Only alphanumeric allowed");
+           document.getElementById("companystatus").focus();
+           return false;
+            } else
+           if(document.getElementById("companystatus").value.length>45){
+           document.getElementById("alert-message").innerHTML = "Company Status: Only 45 Characters allowed";
+            $('#show-alert').modal('show')
+           document.getElementById("companystatus").focus();
+           return false;
+       }
+       }
+             if(document.getElementById("branchlocation").value!=""){
+           if(!document.getElementById("branchlocation").value.match(/^[0-9 a-z.A-Z]+$/)){
+           document.getElementById("alert-message").innerHTML = "Branch Location: Only alphanumeric allowed";
+            $('#show-alert').modal('show')
+           //alert("Only alphanumeric allowed");
+           document.getElementById("branchlocation").focus();
+           return false;
+            } else
+           if(document.getElementById("branchlocation").value.length>45){
+           document.getElementById("alert-message").innerHTML = "Branch Location: Only 45 Characters allowed";
+            $('#show-alert').modal('show')
+           document.getElementById("branchlocation").focus();
+           return false;
+       }
+       }             
+              if(document.getElementById("businesstype").value!=""){
+           if(!document.getElementById("businesstype").value.match(/^[0-9 a-z.A-Z]+$/)){
+           document.getElementById("alert-message").innerHTML = "Type Of Business: Only alphanumeric allowed";
+            $('#show-alert').modal('show')
+           //alert("Only alphanumeric allowed");
+           document.getElementById("businesstype").focus();
+           return false;
+            } else
+           if(document.getElementById("businesstype").value.length>45){
+           document.getElementById("alert-message").innerHTML = "Type Of Business: Only 45 Characters allowed";
+            $('#show-alert').modal('show')
+           document.getElementById("businesstype").focus();
+           return false;
+       }
+       }            
+                         
+               if(document.getElementById("totalemployee").value!=""){
+           if(!document.getElementById("totalemployee").value.match(/^[0-9]+$/)){
+           document.getElementById("alert-message").innerHTML = "No. of Employees: Only number allowed";
+            $('#show-alert').modal('show')
+           //alert("Only alphanumeric allowed");
+           document.getElementById("totalemployee").focus();
+           return false;
+            } else
+           if(document.getElementById("totalemployee").value.length>45){
+           document.getElementById("alert-message").innerHTML = "No. of Employees: Only 45 number allowed";
+            $('#show-alert').modal('show')
+           document.getElementById("totalemployee").focus();
+           return false;
+       }
+       }           
+               if(document.getElementById("yearofestablished").value!=""){
+           if(!document.getElementById("yearofestablished").value.match(/^[0-9]+$/)){
+           document.getElementById("alert-message").innerHTML = "Year Of Established: Only number allowed";
+            $('#show-alert').modal('show')
+           //alert("Only alphanumeric allowed");
+           document.getElementById("yearofestablished").focus();
+           return false;
+            } else
+           if(document.getElementById("yearofestablished").value.length>45){
+           document.getElementById("alert-message").innerHTML = "Year Of Established: Only 45 digit allowed";
+            $('#show-alert').modal('show')
+           document.getElementById("yearofestablished").focus();
+           return false;
+       }
+       }           
+                if(document.getElementById("grossannualturnover").value!=""){
+           if(!document.getElementById("grossannualturnover").value.match(/^[0-9 a-z.A-Z]+$/)){
+           document.getElementById("alert-message").innerHTML = "Gross Annual Turnover: Only alphanumeric allowed";
+            $('#show-alert').modal('show')
+           //alert("Only alphanumeric allowed");
+           document.getElementById("grossannualturnover").focus();
+           return false;
+            } else
+           if(document.getElementById("grossannualturnover").value.length>45){
+           document.getElementById("alert-message").innerHTML = "Gross Aannual Turnover: Only 45 Characters allowed";
+            $('#show-alert').modal('show')
+           document.getElementById("grossannualturnover").focus();
+           return false;
+       }
+       }          
+                if(document.getElementById("annualexportturnover").value!=""){
+           if(!document.getElementById("annualexportturnover").value.match(/^[0-9 a-z.A-Z]+$/)){
+           document.getElementById("alert-message").innerHTML = "Annual Export Turnover: Only alphanumeric allowed";
+            $('#show-alert').modal('show')
+           //alert("Only alphanumeric allowed");
+           document.getElementById("annualexportturnover").focus();
+           return false;
+            } else
+           if(document.getElementById("annualexportturnover").value.length>45){
+           document.getElementById("alert-message").innerHTML = "Annual Export Turnover: Only 45 Characters allowed";
+            $('#show-alert').modal('show')
+           document.getElementById("annualexportturnover").focus();
+           return false;
+       }
+       } 
+                 $('#modal-about1').modal('show')
+              
+                    
+                    return true;
+                }
+                     
 </script>     
 
 

@@ -17,7 +17,7 @@ import menu.BusinessProfileService;
 
 
 @WebServlet(name = "ProfileFormSubmit", urlPatterns = {"/ProfileFormSubmit"})
-public class ProfileFormSubmit extends HttpServlet {
+public class BusinessProfileSubmit extends HttpServlet {
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
@@ -65,12 +65,12 @@ public class ProfileFormSubmit extends HttpServlet {
               con.close();
               ps.close();
               
-               Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" Package=s3453 ,  File=ProfileFormSubmit.java , method=processRequest( HttpServletRequest request, HttpServletResponse response)");
+               Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" Package=s3453 ,  File=BusinessProfileSubmit.java , method=processRequest( HttpServletRequest request, HttpServletResponse response)");
                response.sendRedirect("businessprofile.jsp?message=successfullysaved"); 
         
               }//try close
               catch(Exception e){
-              String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" \nProfileFormSubmit.java-----\n"
+              String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" \nBusinessProfileSubmit.java-----\n"
               + "\nLINE=74 \n insert into businessprofile(registerid,useradminid,usercid,businessname,businessemail,website,phone,mobileno,headofficeaddress,officeaddress,city,state,country,zipcode,notes) values";
               Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
               EmergencyEmail.send(e,errormsg); 
@@ -100,13 +100,13 @@ public class ProfileFormSubmit extends HttpServlet {
               con.close();
               ps.close();
               
-            Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" Package=s3453 ,  File=ProfileFormSubmit.java , method=processRequest( HttpServletRequest request, HttpServletResponse response)");
+            Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" Package=s3453 ,  File=BusinessProfileSubmit.java , method=processRequest");
             response.sendRedirect("businessprofile.jsp?message=updatesuccessfully");  
             
             //try close
             }catch(Exception e){
-            String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" \nProfileFormSubmit.java-----\n"
-            + "\nLINE=107 \n update businessprofile set businessname=?,businessemail=?,website=?,phone=?,mobile=?,headofficeaddress=?,officeaddress=?,city=?,state=?,country=?,zipcode=?,notes=? where useradminid=registerid and usercid=useradminid and useradminid= ?";
+            String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" \nBusinessProfileSubmit.java-----\n"
+            + "\nLINE=109 \n update businessprofile set businessname=?,businessemail=?,website=?,phone=?,mobile=?,headofficeaddress=?,officeaddress=?,city=?,state=?,country=?,zipcode=?,notes=? where useradminid=registerid and usercid=useradminid and useradminid= ?";
             Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
             EmergencyEmail.send(e,errormsg); 
         }

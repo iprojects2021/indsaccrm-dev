@@ -54,7 +54,8 @@ public class BusinessProfileService {
    }
     public static String[] getBusinessProfile(String useradminid) throws IOException{
         int i=0;
-         String leaddata[]=new String[35];
+        
+         String leaddata[]=new String[36];
           try{ Connection con=Poul.getConnectionCRM();
         PreparedStatement smt=con.prepareStatement("select * from businessprofile where useradminid=? ");
         smt.setString(1,useradminid);
@@ -66,10 +67,10 @@ public class BusinessProfileService {
            for(i=1;i<=34;i++)
         {
         leaddata[i]=rs.getString(i);
+               }
+         
         }
-           ++i;  
-        }
-        System.out.println("leaddata:"+"  "+leaddata[2]);
+        
        rs.close();
       smt.close();
       con.close();
@@ -79,8 +80,8 @@ public class BusinessProfileService {
               Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
               EmergencyEmail.send(e,errormsg); 
           }
-          System.out.println("return leaddata");
+          
           return leaddata;
     }
         
-}
+        }

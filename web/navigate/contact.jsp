@@ -1,3 +1,4 @@
+<%@page import="email.EmergencyEmail"%>
 <%@page import="Resource.WebContact"%>
 <%@page import="java.sql.PreparedStatement"%>
 <%@page import="java.sql.Connection"%>
@@ -67,11 +68,8 @@
          String message=request.getParameter("message");
          String status=request.getParameter("status");
         
-         Connection con=null;
-        
         try{
-              Class.forName("com.mysql.jdbc.Driver");
-              con=DriverManager.getConnection("jdbc:mysql://localhost:3306/indsaccr_development","root","mysql");
+              Connection con=Poul.getConnectionCRM();
               PreparedStatement ps=con.prepareStatement("insert into webcontactus(firstname,lastname,email,message,status) values (?,?,?,?,?)");
                
               ps.setString(1,firstname);
@@ -84,9 +82,11 @@
               con.close();
         
             }catch(Exception e){
-             System.out.println(e);
-        }
-             
+            String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" \n contact.jsp-----\n"
+            + "\nLINE=86 \n insert into contact values '"+firstname+"','"+lastname+"','"+email+"','"+message+"','"+status+" ";
+            Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
+            EmergencyEmail.send(e,errormsg);  
+        }         
     %>
           
  <%@include file="header.jsp" %>
@@ -171,7 +171,9 @@
             </div>
             </div>
             <form method="post" class="indsaccrm.com-contact-fm" action="">
+                <input type="hidden" name="id" value="id">
                 <div class="row main-cont-sec">
+                   
                     <div class="col-lg-6 left-cont-contact">
                        
                         <div class="form-group input-gap">

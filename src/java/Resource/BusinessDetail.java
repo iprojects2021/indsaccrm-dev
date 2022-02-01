@@ -12,21 +12,29 @@ package Resource;
  */
 public class BusinessDetail {
     
-    private String persondetails;
+    private String gstin;
+    private String ownerdetails;
     private String companystatus;
-    private String branchlocation;
     private String businesstype;
     private String totalemployee;
     private String yearofestablished;
     private String grossannualturnover;
     private String annualexportturnover;
 
-    public String getPersondetails() {
-        return persondetails;
+    public String getGstin() {
+        return gstin;
     }
 
-    public void setPersondetails(String persondetails) {
-        this.persondetails = persondetails;
+    public void setGstin(String gstin) {
+        this.gstin = gstin;
+    }
+
+    public String getOwnerdetails() {
+        return ownerdetails;
+    }
+
+    public void setOwnerdetails(String ownerdetails) {
+        this.ownerdetails = ownerdetails;
     }
 
     public String getCompanystatus() {
@@ -35,14 +43,6 @@ public class BusinessDetail {
 
     public void setCompanystatus(String companystatus) {
         this.companystatus = companystatus;
-    }
-
-    public String getBranchlocation() {
-        return branchlocation;
-    }
-
-    public void setBranchlocation(String branchlocation) {
-        this.branchlocation = branchlocation;
     }
 
     public String getBusinesstype() {

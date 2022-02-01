@@ -87,66 +87,78 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
             <div class="box-body box-profile">
               <img class="profile-user-img img-responsive img-circle" src="dist/img/u.png" alt="User profile picture">
 
-              <h3 class="profile-username text-center">INDSAC CRM</h3>
+              <h3 class="profile-username text-center">
+                  <% if( businesProfileData[7]!=null && !businesProfileData[7].equals("") && !businesProfileData[7].equals("null") ){
+                  out.println(businesProfileData[7]);
+                  } else { %>
+                  INDSAC CRM
+                   <% }  %></h3>
 
               <ul class="list-group list-group-unbordered">
                 
                 <li class="list-group-item">
-                  <strong><i class="fa fa-diamond margin-r-5"></i>Website</strong>
-
-              <p class="text-muted">
-            xyz 
-              </p>
+                    <strong><i class="fa fa-diamond margin-r-5"></i>Website</strong><br>
+                <% if( businesProfileData[10]!=null && !businesProfileData[10].equals("") && !businesProfileData[10].equals("null") ){  
+                  out.println(businesProfileData[10]);
+                  } else { %>
+                    xyz 
+             <% }  %>
                 </li>
 
                 <li class="list-group-item">
-                  <strong><i class=" fa fa-pencil margin-r-5"></i>GSTIN No.</strong>
-
-                  <p class="text-muted">
+                    <strong><i class=" fa fa-pencil margin-r-5"></i>GSTIN No.</strong><br>
+                  <% if( businesProfileData[6]!=null && !businesProfileData[6].equals("") && !businesProfileData[6].equals("null") ){  
+                  out.println(businesProfileData[6]);
+                  } else { %>
                    AGB345ATH356ER1
-                  </p>
+                  <% }  %>
                 </li>
 
                 <li class="list-group-item">
-                  <strong><i class="fa fa-user-circle margin-r-5"></i>Owner Name</strong>
-
-              <p class="text-muted">
-            XYZ
-              </p>
+                    <strong><i class="fa fa-user-circle margin-r-5"></i>Owner Name</strong><br>
+                <% if( businesProfileData[12]!=null && !businesProfileData[12].equals("") && !businesProfileData[12].equals("null") ){  
+                  out.println(businesProfileData[12]);
+                  } else { %>
+                  Owner Name
+                  <% }  %>
                 </li>
 
               </li>
 
               <li class="list-group-item">
-                <strong><i class="fa  fa-calendar-check-o margin-r-5"></i>Year of Established</strong>
-
-            <p class="text-muted">
-            3.5 Yreas
-            </p>
+                  <strong><i class="fa  fa-calendar-check-o margin-r-5"></i>Year of Established</strong><br>
+              <% if( businesProfileData[15]!=null && !businesProfileData[15].equals("") && !businesProfileData[15].equals("null") ){  
+                  out.println(businesProfileData[15]);
+                  } else { %>
+                  Year of Established
+                  <% }  %>
+              </li>
+              
+              <li class="list-group-item">
+                  <strong><i class="fa fa-envelope margin-r-5"></i> Business Email </strong><br>
+             <% if( businesProfileData[13]!=null && !businesProfileData[13].equals("") && !businesProfileData[13].equals("null") ){  
+                  out.println(businesProfileData[13]);
+                  } else { %>
+                  Business Email
+                  <% }  %>
               </li>
 
-              
-                <li class="list-group-item">
-                <strong><i class="fa fa-envelope margin-r-5"></i> Business Email </strong>
-
-              <p class="text-muted">
-             info@indsac.com
-              </p>
-            </li>
-
             <li class="list-group-item">
-              <strong><i class="fa fa-phone margin-r-5"></i> Phone No </strong>
-
-            <p class="text-muted">
-          799814068
-            </p>
-          </li>
+                <strong><i class="fa fa-phone margin-r-5"></i> Phone No </strong><br>
+              <% if( businesProfileData[9]!=null && !businesProfileData[9].equals("") && !businesProfileData[9].equals("null") ){  
+                out.println(businesProfileData[9]);
+                  } else { %>
+                  Phone No
+                  <% }  %>
+                 </li>
 
                 <li class="list-group-item">
-                <strong><i class="fa fa-map-marker margin-r-5"></i> Office Location</strong>
-
-              <p class="text-muted">Bangalore, India</p>
-
+                    <strong><i class="fa fa-map-marker margin-r-5"></i>City</strong><br>
+               <% if( businesProfileData[21]!=null && !businesProfileData[21].equals("") && !businesProfileData[21].equals("null") ){  
+                out.println(businesProfileData[21]);
+                  } else { %>
+                  City
+                  <% }  %>
             </ul>
             </div>
             <!-- /.box-body -->
@@ -174,7 +186,11 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                     <label for="inputName" class="col-sm-2 control-label">Business Name <span style="color:red">*</span> </label>
   
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="businessname"  name="businessname"placeholder=" Business Name">
+                      <input type="text" class="form-control" id="businessname"  name="businessname"
+                             <% if( businesProfileData[7]!=null && !businesProfileData[7].equals("") && !businesProfileData[7].equals("null") ){
+                  out.println("placeholder=\""+businesProfileData[7]+"\" value=\""+businesProfileData[7]+"\">");
+                  } else { %>placeholder=" Business Name">
+                        <% }  %>       
                     </div>
                   </div>
   
@@ -182,21 +198,33 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                     <label for="inputEmail" class="col-sm-2 control-label"> Business Email</label>
   
                     <div class="col-sm-10">
-                      <input type="email" class="form-control" id="businessemail"  name="businessemail" placeholder=" Business Email">
+                      <input type="email" class="form-control" id="businessemail"  name="businessemail"
+                             <% if( businesProfileData[13]!=null && !businesProfileData[13].equals("") && !businesProfileData[13].equals("null") ){
+                  out.println("placeholder=\""+businesProfileData[13]+"\" value=\""+businesProfileData[13]+"\">");
+                  } else { %>placeholder=" Business Email">
+                          <% }  %>    
                     </div>
                   </div>
                   <div class="form-group">
                     <label for="inputName" class="col-sm-2 control-label">Website</label>
   
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="website" name="website" placeholder="Website">
+                      <input type="text" class="form-control" id="website" name="website"
+                             <% if( businesProfileData[10]!=null && !businesProfileData[10].equals("") && !businesProfileData[10].equals("null") ){
+                  out.println("placeholder=\""+businesProfileData[10]+"\" value=\""+businesProfileData[10]+"\">");
+                  } else { %>placeholder="Website">
+                           <% }  %>   
                     </div>
                   </div>
                 <div class="form-group">
                     <label for="inputSkills" class="col-sm-2 control-label"> Landline Telephone </label>
   
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="landlinetelephone" name="landlinetelephone" placeholder="Telephone No">
+                      <input type="text" class="form-control" id="landlinetelephone" name="landlinetelephone"
+                             <% if( businesProfileData[9]!=null && !businesProfileData[9].equals("") && !businesProfileData[9].equals("null") ){
+                  out.println("placeholder=\""+businesProfileData[9]+"\" value=\""+businesProfileData[9]+"\">");
+                  } else { %>placeholder="Telephone No">
+                           <% }  %>  
                     </div>
                   </div>
   
@@ -204,23 +232,31 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                     <label for="inputSkills" class="col-sm-2 control-label">Mobile No <span style="color:red">*</span></label>
   
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="mobileno"  name="mobileno" placeholder="Mobile No">
+                      <input type="text" class="form-control" id="mobileno"  name="mobileno"
+                             <% if( businesProfileData[25]!=null && !businesProfileData[25].equals("") && !businesProfileData[25].equals("null") ){
+                  out.println("placeholder=\""+businesProfileData[25]+"\" value=\""+businesProfileData[25]+"\">");
+                  } else { %>placeholder="Mobile No">
+                            <% }  %> 
                     </div>
                   </div>
   
                   <div class="form-group">
                     <label for="inputExperience" class="col-sm-2 control-label">Head Office Address</label>
-  
-                    <div class="col-sm-10">
-                      <textarea class="form-control" id="headofficeaddress" name="headofficeaddress" placeholder="Head Office Address"></textarea>
+                           <div class="col-sm-10">
+                      <% if( businesProfileData[8]!=null && !businesProfileData[8].equals("") && !businesProfileData[8].equals("null") ){  %>
+                  <textarea class="form-control" id="headofficeaddress" name="headofficeaddress" > <%=businesProfileData[8]  %> </textarea>
+                 <%  } else { %><textarea class="form-control" id="headofficeaddress" name="headofficeaddress" placeholder="Head Office Address">  </textarea> 
+                           <% }  %> 
                     </div>
                   </div>
                     
                     <div class="form-group">
                     <label for="inputExperience" class="col-sm-2 control-label"> Office Address</label>
-  
                     <div class="col-sm-10">
-                      <textarea class="form-control" id="officeaddress" name="officeaddress" placeholder="Office Address"></textarea>
+                     <% if( businesProfileData[26]!=null && !businesProfileData[26].equals("") && !businesProfileData[8].equals("null") ){  %>
+                  <textarea class="form-control" id="officeaddress" name="officeaddress" > <%=businesProfileData[26]  %> </textarea>
+                 <%  } else { %><textarea class="form-control" id="officeaddress" name="officeaddress" placeholder="Office Address">  </textarea> 
+                           <% }  %>     
                     </div>
                   </div>
   
@@ -228,7 +264,11 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                     <label for="inputSkills" class="col-sm-2 control-label">City <span style="color:red">*</span></label>
   
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="city" name="city" placeholder="City">
+                      <input type="text" class="form-control" id="city" name="city"
+                             <% if( businesProfileData[21]!=null && !businesProfileData[21].equals("") && !businesProfileData[21].equals("null") ){
+                  out.println("placeholder=\""+businesProfileData[21]+"\" value=\""+businesProfileData[21]+"\">");
+                  } else { %>placeholder="City">
+                             <% }  %>
                     </div>
                   </div>
   
@@ -236,7 +276,11 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                     <label for="inputSkills" class="col-sm-2 control-label">State <span style="color:red">*</span></label>
   
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="state"  name="state" placeholder="State">
+                      <input type="text" class="form-control" id="state"  name="state"
+                             <% if( businesProfileData[22]!=null && !businesProfileData[22].equals("") && !businesProfileData[22].equals("null") ){
+                  out.println("placeholder=\""+businesProfileData[22]+"\" value=\""+businesProfileData[22]+"\">");
+                  } else { %>placeholder="State">
+                             <% }  %>
                     </div>
                   </div>
   
@@ -244,7 +288,11 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                     <label for="inputSkills" class="col-sm-2 control-label">Country <span style="color:red">*</span></label>
   
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="country"  name="country" placeholder="Country">
+                      <input type="text" class="form-control" id="country"  name="country"
+                             <% if( businesProfileData[23]!=null && !businesProfileData[22].equals("") && !businesProfileData[23].equals("null") ){
+                  out.println("placeholder=\""+businesProfileData[23]+"\" value=\""+businesProfileData[23]+"\">");
+                  } else { %>placeholder="Country">
+                          <% }  %>   
                     </div>
                   </div>
   
@@ -252,7 +300,11 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                     <label for="inputSkills" class="col-sm-2 control-label">Zip Code <span style="color:red">*</span></label>
   
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="zipcode"  name="zipcode" placeholder="Zip Code">
+                      <input type="text" class="form-control" id="zipcode"  name="zipcode"
+                             <% if( businesProfileData[24]!=null && !businesProfileData[24].equals("") && !businesProfileData[24].equals("null") ){
+                  out.println("placeholder=\""+businesProfileData[24]+"\" value=\""+businesProfileData[24]+"\">");
+                  } else { %>placeholder="Zip Code">
+                           <% }  %>  
                     </div>
                   </div>
   
@@ -260,7 +312,10 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                   <label for="inputPassword3" class="col-sm-2 control-label" >Notes</label>
 
                   <div class="col-sm-10" >
-                 <textarea class="form-control" rows="5" id="notes" name="notes" placeholder=" Notes " autocomplete="off"></textarea>
+                 <% if( businesProfileData[19]!=null && !businesProfileData[19].equals("") && !businesProfileData[19].equals("null") ){  %>
+                  <textarea class="form-control" id="notes" name="notes" > <%=businesProfileData[19]  %> </textarea>
+                 <%  } else { %><textarea class="form-control" id="notes" name="notes" placeholder="Notes"></textarea> 
+                           <% }  %>                   
                   </div>
                 </div>
                   
@@ -306,16 +361,32 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                 </form>
              
               </div>
+                          
               <!-- /.tab-pane -->
               <div class="tab-pane" id="businessdetails">
                 <!-- The timeline -->
                 
                 <form class="form-horizontal" method="post" action="BusinessFormSubmit">
+                    <div class="form-group">
+                    <label for="inputEmail" class="col-sm-2 control-label"> GSTIN No.</label>
+  
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" id="gstin" name="gstin"
+                  <% if( businesProfileData[6]!=null && !businesProfileData[6].equals("") && !businesProfileData[6].equals("null") ){
+                  out.println("placeholder=\""+businesProfileData[6]+"\" value=\""+businesProfileData[6]+"\">");
+                  } else { %>placeholder=" GSTIN No.">
+                            <% }  %> 
+                    </div>
+                  </div>
                      <div class="form-group">
                     <label for="inputEmail" class="col-sm-2 control-label"> Owner Details</label>
   
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="ownerdetails" name="ownerdetails" placeholder=" Owner Details">
+                      <input type="text" class="form-control" id="ownerdetails" name="ownerdetails"
+                  <% if( businesProfileData[12]!=null && !businesProfileData[12].equals("") && !businesProfileData[12].equals("null") ){
+                  out.println("placeholder=\""+businesProfileData[12]+"\" value=\""+businesProfileData[12]+"\">");
+                  } else { %>placeholder=" Owner Details">
+                            <% }  %> 
                     </div>
                   </div>
                     
@@ -328,19 +399,15 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                         </select></div>
                 </div>
                     
-                  <div class="form-group">
-                    <label for="inputSkills" class="col-sm-2 control-label"> Branch Location</label>
-  
-                    <div class="col-sm-10">
-                      <input type="text" class="form-control" id="branchlocation"  name="branchlocation" placeholder="Branch Location">
-                    </div>
-                  </div>
-                    
                     <div class="form-group">
                     <label for="inputName" class="col-sm-2 control-label"> Business Type</label>
   
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="businesstype"  name="businesstype" placeholder="Business Type">
+                      <input type="text" class="form-control" id="businesstype"  name="businesstype"
+                    <% if( businesProfileData[27]!=null && !businesProfileData[27].equals("") && !businesProfileData[27].equals("null") ){
+                  out.println("placeholder=\""+businesProfileData[27]+"\" value=\""+businesProfileData[27]+"\">");
+                  } else { %>placeholder="Business Type">
+                          <% }  %>    
                     </div>
                   </div>
 
@@ -348,14 +415,22 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                     <label for="inputName" class="col-sm-2 control-label">Total Employees</label>
   
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="totalemployee"  name="totalemployee" placeholder="Total Employees">
+                      <input type="text" class="form-control" id="totalemployee"  name="totalemployee"
+                   <% if( businesProfileData[16]!=null && !businesProfileData[16].equals("") && !businesProfileData[16].equals("null") ){
+                  out.println("placeholder=\""+businesProfileData[16]+"\" value=\""+businesProfileData[16]+"\">");
+                  } else { %>placeholder="Total Employees">
+                          <% }  %>   
                     </div>
                   </div>
                          <div class="form-group">
                     <label for="inputName" class="col-sm-2 control-label">Year Of Established</label>
   
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="yearofestablished"  name="yearofestablished" placeholder="Year Of Established">
+                      <input type="text" class="form-control" id="yearofestablished"  name="yearofestablished"
+                   <% if( businesProfileData[15]!=null && !businesProfileData[15].equals("") && !businesProfileData[15].equals("null") ){
+                  out.println("placeholder=\""+businesProfileData[15]+"\" value=\""+businesProfileData[15]+"\">");
+                  } else { %>placeholder="Year Of Established">
+                        <% }  %>     
                     </div>
                   </div>
   
@@ -363,7 +438,11 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                     <label for="inputName" class="col-sm-2 control-label">Gross Annual Turnover</label>
   
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="grossannualturnover"  name="grossannualturnover" placeholder="Gross Annual Turnover">
+                      <input type="text" class="form-control" id="grossannualturnover"  name="grossannualturnover"
+                    <% if( businesProfileData[17]!=null && !businesProfileData[17].equals("") && !businesProfileData[17].equals("null") ){
+                  out.println("placeholder=\""+businesProfileData[17]+"\" value=\""+businesProfileData[17]+"\">");
+                  } else { %>placeholder="Gross Annual Turnover">
+                          <% }  %>    
                     </div>
                   </div>
                     
@@ -372,7 +451,11 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                     <label for="inputName" class="col-sm-2 control-label">Annual Export Turnover</label>
   
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="annualexportturnover" name="annualexportturnover" placeholder="Annual Export Turnover">
+                      <input type="text" class="form-control" id="annualexportturnover" name="annualexportturnover"
+                   <% if( businesProfileData[18]!=null && !businesProfileData[18].equals("") && !businesProfileData[18].equals("null") ){
+                  out.println("placeholder=\""+businesProfileData[18]+"\" value=\""+businesProfileData[18]+"\">");
+                  } else { %>placeholder="Annual Export Turnover">
+                      <% }  %>
                     </div>
                   </div>
                     
@@ -415,53 +498,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
               <!-- /.tab-pane -->
               <div class="tab-pane" id="settings">
                 <form class="form-horizontal" >
-
-                  <div class="box box-info">
-                    <div class="box-header">
-                     <a class="box-title">Change Password Settings</a>
-                    </div>
-
-                  <div class="form-group">
-                    <label for="inputName" class="col-sm-2 control-label">New Paasword</label>
-
-                    <div class="col-sm-6">
-                      <input type="text" class="form-control" id="newpaasword" placeholder="New Paasword">
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label for="inputName" class="col-sm-2 control-label">Confirm Password</label>
-
-                    <div class="col-sm-6">
-                      <input type="text" class="form-control" id="confirmpassword" placeholder="Confirm Password">
-                    </div>
-                  </div> 
-                  <div class="form-group">
-                    <div class="col-sm-offset-2 col-sm-10">
-                      <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-setting1">
-                      Submit
-                      </button>
-                    </div>
-                    <div class="modal fade" id="modal-setting1">
-                      <div class="modal-dialog">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                              <span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title">Reminder....</h4>
-                          </div>
-                          <div class="modal-body">
-                            <p>Do You Want To Really Save Changes&hellip;</p>
-                          </div>
-                          <div class="modal-footer">
-                            <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save </button>
-                          </div>
-                        </div>
-                        <!-- /.modal-content -->
-                      </div>
-                    </div>
-                   </div>
-                  <div class="box box-info">
+              <div class="box box-info">
                     <div class="box-header">
                      <a  class="box-title">Logo Settings </a>
                      <a  href="selectavatar.jsp" class="btn btn-info pull-right">Select Default Logo </a>
@@ -498,8 +535,9 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                   </div>
                   </div>
             
-              </div>
+             
             </form>
+          
               <!-- /.tab-pane -->
             </div>
             <!-- /.tab-content -->
@@ -509,7 +547,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
         <!-- /.col -->
       </div>
       <!-- /.row -->
-
+     
     </section>
     
     <!-- /.content -->
@@ -587,8 +625,8 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
            return false;
         }else 
             if(document.getElementById("businessname").value!=""){
-            if(document.getElementById("businessname").value.length>150){
-            document.getElementById("alert-message").innerHTML = "Business Name: Only 150 Characters allowed";
+            if(document.getElementById("businessname").value.length>45){
+            document.getElementById("alert-message").innerHTML = "Business Name: Only 45 Characters allowed";
     $('#show-alert').modal('show')
            document.getElementById("businessname").focus();
            
@@ -665,8 +703,8 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
            
            return false;
        }else           
-           if(!document.getElementById("state").value.match(/^[a-zA-Z:,'-'' '\.0-9\n]+$/)){
-              document.getElementById("alert-message").innerHTML = "State: Only Characters allowed";
+           if(!document.getElementById("state").value.match(/^[0-9 a-z.A-Z]+$/)){
+              document.getElementById("alert-message").innerHTML = "State: Only alphanumeric allowed";
     $('#show-alert').modal('show')
            
            document.getElementById("state").focus();
@@ -842,6 +880,22 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
    }
                 function detailForm(){
                     
+                    if(document.getElementById("gstin").value!=""){
+           if(!document.getElementById("gstin").value.match(/^[0-9A-Z]+$/)){
+           document.getElementById("alert-message").innerHTML = "Please enter valid gstin";
+            $('#show-alert').modal('show')
+           //alert("Only alphanumeric allowed");
+           document.getElementById("gstin").focus();
+           return false;
+            } else
+           if(document.getElementById("gstin").value.length>15){
+           document.getElementById("alert-message").innerHTML = "GSTIN No.: Only 15 Characters allowed";
+            $('#show-alert').modal('show')
+           document.getElementById("gstin").focus();
+           return false;
+           }
+          }
+                    
                     if(document.getElementById("ownerdetails").value!=""){
            if(!document.getElementById("ownerdetails").value.match(/^[0-9 a-z.A-Z]+$/)){
            document.getElementById("alert-message").innerHTML = "Owner Details: Only alphanumeric allowed";
@@ -872,21 +926,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
            return false;
        }
        }
-             if(document.getElementById("branchlocation").value!=""){
-           if(!document.getElementById("branchlocation").value.match(/^[0-9 a-z.A-Z]+$/)){
-           document.getElementById("alert-message").innerHTML = "Branch Location: Only alphanumeric allowed";
-            $('#show-alert').modal('show')
-           //alert("Only alphanumeric allowed");
-           document.getElementById("branchlocation").focus();
-           return false;
-            } else
-           if(document.getElementById("branchlocation").value.length>45){
-           document.getElementById("alert-message").innerHTML = "Branch Location: Only 45 Characters allowed";
-            $('#show-alert').modal('show')
-           document.getElementById("branchlocation").focus();
-           return false;
-       }
-       }             
+           
               if(document.getElementById("businesstype").value!=""){
            if(!document.getElementById("businesstype").value.match(/^[0-9 a-z.A-Z]+$/)){
            document.getElementById("alert-message").innerHTML = "Type Of Business: Only alphanumeric allowed";

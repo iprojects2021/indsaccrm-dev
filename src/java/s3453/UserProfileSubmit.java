@@ -2,10 +2,6 @@
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
- *//*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
  */
 
 package s3453;
@@ -17,17 +13,18 @@ import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import log.Log;
-import menu.BusinessProfileService;
 
 /**
  *
  * @author Lenovo
  */
-public class BusinessDetailSubmit extends HttpServlet {
+@WebServlet(name = "UserProfileSubmit", urlPatterns = {"/UserProfileSubmit"})
+public class UserProfileSubmit extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -45,55 +42,60 @@ public class BusinessDetailSubmit extends HttpServlet {
         try {
             
             String useradminid=request.getParameter("useradminid");
-            String gstin=request.getParameter("gstin");
-            String ownerdetails=request.getParameter("ownerdetails");
-            String companystatus=request.getParameter("companystatus");
-            String businesstype=request.getParameter("businesstype");
-            String totalemployee=request.getParameter("totalemployee");
-            String yearofestablished=request.getParameter("yearofestablished");
-            String grossannualturnover=request.getParameter("grossannualturnover");
-            String annualexportturnover=request.getParameter("annualexportturnover");
+            String firstname=request.getParameter("firstname");
+            String lastname=request.getParameter("lastname");
+             String email=request.getParameter("email");
+            String gender=request.getParameter("gender");
+            String dob=request.getParameter("dob");
+            String phone=request.getParameter("phone");
+            String mobileno=request.getParameter("mobileno");
+            String address=request.getParameter("address");
+            String city=request.getParameter("city");
+            String state=request.getParameter("state");
+            String country=request.getParameter("country");
+            String zipcode=request.getParameter("zipcode");
             
-            boolean userAdminIdExist = BusinessProfileService.checkBusinessExist(useradminid);
-        if(userAdminIdExist){
-          
-              try{
+            try{
               Connection con=Poul.getConnectionCRM();
-              PreparedStatement ps=con.prepareStatement("update businessprofile set gstin=?,ownerdetails=?,companystatus=?,businesstype=?,totalemployee=?,yearofestablished=?,grossannualturnover=?,annualexportturnover=? where useradminid=registerid and usercid=useradminid and useradminid= ?");
-              
-              ps.setString(1,gstin);
-              ps.setString(2,ownerdetails);
-              ps.setString(3,companystatus);
-              ps.setString(4,businesstype);
-              ps.setString(5,totalemployee);
-              ps.setString(6,yearofestablished);
-              ps.setString(7,grossannualturnover);
-              ps.setString(8,annualexportturnover);
-              ps.setString(9,useradminid);
-              
+              PreparedStatement ps=con.prepareStatement("update register set firstname=?,lastname=?,gender=?,dob=?,phone=?,mobileno=?,address=?,city=?,state=?,country=?,zipcode=?,email=? where  usercid and useradminid=?");
+             
+              ps.setString(1,firstname);
+              ps.setString(2,lastname);
+              ps.setString(3,gender);
+              ps.setString(4,dob);
+              ps.setString(5,phone);
+              ps.setString(6,mobileno);
+              ps.setString(7,address);
+              ps.setString(8,city);
+              ps.setString(9,state);
+              ps.setString(10,country);
+              ps.setString(11,zipcode);
+              ps.setString(12,email);
+              ps.setString(13,useradminid);
+                            
               ps.executeUpdate();
               con.close();
               ps.close();
               
-            Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" Package=s3453 ,  File=BusinessDetailSubmit.java , method=processRequest");
-            response.sendRedirect("businessprofile.jsp?message=updatesuccessfully");  
+            Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" Package=s3453 ,  File=UserProfileSubmit.java , method=processRequest");
+            response.sendRedirect("userprofile.jsp?message=updatesuccessfully");  
             
             //try close
             }catch(Exception e){
-            String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" \nBusinessDetaileSubmit.java-----\n"
-            + "\nLINE=84 \n update businessprofile set gstin=?,ownerdetails=?,companystatus=?,businesstype=?,totalemployee=?,yearofestablished=?,grossannualturnover=?,annualexportturnover=? where useradminid=registerid and usercid=useradminid and useradminid= ?";
+            String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" \nUserProfileSubmit.java-----\n"
+            + "\nLINE=84\n update register set firstname=?,lastname=?,gender=?,dob=?,phone=?,mobileno=?,address=?,city=?,state=?,country=?,zipcode=?,email=? where useradminid and usercid=?";
             Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
             EmergencyEmail.send(e,errormsg); 
         }
-        }
+            
             /* TODO output your page here. You may use following sample code. */
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet BusinessFormSubmit</title>");            
+            out.println("<title>Servlet UserProfileSubmit</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Servlet BusinessFormSubmit at " + request.getContextPath() + "</h1>");
+            out.println("<h1>Servlet UserProfileSubmit at " + request.getContextPath() + "</h1>");
             out.println("</body>");
             out.println("</html>");
         } finally {

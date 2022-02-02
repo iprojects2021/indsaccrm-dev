@@ -497,19 +497,20 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
               
               <!-- /.tab-pane -->
               <div class="tab-pane" id="settings">
-                <form class="form-horizontal" >
+                <form class="form-horizontal" action="Fileupload" method="post" enctype="multipart/form-data" >
               <div class="box box-info">
                     <div class="box-header">
                      <a  class="box-title">Logo Settings </a>
                      <a  href="selectavatar.jsp" class="btn btn-info pull-right">Select Default Logo </a>
                     </div>
                   <div class="form-group">
+                    
                     <label for="inputSkills" class="col-sm-2 control-label">Upload Business Logo</label>
                     <input type="file" id="uploadbusinesslogo" >
                   </div>
                   <div class="form-group">
                     <div class="col-sm-offset-2 col-sm-10">
-                      <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-setting1">
+                      <button type="button" class="btn btn-danger" onclick="return processing()" >
                       Submit
                       </button><br><br>
                     </div>
@@ -526,7 +527,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                           </div>
                           <div class="modal-footer">
                             <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save </button>
+                            <button type="submit" class="btn btn-primary">Save </button>
                           </div>
                         </div>
                         <!-- /.modal-content -->
@@ -1011,6 +1012,20 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                      
 </script>     
 
+ <script>
+    function processing()  
+{ 
+   $('#waitingdisplay').modal('show') 
+   document.addEventListener("contextmenu", function(e){
+    
+        e.preventDefault();
+   
+}, false);
+                $('#modal-setting1').modal('show')
+    
+   return true;
+}
+</script>
 
 <script>
 $('#dob').calendarsPicker({

@@ -142,10 +142,26 @@ Statement st=c.createStatement();
       }
         catch(Exception e){
  String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" \n Package=menu , File=AdminDefaultValues.java , method=getAdminInvoiceLogo(String usercid_adminid)-----\n"
-    + "\nLINE=141 \n SELECT invoidelogofile FROM admindefaultvalues where useradminid="+usercid_adminid+"    ";
+    + "\nLINE=145 \n SELECT invoidelogofile FROM admindefaultvalues where useradminid="+usercid_adminid+"    ";
    Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
      EmergencyEmail.send(e,errormsg); 
-                } 
+                }
+       String filenames[]=result.split(";");
+     result=filenames[0];
+            
+       String source = Poul.getDirPath()+java.io.File.separator+"files"+java.io.File.separator+ result;
+         String  dest=Poul.getProjectPath()+java.io.File.separator+"uploads"+java.io.File.separator+ "logo"+java.io.File.separator+result;
+ java.io.File sourcefile = new java.io.File(source);
+          java.io.File destfile = new java.io.File(dest);
+            if (!destfile.exists()){
+        try {   FileUtils.copyFile(sourcefile, destfile);
+    } catch (IOException e) {
+                    String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" \n Package=menu , File=AdminDefaultValues.java , Type=Files, Filename="+result+"-----\n"
+    + "\nLINE=157 \n  useradminid=="+usercid_adminid+"  ";
+   Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
+     EmergencyEmail.send(e,errormsg); 
+        }
+            }
        return result;
       
      }     
@@ -165,7 +181,7 @@ Statement st=c.createStatement();
         catch(SQLException e)
         {
       String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"\n Package=menu , File=AdminDefaultValues.java , method=saveInvoiceCurrency(String useradminid,String usercid,String id,String filename)-----\n"
-     + "LINE=164 \n update admindefaultvalues set    currency='"+currency+"' where  useradminid='"+useradminid+"'  ";
+     + "LINE=181 \n update admindefaultvalues set    currency='"+currency+"' where  useradminid='"+useradminid+"'  ";
      Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
       EmergencyEmail.send(e,errormsg);
      
@@ -193,7 +209,7 @@ Statement st=c.createStatement();
       }
         catch(Exception e){
  String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" \n Package=menu , File=AdminDefaultValues.java , method=getInvoiceCurrency(String usercid_adminid)-----\n"
-    + "\nLINE=190 \n SELECT currency FROM admindefaultvalues where useradminid="+usercid_adminid+"    ";
+    + "\nLINE=209 \n SELECT currency FROM admindefaultvalues where useradminid="+usercid_adminid+"    ";
    Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
      EmergencyEmail.send(e,errormsg); 
                 } 
@@ -219,7 +235,7 @@ Statement st=c.createStatement();
        }
         catch(Exception e){
               String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" \n Package=menu , File=AdminDefaultValues.java ,  method=getDefaultCity(String usercid_adminid,String usercid_id)-----\n"
-    + "\nLINE=214 \n select invoicedefaultcity from defaultvalues  where useradminid=="+usercid_adminid+" and usercid=="+usercid_id+"  ";
+    + "\nLINE=235 \n select invoicedefaultcity from defaultvalues  where useradminid=="+usercid_adminid+" and usercid=="+usercid_id+"  ";
    Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
      EmergencyEmail.send(e,errormsg); 
                 } 
@@ -243,13 +259,12 @@ Statement st=c.createStatement();
        }
         catch(Exception e){
               String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" \n Package=menu , File=AdminDefaultValues.java ,  method=doInvoiceLogoReady(String usercid_adminid)-----\n"
-    + "\nLINE=242 \n select invoicedefaultcity from defaultvalues  where useradminid=="+usercid_adminid+"  ";
+    + "\nLINE=259 \n select invoicedefaultcity from defaultvalues  where useradminid=="+usercid_adminid+"  ";
    Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
      EmergencyEmail.send(e,errormsg); 
                 }
  if("0".equals(result) || "".equals(result)||result==null) {result="0"; }else{
- result=result.substring(0, result.length()-1);
-            
+
      String source = Poul.getDirPath()+java.io.File.separator+"files"+java.io.File.separator+ result;
          String  dest=Poul.getProjectPath()+java.io.File.separator+"uploads"+java.io.File.separator+ "logo"+java.io.File.separator+result;
  java.io.File sourcefile = new java.io.File(source);
@@ -258,7 +273,7 @@ Statement st=c.createStatement();
         try {   FileUtils.copyFile(sourcefile, destfile);
     } catch (IOException e) {
                     String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" \n Package=menu , File=AdminDefaultValues.java , Type=Files, Filename="+result+"-----\n"
-    + "\nLINE=256 \n  useradminid=="+usercid_adminid+"  ";
+    + "\nLINE=274 \n  useradminid=="+usercid_adminid+"  ";
    Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
      EmergencyEmail.send(e,errormsg); 
         }

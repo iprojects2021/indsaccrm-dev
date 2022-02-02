@@ -1,3 +1,4 @@
+<%@page import="menu.UserProfileService"%>
 <%@page import="blezz.Nd"%>
 <%@page import="email.EmergencyEmail"%>
 <%@page import="email.EmergencyEmail"%>
@@ -60,8 +61,13 @@ if (session != null) {
 			} 
 		}
 Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.getPublicIP()+" ,useradminid="+usercid_adminid+" ,usercid="+usercid_id+" --Entering userprofile.jsp-----------");
-%>
     
+                           String businesProfileData[]=UserProfileService.getUserProfile(usercid_adminid);
+%>
+                                   
+    
+
+
 <div class="wrapper">
 
  <jsp:include page="dist/include/leftmenu.jsp" />  
@@ -183,12 +189,14 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                     <label for="inputName" class="col-sm-2 control-label">First Name<span style="color:red">*</span></label>
   
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="firstname"  name="firstname" placeholder="Frist Name">
+                      <input type="text" class="form-control" id="firstname"  name="firstname"
+                             
+                             placeholder="Frist Name">
                     </div>
                   </div>
   
                   <div class="form-group">
-                    <label for="inputName" class="col-sm-2 control-label">Last Name<span style="color:red">*</span></label>
+                    <label for="inputName" class="col-sm-2 control-label">Last Name</label>
   
                     <div class="col-sm-10">
                       <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name">
@@ -199,7 +207,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                     <label for="inputEmail" class="col-sm-2 control-label">Email</label>
   
                     <div class="col-sm-10">
-                      <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+                      <input type="email" class="form-control" id="email" name="email" disable placeholder="Email">
                     </div>
                   </div>
                   <div class="form-group">
@@ -295,6 +303,8 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                               <span aria-hidden="true">&times;</span></button>
                             <h4 class="modal-title">Reminder....</h4>
                           </div>
+                            <input type="hidden" name="useradminid" value="<%=usercid_adminid  %>">
+                            <input type="hidden" name="usercid" value="<%=usercid_id  %>">
                           <div class="modal-body">
                             <p>Do You Really Want To Save Changes&hellip;</p>
                           </div>
@@ -572,7 +582,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
      return false;
             } 
         } 
-       
+   /**    
    if(document.getElementById("lastname").value==""){
    
             document.getElementById("alert-message").innerHTML = "Last Name: Cannot be empty";
@@ -596,6 +606,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
      return false;
             } 
         } 
+        */
        
        if(document.getElementById("mobileno").value==""){
    

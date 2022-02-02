@@ -41,12 +41,14 @@ public class UserProfileSubmit extends HttpServlet {
         PrintWriter out = response.getWriter();
         try {
             
+            
             String useradminid=request.getParameter("useradminid");
             String firstname=request.getParameter("firstname");
             String lastname=request.getParameter("lastname");
-             String email=request.getParameter("email");
-            String gender=request.getParameter("gender");
-            String dob=request.getParameter("dob");
+            firstname=firstname+" "+lastname;
+            
+           // String gender=request.getParameter("gender");
+           // String dob=request.getParameter("dob");
             String phone=request.getParameter("phone");
             String mobileno=request.getParameter("mobileno");
             String address=request.getParameter("address");
@@ -57,22 +59,21 @@ public class UserProfileSubmit extends HttpServlet {
             
             try{
               Connection con=Poul.getConnectionCRM();
-              PreparedStatement ps=con.prepareStatement("update register set firstname=?,lastname=?,gender=?,dob=?,phone=?,mobileno=?,address=?,city=?,state=?,country=?,zipcode=?,email=? where  usercid and useradminid=?");
+              PreparedStatement ps=con.prepareStatement("update register set firstname=?,phone=?,mobile=?,address1=?,city=?,state=?,country=?,pincode=? where  useradminid=?");
              
               ps.setString(1,firstname);
-              ps.setString(2,lastname);
-              ps.setString(3,gender);
-              ps.setString(4,dob);
-              ps.setString(5,phone);
-              ps.setString(6,mobileno);
-              ps.setString(7,address);
-              ps.setString(8,city);
-              ps.setString(9,state);
-              ps.setString(10,country);
-              ps.setString(11,zipcode);
-              ps.setString(12,email);
-              ps.setString(13,useradminid);
-                            
+            //  ps.setString(3,gender);
+            //  ps.setString(4,dob);
+              ps.setString(2,phone);
+              ps.setString(3,mobileno);
+              ps.setString(4,address);
+              ps.setString(5,city);
+              ps.setString(6,state);
+              ps.setString(7,country);
+              ps.setString(8,zipcode);
+             
+              ps.setString(9,useradminid);
+              
               ps.executeUpdate();
               con.close();
               ps.close();
@@ -83,7 +84,7 @@ public class UserProfileSubmit extends HttpServlet {
             //try close
             }catch(Exception e){
             String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" \nUserProfileSubmit.java-----\n"
-            + "\nLINE=84\n update register set firstname=?,lastname=?,gender=?,dob=?,phone=?,mobileno=?,address=?,city=?,state=?,country=?,zipcode=?,email=? where useradminid and usercid=?";
+            + "\nLINE=87\n update register set firstname=?,phone=?,mobileno=?,address1=?,city=?,state=?,country=?,pincode=? where useradminid=?";
             Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
             EmergencyEmail.send(e,errormsg); 
         }

@@ -536,7 +536,6 @@
                               <strong>Invoice Logo</strong>
                             <%  String invoicelogofile=menu.AdminDefaultValues.getAdminInvoiceLogo(usercid_adminid);
            
-                            invoicelogofile=invoicelogofile.substring(0, invoicelogofile.length()-1);
                       if("0".equals(invoicelogofile) || "".equals(invoicelogofile)) {     %>
                           <img class="img-responsive" src="dist/img/u.png" alt="Photo">  
                           <% }else{  %>

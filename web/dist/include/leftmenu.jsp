@@ -424,11 +424,12 @@ if (session != null) {
        
            
            <% if("admin".equals( useraccountype)){  %>
+           <li ><a href="userprofile.jsp"><i class="fa fa-dashboard"></i>User Profile </a></li>
            <li ><a href="manageuser.jsp"><i class="fa fa-dashboard"></i>Manage User </a></li>
            <li ><a href="invoicesetting.jsp"><i class="fa fa-dashboard"></i> Invoice Setting</a></li>
            <li ><a href="hrdashboard.jsp"><i class="fa fa-dashboard"></i> HRM</a></li>
           <li ><a href="addemployee.jsp"><i class="fa fa-dashboard"></i> Add Employee</a></li>
-          
+          <li ><a href="businessprofile.jsp"><i class="fa fa-dashboard"></i> Business Profile </a></li>
            <% }  %>
           </ul>
               

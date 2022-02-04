@@ -139,6 +139,14 @@ public class Fileupload extends HttpServlet {
         Log.writeLog("Debug: Redirecting to taskedit.jsp?tid="+general);
             response.sendRedirect("taskedit.jsp?2a2e2a746964="+Nd.Encrypt(general)+"&msg=upload");
         }
+           
+         if("businessprofile".equals(type)){
+           Log.writeLog("Debug: Before DB update, Type="+type);
+        String expensedb=menu.BusinessProfileService.saveBusinessProfileLogotoDB(usercid_adminid, usercid_id, general, attachmentfilename);
+        Log.writeLog("Debug: Redirecting to businessprofile.jsp?businessprofileid="+general);
+            response.sendRedirect("businessprofile.jsp?"+"&message=succesfulyUploaded ");  
+         
+         }  
       
  }
       public static List<java.io.File> saveUploadedFiles(HttpServletRequest request,String FileDirName)

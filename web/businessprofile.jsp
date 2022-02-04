@@ -65,6 +65,8 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
           
           String msgurl=request.getParameter("message");
           if("updatesuccessfully".equals(msgurl)||"successfullysaved".equals(msgurl) ){successmsg="Updated  Successfully";}
+          if("updatesuccessfully".equals(msgurl)){successmsg="Uploaded  Successfully";}
+          
           String businesProfileData[]=BusinessProfileService.getBusinessProfile(usercid_adminid);
         %>
     
@@ -501,13 +503,14 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
               <div class="box box-info">
                     <div class="box-header">
                      <a  class="box-title">Logo Settings </a>
-                     <a  href="selectavatar.jsp" class="btn btn-info pull-right">Select Default Logo </a>
                     </div>
                   <div class="form-group">
                     
                     <label for="inputSkills" class="col-sm-2 control-label">Upload Business Logo</label>
-                    <input type="file" id="uploadbusinesslogo" >
                   </div>
+                <input type="hidden" class="form-control"  name="general"  value="<%=Nd.Encrypt(businesProfileData[1]) %>" >
+                <input type="hidden" class="form-control"  name="type"  value="businessprofile" >
+                <input type="file" name="receipt"  required><br>
                   <div class="form-group">
                     <div class="col-sm-offset-2 col-sm-10">
                       <button type="button" class="btn btn-danger" onclick="return processing()" >

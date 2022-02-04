@@ -32,12 +32,12 @@ public class UserProfileService {
     
         while(rs.next())
         { 
-           for(i=1;i<=50;i++)
+           for(i=1;i<=48;i++)
         {
         leaddata[i]=rs.getString(i);
                }
         }
-        System.out.println("leaddata:"+leaddata[1]);
+        
        rs.close();
       smt.close();
       con.close();

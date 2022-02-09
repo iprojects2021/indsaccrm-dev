@@ -87,8 +87,14 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
           <!-- Profile Image -->
           <div class="box box-primary">
             <div class="box-body box-profile">
-              <img class="profile-user-img img-responsive img-circle" src="dist/img/u.png" alt="User profile picture">
-
+              <img class="profile-user-img img-responsive img-circle" 
+                    <%  String logo=menu.BusinessProfileService.getBusinessProfileLogo(usercid_adminid);
+                   if("0".equals(logo) || "".equals(logo)) {     %>
+                   <img class="img-responsive" src="dist/img/u.png" alt="Photo">
+                     <% }else{  %>
+                  <img class="img-responsive" src="uploads/logo/<%=logo %>" alt="Photo" width="80" height="80">  
+                       <% } %>
+                   
               <h3 class="profile-username text-center">
                   <% if( businesProfileData[7]!=null && !businesProfileData[7].equals("") && !businesProfileData[7].equals("null") ){
                   out.println(businesProfileData[7]);
@@ -103,7 +109,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                 <% if( businesProfileData[10]!=null && !businesProfileData[10].equals("") && !businesProfileData[10].equals("null") ){  
                   out.println(businesProfileData[10]);
                   } else { %>
-                    xyz 
+                    Website 
              <% }  %>
                 </li>
 
@@ -320,17 +326,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                            <% }  %>                   
                   </div>
                 </div>
-                  
-      
-                  <div class="form-group">
-                    <div class="col-sm-offset-2 col-sm-10">
-                      <div class="checkbox">
-                        <label>
-                          <input type="checkbox" required> I agree to the <a href="#">terms and conditions</a>
-                        </label>
-                      </div>
-                    </div>
-                  </div>
+         
                   <div class="form-group">
                     <div class="col-sm-offset-2 col-sm-10">
                       <button type="button" class="btn btn-danger"  onClick="return validateForm()">

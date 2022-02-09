@@ -81,7 +81,8 @@ public class AdminDefaultValues {
    Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
      EmergencyEmail.send(e,errormsg); 
                 } 
-    return i;}
+    return i;
+  }
 public static String saveInvoiceLogotoDB(String useradminid,String usercid,String filename) throws IOException{
         
        try{
@@ -164,7 +165,9 @@ Statement st=c.createStatement();
             }
        return result;
       
-     }     
+     } 
+          
+     
      public static String saveInvoiceCurrency(String useradminid,String currency,HttpServletRequest request) throws IOException{
         
        try{

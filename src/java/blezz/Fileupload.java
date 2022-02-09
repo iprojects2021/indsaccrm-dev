@@ -18,6 +18,8 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.MultipartConfig;
 import javax.servlet.annotation.WebServlet;
@@ -144,9 +146,19 @@ public class Fileupload extends HttpServlet {
            Log.writeLog("Debug: Before DB update, Type="+type);
         String expensedb=menu.BusinessProfileService.saveBusinessProfileLogotoDB(usercid_adminid, usercid_id, general, attachmentfilename);
         Log.writeLog("Debug: Redirecting to businessprofile.jsp?businessprofileid="+general);
+            
             response.sendRedirect("businessprofile.jsp?"+"&message=succesfulyUploaded ");  
          
-         }  
+         } 
+         
+         if("userprofile".equals(type)){
+           Log.writeLog("Debug: Before DB update, Type="+type);
+        String expensedb=menu.UserProfileService.saveUserProfileLogotoDB(usercid_adminid, usercid_id, general, attachmentfilename);
+        Log.writeLog("Debug: Redirecting to businessprofile.jsp?userprofileid="+general);
+            
+            response.sendRedirect("userprofile.jsp?"+"&message=succesfulyUploaded ");  
+         
+         } 
       
  }
       public static List<java.io.File> saveUploadedFiles(HttpServletRequest request,String FileDirName)

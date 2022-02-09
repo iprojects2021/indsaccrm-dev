@@ -93,61 +93,68 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
 
               <ul class="list-group list-group-unbordered">
                 <li class="list-group-item">
-                  <strong><i class="fa fa-university margin-r-5"></i>Department</strong>
-
-              <p class="text-muted">
-                IT
-              </p>
+                    <strong><i class="fa fa-university margin-r-5"></i>Department</strong><br>
+          <% if( userProfileData[8]!=null && !userProfileData[8].equals("") && !userProfileData[8].equals("null") ){  
+                  out.println(userProfileData[8]);
+                  } else { %>
+                  Department
+                  <% }  %>
                 </li>
 
                 <li class="list-group-item">
-                  <strong><i class="fa fa-diamond margin-r-5"></i>Manager</strong>
-
-              <p class="text-muted">
-            xyz 
-              </p>
+                    <strong><i class="fa fa-diamond margin-r-5"></i>Manager</strong><br>
+              <% if( userProfileData[14]!=null && !userProfileData[14].equals("") && !userProfileData[14].equals("null") ){  
+                  out.println(userProfileData[14]);
+                  } else { %>
+                  Manager
+                  <% }  %>
                 </li>
 
                 <li class="list-group-item">
-                  <strong><i class=" fa fa-cube margin-r-5"></i>Projects</strong>
-
-                  <p class="text-muted">
-                    CRM 
-                  </p>
+                    <strong><i class=" fa fa-cube margin-r-5"></i>Projects</strong><br>
+                <% if( userProfileData[21]!=null && !userProfileData[21].equals("") && !userProfileData[21].equals("null") ){  
+                  out.println(userProfileData[21]);
+                  } else { %>
+                  Projects
+                  <% }  %>
                 </li>
 
                 <li class="list-group-item">
-                  <strong><i class="fa fa-mortar-board margin-r-5"></i>Designation</strong>
-
-              <p class="text-muted">
-                Java Developer
-              </p>
+                    <strong><i class="fa fa-mortar-board margin-r-5"></i>Designation</strong><br>
+                <% if( userProfileData[9]!=null && !userProfileData[9].equals("") && !userProfileData[9].equals("null") ){  
+                  out.println(userProfileData[9]);
+                  } else { %>
+                  Designation
+                  <% }  %>
                 </li>
 
               </li>
 
               <li class="list-group-item">
-                <strong><i class="fa  fa-calendar-check-o margin-r-5"></i>Years of Experience</strong>
-
-            <p class="text-muted">
-            3.5 Yreas
-            </p>
+                  <strong><i class="fa  fa-calendar-check-o margin-r-5"></i>Years of Experience</strong><br>
+             <% if( userProfileData[24]!=null && !userProfileData[24].equals("") && !userProfileData[24].equals("null") ){  
+                  out.println(userProfileData[24]);
+                  } else { %>
+                  Years of Experience
+                  <% }  %>
               </li>
 
               <li class="list-group-item">
-                <strong><i class=" fa fa-edit margin-r-5"></i>Skills</strong>
-
-            <p class="text-muted">
-          Coding , Designe, Testing
-            </p>
+                  <strong><i class=" fa fa-edit margin-r-5"></i>Skills</strong><br>
+          <% if( userProfileData[26]!=null && !userProfileData[26].equals("") && !userProfileData[26].equals("null") ){  
+                  out.println(userProfileData[26]);
+                  } else { %>
+                  Skills
+                  <% }  %>
               </li>
 
                 <li class="list-group-item">
-                <strong><i class="fa fa-envelope margin-r-5"></i> Email </strong>
-
-              <p class="text-muted">
-               nehachaudhari1398@gmail.com
-              </p>
+                    <strong><i class="fa fa-envelope margin-r-5"></i> Email </strong><br>
+             <% if( userProfileData[4]!=null && !userProfileData[4].equals("") && !userProfileData[4].equals("null") ){  
+                  out.println(userProfileData[4]);
+                  } else { %>
+                  Email
+                  <% }  %>
             </li>
 
             <li class="list-group-item">
@@ -160,10 +167,12 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
            </li>
 
                 <li class="list-group-item">
-                <strong><i class="fa fa-map-marker margin-r-5"></i> Location</strong>
-
-              <p class="text-muted">Bangalore, India</p>
-
+                    <strong><i class="fa fa-map-marker margin-r-5"></i> City </strong><br>
+            <% if( userProfileData[33]!=null && !userProfileData[33].equals("") && !userProfileData[33].equals("null") ){  
+                  out.println(userProfileData[33]);
+                  } else { %>
+                  City
+                   <% }  %>
               </ul>
                </div>
             <!-- /.box-body -->
@@ -310,22 +319,25 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
   
                     <div class="col-sm-10">
                       <input type="text" class="form-control" id="zipcode" name="zipcode"
-                            <% if( userProfileData[34]!=null && !userProfileData[34].equals("") && !userProfileData[34].equals("null") ){
+                   <% if( userProfileData[34]!=null && !userProfileData[34].equals("") && !userProfileData[34].equals("null") ){
                    out.println("placeholder=\""+userProfileData[34]+"\" value=\""+userProfileData[34]+"\">");
                   } else { %>placeholder="Zip Code"> 
                           <% }  %>    
                     </div>
                   </div>
-    
-                  <div class="form-group">
-                    <div class="col-sm-offset-2 col-sm-10">
-                      <div class="checkbox">
-                        <label>
-                          <input type="checkbox" required> I agree to the <a href="#">terms and conditions</a>
-                        </label>
-                      </div>
+                    
+                    <div class="form-group">
+                    <label for="inputSkills" class="col-sm-2 control-label">Notes</label>
+  
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" id="notes" name="notes"
+                            <% if( userProfileData[37]!=null && !userProfileData[37].equals("") && !userProfileData[37].equals("null") ){
+                   out.println("placeholder=\""+userProfileData[37]+"\" value=\""+userProfileData[37]+"\">");
+                  } else { %>placeholder="Notes"> 
+                          <% }  %>    
                     </div>
                   </div>
+    
                   <div class="form-group">
                     <div class="col-sm-offset-2 col-sm-10">
                       <button type="button" class="btn btn-danger" onClick="return validateForm()">Submit</button>
@@ -361,12 +373,16 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
               <div class="tab-pane" id="about">
                 <!-- The timeline -->
                 
-                <form class="form-horizontal" method="post" action="">
+                <form class="form-horizontal" method="post" >
                   <div class="form-group">
                     <label for="inputSkills" class="col-sm-2 control-label">Manager</label>
   
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="manager" name="manager" placeholder="Manager">
+                      <input type="text" class="form-control" id="manager" name="manager" 
+                      <% if( userProfileData[14]!=null && !userProfileData[14].equals("") && !userProfileData[14].equals("null") ){
+                   out.println("placeholder=\""+userProfileData[14]+"\" value=\""+userProfileData[14]+"\">");
+                  } else { %>placeholder="Manager">
+                         <% }  %>     
                     </div>
                   </div>
                   
@@ -374,7 +390,11 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                     <label for="inputName" class="col-sm-2 control-label">Project</label>
   
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="project" name="project" placeholder="Project">
+                      <input type="text" class="form-control" id="project" name="project"
+                   <% if( userProfileData[21]!=null && !userProfileData[21].equals("") && !userProfileData[21].equals("null") ){
+                   out.println("placeholder=\""+userProfileData[21]+"\" value=\""+userProfileData[21]+"\">");
+                  } else { %>placeholder="Project">
+                         <% }  %>     
                     </div>
                   </div>
 
@@ -382,15 +402,40 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                     <label for="inputEmail" class="col-sm-2 control-label">Designation</label>
   
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="designation" name="designation" placeholder="Designation">
+                      <input type="text" class="form-control" id="designation" name="designation"
+                      <% if( userProfileData[9]!=null && !userProfileData[9].equals("") && !userProfileData[9].equals("null") ){
+                   out.println("placeholder=\""+userProfileData[9]+"\" value=\""+userProfileData[9]+"\">");
+                  } else { %>placeholder="Designation">        
+                       <% }  %>       
                     </div>
                   </div>
-
+                    
+                    <div class="form-group">
+                    <label for="inputEmail" class="col-sm-2 control-label">Department</label>
+  
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" id="department" name="department" 
+                      <% if( userProfileData[8]!=null && !userProfileData[8].equals("") && !userProfileData[8].equals("null") ){
+                   out.println("placeholder=\""+userProfileData[8]+"\" value=\""+userProfileData[8]+"\">");
+                  } else { %>placeholder="Department">       
+                          <% }  %>    
+                    </div>
+                  </div>
+                </form> 
+                    
+                    <form method="post" class="form-horizontal" action="UserAboutSubmit" > 
+                    <div class="box box-info">
+                        <div class="box-header"></div>
+                    
                   <div class="form-group">
                     <label for="inputName" class="col-sm-2 control-label">Years of Experience</label>
   
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="yearsofexperience" name="yearsofexperience" placeholder="Years of Experience">
+                      <input type="text" class="form-control" id="yearsofexperience" name="yearsofexperience"
+                      <% if( userProfileData[24]!=null && !userProfileData[24].equals("") && !userProfileData[24].equals("null") ){
+                   out.println("placeholder=\""+userProfileData[24]+"\" value=\""+userProfileData[24]+"\">");
+                  } else { %>placeholder="Years of Experience">       
+                        <% }  %>     
                     </div>
                   </div>
 
@@ -399,13 +444,18 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                     <label for="inputName" class="col-sm-2 control-label">Skills</label>
   
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="skills" name="skills" placeholder="Skills">
+                      <input type="text" class="form-control" id="skills" name="skills"
+                         <% if( userProfileData[26]!=null && !userProfileData[26].equals("") && !userProfileData[26].equals("null") ){
+                   out.println("placeholder=\""+userProfileData[26]+"\" value=\""+userProfileData[26]+"\">");
+                  } else { %>placeholder="Skills">   
+                       <% }  %>      
                     </div>
                   </div>
   
                   <div class="form-group">
                     <div class="col-sm-offset-2 col-sm-10">
-                      <button type="button" class="btn btn-danger" onClick="return aboutForm()" data-toggle="modal" data-target="#modal-about1">Submit</button>
+                      <button type="button" class="btn btn-danger" onClick="return aboutForm()">
+                          Submit</button><br><br>
                     </div>
                     <div class="modal fade" id="modal-about1">
                       <div class="modal-dialog">
@@ -428,17 +478,16 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                     
                     </div>
                   </div>
+                </div>
+              </form>
 
-                  
-                </form>
-
-              </div>
+          </div>
               <!-- /.tab-pane -->
 <!-- /.tab-pane -->
               
               <!-- /.tab-pane -->
               <div class="tab-pane" id="settings">
-                <form class="form-horizontal">
+                <form class="form-horizontal" >
 
                   <div class="box box-info">
                     <div class="box-header">
@@ -487,10 +536,11 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                     
                     </div>
                   </div>
-
+                </form>  
+                  
+               <form class="form-horizontal" action="Fileupload" method="post" enctype="multipart/form-data">
                   <div class="box box-info">
                     
-                  
                     <div class="box-header">
                      <a  class="box-title">Profile Photo </a>
                      <a  href="selectavatar.jsp" class="btn btn-info pull-right">Select Avatar </a>
@@ -498,11 +548,13 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
 
                   <div class="form-group">
                     <label for="inputSkills" class="col-sm-2 control-label">Upload Profile Photo</label>
+                    <input type="hidden" class="form-control"  name="general"  value="<%=Nd.Encrypt(userProfileData[1]) %>" >
+                <input type="hidden" class="form-control"  name="type"  value="userprofile" >
                     <input type="file" id="exampleInputFile">
                   </div>
                   <div class="form-group">
                     <div class="col-sm-offset-2 col-sm-10">
-                      <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-setting1">
+                      <button type="button" class="btn btn-danger" onclick="return processing()">
                       Submit
                       </button><br><br>
                     </div>
@@ -519,7 +571,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                           </div>
                           <div class="modal-footer">
                             <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save </button>
+                            <button type="submit" class="btn btn-primary">Save </button>
                           </div>
                         </div>
                         <!-- /.modal-content -->
@@ -527,9 +579,11 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                     
                     </div>
                   </div>
+             
                   </div>
-                </form>
+               </form>
               </div>
+           
               <!-- /.tab-pane -->
             </div>
             <!-- /.tab-content -->
@@ -617,7 +671,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
      return false;
             } 
         } 
-   /**    
+   /**   
    if(document.getElementById("lastname").value==""){
    
             document.getElementById("alert-message").innerHTML = "Last Name: Cannot be empty";
@@ -853,8 +907,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
            return false;
        }
        }
-             $('#modal-default').modal('show')
-      /**
+      
       if(document.getElementById("notes").value!=""){
            
            if(!document.getElementById("notes").value.match(/^[a-zA-Z:,'-'' '\.0-9\n]+$/)){
@@ -875,19 +928,78 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
            return false;
        }
       } 
-      */
+                    $('#modal-default').modal('show')    
    return true;
    }
    
-                           function aboutForm(){
-                               
-                              
-        
-        
-                        $('#modal-default').modal('show')
-                               
-                           }
-</script>     
+                    function aboutForm(){
+                        
+            if(document.getElementById("yearsofexperience").value!=""){
+           
+           if(!document.getElementById("yearsofexperience").value.match(/^[0-9]+$/)){
+                     document.getElementById("alert-message").innerHTML = "Years of Experience: Only  number allowed";
+    $('#show-alert').modal('show')
+       
+           //alert("Only alphanumeric allowed");
+           document.getElementById("yearsofexperience").focus();
+     return false;
+            } else
+        if(document.getElementById("yearsofexperience").value.length>15){
+                         document.getElementById("alert-message").innerHTML = "Years of Experience: Only 15 digit allowed";
+    $('#show-alert').modal('show')
+     
+                  
+           document.getElementById("yearsofexperience").focus();
+           
+           return false;
+       }
+      }
+      
+        if(document.getElementById("skills").value!=""){
+           
+           if(!document.getElementById("skills").value.match(/^[0-9 a-z.A-Z]+$/)){
+                     document.getElementById("alert-message").innerHTML = "Skills: Only  alphanumeric allowed";
+    $('#show-alert').modal('show')
+       
+           //alert("Only alphanumeric allowed");
+           document.getElementById("skills").focus();
+     return false;
+            } else
+        if(document.getElementById("skills").value.length>45){
+                         document.getElementById("alert-message").innerHTML = "Skills: Only 45 Characters allowed";
+    $('#show-alert').modal('show')
+     
+                  
+           document.getElementById("skills").focus();
+           
+           return false;
+       }
+      }
+                      
+                      $('#modal-about1').modal('show')  
+                      
+                      return true;   
+                        
+                    }
+
+</script> 
+
+
+<script>
+    function processing()  
+{ 
+   $('#waitingdisplay').modal('show') 
+   document.addEventListener("contextmenu", function(e){
+    
+        e.preventDefault();
+   
+}, false);
+                $('#modal-setting1').modal('show')
+    
+   return true;
+}
+</script>
+
 
 
 <script>

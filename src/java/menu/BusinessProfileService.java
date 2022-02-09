@@ -18,6 +18,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import log.Log;
+import org.apache.commons.io.FileUtils;
 
 /**
  *
@@ -41,7 +42,7 @@ public class BusinessProfileService {
              }
         catch(Exception e){
               String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" \n Package=menu , File=BusinessProfileService.java , method=checkBusinessExist(String useradminid)-----\n"
-    + "\nLINE=42 \n select count(category) from expense where useradminid=="+useradminid+"  ";
+    + "\nLINE=45 \n select count(category) from expense where useradminid=="+useradminid+"  ";
    Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
      EmergencyEmail.send(e,errormsg); 
                 }
@@ -78,7 +79,7 @@ public class BusinessProfileService {
       con.close();
           } catch(Exception e){
               String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"\n BusinessProfileService.java-----\n"
-              + "LINE=78\nselect * from businessprofile where useradminid=?";
+              + "LINE=82\nselect * from businessprofile where useradminid=?";
               Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
               EmergencyEmail.send(e,errormsg); 
           }
@@ -95,7 +96,7 @@ public class BusinessProfileService {
           st.addBatch("update businessprofile set   logo='"+filename+"'  where id='"+id+"' and useradminid='"+useradminid+"' ");
          
           String logstatus="File Upload";
-          st.addBatch("insert into businessprofilelog(usercid,useradminid,businessprofileid,logo,updatestatus) values(?,?,?,?,?)");
+          st.addBatch("insert into businessprofilelog(usercid,useradminid,businessprofileid,logo) values(?,?,?,?)");
        
         st.executeBatch(); 
          Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  ,File=BusinessProfileService.java method=saveBusinessProfileLogotoDB() ,useradminid="+useradminid+" ,usercid="+usercid+",filename="+filename+",id="+id+", Business Profile name Saved to DB Successfully");
@@ -105,11 +106,55 @@ public class BusinessProfileService {
         catch(SQLException e)
         {
       String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"\n Package=menu , File=BusinessProfileService.java , method=saveBusinessProfileLogotoDB( useradminid="+useradminid+" ,usercid="+usercid+",filename="+filename+",id="+id+")-----\n"
-     + "LINE=108 \n update businessprofile set   logo='"+filename+"'  where id='"+id+"' and useradminid='"+useradminid+"'  ";
+     + "LINE=109 \n update businessprofile set   logo='"+filename+"'  where id='"+id+"' and useradminid='"+useradminid+"'  ";
      Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
       EmergencyEmail.send(e,errormsg);
      
         }
-    return "true";}
+    return "true";
+      }
+         public static String getBusinessProfileLogo(String usercid_adminid) throws IOException{
+       String result="0";
+       try{ 
+        Connection con=Poul.getConnectionCRM();
+        PreparedStatement smt=con.prepareStatement("SELECT logo FROM businessprofile where useradminid=?  ");
+      
+        smt.setString(1,usercid_adminid);
+        ResultSet rs=smt.executeQuery();
+        int i=1,j=1;
+        while(rs.next()){
+           result=rs.getString(1);
+       }
+        rs.close();
+      smt.close();
+      con.close();
+      if(result==null|| "".equals(result)){result="0";}
+     Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" Package=menu ,  Page=BusinessProfileService.java  , method=getBusinessProfileLogo(String usercid_adminid) result="+result+"  ");
+      }
+        catch(Exception e){
+ String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" \n Package=menu , File=BusinessProfileService.java , method=getBusinessProfileLogo(String usercid_adminid)-----\n"
+    + "\nLINE=136 \n SELECT logo FROM businessprofile where useradminid="+usercid_adminid+"    ";
+   Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
+     EmergencyEmail.send(e,errormsg); 
+                }
+       String filenames[]=result.split(";");
+     result=filenames[0];
+            
+       String source = Poul.getDirPath()+java.io.File.separator+"files"+java.io.File.separator+ result;
+         String  dest=Poul.getProjectPath()+java.io.File.separator+"uploads"+java.io.File.separator+ "logo"+java.io.File.separator+result;
+ java.io.File sourcefile = new java.io.File(source);
+          java.io.File destfile = new java.io.File(dest);
+            if (!destfile.exists()){
+        try {   FileUtils.copyFile(sourcefile, destfile);
+    } catch (IOException e) {
+   String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" \n Package=menu , File=BusinessProfileService.java -----\n"
+    + "\nLINE=151 \n  useradminid=="+usercid_adminid+"  ";
+   Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
+     EmergencyEmail.send(e,errormsg); 
+        }
+            }
+       return result;
+      
+     }         
         
         }

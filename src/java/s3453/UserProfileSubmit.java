@@ -46,9 +46,6 @@ public class UserProfileSubmit extends HttpServlet {
             String firstname=request.getParameter("firstname");
             String lastname=request.getParameter("lastname");
             firstname=firstname+" "+lastname;
-            
-           // String gender=request.getParameter("gender");
-           // String dob=request.getParameter("dob");
             String phone=request.getParameter("phone");
             String mobileno=request.getParameter("mobileno");
             String address=request.getParameter("address");
@@ -62,8 +59,6 @@ public class UserProfileSubmit extends HttpServlet {
               PreparedStatement ps=con.prepareStatement("update register set firstname=?,phone=?,mobile=?,address1=?,city=?,state=?,country=?,pincode=? where  useradminid=?");
              
               ps.setString(1,firstname);
-            //  ps.setString(3,gender);
-            //  ps.setString(4,dob);
               ps.setString(2,phone);
               ps.setString(3,mobileno);
               ps.setString(4,address);

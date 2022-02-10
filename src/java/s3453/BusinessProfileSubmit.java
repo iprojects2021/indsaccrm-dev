@@ -65,7 +65,7 @@ public class BusinessProfileSubmit extends HttpServlet {
               con.close();
               ps.close();
               
-               Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" Package=s3453 ,  File=BusinessProfileSubmit.java , method=processRequest( HttpServletRequest request, HttpServletResponse response)");
+               Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" Package=s3453 ,  File=BusinessProfileSubmit.java , method=processRequest");
                response.sendRedirect("businessprofile.jsp?message=successfullysaved"); 
         
               }//try close

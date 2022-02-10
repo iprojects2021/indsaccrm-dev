@@ -148,18 +148,15 @@ public class Fileupload extends HttpServlet {
         Log.writeLog("Debug: Redirecting to businessprofile.jsp?businessprofileid="+general);
             
             response.sendRedirect("businessprofile.jsp?"+"&message=succesfulyUploaded ");  
-         
-         } 
+        } 
          
          if("userprofile".equals(type)){
            Log.writeLog("Debug: Before DB update, Type="+type);
         String expensedb=menu.UserProfileService.saveUserProfileLogotoDB(usercid_adminid, usercid_id, general, attachmentfilename);
-        Log.writeLog("Debug: Redirecting to businessprofile.jsp?userprofileid="+general);
+        Log.writeLog("Debug: Redirecting to userprofile.jsp?userprofileid="+general);
             
-            response.sendRedirect("userprofile.jsp?"+"&message=succesfulyUploaded ");  
-         
-         } 
-      
+          response.sendRedirect("userprofile.jsp?"+"&message=succesfulyUploaded ");  
+       } 
  }
       public static List<java.io.File> saveUploadedFiles(HttpServletRequest request,String FileDirName)
             throws IllegalStateException, IOException, ServletException {

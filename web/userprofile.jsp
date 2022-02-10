@@ -63,10 +63,13 @@ if (session != null) {
 		}
 Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.getPublicIP()+" ,useradminid="+usercid_adminid+" ,usercid="+usercid_id+" --Entering userprofile.jsp-----------");
     
-                           String userProfileData[]=UserProfileService.getUserProfile(usercid_adminid);
+                   String userProfileData[]=UserProfileService.getUserProfile(usercid_adminid);
+                           
+                    String warningmsg="",successmsg="";
+                    String msgurl=request.getParameter("message");
+                    if("succesfulyUploaded".equals(msgurl)){successmsg="Uploaded  Successfully";}
 %>
                                    
-    
 
 
 <div class="wrapper">
@@ -85,16 +88,34 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
           <!-- Profile Image -->
           <div class="box box-primary">
             <div class="box-body box-profile">
-              <img class="profile-user-img img-responsive img-circle" src="dist/img/up1.png" alt="User profile picture">
+              <img class="profile-user-img img-responsive img-circle"
+                 <%  String logo=menu.UserProfileService.getUserProfileLogo(usercid_adminid);
+                 if("0".equals(logo) || "".equals(logo)) {     %>
+                 <img class="img-responsive" src="dist/img/u.png" alt="Photo">
+                 <% }else{  %>
+                 <img class="img-responsive" src="uploads/logo/<%=logo %>" alt="Photo" width="80" height="80">  
+                  <% } %>
+                       
+              <h3 class="profile-username text-center">
+                  <% if( userProfileData[6]!=null && !userProfileData[6].equals("") && !userProfileData[6].equals("null") ){  
+                  out.println(userProfileData[6]);
+                  } else { %>
+                  First Name
+                 <% }  %>
+              </h3>
 
-              <h3 class="profile-username text-center">Neha Choudhary</h3>
-
-              <p class="text-muted text-center">Software Developer</p>
+              <p class="text-muted text-center">
+                  <% if( userProfileData[33]!=null && !userProfileData[33].equals("") && !userProfileData[33].equals("null") ){  
+                   out.println(userProfileData[33]);
+                  } else { %>
+                  City
+                  <% }  %>
+              </p>
 
               <ul class="list-group list-group-unbordered">
                 <li class="list-group-item">
-                    <strong><i class="fa fa-university margin-r-5"></i>Department</strong><br>
-          <% if( userProfileData[8]!=null && !userProfileData[8].equals("") && !userProfileData[8].equals("null") ){  
+                  <strong><i class="fa fa-university margin-r-5"></i>Department</strong><br>
+                 <% if( userProfileData[8]!=null && !userProfileData[8].equals("") && !userProfileData[8].equals("null") ){  
                   out.println(userProfileData[8]);
                   } else { %>
                   Department
@@ -103,7 +124,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
 
                 <li class="list-group-item">
                     <strong><i class="fa fa-diamond margin-r-5"></i>Manager</strong><br>
-              <% if( userProfileData[14]!=null && !userProfileData[14].equals("") && !userProfileData[14].equals("null") ){  
+                    <% if( userProfileData[14]!=null && !userProfileData[14].equals("") && !userProfileData[14].equals("null") ){  
                   out.println(userProfileData[14]);
                   } else { %>
                   Manager
@@ -111,8 +132,8 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                 </li>
 
                 <li class="list-group-item">
-                    <strong><i class=" fa fa-cube margin-r-5"></i>Projects</strong><br>
-                <% if( userProfileData[21]!=null && !userProfileData[21].equals("") && !userProfileData[21].equals("null") ){  
+                  <strong><i class=" fa fa-cube margin-r-5"></i>Projects</strong><br>
+                  <% if( userProfileData[21]!=null && !userProfileData[21].equals("") && !userProfileData[21].equals("null") ){  
                   out.println(userProfileData[21]);
                   } else { %>
                   Projects
@@ -121,18 +142,17 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
 
                 <li class="list-group-item">
                     <strong><i class="fa fa-mortar-board margin-r-5"></i>Designation</strong><br>
-                <% if( userProfileData[9]!=null && !userProfileData[9].equals("") && !userProfileData[9].equals("null") ){  
+                 <% if( userProfileData[9]!=null && !userProfileData[9].equals("") && !userProfileData[9].equals("null") ){  
                   out.println(userProfileData[9]);
                   } else { %>
                   Designation
                   <% }  %>
                 </li>
-
               </li>
 
               <li class="list-group-item">
                   <strong><i class="fa  fa-calendar-check-o margin-r-5"></i>Years of Experience</strong><br>
-             <% if( userProfileData[24]!=null && !userProfileData[24].equals("") && !userProfileData[24].equals("null") ){  
+                  <% if( userProfileData[24]!=null && !userProfileData[24].equals("") && !userProfileData[24].equals("null") ){  
                   out.println(userProfileData[24]);
                   } else { %>
                   Years of Experience
@@ -141,7 +161,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
 
               <li class="list-group-item">
                   <strong><i class=" fa fa-edit margin-r-5"></i>Skills</strong><br>
-          <% if( userProfileData[26]!=null && !userProfileData[26].equals("") && !userProfileData[26].equals("null") ){  
+                  <% if( userProfileData[26]!=null && !userProfileData[26].equals("") && !userProfileData[26].equals("null") ){  
                   out.println(userProfileData[26]);
                   } else { %>
                   Skills
@@ -149,8 +169,8 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
               </li>
 
                 <li class="list-group-item">
-                    <strong><i class="fa fa-envelope margin-r-5"></i> Email </strong><br>
-             <% if( userProfileData[4]!=null && !userProfileData[4].equals("") && !userProfileData[4].equals("null") ){  
+                  <strong><i class="fa fa-envelope margin-r-5"></i> Email </strong><br>
+                  <% if( userProfileData[4]!=null && !userProfileData[4].equals("") && !userProfileData[4].equals("null") ){  
                   out.println(userProfileData[4]);
                   } else { %>
                   Email
@@ -159,22 +179,22 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
 
             <li class="list-group-item">
                 <strong><i class="fa fa-mobile margin-r-5"></i> Mobile No </strong><br>
-             <% if( userProfileData[20]!=null && !userProfileData[20].equals("") && !userProfileData[20].equals("null") ){  
-                  out.println(userProfileData[20]);
-                  } else { %>
-                  Mobile No
-            <% }  %>
+                <% if( userProfileData[20]!=null && !userProfileData[20].equals("") && !userProfileData[20].equals("null") ){  
+                out.println(userProfileData[20]);
+                } else { %>
+                Mobile No
+                <% }  %>
            </li>
 
                 <li class="list-group-item">
                     <strong><i class="fa fa-map-marker margin-r-5"></i> City </strong><br>
-            <% if( userProfileData[33]!=null && !userProfileData[33].equals("") && !userProfileData[33].equals("null") ){  
-                  out.println(userProfileData[33]);
-                  } else { %>
-                  City
+                    <% if( userProfileData[33]!=null && !userProfileData[33].equals("") && !userProfileData[33].equals("null") ){  
+                    out.println(userProfileData[33]);
+                    } else { %>
+                   City
                    <% }  %>
               </ul>
-               </div>
+            </div>
             <!-- /.box-body -->
           </div>
           <!-- /.box -->
@@ -188,9 +208,9 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
           <div class="nav-tabs-custom">
             <ul class="nav nav-tabs">
               <li class="active"><a href="#general" data-toggle="tab">General</a></li>
-              <li><a href="#about" data-toggle="tab">About</a></li>
-              
+              <li><a href="#about" data-toggle="tab">About</a></li>             
               <li><a href="#settings" data-toggle="tab">Settings</a></li>
+              <li><a href="" >History</a></li>
             </ul>
             <div class="tab-content">
               <div class="active tab-pane" id="general">
@@ -201,10 +221,10 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
   
                     <div class="col-sm-10">
                       <input type="text" class="form-control" id="firstname"  name="firstname"
-                             <% if( userProfileData[6]!=null && !userProfileData[6].equals("") && !userProfileData[6].equals("null") ){
-                  out.println("placeholder=\""+userProfileData[6]+"\" value=\""+userProfileData[6]+"\">");
-                  } else { %>placeholder="Frist Name">
-                         <% }  %>   
+                      <% if( userProfileData[6]!=null && !userProfileData[6].equals("") && !userProfileData[6].equals("null") ){
+                      out.println("placeholder=\""+userProfileData[6]+"\" value=\""+userProfileData[6]+"\">");
+                      } else { %>placeholder="Frist Name">
+                      <% }  %>   
                     </div>
                   </div>
   
@@ -227,31 +247,16 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                         <% }  %>      
                     </div>
                   </div>
-                  <div class="form-group">
-                    <label for="inputName" class="col-sm-2 control-label">Gender</label>
-  
-                    <div class="col-sm-10">
-                      <input type="text" class="form-control" id="gender" name="gender" placeholder="Gender">
-                    </div>
-                  </div>
-                  
-                    <div class="form-group">
-                    <label for="inputName" class="col-sm-2 control-label">Date Of Birth</label>
-  
-                    <div class="col-sm-10">
-                      <input type="text" class="form-control" id="dob" name="dob" placeholder="Date Of Births">
-                    </div>
-                  </div>
                     
-                  <div class="form-group">
+                <div class="form-group">
                     <label for="inputSkills" class="col-sm-2 control-label">Phone</label>
   
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="phone" name="phone"
-                             <% if( userProfileData[22]!=null && !userProfileData[22].equals("") && !userProfileData[22].equals("null") ){
-                  out.println("placeholder=\""+userProfileData[22]+"\" value=\""+userProfileData[6]+"\">");
-                  } else { %>placeholder="Phone">
-                          <% }  %>    
+                        <input type="text" class="form-control" id="phone" name="phone"
+                        <% if( userProfileData[22]!=null && !userProfileData[22].equals("") && !userProfileData[22].equals("null") ){
+                        out.println("placeholder=\""+userProfileData[22]+"\" value=\""+userProfileData[6]+"\">");
+                        } else { %>placeholder="Phone">
+                        <% }  %>    
                     </div>
                   </div>
   
@@ -274,7 +279,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                        <% if( userProfileData[30]!=null && !userProfileData[30].equals("") && !userProfileData[30].equals("null") ){  %>
                       <textarea class="form-control" id="address" name="address"> <%=userProfileData[30]  %> </textarea>
                       <%  } else { %><textarea class="form-control" id="address" name="address" placeholder="Address"></textarea>
-                              <% }  %>
+                      <% }  %>
                     </div>
                   </div>
   
@@ -423,8 +428,9 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                   </div>
                 </form> 
                     
-                    <form method="post" class="form-horizontal" action="UserAboutSubmit" > 
                     <div class="box box-info">
+                  <form method="post" class="form-horizontal" action="UserAboutSubmit" > 
+
                         <div class="box-header"></div>
                     
                   <div class="form-group">
@@ -475,21 +481,20 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                         </div>
                         <!-- /.modal-content -->
                       </div>
-                    
                     </div>
                   </div>
-                </div>
-              </form>
-
-          </div>
+                 </form>  
+               </div>
+         </div>
               <!-- /.tab-pane -->
 <!-- /.tab-pane -->
               
               <!-- /.tab-pane -->
               <div class="tab-pane" id="settings">
-                <form class="form-horizontal" >
+                
 
                   <div class="box box-info">
+                      <form class="form-horizontal" >
                     <div class="box-header">
                      <a class="box-title">Change Password Settings</a>
                     </div>
@@ -511,11 +516,11 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                   
                   <div class="form-group">
                     <div class="col-sm-offset-2 col-sm-10">
-                      <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-setting1">
+                      <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-setting">
                       Submit
-                      </button>
+                      </button><br><br>
                     </div>
-                    <div class="modal fade" id="modal-setting1">
+                    <div class="modal fade" id="modal-setting">
                       <div class="modal-dialog">
                         <div class="modal-content">
                           <div class="modal-header">
@@ -533,26 +538,26 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                         </div>
                         <!-- /.modal-content -->
                       </div>
-                    
                     </div>
                   </div>
-                </form>  
-                  
-               <form class="form-horizontal" action="Fileupload" method="post" enctype="multipart/form-data">
+                </form>
+              </div>
+                 
                   <div class="box box-info">
-                    
+                <form class="form-horizontal" action="Fileupload" method="post" enctype="multipart/form-data">
                     <div class="box-header">
+
                      <a  class="box-title">Profile Photo </a>
                      <a  href="selectavatar.jsp" class="btn btn-info pull-right">Select Avatar </a>
                     </div>
-
-                  <div class="form-group">
+ 
+            <div class="form-group">
                     <label for="inputSkills" class="col-sm-2 control-label">Upload Profile Photo</label>
-                    <input type="hidden" class="form-control"  name="general"  value="<%=Nd.Encrypt(userProfileData[1]) %>" >
-                <input type="hidden" class="form-control"  name="type"  value="userprofile" >
-                    <input type="file" id="exampleInputFile">
-                  </div>
-                  <div class="form-group">
+                     <input type="hidden" class="form-control"  name="general"  value="<%=Nd.Encrypt(userProfileData[1]) %>" >
+                    <input type="hidden" class="form-control"  name="type"  value="userprofile" >
+                    <input type="file" name="receipt"  required><br>
+                   </div>
+          <div class="form-group">
                     <div class="col-sm-offset-2 col-sm-10">
                       <button type="button" class="btn btn-danger" onclick="return processing()">
                       Submit
@@ -571,20 +576,16 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                           </div>
                           <div class="modal-footer">
                             <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
-                            <button type="submit" class="btn btn-primary">Save </button>
+                            <button type="submit" class="btn btn-primary" >Save  </button>
                           </div>
                         </div>
                         <!-- /.modal-content -->
                       </div>
-                    
                     </div>
                   </div>
-             
-                  </div>
-               </form>
-              </div>
-           
-              <!-- /.tab-pane -->
+             </form>
+           </div>
+          <!-- /.tab-pane -->
             </div>
             <!-- /.tab-content -->
           </div>
@@ -593,9 +594,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
         <!-- /.col -->
       </div>
       <!-- /.row -->
-
-    </section>
-    
+  </section>
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
@@ -644,6 +643,23 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
   })
 </script>
 
+<script>
+  window.onload = function()        
+{     var x='<%=warningmsg.length()%>'
+      var y='<%=successmsg.length()%>'
+   
+     if(y>0){       
+    document.getElementById("alert-message-success").innerHTML = "<%=successmsg %>";
+     $('#show-success').modal('show')
+ }
+    
+    if(x>0){       
+    document.getElementById("alert-message-warning").innerHTML = "<%=warningmsg %>";
+     $('#show-warning').modal('show')
+ }
+ 
+}   
+</script> 
 
 <script>
         function validateForm(){
@@ -740,49 +756,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
      return false;
             } 
     } 
-    
-   if(document.getElementById("gender").value!=""){
-           
-           if(!document.getElementById("gender").value.match(/^[0-9 a-z.A-Z]+$/)){
-                     document.getElementById("alert-message").innerHTML = "Gender: Only  alphanumeric allowed";
-    $('#show-alert').modal('show')
-       
-           //alert("Only alphanumeric allowed");
-           document.getElementById("gender").focus();
-     return false;
-            } else
-        if(document.getElementById("gender").value.length>45){
-                         document.getElementById("alert-message").innerHTML = "Gender: Only 45 Characters allowed";
-    $('#show-alert').modal('show')
-     
-                  
-           document.getElementById("gender").focus();
-           
-           return false;
-       }
-      }
-       
-       if(document.getElementById("dob").value!=""){
-           
-           if(!document.getElementById("dob").value.match(/^[0-9 /]+$/)){
-                     document.getElementById("alert-message").innerHTML = "Date Of Birth: Only  alphanumeric allowed";
-    $('#show-alert').modal('show')
-       
-           //alert("Only alphanumeric allowed");
-           document.getElementById("dob").focus();
-     return false;
-            } else
-        if(document.getElementById("dob").value.length>45){
-                         document.getElementById("alert-message").innerHTML = "Date Of Birth: Only 45 Characters allowed";
-    $('#show-alert').modal('show')
-     
-                  
-           document.getElementById("dob").focus();
-           
-           return false;
-       }
-      }
-     
+   
     if(document.getElementById("phone").value!=""){
            
            if(!document.getElementById("phone").value.match(/^[0-9]+$/)){
@@ -999,8 +973,6 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
    return true;
 }
 </script>
-
-
 
 <script>
 $('#dob').calendarsPicker({

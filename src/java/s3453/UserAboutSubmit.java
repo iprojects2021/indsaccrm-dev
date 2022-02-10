@@ -17,6 +17,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import log.Log;
 
 /**
@@ -40,18 +41,21 @@ public class UserAboutSubmit extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
         try {
+            HttpSession session1 = request.getSession();
+            String usercid=(String)session1.getAttribute("usercid_id");
+            String useradminid=(String)session1.getAttribute("usercid_adminid");
             
-            String useradminid=request.getParameter("useradminid");
             String yearsofexperience=request.getParameter("yearsofexperience");
             String skills=request.getParameter("skills");
             
              try{
               Connection con=Poul.getConnectionCRM();
-              PreparedStatement ps=con.prepareStatement("update register set yearsofexperience=?,skills=? where useradminid=?");
+              PreparedStatement ps=con.prepareStatement("update register set yearsofexperience=?,skills=? where  useradminid=? and id=?");
              
               ps.setString(1,yearsofexperience);
               ps.setString(2,skills);
               ps.setString(3,useradminid);
+              ps.setString(4,usercid);
               
               ps.executeUpdate();
               con.close();
@@ -63,7 +67,7 @@ public class UserAboutSubmit extends HttpServlet {
             //try close
             }catch(Exception e){
             String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" \nUserAboutSubmit.java-----\n"
-            + "\nLINE=67\n update register set yearsofexperience=?,skills=? where useradminid=?";
+            + "\nLINE=68\n update register set yearsofexperience=?,skills=? where useradminid="+useradminid+" and id="+usercid+"";
             Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
             EmergencyEmail.send(e,errormsg); 
         }

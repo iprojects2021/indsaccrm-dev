@@ -40,7 +40,6 @@
   <link rel="stylesheet" href="dist/css/skins/_all-skins.min.css">
 
 
-
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
         <% HttpSession session1 = request.getSession(); // reuse existing
@@ -52,9 +51,7 @@
           String usercid_adminid=(String)session1.getAttribute("usercid_adminid");
              String usercid_company=(String)session1.getAttribute("usercid_company");
           String usercid_website=(String)session1.getAttribute("usercid_website"); 
-       
-    	
-	
+  	
 if (session != null) {
 			if (session1.getAttribute("usercid_id") == null) {
 				response.sendRedirect("signout.jsp");
@@ -65,7 +62,8 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
           
           String msgurl=request.getParameter("message");
           if("updatesuccessfully".equals(msgurl)||"successfullysaved".equals(msgurl) ){successmsg="Updated  Successfully";}
-          if("updatesuccessfully".equals(msgurl)){successmsg="Uploaded  Successfully";}
+          
+          if("succesfulyUploaded".equals(msgurl)){successmsg="Uploaded  Successfully";}
           
           String businesProfileData[]=BusinessProfileService.getBusinessProfile(usercid_adminid);
         %>
@@ -168,7 +166,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                   City
                   <% }  %>
             </ul>
-            </div>
+          </div>
             <!-- /.box-body -->
           </div>
           <!-- /.box -->
@@ -353,11 +351,9 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                         </div>
                         <!-- /.modal-content -->
                       </div>
-                    
-                    </div>
+                   </div>
                   </div>
                 </form>
-             
               </div>
                           
               <!-- /.tab-pane -->
@@ -491,7 +487,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
 
               </div>
               <!-- /.tab-pane -->
-<!-- /.tab-pane -->
+   <!-- /.tab-pane -->
               
               <!-- /.tab-pane -->
               <div class="tab-pane" id="settings">
@@ -533,11 +529,8 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                       </div>
                     </div>
                   </div>
-                  </div>
-            
-             
-            </form>
-          
+                </div>
+             </form>          
               <!-- /.tab-pane -->
             </div>
             <!-- /.tab-content -->
@@ -546,10 +539,8 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
         </div>
         <!-- /.col -->
       </div>
-      <!-- /.row -->
-     
-    </section>
-    
+      <!-- /.row -->    
+    </section>   
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
@@ -613,7 +604,10 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
      $('#show-warning').modal('show')
  }
  
-}   </script> 
+}   
+</script> 
+ 
+
 <script>
         function validateForm(){
             
@@ -1031,5 +1025,6 @@ $('#dob').calendarsPicker({
 dateFormat:'dd/mm/yyyy'
 });
 </script>
+
 </body>
 </html>

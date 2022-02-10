@@ -83,36 +83,35 @@ public class BusinessProfileService {
               Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
               EmergencyEmail.send(e,errormsg); 
           }
-          
-          return leaddata;
+         return leaddata;
     }
     
-      public static String saveBusinessProfileLogotoDB(String useradminid,String usercid,String id,String filename ) throws IOException{
+      public static String saveBusinessProfileLogotoDB(String useradminid,String usercid,String businessprofileid,String logo ) throws IOException{
         
        try{
            Connection c=Poul.getConnectionCRM();
 
-          Statement st=c.createStatement(); 
-          st.addBatch("update businessprofile set   logo='"+filename+"'  where id='"+id+"' and useradminid='"+useradminid+"' ");
+        Statement st=c.createStatement(); 
+        st.addBatch("update businessprofile set   logo='"+logo+"'  where id='"+businessprofileid+"' and useradminid='"+useradminid+"' ");
          
-          String logstatus="File Upload";
-          st.addBatch("insert into businessprofilelog(usercid,useradminid,businessprofileid,logo) values(?,?,?,?)");
+        String logstatus="File Upload";
+        st.addBatch("insert into businessprofilelog (usercid,useradminid,businessprofileid,logo,updatestatus) values ('"+usercid+"','"+useradminid+"','"+businessprofileid+"','"+logo+"','Profile Image Uploaded') ");
        
         st.executeBatch(); 
-         Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  ,File=BusinessProfileService.java method=saveBusinessProfileLogotoDB() ,useradminid="+useradminid+" ,usercid="+usercid+",filename="+filename+",id="+id+", Business Profile name Saved to DB Successfully");
+        Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  ,File=BusinessProfileService.java method=saveBusinessProfileLogotoDB() ,useradminid="+useradminid+" ,usercid="+usercid+",filename="+logo+",id="+businessprofileid+", Business Profile name Saved to DB Successfully");
        
-      st.close();
-      c.close();    }
+        st.close();
+        c.close();    }
         catch(SQLException e)
         {
-      String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"\n Package=menu , File=BusinessProfileService.java , method=saveBusinessProfileLogotoDB( useradminid="+useradminid+" ,usercid="+usercid+",filename="+filename+",id="+id+")-----\n"
-     + "LINE=109 \n update businessprofile set   logo='"+filename+"'  where id='"+id+"' and useradminid='"+useradminid+"'  ";
-     Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
-      EmergencyEmail.send(e,errormsg);
-     
-        }
-    return "true";
-      }
+       String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"\n Package=menu , File=BusinessProfileService.java , method=saveBusinessProfileLogotoDB( useradminid="+useradminid+" ,usercid="+usercid+",filename="+logo+",id="+businessprofileid+")-----\n"
+       + "LINE=109 \n update businessprofile set   logo='"+logo+"'  where id='"+businessprofileid+"' and useradminid='"+useradminid+"'  ";
+       Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
+       EmergencyEmail.send(e,errormsg);
+    }
+            return "true";
+  }
+      
          public static String getBusinessProfileLogo(String usercid_adminid) throws IOException{
        String result="0";
        try{ 
@@ -152,9 +151,7 @@ public class BusinessProfileService {
    Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
      EmergencyEmail.send(e,errormsg); 
         }
-            }
+      }
        return result;
-      
-     }         
-        
-        }
+    }         
+   }

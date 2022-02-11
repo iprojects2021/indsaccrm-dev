@@ -105,7 +105,7 @@ public class BusinessProfileService {
         catch(SQLException e)
         {
        String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"\n Package=menu , File=BusinessProfileService.java , method=saveBusinessProfileLogotoDB( useradminid="+useradminid+" ,usercid="+usercid+",filename="+logo+",id="+businessprofileid+")-----\n"
-       + "LINE=109 \n update businessprofile set   logo='"+logo+"'  where id='"+businessprofileid+"' and useradminid='"+useradminid+"'  ";
+       + "LINE=108 \n update businessprofile set   logo='"+logo+"'  where id='"+businessprofileid+"' and useradminid='"+useradminid+"'  ";
        Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
        EmergencyEmail.send(e,errormsg);
     }
@@ -132,7 +132,7 @@ public class BusinessProfileService {
       }
         catch(Exception e){
  String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" \n Package=menu , File=BusinessProfileService.java , method=getBusinessProfileLogo(String usercid_adminid)-----\n"
-    + "\nLINE=136 \n SELECT logo FROM businessprofile where useradminid="+usercid_adminid+"    ";
+    + "\nLINE=135 \n SELECT logo FROM businessprofile where useradminid="+usercid_adminid+"    ";
    Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
      EmergencyEmail.send(e,errormsg); 
                 }
@@ -147,7 +147,7 @@ public class BusinessProfileService {
         try {   FileUtils.copyFile(sourcefile, destfile);
     } catch (IOException e) {
    String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" \n Package=menu , File=BusinessProfileService.java -----\n"
-    + "\nLINE=151 \n  useradminid=="+usercid_adminid+"  ";
+    + "\nLINE=150 \n  useradminid=="+usercid_adminid+"  ";
    Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
      EmergencyEmail.send(e,errormsg); 
         }

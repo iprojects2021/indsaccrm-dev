@@ -12,6 +12,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.Statement;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -62,18 +63,39 @@ public class UserAboutSubmit extends HttpServlet {
               ps.close();
               
             Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" Package=s3453 ,  File=UserAboutSubmit.java , method=processRequest");
-            response.sendRedirect("userprofile.jsp?message=updatesuccessfully");  
             
             //try close
             }catch(Exception e){
             String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" \nUserAboutSubmit.java-----\n"
-            + "\nLINE=68\n update register set yearsofexperience=?,skills=? where useradminid="+useradminid+" and id="+usercid+"";
+            + "\nLINE=70\n update register set yearsofexperience=?,skills=? where useradminid="+useradminid+" and id="+usercid+"";
             Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
             EmergencyEmail.send(e,errormsg); 
         }
-   
+             
+             try{
+           Connection c=Poul.getConnectionCRM();
+           
+           Statement st=c.createStatement(); 
+           
+           String logstatus="Data Update";
+           st.addBatch("insert into registerlog (useradminid,usercid,yearsofexperience,skills,updatestatus) values('"+useradminid+"','"+usercid+"','"+yearsofexperience+"','"+skills+"','Update Data') ");
+       
+           st.executeBatch();        
+           st.close();
+           c.close();   
+           
+            Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" Package=s3453 ,  File=UserAboutSubmit.java , method=processRequest");
+           response.sendRedirect("userprofile.jsp?message=updatesuccessfully");  
 
-            /* TODO output your page here. You may use following sample code. */
+           
+           }catch(Exception e){
+            String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" \nUserAboutSubmit.java-----\n"
+            + "\nLINE=93\n insert into registerlog (useradminid,usercid,yearsofexperience,skills,updatestatus) values('"+useradminid+"','"+usercid+"','"+yearsofexperience+"','"+skills+"','Update Data')";
+            Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
+            EmergencyEmail.send(e,errormsg); 
+        }
+
+          /* TODO output your page here. You may use following sample code. */
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");

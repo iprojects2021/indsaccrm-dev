@@ -259,7 +259,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                     <div class="form-group">
                     <label for="inputExperience" class="col-sm-2 control-label"> Office Address</label>
                     <div class="col-sm-10">
-                     <% if( businesProfileData[26]!=null && !businesProfileData[26].equals("") && !businesProfileData[8].equals("null") ){  %>
+                     <% if( businesProfileData[26]!=null && !businesProfileData[26].equals("") && !businesProfileData[26].equals("null") ){  %>
                   <textarea class="form-control" id="officeaddress" name="officeaddress" > <%=businesProfileData[26]  %> </textarea>
                  <%  } else { %><textarea class="form-control" id="officeaddress" name="officeaddress" placeholder="Office Address">  </textarea> 
                            <% }  %>     
@@ -295,7 +295,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
   
                     <div class="col-sm-10">
                       <input type="text" class="form-control" id="country"  name="country"
-                             <% if( businesProfileData[23]!=null && !businesProfileData[22].equals("") && !businesProfileData[23].equals("null") ){
+                             <% if( businesProfileData[23]!=null && !businesProfileData[23].equals("") && !businesProfileData[23].equals("null") ){
                   out.println("placeholder=\""+businesProfileData[23]+"\" value=\""+businesProfileData[23]+"\">");
                   } else { %>placeholder="Country">
                           <% }  %>   

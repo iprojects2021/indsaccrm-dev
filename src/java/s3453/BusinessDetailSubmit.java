@@ -16,6 +16,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.Statement;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -76,7 +77,6 @@ public class BusinessDetailSubmit extends HttpServlet {
               ps.close();
               
             Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" Package=s3453 ,  File=BusinessDetailSubmit.java , method=processRequest");
-            response.sendRedirect("businessprofile.jsp?message=updatesuccessfully");  
             
             //try close
             }catch(Exception e){
@@ -85,6 +85,30 @@ public class BusinessDetailSubmit extends HttpServlet {
             Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
             EmergencyEmail.send(e,errormsg); 
         }
+        }
+          String usercid=request.getParameter("usercid");
+
+           try{
+           Connection c=Poul.getConnectionCRM();
+           
+           Statement st=c.createStatement(); 
+           
+           String logstatus="Data Update";
+           st.addBatch("insert into businessprofilelog (useradminid,usercid,gstin,ownerdetails,companystatus,businesstype,totalemployee,yearofestablished,grossannualturnover,annualexportturnover,updatestatus) values('"+useradminid+"','"+usercid+"','"+gstin+"','"+ownerdetails+"', '"+companystatus+"','"+businesstype+"','"+totalemployee+"','"+yearofestablished+"','"+grossannualturnover+"','"+annualexportturnover+"','Update Data') ");
+       
+           st.executeBatch();        
+           st.close();
+           c.close();   
+           
+           Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" Package=s3453 ,  File=BusinessDetailSubmit.java , method=processRequest");
+           response.sendRedirect("businessprofile.jsp?message=updatesuccessfully");  
+
+           
+           }catch(Exception e){
+            String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" \nBusinessDetailSubmit.java-----\n"
+            + "\nLINE=108\n insert into businessprofilelog (useradminid,usercid,gstin,ownerdetails,companystatus,businesstype,totalemployee,yearofestablished,grossannualturnover,annualexportturnover,updatestatus) values('"+useradminid+"','"+usercid+"','"+gstin+"','"+ownerdetails+"', '"+companystatus+"','"+businesstype+"','"+totalemployee+"','"+yearofestablished+"','"+grossannualturnover+"','"+annualexportturnover+"','Update Data')";
+            Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
+            EmergencyEmail.send(e,errormsg); 
         }
             /* TODO output your page here. You may use following sample code. */
             out.println("<!DOCTYPE html>");

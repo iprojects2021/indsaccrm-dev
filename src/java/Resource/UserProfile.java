@@ -26,6 +26,8 @@ public class UserProfile {
     private String state;
     private String country;
     private String zipcode;
+    private String notes;
+
 
     public String getId() {
         return id;
@@ -137,6 +139,14 @@ public class UserProfile {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public String getNotes() {
+        return notes;
+    }
+
+    public void setNotes(String notes) {
+        this.notes = notes;
     }
     
     

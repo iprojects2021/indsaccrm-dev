@@ -12,6 +12,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.Statement;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -43,9 +44,9 @@ public class UserProfileSubmit extends HttpServlet {
             
             
             String useradminid=request.getParameter("useradminid");
+            String usercid=request.getParameter("usercid");
             String firstname=request.getParameter("firstname");
-            String lastname=request.getParameter("lastname");
-            firstname=firstname+" "+lastname;
+            
             String phone=request.getParameter("phone");
             String mobileno=request.getParameter("mobileno");
             String address=request.getParameter("address");
@@ -53,10 +54,13 @@ public class UserProfileSubmit extends HttpServlet {
             String state=request.getParameter("state");
             String country=request.getParameter("country");
             String zipcode=request.getParameter("zipcode");
+            String notes=request.getParameter("notes");
+
             
             try{
               Connection con=Poul.getConnectionCRM();
-              PreparedStatement ps=con.prepareStatement("update register set firstname=?,phone=?,mobile=?,address1=?,city=?,state=?,country=?,pincode=? where  useradminid=?");
+              String query="update register set firstname=?,phone=?,mobile=?,address1=?,city=?,state=?,country=?,pincode=?,notes=? where  useradminid=? and id=?";
+              PreparedStatement ps=con.prepareStatement(query);
              
               ps.setString(1,firstname);
               ps.setString(2,phone);
@@ -66,23 +70,51 @@ public class UserProfileSubmit extends HttpServlet {
               ps.setString(6,state);
               ps.setString(7,country);
               ps.setString(8,zipcode);
+              ps.setString(9,notes);
+              ps.setString(10,useradminid);
+              ps.setString(11,usercid);
              
-              ps.setString(9,useradminid);
-              
               ps.executeUpdate();
+             
               con.close();
               ps.close();
               
             Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" Package=s3453 ,  File=UserProfileSubmit.java , method=processRequest");
-            response.sendRedirect("userprofile.jsp?message=updatesuccessfully");  
-            
+
             //try close
             }catch(Exception e){
             String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" \nUserProfileSubmit.java-----\n"
-            + "\nLINE=87\n update register set firstname=?,phone=?,mobileno=?,address1=?,city=?,state=?,country=?,pincode=? where useradminid=?";
+            + "\nLINE=87\n update register set firstname=?,phone=?,mobileno=?,address1=?,city=?,state=?,country=?,pincode=?,notes=? where useradminid=? and id=?";
             Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
             EmergencyEmail.send(e,errormsg); 
         }
+            
+           String mobile=request.getParameter("mobileno");
+           String address1=request.getParameter("address");
+           String pincode=request.getParameter("zipcode");
+
+           try{
+           Connection c=Poul.getConnectionCRM();
+           
+           Statement st=c.createStatement(); 
+           
+           String logstatus="Data Update";
+           st.addBatch("insert into registerlog (useradminid,usercid,firstname,phone,mobile,address1,city,state,country,pincode,notes,updatestatus) values('"+useradminid+"','"+usercid+"','"+firstname+"','"+phone+"', '"+mobile+"','"+address1+"','"+city+"','"+state+"','"+country+"','"+pincode+"','"+notes+"','Update Data') ");
+       
+           st.executeBatch();        
+           st.close();
+           c.close();   
+           
+           Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" Package=s3453 ,  File=UserProfileSubmit.java , method=processRequest");
+           response.sendRedirect("userprofile.jsp?message=updatesuccessfully");  
+          
+           }catch(Exception e){
+            String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" \nUserProfileSubmit.java-----\n"
+            + "\nLINE=113\n insert into registerlog (useradminid,usercid,firstname,phone,mobile,address1,city,state,country,pincode,notes,updatestatus) values('"+useradminid+"','"+usercid+"','"+firstname+"','"+phone+"', '"+mobile+"','"+address1+"','"+city+"','"+state+"','"+country+"','"+pincode+"','"+notes+"','Update Data')";
+            Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
+            EmergencyEmail.send(e,errormsg); 
+        }
+            
             
             /* TODO output your page here. You may use following sample code. */
             out.println("<!DOCTYPE html>");

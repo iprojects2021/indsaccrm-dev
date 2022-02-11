@@ -210,7 +210,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
               <li class="active"><a href="#general" data-toggle="tab">General</a></li>
               <li><a href="#about" data-toggle="tab">About</a></li>             
               <li><a href="#settings" data-toggle="tab">Settings</a></li>
-              <li><a href="" >History</a></li>
+              <li><a href="" data-toggle="tab">History</a></li>
             </ul>
             <div class="tab-content">
               <div class="active tab-pane" id="general">
@@ -227,20 +227,13 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                       <% }  %>   
                     </div>
                   </div>
-  
-                  <div class="form-group">
-                    <label for="inputName" class="col-sm-2 control-label">Last Name</label>
-  
-                    <div class="col-sm-10">
-                      <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name">
-                    </div>
-                  </div>
+ 
   
                   <div class="form-group">
                     <label for="inputEmail" class="col-sm-2 control-label">Email</label>
   
                     <div class="col-sm-10">
-                      <input type="email" class="form-control" id="email" name="email" disable=""
+                      <input type="email" class="form-control" id="email" name="email" disabled=""
                      <% if( userProfileData[4]!=null && !userProfileData[4].equals("") && !userProfileData[4].equals("null") ){
                   out.println("placeholder=\""+userProfileData[4]+"\" value=\""+userProfileData[4]+"\">");
                   } else { %>placeholder="Email">
@@ -254,7 +247,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                     <div class="col-sm-10">
                         <input type="text" class="form-control" id="phone" name="phone"
                         <% if( userProfileData[22]!=null && !userProfileData[22].equals("") && !userProfileData[22].equals("null") ){
-                        out.println("placeholder=\""+userProfileData[22]+"\" value=\""+userProfileData[6]+"\">");
+                        out.println("placeholder=\""+userProfileData[22]+"\" value=\""+userProfileData[22]+"\">");
                         } else { %>placeholder="Phone">
                         <% }  %>    
                     </div>
@@ -331,17 +324,16 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                     </div>
                   </div>
                     
-                    <div class="form-group">
-                    <label for="inputSkills" class="col-sm-2 control-label">Notes</label>
-  
-                    <div class="col-sm-10">
-                      <input type="text" class="form-control" id="notes" name="notes"
-                            <% if( userProfileData[37]!=null && !userProfileData[37].equals("") && !userProfileData[37].equals("null") ){
-                   out.println("placeholder=\""+userProfileData[37]+"\" value=\""+userProfileData[37]+"\">");
-                  } else { %>placeholder="Notes"> 
-                          <% }  %>    
-                    </div>
+                   <div class="form-group">
+                  <label for="inputPassword3" class="col-sm-2 control-label" >Notes</label>
+
+                  <div class="col-sm-10" >
+                 <% if( userProfileData[37]!=null && !userProfileData[37].equals("") && !userProfileData[37].equals("null") ){  %>
+                  <textarea class="form-control" id="notes" name="notes" > <%=userProfileData[37]  %> </textarea>
+                 <%  } else { %><textarea class="form-control" id="notes" name="notes" placeholder="Notes"></textarea> 
+                           <% }  %>                   
                   </div>
+                </div>
     
                   <div class="form-group">
                     <div class="col-sm-offset-2 col-sm-10">
@@ -687,32 +679,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
      return false;
             } 
         } 
-   /**   
-   if(document.getElementById("lastname").value==""){
-   
-            document.getElementById("alert-message").innerHTML = "Last Name: Cannot be empty";
-    $('#show-alert').modal('show')
-       document.getElementById("lastname").focus();
-           return false;
-        }else 
-            if(document.getElementById("lastname").value!=""){
-            if(document.getElementById("lastname").value.length>45){
-            document.getElementById("alert-message").innerHTML = "Last Name: Only 45 Characters allowed";
-    $('#show-alert').modal('show')
-           document.getElementById("lastname").focus();
-           
-           return false;
-       }else           
-           if(!document.getElementById("lastname").value.match(/^[0-9 a-z.A-Z]+$/)){
-              document.getElementById("alert-message").innerHTML = "Last Name: Only alphanumeric allowed";
-    $('#show-alert').modal('show')
-           
-           document.getElementById("lastname").focus();
-     return false;
-            } 
-        } 
-        */
-       
+      
        if(document.getElementById("mobileno").value==""){
    
             document.getElementById("alert-message").innerHTML = "Mobile No: Cannot be empty";
@@ -801,7 +768,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
      
       if(document.getElementById("city").value!=""){
            
-           if(!document.getElementById("city").value.match(/^[a-zA-Z:,'-'' '\.0-9\n]+$/)){
+           if(!document.getElementById("city").value.match(/^[0-9 a-z.A-Z]+$/)){
                      document.getElementById("alert-message").innerHTML = "City: Only alphanumeric allowed";
     $('#show-alert').modal('show')
        
@@ -843,8 +810,8 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
        
        if(document.getElementById("country").value!=""){
            
-           if(!document.getElementById("country").value.match(/^[a-zA-Z:,'-'' '\.0-9\n]+$/)){
-                     document.getElementById("alert-message").innerHTML = "Country: Only characters allowed";
+           if(!document.getElementById("country").value.match(/^[0-9 a-z.A-Z]+$/)){
+                     document.getElementById("alert-message").innerHTML = "Country: Only alphanumeric allowed";
     $('#show-alert').modal('show')
        
            //alert("Only alphanumeric allowed");
@@ -931,7 +898,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
       
         if(document.getElementById("skills").value!=""){
            
-           if(!document.getElementById("skills").value.match(/^[0-9 a-z.A-Z]+$/)){
+           if(!document.getElementById("skills").value.match(/^[0-9 a-z.A-Z + . #]+$/)){
                      document.getElementById("alert-message").innerHTML = "Skills: Only  alphanumeric allowed";
     $('#show-alert').modal('show')
        

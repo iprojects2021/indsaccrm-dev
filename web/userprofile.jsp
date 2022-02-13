@@ -81,7 +81,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
     <!-- Content Header (Page header) -->
     
      <section class="content">
-
+               
       <div class="row">
         <div class="col-md-3">
 
@@ -210,6 +210,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
               <li class="active"><a href="#general" data-toggle="tab">General</a></li>
               <li><a href="#about" data-toggle="tab">About</a></li>             
               <li><a href="#settings" data-toggle="tab">Settings</a></li>
+              <li><a href="#email settings" data-toggle="tab">Email Settings</a></li>
               <li><a href="" data-toggle="tab">History</a></li>
             </ul>
             <div class="tab-content">

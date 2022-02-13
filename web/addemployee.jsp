@@ -42,10 +42,9 @@
           String useraccountype=(String)session1.getAttribute("useraccountype");
           String usercid_name=(String)session1.getAttribute("usercid_name");
           String usercid_adminid=(String)session1.getAttribute("usercid_adminid");
-             String usercid_company=(String)session1.getAttribute("usercid_company");
+          String usercid_company=(String)session1.getAttribute("usercid_company");
           String usercid_website=(String)session1.getAttribute("usercid_website"); 
-        	
-	
+ 	
 if (session != null) {
 			if (session1.getAttribute("usercid_id") == null) {
 				response.sendRedirect("signout.jsp");
@@ -55,10 +54,8 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
 %>
     <%    String pagetype=Poul.escapeHtml(request.getParameter("pagetype"));
       if("newemployeesubmit".equals(pagetype)){
-          
-          
-      
-       String cn=Poul.escapeHtml(request.getParameter("cn"));
+     
+        String cn=Poul.escapeHtml(request.getParameter("cn"));
         String cfn=Poul.escapeHtml(request.getParameter("cfn"));
         String cln=Poul.escapeHtml(request.getParameter("cln"));
         String department=Poul.escapeHtml(request.getParameter("department"));
@@ -73,7 +70,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
         String website=Poul.escapeHtml(request.getParameter("website"));
         String bwtc =Poul.escapeHtml(request.getParameter("bwtc"));
         String mobile=Poul.escapeHtml(request.getParameter("mobile"));
-      String  alternetmobile=Poul.escapeHtml(request.getParameter("mobile"));
+        String  alternetmobile=Poul.escapeHtml(request.getParameter("mobile"));
         String ap=Poul.escapeHtml(request.getParameter("ap"));
         String email=Poul.escapeHtml(request.getParameter("email"));
         String oai=Poul.escapeHtml(request.getParameter("oai"));
@@ -103,8 +100,6 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
        
 Connection c=Poul.getConnectionCRM();
 
-
-
 Statement st=c.createStatement();
            ResultSet rs3;
                rs3 = st.executeQuery("select  *  FROM employee  ");
@@ -116,9 +111,7 @@ Statement st=c.createStatement();
            int i = Integer.parseInt( SR ); 
            ++i; 
              st.addBatch("insert into employee values('"+i+"','"+sqlTime+"','0','"+ownr+"','"+cn+"','"+cfn+"','"+cln+"','"+department+"','"+designation+"','"+dob+"','','','"+status+"','"+rt+"','"+source+"','','"+vn+"','"+website+"','"+bwtc+"','"+mobile+"','"+alternetmobile+"','"+phone+"','"+email+"','"+oe+"','"+fax+"','"+oai+"','"+oai1+"','"+oai2+"','"+oai3+"','"+address1+"','"+address2+"','"+address3+"','"+city+"','"+pincode+"','"+state+"','"+country+"','"+notes+"','"+gstin+"','"+usercid_adminid+"','"+usercid_id+"','customer','"+sqlTime+"','','','','','','','','')");
-      
-            
-       st.executeBatch(); 
+      st.executeBatch(); 
         String requestcid=Integer.toString(i);
         session.setAttribute("requestcid",requestcid);
         session.setAttribute("pagetype","newleadsubmit");
@@ -133,9 +126,7 @@ Statement st=c.createStatement();
                   + "LINE=133\ninsert into employee values where useradminid="+usercid_adminid+" ";
          Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
        EmergencyEmail.send(e,errormsg); 
-      
-                
-        }
+      }
         finally{
         
            // session.setAttribute("submitmsg",msg);
@@ -159,7 +150,6 @@ Statement st=c.createStatement();
  
 	
 	 <section class="content-header">
-  
 	
              <% if("error".equals(errormessage)){  %>
 <div class="alert alert-danger alert-dismissible">
@@ -175,16 +165,12 @@ Statement st=c.createStatement();
       <div class="box box-warning box-solid">
         <div class="box-header with-border">
           <h3 class="box-title">Employee Details</h3>
-
-         
-        </div>
-       
+        
+        </div>      
 	    <div class="col-md-6">
 		
 		 <div class="box ">
-            
-           
-            <!-- form start -->
+           <!-- form start -->
             
               <div class="box-body">
 			
@@ -196,7 +182,6 @@ Statement st=c.createStatement();
                   </div>
                 <div class="col-sm-1">
 				</div>
-                 
 
                   <div class="col-sm-4">
                       <input type="text" class="form-control" id="cln" name="cln" placeholder="Last Name"  autocomplete="off">
@@ -228,12 +213,9 @@ Statement st=c.createStatement();
 					 
               </div>
               <!-- /.box-body -->
-             
-             
-                     </div>
+                    </div>
           <!-- /.box -->
-        
-
+ 
         </div>
         <!--/.col (left) -->
         <!-- right column -->
@@ -292,22 +274,16 @@ Statement st=c.createStatement();
                      </select>
                      <% } %>
                   </div>
-                </div>
-					 
+                </div>					 
 			  <div class="form-group">
                   <label for="inputPassword3" class="col-sm-2 control-label">Website</label>
 
                   <div class="col-sm-10">
-                   <input type="url" class="form-control" id="website" name="website" placeholder=" https://abc.com/" autocomplete="off">
+                   <input type="text" class="form-control" id="website" name="website" placeholder=" https://abc.com/" autocomplete="off">
                   </div>
                 </div>
-				
-				
-              
-              </div>
+            </div>
               <!-- /.box-body -->
-           
-            
           </div>
           <!-- /.box -->
   </div>
@@ -322,18 +298,11 @@ Statement st=c.createStatement();
 		 <!-- Default box -->
       <div class="box box-solid">
        <div class="box-header with-border">
-          <h3 class="box-title">Contact Information</h3>
-
-         
+          <h3 class="box-title">Contact Information</h3>        
         </div>
-
-       
-	    <div class="col-md-6">
-		
+	    <div class="col-md-6">		
 		 <div class="box ">
-            
-           
-            <!-- form start -->
+           <!-- form start -->
             
               <div class="box-body">
 			    <div class="form-group">
@@ -355,17 +324,10 @@ Statement st=c.createStatement();
                       <input type="text" class="form-control" id="mobile" name="mobile" placeholder=" Mobile"  autocomplete="off">
                   </div>
                 </div>
-				 
-				 
-					
-              
-              </div>
-              <!-- /.box-body -->
-             
+            </div>
+              <!-- /.box-body -->            
                        </div>
           <!-- /.box -->
-        
-
         </div>
         <!--/.col (left) -->
         <!--/.col (left) -->
@@ -396,30 +358,14 @@ Statement st=c.createStatement();
                   <input type="text" class="form-control" id="email" name="email" placeholder="Email" autocomplete="off">
                   </div>
                 </div>
-					
-				
-              
-              </div>
-              <!-- /.box-body -->
-         
+            </div>
+              <!-- /.box-body -->        
           </div>
           <!-- /.box -->
-
-    
-
-    
-      
-        </div>
+       </div>
         <!--/.col (right) -->
-
-	   
-	   
-	   
-	   
-      </div>
+   </div>
       <!-- /.box -->
-		
-		
 		</div>
 		</div>
 		
@@ -429,15 +375,9 @@ Statement st=c.createStatement();
       <div class="box box-solid">
         <div class="box-header with-border">
           <h3 class="box-title">Address</h3>
-
-         
-        </div>
-       
-	    <div class="col-md-6">
-		
+        </div>       
+	    <div class="col-md-6">		
 		 <div class="box ">
-            
-           
             <!-- form start -->
             
               <div class="box-body">
@@ -488,36 +428,29 @@ Statement st=c.createStatement();
                   <div class="col-sm-9">
                     <input type="text" class="form-control" id="country" name="country"  placeholder="Country" autocomplete="off">
                   </div>
-                </div>
-          
+                </div>          
               </div>
-              <!-- /.box-body -->
-         
+              <!-- /.box-body -->        
           </div>
-          <!-- /.box -->
-  
+          <!-- /.box -->  
         </div>
         <!--/.col (left) -->
         <!-- right column -->
         <div class="col-md-6">
           <!-- Horizontal Form -->
            <!-- general form elements -->
-          <div class="box ">
-           
+          <div class="box ">           
             <!-- /.box-header -->
-            <!-- form start -->
-           
-              <div class="box-body">
-			  
-				  <div class="form-group">
+            <!-- form start -->           
+              <div class="box-body">			  
+                <div class="form-group">
                   <label for="inputPassword3" class="col-sm-2 control-label">Notes</label>
 
                   <div class="col-sm-10">
                     <textarea class="form-control" rows="7" id="notes" name="notes" placeholder=" Notes" autocomplete="off"></textarea>
                     <input type="hidden" name="pagetype" value="newemployeesubmit">
                   </div>
-                </div>
-         
+                </div>        
               </div>
               <!-- /.box-body -->
 			  <div class="box-footer clearfix">
@@ -525,20 +458,15 @@ Statement st=c.createStatement();
                <button class="btn btn-sm btn-info btn-flat pull-right" onClick="return validateForm()">Save</button>
             </div>
             <!-- /.box-footer -->
-		
           </div>
           <!-- /.box -->
-
         </div>
         <!--/.col (right) -->
-
       </div>
       <!-- /.box -->
 		</div>
-		</div>
-		
-	    </form>
-		
+		</div>		
+	    </form>		
     </section>
     <!-- /.content -->
   </div>

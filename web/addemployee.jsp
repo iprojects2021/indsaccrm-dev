@@ -31,8 +31,6 @@
        folder instead of downloading all of them to reduce the load. -->
   <link rel="stylesheet" href="dist/css/skins/_all-skins.min.css">
 
-
-
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
     <% HttpSession session1 = request.getSession(); // reuse existing
@@ -110,7 +108,8 @@ Statement st=c.createStatement();
           }
            int i = Integer.parseInt( SR ); 
            ++i; 
-             st.addBatch("insert into employee values('"+i+"','"+sqlTime+"','0','"+ownr+"','"+cn+"','"+cfn+"','"+cln+"','"+department+"','"+designation+"','"+dob+"','','','"+status+"','"+rt+"','"+source+"','','"+vn+"','"+website+"','"+bwtc+"','"+mobile+"','"+alternetmobile+"','"+phone+"','"+email+"','"+oe+"','"+fax+"','"+oai+"','"+oai1+"','"+oai2+"','"+oai3+"','"+address1+"','"+address2+"','"+address3+"','"+city+"','"+pincode+"','"+state+"','"+country+"','"+notes+"','"+gstin+"','"+usercid_adminid+"','"+usercid_id+"','customer','"+sqlTime+"','','','','','','','','')");
+             st.addBatch("insert into employee (usercid_adminid,usercid_id,cfn,cln,department,designation,dob,status,rt,source,website,bwtc,mobile,alternetmobile,phone,email,address1,address2,address3,city,pincode,state,country,notes,gstin,Category) values('"+usercid_adminid+"','"+usercid_id+"','"+cfn+"','"+cln+"','"+department+"','"+designation+"','"+dob+"','"+status+"','"+rt+"','"+source+"','"+website+"','"+bwtc+"','"+mobile+"','"+alternetmobile+"','"+phone+"','"+email+"','"+address1+"','"+address2+"','"+address3+"','"+city+"','"+pincode+"','"+state+"','"+country+"','"+notes+"','"+gstin+"'");
+
       st.executeBatch(); 
         String requestcid=Integer.toString(i);
         session.setAttribute("requestcid",requestcid);
@@ -123,7 +122,7 @@ Statement st=c.createStatement();
         catch(Exception e)
         {
               String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"\n addemployee.jsp-----\n"
-                  + "LINE=133\ninsert into employee values where useradminid="+usercid_adminid+" ";
+                  + "LINE=124\ninsert into employee values where useradminid="+usercid_adminid+" ";
          Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
        EmergencyEmail.send(e,errormsg); 
       }
@@ -151,12 +150,7 @@ Statement st=c.createStatement();
 	
 	 <section class="content-header">
 	
-             <% if("error".equals(errormessage)){  %>
-<div class="alert alert-danger alert-dismissible">
-                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                <h4><i class="icon fa fa-ban"></i> Alert!</h4>
-                Something went wrong!! Please submit again 
-</div><% } %>
+             
 <form class="form-horizontal" action="" method="post">
 	
 	 <div class="row invoice">

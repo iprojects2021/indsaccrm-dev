@@ -77,6 +77,10 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     
+    <section class="content-header" >
+        <h1>Business Profile</h1>
+       </section>
+    
      <section class="content">
 
       <div class="row">
@@ -94,18 +98,18 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                        <% } %>
                    
               <h3 class="profile-username text-center">
-                  <% if( businesProfileData[7]!=null && !businesProfileData[7].equals("") && !businesProfileData[7].equals("null") ){
-                  out.println(businesProfileData[7]);
+                  <% if( businesProfileData[6]!=null && !businesProfileData[6].equals("") && !businesProfileData[6].equals("null") ){
+                  out.println(businesProfileData[6]);
                   } else { %>
-                  INDSAC CRM
+                  Business Name
                    <% }  %></h3>
 
               <ul class="list-group list-group-unbordered">
                 
                 <li class="list-group-item">
                     <strong><i class="fa fa-diamond margin-r-5"></i>Website</strong><br>
-                <% if( businesProfileData[10]!=null && !businesProfileData[10].equals("") && !businesProfileData[10].equals("null") ){  
-                  out.println(businesProfileData[10]);
+                <% if( businesProfileData[8]!=null && !businesProfileData[8].equals("") && !businesProfileData[8].equals("null") ){  
+                  out.println(businesProfileData[8]);
                   } else { %>
                     Website 
              <% }  %>
@@ -113,19 +117,19 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
 
                 <li class="list-group-item">
                     <strong><i class=" fa fa-pencil margin-r-5"></i>GSTIN No.</strong><br>
-                  <% if( businesProfileData[6]!=null && !businesProfileData[6].equals("") && !businesProfileData[6].equals("null") ){  
-                  out.println(businesProfileData[6]);
+                  <% if( businesProfileData[18]!=null && !businesProfileData[18].equals("") && !businesProfileData[18].equals("null") ){  
+                  out.println(businesProfileData[18]);
                   } else { %>
                    AGB345ATH356ER1
                   <% }  %>
                 </li>
 
                 <li class="list-group-item">
-                    <strong><i class="fa fa-user-circle margin-r-5"></i>Owner Name</strong><br>
-                <% if( businesProfileData[12]!=null && !businesProfileData[12].equals("") && !businesProfileData[12].equals("null") ){  
-                  out.println(businesProfileData[12]);
+                    <strong><i class="fa fa-user-circle margin-r-5"></i>Owner Details</strong><br>
+                <% if( businesProfileData[19]!=null && !businesProfileData[19].equals("") && !businesProfileData[19].equals("null") ){  
+                  out.println(businesProfileData[19]);
                   } else { %>
-                  Owner Name
+                  Owner Details
                   <% }  %>
                 </li>
 
@@ -133,8 +137,8 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
 
               <li class="list-group-item">
                   <strong><i class="fa  fa-calendar-check-o margin-r-5"></i>Year of Established</strong><br>
-              <% if( businesProfileData[15]!=null && !businesProfileData[15].equals("") && !businesProfileData[15].equals("null") ){  
-                  out.println(businesProfileData[15]);
+              <% if( businesProfileData[23]!=null && !businesProfileData[23].equals("") && !businesProfileData[23].equals("null") ){  
+                  out.println(businesProfileData[23]);
                   } else { %>
                   Year of Established
                   <% }  %>
@@ -142,8 +146,8 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
               
               <li class="list-group-item">
                   <strong><i class="fa fa-envelope margin-r-5"></i> Business Email </strong><br>
-             <% if( businesProfileData[13]!=null && !businesProfileData[13].equals("") && !businesProfileData[13].equals("null") ){  
-                  out.println(businesProfileData[13]);
+             <% if( businesProfileData[7]!=null && !businesProfileData[7].equals("") && !businesProfileData[7].equals("null") ){  
+                  out.println(businesProfileData[7]);
                   } else { %>
                   Business Email
                   <% }  %>
@@ -160,8 +164,8 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
 
                 <li class="list-group-item">
                     <strong><i class="fa fa-map-marker margin-r-5"></i>City</strong><br>
-               <% if( businesProfileData[21]!=null && !businesProfileData[21].equals("") && !businesProfileData[21].equals("null") ){  
-                out.println(businesProfileData[21]);
+               <% if( businesProfileData[13]!=null && !businesProfileData[13].equals("") && !businesProfileData[13].equals("null") ){  
+                out.println(businesProfileData[13]);
                   } else { %>
                   City
                   <% }  %>
@@ -180,8 +184,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
           <div class="nav-tabs-custom">
             <ul class="nav nav-tabs">
               <li class="active"><a href="#general" data-toggle="tab">General Info</a></li>
-              <li><a href="#businessdetails" data-toggle="tab">Business Details</a></li>
-              
+              <li><a href="#businessdetails" data-toggle="tab">Business Details</a></li>             
               <li><a href="#settings" data-toggle="tab">Settings</a></li>
             </ul>
             <div class="tab-content">
@@ -193,8 +196,8 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
   
                     <div class="col-sm-10">
                       <input type="text" class="form-control" id="businessname"  name="businessname"
-                             <% if( businesProfileData[7]!=null && !businesProfileData[7].equals("") && !businesProfileData[7].equals("null") ){
-                  out.println("placeholder=\""+businesProfileData[7]+"\" value=\""+businesProfileData[7]+"\">");
+                             <% if( businesProfileData[6]!=null && !businesProfileData[6].equals("") && !businesProfileData[6].equals("null") ){
+                  out.println("placeholder=\""+businesProfileData[6]+"\" value=\""+businesProfileData[6]+"\">");
                   } else { %>placeholder=" Business Name">
                         <% }  %>       
                     </div>
@@ -205,8 +208,8 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
   
                     <div class="col-sm-10">
                       <input type="email" class="form-control" id="businessemail"  name="businessemail"
-                             <% if( businesProfileData[13]!=null && !businesProfileData[13].equals("") && !businesProfileData[13].equals("null") ){
-                  out.println("placeholder=\""+businesProfileData[13]+"\" value=\""+businesProfileData[13]+"\">");
+                             <% if( businesProfileData[7]!=null && !businesProfileData[7].equals("") && !businesProfileData[7].equals("null") ){
+                  out.println("placeholder=\""+businesProfileData[7]+"\" value=\""+businesProfileData[7]+"\">");
                   } else { %>placeholder=" Business Email">
                           <% }  %>    
                     </div>
@@ -216,13 +219,14 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
   
                     <div class="col-sm-10">
                       <input type="text" class="form-control" id="website" name="website"
-                             <% if( businesProfileData[10]!=null && !businesProfileData[10].equals("") && !businesProfileData[10].equals("null") ){
-                  out.println("placeholder=\""+businesProfileData[10]+"\" value=\""+businesProfileData[10]+"\">");
+                             <% if( businesProfileData[8]!=null && !businesProfileData[8].equals("") && !businesProfileData[8].equals("null") ){
+                  out.println("placeholder=\""+businesProfileData[8]+"\" value=\""+businesProfileData[8]+"\">");
                   } else { %>placeholder="Website">
                            <% }  %>   
                     </div>
                   </div>
-                <div class="form-group">
+                    
+                    <div class="form-group">
                     <label for="inputSkills" class="col-sm-2 control-label"> Landline Telephone </label>
   
                     <div class="col-sm-10">
@@ -233,14 +237,14 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                            <% }  %>  
                     </div>
                   </div>
-  
+                 
                   <div class="form-group">
                     <label for="inputSkills" class="col-sm-2 control-label">Mobile No <span style="color:red">*</span></label>
   
                     <div class="col-sm-10">
                       <input type="text" class="form-control" id="mobileno"  name="mobileno"
-                             <% if( businesProfileData[25]!=null && !businesProfileData[25].equals("") && !businesProfileData[25].equals("null") ){
-                  out.println("placeholder=\""+businesProfileData[25]+"\" value=\""+businesProfileData[25]+"\">");
+                             <% if( businesProfileData[10]!=null && !businesProfileData[10].equals("") && !businesProfileData[10].equals("null") ){
+                  out.println("placeholder=\""+businesProfileData[10]+"\" value=\""+businesProfileData[10]+"\">");
                   } else { %>placeholder="Mobile No">
                             <% }  %> 
                     </div>
@@ -248,19 +252,20 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
   
                   <div class="form-group">
                     <label for="inputExperience" class="col-sm-2 control-label">Head Office Address</label>
-                           <div class="col-sm-10">
-                      <% if( businesProfileData[8]!=null && !businesProfileData[8].equals("") && !businesProfileData[8].equals("null") ){  %>
-                  <textarea class="form-control" id="headofficeaddress" name="headofficeaddress" > <%=businesProfileData[8]  %> </textarea>
-                 <%  } else { %><textarea class="form-control" id="headofficeaddress" name="headofficeaddress" placeholder="Head Office Address">  </textarea> 
-                           <% }  %> 
+  
+                    <div class="col-sm-10">
+                       <% if( businesProfileData[11]!=null && !businesProfileData[11].equals("") && !businesProfileData[11].equals("null") ){  %>
+                      <textarea class="form-control" id="headofficeaddress" name="headofficeaddress"> <%=businesProfileData[11]  %> </textarea>
+                      <%  } else { %><textarea class="form-control" id="headofficeaddress" name="headofficeaddress" placeholder="Head Office Address"></textarea>
+                      <% }  %>
                     </div>
                   </div>
                     
                     <div class="form-group">
                     <label for="inputExperience" class="col-sm-2 control-label"> Office Address</label>
                     <div class="col-sm-10">
-                     <% if( businesProfileData[26]!=null && !businesProfileData[26].equals("") && !businesProfileData[26].equals("null") ){  %>
-                  <textarea class="form-control" id="officeaddress" name="officeaddress" > <%=businesProfileData[26]  %> </textarea>
+                     <% if( businesProfileData[12]!=null && !businesProfileData[12].equals("") && !businesProfileData[12].equals("null") ){  %>
+                  <textarea class="form-control" id="officeaddress" name="officeaddress" > <%=businesProfileData[12]  %> </textarea>
                  <%  } else { %><textarea class="form-control" id="officeaddress" name="officeaddress" placeholder="Office Address">  </textarea> 
                            <% }  %>     
                     </div>
@@ -271,8 +276,8 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
   
                     <div class="col-sm-10">
                       <input type="text" class="form-control" id="city" name="city"
-                             <% if( businesProfileData[21]!=null && !businesProfileData[21].equals("") && !businesProfileData[21].equals("null") ){
-                  out.println("placeholder=\""+businesProfileData[21]+"\" value=\""+businesProfileData[21]+"\">");
+                             <% if( businesProfileData[13]!=null && !businesProfileData[13].equals("") && !businesProfileData[13].equals("null") ){
+                  out.println("placeholder=\""+businesProfileData[13]+"\" value=\""+businesProfileData[13]+"\">");
                   } else { %>placeholder="City">
                              <% }  %>
                     </div>
@@ -283,8 +288,8 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
   
                     <div class="col-sm-10">
                       <input type="text" class="form-control" id="state"  name="state"
-                             <% if( businesProfileData[22]!=null && !businesProfileData[22].equals("") && !businesProfileData[22].equals("null") ){
-                  out.println("placeholder=\""+businesProfileData[22]+"\" value=\""+businesProfileData[22]+"\">");
+                             <% if( businesProfileData[14]!=null && !businesProfileData[14].equals("") && !businesProfileData[14].equals("null") ){
+                  out.println("placeholder=\""+businesProfileData[14]+"\" value=\""+businesProfileData[14]+"\">");
                   } else { %>placeholder="State">
                              <% }  %>
                     </div>
@@ -295,8 +300,8 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
   
                     <div class="col-sm-10">
                       <input type="text" class="form-control" id="country"  name="country"
-                             <% if( businesProfileData[23]!=null && !businesProfileData[23].equals("") && !businesProfileData[23].equals("null") ){
-                  out.println("placeholder=\""+businesProfileData[23]+"\" value=\""+businesProfileData[23]+"\">");
+                             <% if( businesProfileData[15]!=null && !businesProfileData[15].equals("") && !businesProfileData[15].equals("null") ){
+                  out.println("placeholder=\""+businesProfileData[15]+"\" value=\""+businesProfileData[15]+"\">");
                   } else { %>placeholder="Country">
                           <% }  %>   
                     </div>
@@ -307,8 +312,8 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
   
                     <div class="col-sm-10">
                       <input type="text" class="form-control" id="zipcode"  name="zipcode"
-                             <% if( businesProfileData[24]!=null && !businesProfileData[24].equals("") && !businesProfileData[24].equals("null") ){
-                  out.println("placeholder=\""+businesProfileData[24]+"\" value=\""+businesProfileData[24]+"\">");
+                             <% if( businesProfileData[16]!=null && !businesProfileData[16].equals("") && !businesProfileData[16].equals("null") ){
+                  out.println("placeholder=\""+businesProfileData[16]+"\" value=\""+businesProfileData[16]+"\">");
                   } else { %>placeholder="Zip Code">
                            <% }  %>  
                     </div>
@@ -318,8 +323,8 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                   <label for="inputPassword3" class="col-sm-2 control-label" >Notes</label>
 
                   <div class="col-sm-10" >
-                 <% if( businesProfileData[19]!=null && !businesProfileData[19].equals("") && !businesProfileData[19].equals("null") ){  %>
-                  <textarea class="form-control" id="notes" name="notes" > <%=businesProfileData[19]  %> </textarea>
+                 <% if( businesProfileData[17]!=null && !businesProfileData[17].equals("") && !businesProfileData[17].equals("null") ){  %>
+                  <textarea class="form-control" id="notes" name="notes" > <%=businesProfileData[17]  %> </textarea>
                  <%  } else { %><textarea class="form-control" id="notes" name="notes" placeholder="Notes"></textarea> 
                            <% }  %>                   
                   </div>
@@ -366,8 +371,8 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
   
                     <div class="col-sm-10">
                       <input type="text" class="form-control" id="gstin" name="gstin"
-                  <% if( businesProfileData[6]!=null && !businesProfileData[6].equals("") && !businesProfileData[6].equals("null") ){
-                  out.println("placeholder=\""+businesProfileData[6]+"\" value=\""+businesProfileData[6]+"\">");
+                  <% if( businesProfileData[18]!=null && !businesProfileData[18].equals("") && !businesProfileData[18].equals("null") ){
+                  out.println("placeholder=\""+businesProfileData[18]+"\" value=\""+businesProfileData[18]+"\">");
                   } else { %>placeholder=" GSTIN No.">
                             <% }  %> 
                     </div>
@@ -377,8 +382,8 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
   
                     <div class="col-sm-10">
                       <input type="text" class="form-control" id="ownerdetails" name="ownerdetails"
-                  <% if( businesProfileData[12]!=null && !businesProfileData[12].equals("") && !businesProfileData[12].equals("null") ){
-                  out.println("placeholder=\""+businesProfileData[12]+"\" value=\""+businesProfileData[12]+"\">");
+                  <% if( businesProfileData[19]!=null && !businesProfileData[19].equals("") && !businesProfileData[19].equals("null") ){
+                  out.println("placeholder=\""+businesProfileData[19]+"\" value=\""+businesProfileData[19]+"\">");
                   } else { %>placeholder=" Owner Details">
                             <% }  %> 
                     </div>
@@ -398,8 +403,8 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
   
                     <div class="col-sm-10">
                       <input type="text" class="form-control" id="businesstype"  name="businesstype"
-                    <% if( businesProfileData[27]!=null && !businesProfileData[27].equals("") && !businesProfileData[27].equals("null") ){
-                  out.println("placeholder=\""+businesProfileData[27]+"\" value=\""+businesProfileData[27]+"\">");
+                    <% if( businesProfileData[21]!=null && !businesProfileData[21].equals("") && !businesProfileData[21].equals("null") ){
+                  out.println("placeholder=\""+businesProfileData[21]+"\" value=\""+businesProfileData[21]+"\">");
                   } else { %>placeholder="Business Type">
                           <% }  %>    
                     </div>
@@ -410,8 +415,8 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
   
                     <div class="col-sm-10">
                       <input type="text" class="form-control" id="totalemployee"  name="totalemployee"
-                   <% if( businesProfileData[16]!=null && !businesProfileData[16].equals("") && !businesProfileData[16].equals("null") ){
-                  out.println("placeholder=\""+businesProfileData[16]+"\" value=\""+businesProfileData[16]+"\">");
+                   <% if( businesProfileData[22]!=null && !businesProfileData[22].equals("") && !businesProfileData[22].equals("null") ){
+                  out.println("placeholder=\""+businesProfileData[22]+"\" value=\""+businesProfileData[22]+"\">");
                   } else { %>placeholder="Total Employees">
                           <% }  %>   
                     </div>
@@ -421,8 +426,8 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
   
                     <div class="col-sm-10">
                       <input type="text" class="form-control" id="yearofestablished"  name="yearofestablished"
-                   <% if( businesProfileData[15]!=null && !businesProfileData[15].equals("") && !businesProfileData[15].equals("null") ){
-                  out.println("placeholder=\""+businesProfileData[15]+"\" value=\""+businesProfileData[15]+"\">");
+                   <% if( businesProfileData[23]!=null && !businesProfileData[23].equals("") && !businesProfileData[23].equals("null") ){
+                  out.println("placeholder=\""+businesProfileData[23]+"\" value=\""+businesProfileData[23]+"\">");
                   } else { %>placeholder="Year Of Established">
                         <% }  %>     
                     </div>
@@ -433,8 +438,8 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
   
                     <div class="col-sm-10">
                       <input type="text" class="form-control" id="grossannualturnover"  name="grossannualturnover"
-                    <% if( businesProfileData[17]!=null && !businesProfileData[17].equals("") && !businesProfileData[17].equals("null") ){
-                  out.println("placeholder=\""+businesProfileData[17]+"\" value=\""+businesProfileData[17]+"\">");
+                    <% if( businesProfileData[24]!=null && !businesProfileData[24].equals("") && !businesProfileData[24].equals("null") ){
+                  out.println("placeholder=\""+businesProfileData[24]+"\" value=\""+businesProfileData[24]+"\">");
                   } else { %>placeholder="Gross Annual Turnover">
                           <% }  %>    
                     </div>
@@ -446,8 +451,8 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
   
                     <div class="col-sm-10">
                       <input type="text" class="form-control" id="annualexportturnover" name="annualexportturnover"
-                   <% if( businesProfileData[18]!=null && !businesProfileData[18].equals("") && !businesProfileData[18].equals("null") ){
-                  out.println("placeholder=\""+businesProfileData[18]+"\" value=\""+businesProfileData[18]+"\">");
+                   <% if( businesProfileData[25]!=null && !businesProfileData[25].equals("") && !businesProfileData[25].equals("null") ){
+                  out.println("placeholder=\""+businesProfileData[25]+"\" value=\""+businesProfileData[25]+"\">");
                   } else { %>placeholder="Annual Export Turnover">
                       <% }  %>
                     </div>
@@ -496,13 +501,12 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                     <div class="box-header">
                      <a  class="box-title">Logo Settings </a>
                     </div>
-                  <div class="form-group">
-                    
+                  <div class="form-group">                   
                     <label for="inputSkills" class="col-sm-2 control-label">Upload Business Logo</label>
+                    <input type="hidden" class="form-control"  name="general"  value="<%=Nd.Encrypt(businesProfileData[1]) %>" >
+                    <input type="hidden" class="form-control"  name="type"  value="businessprofile" >
+                    <input type="file" name="receipt"  required><br>
                   </div>
-                <input type="hidden" class="form-control"  name="general"  value="<%=Nd.Encrypt(businesProfileData[1]) %>" >
-                <input type="hidden" class="form-control"  name="type"  value="businessprofile" >
-                <input type="file" name="receipt"  required><br>
                   <div class="form-group">
                     <div class="col-sm-offset-2 col-sm-10">
                       <button type="button" class="btn btn-danger" onclick="return processing()" >
@@ -546,7 +550,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
   <!-- /.content-wrapper -->
   
  <jsp:include page="dist/include/footer.jsp" />
- <% Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.getPublicIP()+" ,useradminid="+usercid_adminid+" ,usercid="+usercid_id+" --Leaving userprofile.jsp------");
+ <% Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.getPublicIP()+" ,useradminid="+usercid_adminid+" ,usercid="+usercid_id+" --Leaving businessprofile.jsp------");
  
  %>
   <div class="control-sidebar-bg"></div>
@@ -738,7 +742,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
            return false;
         }else 
             if(document.getElementById("zipcode").value!=""){
-            if(document.getElementById("zipcode").value.length>45){
+            if(document.getElementById("zipcode").value.length>10){
             document.getElementById("alert-message").innerHTML = "Zipcode: Only 10 allowed";
     $('#show-alert').modal('show')
            document.getElementById("zipcode").focus();
@@ -817,8 +821,8 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
            document.getElementById("headofficeaddress").focus();
      return false;
             } else
-        if(document.getElementById("headofficeaddress").value.length>150){
-                         document.getElementById("alert-message").innerHTML = "Head Office Address: Only 150 Characters allowed";
+        if(document.getElementById("headofficeaddress").value.length>45){
+                         document.getElementById("alert-message").innerHTML = "Head Office Address: Only 45 Characters allowed";
     $('#show-alert').modal('show')
            
            document.getElementById("headofficeaddress").focus();
@@ -837,8 +841,8 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
            document.getElementById("officeaddress").focus();
      return false;
             } else
-        if(document.getElementById("officeaddress").value.length>150){
-                         document.getElementById("alert-message").innerHTML = "Office Address:: Only 150 Characters allowed";
+        if(document.getElementById("officeaddress").value.length>45){
+                         document.getElementById("alert-message").innerHTML = "Office Address:: Only 45 Characters allowed";
     $('#show-alert').modal('show')
            
            document.getElementById("officeaddress").focus();
@@ -860,18 +864,16 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
         if(document.getElementById("notes").value.length>2000){
                          document.getElementById("alert-message").innerHTML = "Notes: Only 2000 Characters allowed";
     $('#show-alert').modal('show')
-     
-                  
-           document.getElementById("notes").focus();
+          document.getElementById("notes").focus();
            
            return false;
        }
-       }
-       
+       }      
        $('#modal-default').modal('show')
    
-   return true;
+            return true;
    }
+   
                 function detailForm(){
                     
                     if(document.getElementById("gstin").value!=""){

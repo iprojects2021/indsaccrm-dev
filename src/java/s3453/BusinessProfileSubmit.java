@@ -132,7 +132,7 @@ public class BusinessProfileSubmit extends HttpServlet {
            
            }catch(Exception e){
             String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" \nBusinessProfileSubmit.java-----\n"
-            + "\nLINE=134\n insert into businessprofilelog (useradminid,usercid,businessname,businessemail,website,phone,mobile,headofficeaddress,officeaddress,city,state,country,zipcode,notes,updatestatus) values('"+useradminid+"','"+usercid+"','"+businessname+"','"+businessemail+"', '"+website+"','"+phone+"','"+mobile+"','"+headofficeaddress+"','"+officeaddress+"','"+city+"','"+state+"','"+country+"','"+zipcode+"','"+notes+"','Update Data')";
+            + "\nLINE=135\n insert into businessprofilelog (useradminid,usercid,businessname,businessemail,website,phone,mobile,headofficeaddress,officeaddress,city,state,country,zipcode,notes,updatestatus) values('"+useradminid+"','"+usercid+"','"+businessname+"','"+businessemail+"', '"+website+"','"+phone+"','"+mobile+"','"+headofficeaddress+"','"+officeaddress+"','"+city+"','"+state+"','"+country+"','"+zipcode+"','"+notes+"','Update Data')";
             Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
             EmergencyEmail.send(e,errormsg); 
         }

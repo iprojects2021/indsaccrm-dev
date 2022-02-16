@@ -106,7 +106,7 @@ public class BusinessDetailSubmit extends HttpServlet {
            
            }catch(Exception e){
             String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" \nBusinessDetailSubmit.java-----\n"
-            + "\nLINE=108\n insert into businessprofilelog (useradminid,usercid,gstin,ownerdetails,companystatus,businesstype,totalemployee,yearofestablished,grossannualturnover,annualexportturnover,updatestatus) values('"+useradminid+"','"+usercid+"','"+gstin+"','"+ownerdetails+"', '"+companystatus+"','"+businesstype+"','"+totalemployee+"','"+yearofestablished+"','"+grossannualturnover+"','"+annualexportturnover+"','Update Data')";
+            + "\nLINE=109\n insert into businessprofilelog (useradminid,usercid,gstin,ownerdetails,companystatus,businesstype,totalemployee,yearofestablished,grossannualturnover,annualexportturnover,updatestatus) values('"+useradminid+"','"+usercid+"','"+gstin+"','"+ownerdetails+"', '"+companystatus+"','"+businesstype+"','"+totalemployee+"','"+yearofestablished+"','"+grossannualturnover+"','"+annualexportturnover+"','Update Data')";
             Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
             EmergencyEmail.send(e,errormsg); 
         }

@@ -79,6 +79,9 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
+    <section class="content-header" >
+        <h1>User Profile</h1>
+       </section>
     
      <section class="content">
                
@@ -96,19 +99,19 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                  <img class="img-responsive" src="uploads/logo/<%=logo %>" alt="Photo" width="80" height="80">  
                   <% } %>
                        
-              <h3 class="profile-username text-center">
+                  <h3  class="profile-username text-center">
                   <% if( userProfileData[6]!=null && !userProfileData[6].equals("") && !userProfileData[6].equals("null") ){  
                   out.println(userProfileData[6]);
                   } else { %>
-                  First Name
-                 <% }  %>
+                  First Name 
+                 <% }  %>                      
               </h3>
 
               <p class="text-muted text-center">
-                  <% if( userProfileData[33]!=null && !userProfileData[33].equals("") && !userProfileData[33].equals("null") ){  
-                   out.println(userProfileData[33]);
+                  <% if( userProfileData[9]!=null && !userProfileData[9].equals("") && !userProfileData[9].equals("null") ){  
+                   out.println(userProfileData[9]);
                   } else { %>
-                  City
+                  Designation
                   <% }  %>
               </p>
 
@@ -210,7 +213,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
               <li class="active"><a href="#general" data-toggle="tab">General</a></li>
               <li><a href="#about" data-toggle="tab">About</a></li>             
               <li><a href="#settings" data-toggle="tab">Settings</a></li>
-              <li><a href="#email settings" data-toggle="tab">Email Settings</a></li>
+              <li><a href="mailsetting.jsp">Email Setting</a></li>              
               <li><a href="" data-toggle="tab">History</a></li>
             </ul>
             <div class="tab-content">
@@ -421,11 +424,11 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
                   </div>
                 </form> 
                     
-                    <div class="box box-info">
+                <div class="box box-info">
                   <form method="post" class="form-horizontal" action="UserAboutSubmit" > 
-
-                        <div class="box-header"></div>
-                    
+                        <div class="box-header">
+                        <a  class="box-title">Your Skills </a>
+                         </div>
                   <div class="form-group">
                     <label for="inputName" class="col-sm-2 control-label">Years of Experience</label>
   
@@ -791,7 +794,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
       if(document.getElementById("zipcode").value!=""){
            
            if(!document.getElementById("zipcode").value.match(/^[0-9]+$/)){
-                     document.getElementById("alert-message").innerHTML = "Zipcode: Only digits allowed";
+                     document.getElementById("alert-message").innerHTML = "Zipcode: Only number allowed";
     $('#show-alert').modal('show')
        
            //alert("Only alphanumeric allowed");
@@ -799,7 +802,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
      return false;
             } else
         if(document.getElementById("zipcode").value.length>10){
-                         document.getElementById("alert-message").innerHTML = "Zipcode:Only 10 digits allowed";
+                         document.getElementById("alert-message").innerHTML = "Zipcode: Only 10 digits allowed";
     $('#show-alert').modal('show')
      
                   

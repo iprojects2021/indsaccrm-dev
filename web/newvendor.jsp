@@ -54,9 +54,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
 %>
     <%    String pagetype=Poul.escapeHtml(request.getParameter("pagetype"));
       if("newvendorsubmit".equals(pagetype)){
-          
-          
-      
+    
        String cn=Poul.escapeHtml(request.getParameter("cn"));
         String cfn=Poul.escapeHtml(request.getParameter("cfn"));
         String cln=Poul.escapeHtml(request.getParameter("cln"));
@@ -72,7 +70,7 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
         String website=Poul.escapeHtml(request.getParameter("website"));
         String bwtc =Poul.escapeHtml(request.getParameter("bwtc"));
         String mobile=Poul.escapeHtml(request.getParameter("mobile"));
-      String  alternetmobile=Poul.escapeHtml(request.getParameter("mobile"));
+        String  alternetmobile=Poul.escapeHtml(request.getParameter("mobile"));
         String ap=Poul.escapeHtml(request.getParameter("ap"));
         String email=Poul.escapeHtml(request.getParameter("email"));
         String oai=Poul.escapeHtml(request.getParameter("oai"));
@@ -148,9 +146,7 @@ Statement st=c.createStatement();
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
- 
-	 <section class="content">
-    
+	 <section class="content">   
 <form class="form-horizontal" action="" method="get">
 	
 	 <div class="row invoice">
@@ -159,13 +155,9 @@ Statement st=c.createStatement();
       <div class="box box-warning box-solid">
         <div class="box-header with-border">
           <h3 class="box-title">Vendor Details</h3>
-
-        </div>
-      
-	    <div class="col-md-6">
-		
-		 <div class="box ">
-         
+        </div>     
+	    <div class="col-md-6">		
+		 <div class="box ">        
             <!-- form start -->
             
               <div class="box-body">
@@ -184,8 +176,7 @@ Statement st=c.createStatement();
                   </div>
                 <div class="col-sm-1">
 				</div>
-                 
-
+  
                   <div class="col-sm-4">
                       <input type="text" class="form-control" id="cln" name="cln" placeholder="Last Name"  autocomplete="off">
                   </div>
@@ -197,11 +188,9 @@ Statement st=c.createStatement();
                     <select id="status" name="status" class="form-control">
                           <option value="Active"> Active</option>
                           <option value="InActive">InActive</option>
-                          <option value="Active">Active</option>
-                          
+                          <option value="Active">Active</option>                         
                      </select></div>
-                </div>
-			
+                </div>			
 				  	  <div class="form-group">
                   <label for="inputEmail3" class="col-sm-3 control-label">  Source</label>
  <% int count=Db.getActiveEventsCount(usercid_adminid) ;
@@ -223,14 +212,11 @@ Statement st=c.createStatement();
                      </select>
                      <% } %>
                   </div>
-                </div>		
-       
+                </div>		      
               </div>
-              <!-- /.box-body -->
-         
+              <!-- /.box-body -->        
                      </div>
-          <!-- /.box -->
-    
+          <!-- /.box -->   
         </div>
         <!--/.col (left) -->
         <!-- right column -->
@@ -271,17 +257,15 @@ Statement st=c.createStatement();
                   </div>
                 </div>
 				 
-				 <div class="form-group">
+		<div class="form-group">
                   <label for="inputPassword3" class="col-sm-3 control-label">Email</label>
 
                   <div class="col-sm-9">
                   <input type="text" class="form-control" id="email" name="email" placeholder="Email" autocomplete="off">
                   </div>
-                </div>	 
-	   
+                </div>	 	   
               </div>
-              <!-- /.box-body -->
-          
+              <!-- /.box-body -->          
           </div>
           <!-- /.box -->
   </div>
@@ -289,23 +273,17 @@ Statement st=c.createStatement();
  </div>
       <!-- /.box -->
 </div>
-		</div>
-		
+		</div>		
 	 <div class="row invoice">
         <div class="col-xs-12">
 		 <!-- Default box -->
       <div class="box box-solid">
        <div class="box-header with-border">
-          <h3 class="box-title">Other Information</h3>
-  
+          <h3 class="box-title">Other Information</h3>  
         </div>
-
-	    <div class="col-md-6">
-		
-		 <div class="box ">
-          
-            <!-- form start -->
-            
+	    <div class="col-md-6">		
+		 <div class="box ">         
+            <!-- form start -->           
               <div class="box-body">
                   	 <div class="form-group">
                   <label for="inputPassword3" class="col-sm-3 control-label">Department</label>
@@ -328,14 +306,11 @@ Statement st=c.createStatement();
                   <div class="col-sm-9">
                       <input type="text" class="form-control" id="category" name="category" placeholder="Category" autocomplete="off">
                   </div>
-                </div>
-	
+                </div>	
               </div>
-              <!-- /.box-body -->
-             
+              <!-- /.box-body -->             
                        </div>
-          <!-- /.box -->
-      
+          <!-- /.box -->     
         </div>
         <!--/.col (left) -->
         <!--/.col (left) -->
@@ -368,19 +343,15 @@ Statement st=c.createStatement();
                   <label for="inputPassword3" class="col-sm-2 control-label">Website</label>
 
                   <div class="col-sm-10">
-                    <input type="url" class="form-control" id="website" name="website" placeholder=" https://abc.com/" autocomplete="off">
+                    <input type="text" class="form-control" id="website" name="website" placeholder=" https://abc.com/" autocomplete="off">
                   </div>
-                </div>
-		
+                </div>		
               </div>
-              <!-- /.box-body -->
-         
+              <!-- /.box-body -->        
           </div>
           <!-- /.box -->
-
         </div>
         <!--/.col (right) -->
-
       </div>
       <!-- /.box -->
 		</div>
@@ -391,13 +362,10 @@ Statement st=c.createStatement();
 		 <!-- Default box -->
       <div class="box box-solid">
         <div class="box-header with-border">
-          <h3 class="box-title">Address</h3>
-    
-        </div>
-       
+          <h3 class="box-title">Address</h3>   
+        </div>      
 	    <div class="col-md-6">
-		
-		 <div class="box ">
+	<div class="box ">
         
             <!-- form start -->
             
@@ -449,28 +417,24 @@ Statement st=c.createStatement();
                   <div class="col-sm-9">
                     <input type="text" class="form-control" id="country" name="country"  placeholder="Country" autocomplete="off">
                   </div>
-                </div>
-	
+                </div>	
               </div>
-              <!-- /.box-body -->
-          
+              <!-- /.box-body -->         
           </div>
-          <!-- /.box -->
-       
+          <!-- /.box -->      
         </div>
         <!--/.col (left) -->
         <!-- right column -->
         <div class="col-md-6">
           <!-- Horizontal Form -->
            <!-- general form elements -->
-          <div class="box ">
-           
+          <div class="box ">          
             <!-- /.box-header -->
             <!-- form start -->
            
               <div class="box-body">
 			  
-				  <div class="form-group">
+		<div class="form-group">
                   <label for="inputPassword3" class="col-sm-2 control-label">Notes</label>
 
                   <div class="col-sm-10">
@@ -478,29 +442,22 @@ Statement st=c.createStatement();
                     <input type="hidden" name="pagetype" value="newvendorsubmit">
                   </div>
                 </div>
-
               </div>
               <!-- /.box-body -->
 			  <div class="box-footer clearfix">
               <button type="button" class="btn btn-default pull-left" onclick="goBack()"> Cancel</button>
                <button class="btn btn-sm btn-info btn-flat pull-right" onClick="return validateForm()">Save</button>
             </div>
-            <!-- /.box-footer -->
-		
+            <!-- /.box-footer -->		
           </div>
           <!-- /.box -->
-
         </div>
         <!--/.col (right) -->
-
       </div>
-      <!-- /.box -->
-	
+      <!-- /.box -->	
 		</div>
-		</div>
-		
-	    </form>
-	
+		</div>		
+	    </form>	
     </section>
     <!-- /.content -->
   </div>

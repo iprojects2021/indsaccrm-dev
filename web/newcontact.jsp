@@ -196,8 +196,7 @@ Statement st=c.createStatement();
                   </div>
                 <div class="col-sm-1">
 				</div>
-                 
-
+ 
                   <div class="col-sm-4">
                       <input type="text" class="form-control" id="cln" name="cln" placeholder="Last Name"  autocomplete="off">
                   </div>
@@ -210,10 +209,8 @@ Statement st=c.createStatement();
                           <option value="Active"> Active</option>
                           <option value="InActive">InActive</option>
                           <option value="Active">Active</option>
-                          
-                     </select></div>
+                    </select></div>
                 </div>
-			
 				  	  <div class="form-group">
                   <label for="inputEmail3" class="col-sm-3 control-label">  Source</label>
  <% int count=Db.getActiveEventsCount(usercid_adminid) ;
@@ -236,15 +233,10 @@ Statement st=c.createStatement();
                      <% } %>
                   </div>
                 </div>	
-					 
-              </div>
+            </div>
               <!-- /.box-body -->
-             
-             
                      </div>
           <!-- /.box -->
-        
-
         </div>
         <!--/.col (left) -->
         <!-- right column -->
@@ -252,18 +244,14 @@ Statement st=c.createStatement();
           <!-- Horizontal Form -->
            <!-- general form elements -->
           <div class="box ">
-           
-            <!-- /.box-header -->
+          <!-- /.box-header -->
             <!-- form start -->
-           
-              <div class="box-body">
+             <div class="box-body">
                   <div class="form-group">
                   <label for="inputPassword3" class="col-sm-3 control-label">Best Way to Contact</label>
-
-                    <div class="col-sm-9">
+                  <div class="col-sm-9">
                       <select id="bwtc" name="bwtc" class="form-control">
-                         
-                          <option value="Mobile"> Mobile</option>
+                         <option value="Mobile"> Mobile</option>
                           <option value="Email"> Email</option>
                           <option value="Phone"> Phone</option>
                       </select>
@@ -287,7 +275,7 @@ Statement st=c.createStatement();
                   </div>
                 </div>
 				 
-				 <div class="form-group">
+	          <div class="form-group">
                   <label for="inputPassword3" class="col-sm-3 control-label">Email</label>
 
                   <div class="col-sm-9">
@@ -295,15 +283,9 @@ Statement st=c.createStatement();
                  <datalist id="showemaillist" > </datalist>
                   </div>
                 </div>
-			  
-				
-				
-              
-              </div>
+            </div>
               <!-- /.box-body -->
-           
-            
-          </div>
+         </div>
           <!-- /.box -->
   </div>
         <!--/.col (right) -->
@@ -318,17 +300,10 @@ Statement st=c.createStatement();
       <div class="box box-solid">
        <div class="box-header with-border">
           <h3 class="box-title">Other Information</h3>
-
-         
-        </div>
-
-       
+      </div>
 	    <div class="col-md-6">
-		
 		 <div class="box ">
-            
-           
-            <!-- form start -->
+           <!-- form start -->
             
               <div class="box-body">
                   	 <div class="form-group">
@@ -345,28 +320,18 @@ Statement st=c.createStatement();
                       <input type="text" class="form-control" id="designation" name="designation" placeholder="Designation" autocomplete="off">
                   </div>
                 </div>
-          
-			 
-              <div class="form-group">
+             <div class="form-group">
                   <label for="inputPassword3" class="col-sm-3 control-label">Category</label>
 
                   <div class="col-sm-9">
                       <input type="text" class="form-control" id="category" name="category" placeholder="Category" autocomplete="off">
                   </div>
                 </div>
-			    
-				 
-				 
-					
-              
-              </div>
+        </div>
               <!-- /.box-body -->
-             
                        </div>
           <!-- /.box -->
-        
-
-        </div>
+       </div>
         <!--/.col (left) -->
         <!--/.col (left) -->
         <!-- right column -->
@@ -374,8 +339,7 @@ Statement st=c.createStatement();
           <!-- Horizontal Form -->
            <!-- general form elements -->
           <div class="box ">
-           
-            <!-- /.box-header -->
+           <!-- /.box-header -->
             <!-- form start -->
             
               <div class="box-body">
@@ -393,49 +357,35 @@ Statement st=c.createStatement();
                       <input type="text" class="form-control" id="gstin" name="gstin" placeholder="GST Number" autocomplete="off">
                   </div>
                 </div>
-			   
 					 
-			  <div class="form-group">
+	          <div class="form-group">
                   <label for="inputPassword3" class="col-sm-2 control-label">Website</label>
 
                   <div class="col-sm-10">
-                   <input type="url" class="form-control" id="website" name="website" placeholder=" https://abc.com/" autocomplete="off">
+                   <input type="text" class="form-control" id="website" name="website" placeholder=" https://abc.com/" autocomplete="off">
                   </div>
-                </div>		
-	        
+                </div>			        
               </div>
-              <!-- /.box-body -->
-         
+              <!-- /.box-body -->       
           </div>
           <!-- /.box -->
-
         </div>
-        <!--/.col (right) -->
-
-	
+        <!--/.col (right) -->	
       </div>
-      <!-- /.box -->
-		
-		
+      <!-- /.box -->		
 		</div>
 		</div>
 		
-		 <div class="row invoice">
+         <div class="row invoice">
         <div class="col-xs-12">
 		 <!-- Default box -->
       <div class="box box-solid">
         <div class="box-header with-border">
           <h3 class="box-title">Address</h3>
-
-         
-        </div>
-       
-	    <div class="col-md-6">
-		
+       </div>
+ 	    <div class="col-md-6">
 		 <div class="box ">
-            
-           
-            <!-- form start -->
+           <!-- form start -->
             
               <div class="box-body">
 			 <div class="form-group">
@@ -486,14 +436,11 @@ Statement st=c.createStatement();
                     <input type="text" class="form-control" id="country" name="country"  placeholder="Country" autocomplete="off">
                   </div>
                 </div>
-	
-              </div>
+            </div>
               <!-- /.box-body -->
-             
           </div>
           <!-- /.box -->
-  
-        </div>
+      </div>
         <!--/.col (left) -->
         <!-- right column -->
         <div class="col-md-6">
@@ -505,7 +452,6 @@ Statement st=c.createStatement();
             <!-- form start -->
            
               <div class="box-body">
-			  
 				  <div class="form-group">
                   <label for="inputPassword3" class="col-sm-2 control-label">Notes</label>
 
@@ -514,32 +460,23 @@ Statement st=c.createStatement();
                     <input type="hidden" name="pagetype" value="newcontactsubmit">
                   </div>
                 </div>
-	        
-              </div>
+            </div>
               <!-- /.box-body -->
 			  <div class="box-footer clearfix">
               <button type="button" class="btn btn-default pull-left" onclick="goBack()"> Cancel</button>
                <button class="btn btn-sm btn-info btn-flat pull-right" onClick="return validateForm()">Save</button>
             </div>
-            <!-- /.box-footer -->
-		
+            <!-- /.box-footer -->		
           </div>
           <!-- /.box -->
-
         </div>
         <!--/.col (right) -->
-
-	   
-      </div>
+     </div>
       <!-- /.box -->
-	
 		</div>
-		</div>
-		
+		</div>		
 	    </form>
-		
-		
-    </section>
+   </section>
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->

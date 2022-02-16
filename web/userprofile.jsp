@@ -1,3 +1,5 @@
+
+<%@page import="menu.UserProfileService"%>
 <%@page import="blezz.Nd"%>
 <%@page import="email.EmergencyEmail"%>
 <%@page import="email.EmergencyEmail"%>
@@ -60,173 +62,16 @@ if (session != null) {
 			} 
 		}
 Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.getPublicIP()+" ,useradminid="+usercid_adminid+" ,usercid="+usercid_id+" --Entering userprofile.jsp-----------");
+    
+                   String userProfileData[]=UserProfileService.getUserProfile(usercid_adminid);
+                           
+                    String warningmsg="",successmsg="";
+                    String msgurl=request.getParameter("message");
+                    if("succesfulyUploaded".equals(msgurl)){successmsg="Uploaded  Successfully";}
 %>
-   
+                                   
 
-      <%    String pagetype=Poul.escapeHtml(request.getParameter("pagetype"));
-        String cid=request.getParameter("2a2e2a636964");
-        if(cid!=null){cid=Nd.Decrypt(cid);}
-      if("truece".equals(pagetype)){
-          
-          
-      
-       String cn=Poul.escapeHtml(request.getParameter("cn"));
-        String cfn=Poul.escapeHtml(request.getParameter("cfn"));
-        String cln=Poul.escapeHtml(request.getParameter("cln"));
-        String department=Poul.escapeHtml(request.getParameter("department"));
-        String designation=Poul.escapeHtml(request.getParameter("designation"));
-        String dob=Poul.escapeHtml(request.getParameter("dob"));
-        String category=Poul.escapeHtml(request.getParameter("category"));
-        String sc=Poul.escapeHtml(request.getParameter("sc"));
-        String status=Poul.escapeHtml(request.getParameter("status"));
-        String rt=Poul.escapeHtml(request.getParameter("rt"));
-        String source=Poul.escapeHtml(request.getParameter("source"));
-        String vn=Poul.escapeHtml(request.getParameter("vn"));
-        String website=Poul.escapeHtml(request.getParameter("website"));
-        String bwtc =Poul.escapeHtml(request.getParameter("bwtc"));
-        String mobile=Poul.escapeHtml(request.getParameter("mobile"));
-        String ap=Poul.escapeHtml(request.getParameter("ap"));
-        String email=Poul.escapeHtml(request.getParameter("email"));
-        String oai=Poul.escapeHtml(request.getParameter("oai"));
-        String oai1=Poul.escapeHtml(request.getParameter("oai1"));
-        String phone=Poul.escapeHtml(request.getParameter("phone"));
-        String fax=Poul.escapeHtml(request.getParameter("fax"));
-        String oe=Poul.escapeHtml(request.getParameter("oe"));
-        String oai2=Poul.escapeHtml(request.getParameter("oai2"));
-        String oai3=Poul.escapeHtml(request.getParameter("oai3"));
-        String address1=Poul.escapeHtml(request.getParameter("address1"));
-        String address2=Poul.escapeHtml(request.getParameter("address2"));
-        String address3=Poul.escapeHtml(request.getParameter("address3"));
-        String city=Poul.escapeHtml(request.getParameter("city"));
-        String pincode=Poul.escapeHtml(request.getParameter("pincode"));
-        String state=Poul.escapeHtml(request.getParameter("state"));
-        String country=Poul.escapeHtml(request.getParameter("country"));
-        String notes=Poul.escapeHtml(request.getParameter("notes"));
-          String    previousnotes=Poul.escapeHtml(request.getParameter("previousnotes"));
-  if(notes.length()>0){notes="**"+Db.getEmployeeName(usercid_id)+"******"+java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"*******\n"+notes+"\n\n"+previousnotes;}
-    else{notes=previousnotes;}
-        String gstin=Poul.escapeHtml(request.getParameter("gstin"));
-        String msg=null;
-        java.util.Date date=new java.util.Date();
-        java.sql.Date sqlDate=new java.sql.Date(date.getTime());
-        java.sql.Timestamp sqlTime=new java.sql.Timestamp(date.getTime());  
-        String ownr=(String)session.getAttribute("ownr");
-      String SR=null;
-        try{
-        
-Connection c=Poul.getConnectionCRM();
 
-Statement st=c.createStatement();
-           ResultSet rs3;
-               rs3 = st.executeQuery("select  *  FROM contact where id='"+cid+"'  ");
- ResultSetMetaData rsmd=rs3.getMetaData();
-     String aa="null",ab="null",ac="null",ad="null",ae="null",af="null",ag="null",ah="null",ai="null",aj="null",ak="null",all="null",am="null",an="null",ao="null",app="null",aq="null",ar="null",as="null",at="null",au="null",av="null",aw="null",ax="null",ay="null",az="null",ba="null",bb="null",bc="null",bd="null",be="null",bf="null",bg="null",bh="null",bi="null",bj="null",bk="null",bl="null";
-          aa=rsmd.getColumnName(1);
-           ab=rsmd.getColumnName(2);
-            ac=rsmd.getColumnName(3);
-             ad=rsmd.getColumnName(4);
-              ae=rsmd.getColumnName(5);
-               af=rsmd.getColumnName(6);
-                ag=rsmd.getColumnName(7);
-                 ah=rsmd.getColumnName(8);
-                  ai=rsmd.getColumnName(9);
-                   aj=rsmd.getColumnName(10);
-                    ak=rsmd.getColumnName(11);
-                     all=rsmd.getColumnName(12);
-                      am=rsmd.getColumnName(13);
-                       an=rsmd.getColumnName(14);
-                        ao=rsmd.getColumnName(15);
-                         app=rsmd.getColumnName(17);
-                          aq=rsmd.getColumnName(18);
-                           ar=rsmd.getColumnName(19);
-                            as=rsmd.getColumnName(20);
-                             at=rsmd.getColumnName(21);
-                              au=rsmd.getColumnName(22);
-                              av=rsmd.getColumnName(23);
-                                aw=rsmd.getColumnName(24);
-                       ax=rsmd.getColumnName(25);
-                        ay=rsmd.getColumnName(26);
-                         az=rsmd.getColumnName(27);
-                          ba=rsmd.getColumnName(28);
-                           bb=rsmd.getColumnName(29);
-                            bc=rsmd.getColumnName(30);
-                             bd=rsmd.getColumnName(31);
-                              be=rsmd.getColumnName(32);
-                              bf=rsmd.getColumnName(33);
-                               bg=rsmd.getColumnName(34);
-                            bh=rsmd.getColumnName(35);
-                             bi=rsmd.getColumnName(36);
-                              bj=rsmd.getColumnName(37);
-                              bk=rsmd.getColumnName(38);
-                              bl=rsmd.getColumnName(39);
-                             
-               
-  st.addBatch("update contact set   "+ae+"='"+cn+"',"+af+"='"+cfn+"',"+ag+"='"+cln+"',"+ah+"='"+department+"',"+ai+"='"+designation+"',"+aj+"='"+dob+"',"+ak+"='"+category+"',"+all+"='"+sc+"',"+am+"='"+status+"',"+an+"='"+rt+"',"+ao+"='"+source+"',"+app+"='"+vn+"',"+aq+"='"+website+"',"+ar+"='"+bwtc+"',"+as+"='"+mobile+"',"+at+"='"+ap+"',"+au+"='"+phone+"',"+av+"='"+email+"',"+aw+"='"+oe+"',"+ax+"='"+fax+"',"+ay+"='"+oai+"',"+az+"='"+oai1+"',"+ba+"='"+oai2+"',"+bb+"='"+oai3+"',"+bc+"='"+address1+"',"+bd+"='"+address2+"',"+be+"='"+address3+"',"+bf+"='"+city+"',"+bg+"='"+pincode+"',"+bh+"='"+state+"',"+bi+"='"+country+"',"+bj+"='"+notes+"',"+bk+"='"+gstin+"'   where id='"+cid+"'");
-  
-            
-       st.executeBatch(); 
-        
-        session.setAttribute("requestcid",cid);
-        
-             msg="success";    
-       
-     rs3.close();
-      st.close();
-      c.close();    }
-        catch(Exception e)
-        {
-                String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"\n contactedit.jsp-----\n"
-     + "LINE=177 \n select  *  FROM contact where id='"+cid+"'   ";
-     Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
-      EmergencyEmail.send(e,errormsg);
-        }
-        finally{
-        
-          if(msg.equals("success")){
-        response.sendRedirect("contactdetails.jsp");
-            }else{
-               response.sendRedirect("error.jsp");
-            }
-               
-            
-        }
-    
-      } %>
-    
-    <%
-          ArrayList<String> al=new ArrayList<String>();
-        
-       
-       try{
-           
-        Connection con=Poul.getConnectionCRM();
-        PreparedStatement smt=con.prepareStatement("select * from contact where id=?");
-        smt.setString(1,cid);
-        ResultSet rs=smt.executeQuery();
-        while(rs.next()){
-            for(int i=1;i<49;i++){
-               al.add(rs.getString(i)); 
-            }
-        }
-       rs.close();
-      smt.close();
-      con.close();  
-       }
-        catch(Exception e)
-        {
-            String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"\n contactedit.jsp---"
-           + "\n LINE=216 \n"+" select * from contact where id="+cid+"  ";
-         Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
-       EmergencyEmail.send(e,errormsg);
-          
-                
-                }
-       //System.out.println(al.size());
-      %>
-    
-    
-  
-    
 <div class="wrapper">
 
  <jsp:include page="dist/include/leftmenu.jsp" />  
@@ -234,94 +79,124 @@ Statement st=c.createStatement();
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
+    <section class="content-header" >
+        <h1>User Profile</h1>
+       </section>
     
      <section class="content">
-
+               
       <div class="row">
         <div class="col-md-3">
 
           <!-- Profile Image -->
           <div class="box box-primary">
             <div class="box-body box-profile">
-              <img class="profile-user-img img-responsive img-circle" src="dist/img/up1.png" alt="User profile picture">
+              <img class="profile-user-img img-responsive img-circle"
+                 <%  String logo=menu.UserProfileService.getUserProfileLogo(usercid_adminid);
+                 if("0".equals(logo) || "".equals(logo)) {     %>
+                 <img class="img-responsive" src="dist/img/u.png" alt="Photo">
+                 <% }else{  %>
+                 <img class="img-responsive" src="uploads/logo/<%=logo %>" alt="Photo" width="80" height="80">  
+                  <% } %>
+                       
+                  <h3  class="profile-username text-center">
+                  <% if( userProfileData[6]!=null && !userProfileData[6].equals("") && !userProfileData[6].equals("null") ){  
+                  out.println(userProfileData[6]);
+                  } else { %>
+                  First Name 
+                 <% }  %>                      
+              </h3>
 
-              <h3 class="profile-username text-center">Neha Choudhary</h3>
-
-              <p class="text-muted text-center">Software Developer</p>
+              <p class="text-muted text-center">
+                  <% if( userProfileData[9]!=null && !userProfileData[9].equals("") && !userProfileData[9].equals("null") ){  
+                   out.println(userProfileData[9]);
+                  } else { %>
+                  Designation
+                  <% }  %>
+              </p>
 
               <ul class="list-group list-group-unbordered">
                 <li class="list-group-item">
-                  <strong><i class="fa fa-university margin-r-5"></i>Department</strong>
-
-              <p class="text-muted">
-                IT
-              </p>
+                  <strong><i class="fa fa-university margin-r-5"></i>Department</strong><br>
+                 <% if( userProfileData[8]!=null && !userProfileData[8].equals("") && !userProfileData[8].equals("null") ){  
+                  out.println(userProfileData[8]);
+                  } else { %>
+                  Department
+                  <% }  %>
                 </li>
 
                 <li class="list-group-item">
-                  <strong><i class="fa fa-diamond margin-r-5"></i>Manager</strong>
-
-              <p class="text-muted">
-            xyz 
-              </p>
+                    <strong><i class="fa fa-diamond margin-r-5"></i>Manager</strong><br>
+                    <% if( userProfileData[14]!=null && !userProfileData[14].equals("") && !userProfileData[14].equals("null") ){  
+                  out.println(userProfileData[14]);
+                  } else { %>
+                  Manager
+                  <% }  %>
                 </li>
 
                 <li class="list-group-item">
-                  <strong><i class=" fa fa-cube margin-r-5"></i>Projects</strong>
-
-                  <p class="text-muted">
-                    CRM 
-                  </p>
+                  <strong><i class=" fa fa-cube margin-r-5"></i>Projects</strong><br>
+                  <% if( userProfileData[21]!=null && !userProfileData[21].equals("") && !userProfileData[21].equals("null") ){  
+                  out.println(userProfileData[21]);
+                  } else { %>
+                  Projects
+                  <% }  %>
                 </li>
 
                 <li class="list-group-item">
-                  <strong><i class="fa fa-mortar-board margin-r-5"></i>Designation</strong>
-
-              <p class="text-muted">
-                Java Developer
-              </p>
+                    <strong><i class="fa fa-mortar-board margin-r-5"></i>Designation</strong><br>
+                 <% if( userProfileData[9]!=null && !userProfileData[9].equals("") && !userProfileData[9].equals("null") ){  
+                  out.println(userProfileData[9]);
+                  } else { %>
+                  Designation
+                  <% }  %>
                 </li>
-
               </li>
 
               <li class="list-group-item">
-                <strong><i class="fa  fa-calendar-check-o margin-r-5"></i>Years of Experience</strong>
-
-            <p class="text-muted">
-            3.5 Yreas
-            </p>
+                  <strong><i class="fa  fa-calendar-check-o margin-r-5"></i>Years of Experience</strong><br>
+                  <% if( userProfileData[24]!=null && !userProfileData[24].equals("") && !userProfileData[24].equals("null") ){  
+                  out.println(userProfileData[24]);
+                  } else { %>
+                  Years of Experience
+                  <% }  %>
               </li>
 
               <li class="list-group-item">
-                <strong><i class=" fa fa-edit margin-r-5"></i>Skills</strong>
-
-            <p class="text-muted">
-          Coding , Designe, Testing
-            </p>
+                  <strong><i class=" fa fa-edit margin-r-5"></i>Skills</strong><br>
+                  <% if( userProfileData[26]!=null && !userProfileData[26].equals("") && !userProfileData[26].equals("null") ){  
+                  out.println(userProfileData[26]);
+                  } else { %>
+                  Skills
+                  <% }  %>
               </li>
 
                 <li class="list-group-item">
-                <strong><i class="fa fa-envelope margin-r-5"></i> Email </strong>
-
-              <p class="text-muted">
-               nehachaudhari1398@gmail.com
-              </p>
+                  <strong><i class="fa fa-envelope margin-r-5"></i> Email </strong><br>
+                  <% if( userProfileData[4]!=null && !userProfileData[4].equals("") && !userProfileData[4].equals("null") ){  
+                  out.println(userProfileData[4]);
+                  } else { %>
+                  Email
+                  <% }  %>
             </li>
 
             <li class="list-group-item">
-              <strong><i class="fa fa-mobile margin-r-5"></i> Mobile No </strong>
-
-            <p class="text-muted">
-          799814068
-            </p>
-          </li>
+                <strong><i class="fa fa-mobile margin-r-5"></i> Mobile No </strong><br>
+                <% if( userProfileData[20]!=null && !userProfileData[20].equals("") && !userProfileData[20].equals("null") ){  
+                out.println(userProfileData[20]);
+                } else { %>
+                Mobile No
+                <% }  %>
+           </li>
 
                 <li class="list-group-item">
-                <strong><i class="fa fa-map-marker margin-r-5"></i> Location</strong>
-
-              <p class="text-muted">Bangalore, India</p>
-
-            </ul>
+                    <strong><i class="fa fa-map-marker margin-r-5"></i> City </strong><br>
+                    <% if( userProfileData[33]!=null && !userProfileData[33].equals("") && !userProfileData[33].equals("null") ){  
+                    out.println(userProfileData[33]);
+                    } else { %>
+                   City
+                   <% }  %>
+              </ul>
             </div>
             <!-- /.box-body -->
           </div>
@@ -336,66 +211,61 @@ Statement st=c.createStatement();
           <div class="nav-tabs-custom">
             <ul class="nav nav-tabs">
               <li class="active"><a href="#general" data-toggle="tab">General</a></li>
-              <li><a href="#about" data-toggle="tab">About</a></li>
-              
+              <li><a href="#about" data-toggle="tab">About</a></li>             
               <li><a href="#settings" data-toggle="tab">Settings</a></li>
+              <li><a href="mailsetting.jsp">Email Setting</a></li>              
+              <li><a href="" data-toggle="tab">History</a></li>
             </ul>
             <div class="tab-content">
               <div class="active tab-pane" id="general">
                 
-                <form class="form-horizontal">
+                <form class="form-horizontal" method="post" action="UserProfileSubmit">
                   <div class="form-group">
-                    <label for="inputName" class="col-sm-2 control-label">First Name</label>
+                    <label for="inputName" class="col-sm-2 control-label">First Name<span style="color:red">*</span></label>
   
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="inputName" placeholder="Frist Name">
+                      <input type="text" class="form-control" id="firstname"  name="firstname"
+                      <% if( userProfileData[6]!=null && !userProfileData[6].equals("") && !userProfileData[6].equals("null") ){
+                      out.println("placeholder=\""+userProfileData[6]+"\" value=\""+userProfileData[6]+"\">");
+                      } else { %>placeholder="Frist Name">
+                      <% }  %>   
                     </div>
                   </div>
-  
-                  <div class="form-group">
-                    <label for="inputName" class="col-sm-2 control-label">Last Name</label>
-  
-                    <div class="col-sm-10">
-                      <input type="text" class="form-control" id="inputName" placeholder="Last Name">
-                    </div>
-                  </div>
+ 
   
                   <div class="form-group">
                     <label for="inputEmail" class="col-sm-2 control-label">Email</label>
   
                     <div class="col-sm-10">
-                      <input type="email" class="form-control" id="inputEmail" placeholder="Email">
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <label for="inputName" class="col-sm-2 control-label">Gender</label>
-  
-                    <div class="col-sm-10">
-                      <input type="text" class="form-control" id="inputName" placeholder="Gender">
-                    </div>
-                  </div>
-                  
-                    <div class="form-group">
-                    <label for="inputName" class="col-sm-2 control-label">Date Of Birth</label>
-  
-                    <div class="col-sm-10">
-                      <input type="text" class="form-control" id="inputName" placeholder="Date Of Births">
+                      <input type="email" class="form-control" id="email" name="email" disabled=""
+                     <% if( userProfileData[4]!=null && !userProfileData[4].equals("") && !userProfileData[4].equals("null") ){
+                  out.println("placeholder=\""+userProfileData[4]+"\" value=\""+userProfileData[4]+"\">");
+                  } else { %>placeholder="Email">
+                        <% }  %>      
                     </div>
                   </div>
                     
-                  <div class="form-group">
+                <div class="form-group">
                     <label for="inputSkills" class="col-sm-2 control-label">Phone</label>
   
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="inputSkills" placeholder="Phone">
+                        <input type="text" class="form-control" id="phone" name="phone"
+                        <% if( userProfileData[22]!=null && !userProfileData[22].equals("") && !userProfileData[22].equals("null") ){
+                        out.println("placeholder=\""+userProfileData[22]+"\" value=\""+userProfileData[22]+"\">");
+                        } else { %>placeholder="Phone">
+                        <% }  %>    
                     </div>
                   </div>
   
                   <div class="form-group">
-                    <label for="inputSkills" class="col-sm-2 control-label">Mobile No</label>
+                    <label for="inputSkills" class="col-sm-2 control-label">Mobile No<span style="color:red">*</span></label>
   
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="inputSkills" placeholder="Mobile No">
+                      <input type="text" class="form-control" id="mobileno" name="mobileno"
+                      <% if( userProfileData[20]!=null && !userProfileData[20].equals("") && !userProfileData[20].equals("null") ){
+                   out.println("placeholder=\""+userProfileData[20]+"\" value=\""+userProfileData[20]+"\">");
+                  } else { %>placeholder="Mobile No">
+                            <% }  %> 
                     </div>
                   </div>
   
@@ -403,7 +273,10 @@ Statement st=c.createStatement();
                     <label for="inputExperience" class="col-sm-2 control-label">Address</label>
   
                     <div class="col-sm-10">
-                      <textarea class="form-control" id="inputExperience" placeholder="Address"></textarea>
+                       <% if( userProfileData[30]!=null && !userProfileData[30].equals("") && !userProfileData[30].equals("null") ){  %>
+                      <textarea class="form-control" id="address" name="address"> <%=userProfileData[30]  %> </textarea>
+                      <%  } else { %><textarea class="form-control" id="address" name="address" placeholder="Address"></textarea>
+                      <% }  %>
                     </div>
                   </div>
   
@@ -411,7 +284,11 @@ Statement st=c.createStatement();
                     <label for="inputSkills" class="col-sm-2 control-label">City</label>
   
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="inputSkills" placeholder="City">
+                      <input type="text" class="form-control" id="city" name="city"
+                            <% if( userProfileData[33]!=null && !userProfileData[33].equals("") && !userProfileData[33].equals("null") ){
+                   out.println("placeholder=\""+userProfileData[33]+"\" value=\""+userProfileData[33]+"\">");
+                  } else { %>placeholder="City">
+                             <% }  %>
                     </div>
                   </div>
   
@@ -419,7 +296,11 @@ Statement st=c.createStatement();
                     <label for="inputSkills" class="col-sm-2 control-label">State</label>
   
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="inputSkills" placeholder="State">
+                      <input type="text" class="form-control" id="state" name="state"
+                             <% if( userProfileData[35]!=null && !userProfileData[35].equals("") && !userProfileData[35].equals("null") ){
+                   out.println("placeholder=\""+userProfileData[35]+"\" value=\""+userProfileData[35]+"\">");
+                  } else { %>placeholder="State">
+                           <% }  %>  
                     </div>
                   </div>
   
@@ -427,7 +308,11 @@ Statement st=c.createStatement();
                     <label for="inputSkills" class="col-sm-2 control-label">Country</label>
   
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="inputSkills" placeholder="Country">
+                      <input type="text" class="form-control" id="country" name="country"
+                             <% if( userProfileData[36]!=null && !userProfileData[36].equals("") && !userProfileData[36].equals("null") ){
+                   out.println("placeholder=\""+userProfileData[36]+"\" value=\""+userProfileData[36]+"\">");
+                  } else { %>placeholder="Country">
+                           <% }  %>   
                     </div>
                   </div>
   
@@ -435,26 +320,28 @@ Statement st=c.createStatement();
                     <label for="inputSkills" class="col-sm-2 control-label">Zip Code</label>
   
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="inputSkills" placeholder="Zip Code">
+                      <input type="text" class="form-control" id="zipcode" name="zipcode"
+                   <% if( userProfileData[34]!=null && !userProfileData[34].equals("") && !userProfileData[34].equals("null") ){
+                   out.println("placeholder=\""+userProfileData[34]+"\" value=\""+userProfileData[34]+"\">");
+                  } else { %>placeholder="Zip Code"> 
+                          <% }  %>    
                     </div>
                   </div>
-  
-                  
-      
-                  <div class="form-group">
-                    <div class="col-sm-offset-2 col-sm-10">
-                      <div class="checkbox">
-                        <label>
-                          <input type="checkbox" required> I agree to the <a href="#">terms and conditions</a>
-                        </label>
-                      </div>
-                    </div>
+                    
+                   <div class="form-group">
+                  <label for="inputPassword3" class="col-sm-2 control-label" >Notes</label>
+
+                  <div class="col-sm-10" >
+                 <% if( userProfileData[37]!=null && !userProfileData[37].equals("") && !userProfileData[37].equals("null") ){  %>
+                  <textarea class="form-control" id="notes" name="notes" > <%=userProfileData[37]  %> </textarea>
+                 <%  } else { %><textarea class="form-control" id="notes" name="notes" placeholder="Notes"></textarea> 
+                           <% }  %>                   
                   </div>
+                </div>
+    
                   <div class="form-group">
                     <div class="col-sm-offset-2 col-sm-10">
-                      <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-default">
-                      Submit
-                      </button>
+                      <button type="button" class="btn btn-danger" onClick="return validateForm()">Submit</button>
                     </div>
                     <div class="modal fade" id="modal-default">
                       <div class="modal-dialog">
@@ -464,12 +351,14 @@ Statement st=c.createStatement();
                               <span aria-hidden="true">&times;</span></button>
                             <h4 class="modal-title">Reminder....</h4>
                           </div>
+                            <input type="hidden" name="useradminid" value="<%=usercid_adminid  %>">
+                            <input type="hidden" name="usercid" value="<%=usercid_id  %>">
                           <div class="modal-body">
                             <p>Do You Really Want To Save Changes&hellip;</p>
                           </div>
                           <div class="modal-footer">
                             <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save </button>
+                            <button type="submit" class="btn btn-primary">Save</button>
                           </div>
                         </div>
                         <!-- /.modal-content -->
@@ -485,12 +374,16 @@ Statement st=c.createStatement();
               <div class="tab-pane" id="about">
                 <!-- The timeline -->
                 
-                <form class="form-horizontal">
+                <form class="form-horizontal" method="post" >
                   <div class="form-group">
                     <label for="inputSkills" class="col-sm-2 control-label">Manager</label>
   
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="inputSkills" placeholder="Manager">
+                      <input type="text" class="form-control" id="manager" name="manager" 
+                      <% if( userProfileData[14]!=null && !userProfileData[14].equals("") && !userProfileData[14].equals("null") ){
+                   out.println("placeholder=\""+userProfileData[14]+"\" value=\""+userProfileData[14]+"\">");
+                  } else { %>placeholder="Manager">
+                         <% }  %>     
                     </div>
                   </div>
                   
@@ -498,7 +391,11 @@ Statement st=c.createStatement();
                     <label for="inputName" class="col-sm-2 control-label">Project</label>
   
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="inputName" placeholder="Project">
+                      <input type="text" class="form-control" id="project" name="project"
+                   <% if( userProfileData[21]!=null && !userProfileData[21].equals("") && !userProfileData[21].equals("null") ){
+                   out.println("placeholder=\""+userProfileData[21]+"\" value=\""+userProfileData[21]+"\">");
+                  } else { %>placeholder="Project">
+                         <% }  %>     
                     </div>
                   </div>
 
@@ -506,15 +403,41 @@ Statement st=c.createStatement();
                     <label for="inputEmail" class="col-sm-2 control-label">Designation</label>
   
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="inputEmail" placeholder="Designation">
+                      <input type="text" class="form-control" id="designation" name="designation"
+                      <% if( userProfileData[9]!=null && !userProfileData[9].equals("") && !userProfileData[9].equals("null") ){
+                   out.println("placeholder=\""+userProfileData[9]+"\" value=\""+userProfileData[9]+"\">");
+                  } else { %>placeholder="Designation">        
+                       <% }  %>       
                     </div>
                   </div>
-
+                    
+                    <div class="form-group">
+                    <label for="inputEmail" class="col-sm-2 control-label">Department</label>
+  
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" id="department" name="department" 
+                      <% if( userProfileData[8]!=null && !userProfileData[8].equals("") && !userProfileData[8].equals("null") ){
+                   out.println("placeholder=\""+userProfileData[8]+"\" value=\""+userProfileData[8]+"\">");
+                  } else { %>placeholder="Department">       
+                          <% }  %>    
+                    </div>
+                  </div>
+                </form> 
+                    
+                <div class="box box-info">
+                  <form method="post" class="form-horizontal" action="UserAboutSubmit" > 
+                        <div class="box-header">
+                        <a  class="box-title">Your Skills </a>
+                         </div>
                   <div class="form-group">
                     <label for="inputName" class="col-sm-2 control-label">Years of Experience</label>
   
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="inputName" placeholder="Years of Experience">
+                      <input type="text" class="form-control" id="yearsofexperience" name="yearsofexperience"
+                      <% if( userProfileData[24]!=null && !userProfileData[24].equals("") && !userProfileData[24].equals("null") ){
+                   out.println("placeholder=\""+userProfileData[24]+"\" value=\""+userProfileData[24]+"\">");
+                  } else { %>placeholder="Years of Experience">       
+                        <% }  %>     
                     </div>
                   </div>
 
@@ -523,15 +446,18 @@ Statement st=c.createStatement();
                     <label for="inputName" class="col-sm-2 control-label">Skills</label>
   
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="inputName" placeholder="Skills">
+                      <input type="text" class="form-control" id="skills" name="skills"
+                         <% if( userProfileData[26]!=null && !userProfileData[26].equals("") && !userProfileData[26].equals("null") ){
+                   out.println("placeholder=\""+userProfileData[26]+"\" value=\""+userProfileData[26]+"\">");
+                  } else { %>placeholder="Skills">   
+                       <% }  %>      
                     </div>
                   </div>
   
                   <div class="form-group">
                     <div class="col-sm-offset-2 col-sm-10">
-                      <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-about1">
-                      Submit
-                      </button>
+                      <button type="button" class="btn btn-danger" onClick="return aboutForm()">
+                          Submit</button><br><br>
                     </div>
                     <div class="modal fade" id="modal-about1">
                       <div class="modal-dialog">
@@ -546,27 +472,25 @@ Statement st=c.createStatement();
                           </div>
                           <div class="modal-footer">
                             <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save </button>
+                            <button type="submit" class="btn btn-primary">Save </button>
                           </div>
                         </div>
                         <!-- /.modal-content -->
                       </div>
-                    
                     </div>
                   </div>
-
-                  
-                </form>
-
-              </div>
+                 </form>  
+               </div>
+         </div>
               <!-- /.tab-pane -->
 <!-- /.tab-pane -->
               
               <!-- /.tab-pane -->
               <div class="tab-pane" id="settings">
-                <form class="form-horizontal">
+                
 
                   <div class="box box-info">
+                      <form class="form-horizontal" >
                     <div class="box-header">
                      <a class="box-title">Change Password Settings</a>
                     </div>
@@ -588,11 +512,11 @@ Statement st=c.createStatement();
                   
                   <div class="form-group">
                     <div class="col-sm-offset-2 col-sm-10">
-                      <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-setting1">
+                      <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-setting">
                       Submit
-                      </button>
+                      </button><br><br>
                     </div>
-                    <div class="modal fade" id="modal-setting1">
+                    <div class="modal fade" id="modal-setting">
                       <div class="modal-dialog">
                         <div class="modal-content">
                           <div class="modal-header">
@@ -610,25 +534,28 @@ Statement st=c.createStatement();
                         </div>
                         <!-- /.modal-content -->
                       </div>
-                    
                     </div>
                   </div>
-
+                </form>
+              </div>
+                 
                   <div class="box box-info">
-                    
-                  
+                <form class="form-horizontal" action="Fileupload" method="post" enctype="multipart/form-data">
                     <div class="box-header">
+
                      <a  class="box-title">Profile Photo </a>
                      <a  href="selectavatar.jsp" class="btn btn-info pull-right">Select Avatar </a>
                     </div>
-
-                  <div class="form-group">
+ 
+            <div class="form-group">
                     <label for="inputSkills" class="col-sm-2 control-label">Upload Profile Photo</label>
-                    <input type="file" id="exampleInputFile">
-                  </div>
-                  <div class="form-group">
+                     <input type="hidden" class="form-control"  name="general"  value="<%=Nd.Encrypt(userProfileData[1]) %>" >
+                    <input type="hidden" class="form-control"  name="type"  value="userprofile" >
+                    <input type="file" name="receipt"  required><br>
+                   </div>
+          <div class="form-group">
                     <div class="col-sm-offset-2 col-sm-10">
-                      <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-setting1">
+                      <button type="button" class="btn btn-danger" onclick="return processing()">
                       Submit
                       </button><br><br>
                     </div>
@@ -645,18 +572,16 @@ Statement st=c.createStatement();
                           </div>
                           <div class="modal-footer">
                             <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save </button>
+                            <button type="submit" class="btn btn-primary" >Save  </button>
                           </div>
                         </div>
                         <!-- /.modal-content -->
                       </div>
-                    
                     </div>
                   </div>
-                  </div>
-                </form>
-              </div>
-              <!-- /.tab-pane -->
+             </form>
+           </div>
+          <!-- /.tab-pane -->
             </div>
             <!-- /.tab-content -->
           </div>
@@ -665,9 +590,7 @@ Statement st=c.createStatement();
         <!-- /.col -->
       </div>
       <!-- /.row -->
-
-    </section>
-    
+  </section>
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
@@ -716,241 +639,85 @@ Statement st=c.createStatement();
   })
 </script>
 
+<script>
+  window.onload = function()        
+{     var x='<%=warningmsg.length()%>'
+      var y='<%=successmsg.length()%>'
+   
+     if(y>0){       
+    document.getElementById("alert-message-success").innerHTML = "<%=successmsg %>";
+     $('#show-success').modal('show')
+ }
+    
+    if(x>0){       
+    document.getElementById("alert-message-warning").innerHTML = "<%=warningmsg %>";
+     $('#show-warning').modal('show')
+ }
+ 
+}   
+</script> 
 
 <script>
         function validateForm(){
-        if(document.getElementById("mobile").value==""){
-                    document.getElementById("alert-message").innerHTML = "Mobile cannot be empty ";
-    $('#show-alert').modal('show')
-     
-           
-           document.getElementById("mobile").focus();
-           return false;
-        }
-       
-        else if(document.getElementById("mobile").value!=""){
-           
-           if(!document.getElementById("mobile").value.match(/^[0-9]+$/)){
-                          document.getElementById("alert-message").innerHTML = " Mobile :Only numbers allowed ";
-    $('#show-alert').modal('show')
-     
-          
-           document.getElementById("mobile").focus();
-     return false;
-            } 
-        if(document.getElementById("mobile").value.length>10){
-         document.getElementById("alert-message").innerHTML = " Mobile :Only 10 digits allowed ";
-    $('#show-alert').modal('show')
-               
-           document.getElementById("mobile").focus();
-           
-           return false;
-       }  if(document.getElementById("mobile").value.length<10){
-          document.getElementById("alert-message").innerHTML = "Mobile :Only 10 digits allowed  ";
-    $('#show-alert').modal('show')
-                
-           document.getElementById("mobile").focus();
-           
-           return false;
-       }
-   }
-       
+            
+        if(document.getElementById("firstname").value==""){
    
-       if(document.getElementById("cfn").value==""){
-   
-            document.getElementById("alert-message").innerHTML = "First name cannot be empty";
+            document.getElementById("alert-message").innerHTML = "First Name: Cannot be empty";
     $('#show-alert').modal('show')
-       document.getElementById("cfn").focus();
+       document.getElementById("firstname").focus();
            return false;
-        }else if(document.getElementById("cfn").value!=""){
+        }else 
+            if(document.getElementById("firstname").value!=""){
+            if(document.getElementById("firstname").value.length>45){
+            document.getElementById("alert-message").innerHTML = "First Name: Only 45 Characters allowed";
+    $('#show-alert').modal('show')
+           document.getElementById("firstname").focus();
            
-           if(!document.getElementById("cfn").value.match(/^[0-9 a-z.A-Z]+$/)){
+           return false;
+       }else           
+           if(!document.getElementById("firstname").value.match(/^[0-9 a-z.A-Z]+$/)){
               document.getElementById("alert-message").innerHTML = "First Name: Only alphanumeric allowed";
     $('#show-alert').modal('show')
            
-           document.getElementById("cfn").focus();
+           document.getElementById("firstname").focus();
      return false;
             } 
         } 
-        if(document.getElementById("cfn").value.length>30){
-                document.getElementById("alert-message").innerHTML = "First Name :Only 30 Characters allowed";
-    $('#show-alert').modal('show')
-         
-           // alert("Only 30 Characters allowed ");
-           document.getElementById("cfn").focus();
-           
-           return false;
-       }
-       
-       if(document.getElementById("cln").value==""){
+      
+       if(document.getElementById("mobileno").value==""){
    
-            document.getElementById("alert-message").innerHTML = "Last name cannot be empty";
+            document.getElementById("alert-message").innerHTML = "Mobile No: Cannot be empty";
     $('#show-alert').modal('show')
-       document.getElementById("cln").focus();
+       document.getElementById("mobileno").focus();
            return false;
-        }else if(document.getElementById("cln").value!=""){
+        }else 
+            if(document.getElementById("mobileno").value!=""){
+            if(document.getElementById("mobileno").value.length>15){
+            document.getElementById("alert-message").innerHTML = "Mobile No: Only 15 digit allowed";
+    $('#show-alert').modal('show')
+           document.getElementById("mobileno").focus();
            
-           if(!document.getElementById("cln").value.match(/^[0-9 a-z.A-Z]+$/)){
-              document.getElementById("alert-message").innerHTML = "Last Name: Only alphanumeric allowed";
+           return false;
+       }else           
+           if(!document.getElementById("mobileno").value.match(/^[0-9]+$/)){
+              document.getElementById("alert-message").innerHTML = "Mobile No: Only number allowed";
     $('#show-alert').modal('show')
            
-           document.getElementById("cln").focus();
+           document.getElementById("mobileno").focus();
      return false;
             } 
         } 
-        if(document.getElementById("cln").value.length>30){
-                document.getElementById("alert-message").innerHTML = "Last Name: Only 30 Characters allowed";
-    $('#show-alert').modal('show')
-         
-           // alert("Only 30 Characters allowed ");
-           document.getElementById("cln").focus();
-           
-           return false;
-       }
-       if(document.getElementById("cn").value!=""){
-           
-           if(!document.getElementById("cn").value.match(/^[0-9 a-z.A-Z]+$/)){
-                     document.getElementById("alert-message").innerHTML = "Company Name: Only alphanumeric allowed";
-    $('#show-alert').modal('show')
-       
-           //alert("Only alphanumeric allowed");
-           document.getElementById("cn").focus();
-     return false;
-            } else
-        if(document.getElementById("cn").value.length>30){
-                         document.getElementById("alert-message").innerHTML = "Company Name: Only 30 Characters allowed";
-    $('#show-alert').modal('show')
-     
-                  
-           document.getElementById("cn").focus();
-           
-           return false;
-       }}
-      
-   if(document.getElementById("department").value!=""){
-           
-           if(!document.getElementById("department").value.match(/^[0-9 a-z.A-Z]+$/)){
-                     document.getElementById("alert-message").innerHTML = "Please enter valid department name";
-    $('#show-alert').modal('show')
-       
-           //alert("Only alphanumeric allowed");
-           document.getElementById("department").focus();
-     return false;
-            } else
-        if(document.getElementById("department").value.length>30){
-                         document.getElementById("alert-message").innerHTML = "Department Name: Only 30 Characters allowed";
-    $('#show-alert').modal('show')
-     
-                  
-           document.getElementById("department").focus();
-           
-           return false;
-       }}
-       
-       if(document.getElementById("designation").value!=""){
-           
-           if(!document.getElementById("designation").value.match(/^[a-z. A-Z]+$/)){
-                     document.getElementById("alert-message").innerHTML = "Please enter valid designation";
-    $('#show-alert').modal('show')
-       
-           //alert("Only alphanumeric allowed");
-           document.getElementById("designation").focus();
-     return false;
-            } else
-        if(document.getElementById("designation").value.length>30){
-                         document.getElementById("alert-message").innerHTML = "Designation: Only 30 Characters allowed";
-    $('#show-alert').modal('show')
-     
-                  
-           document.getElementById("designation").focus();
-           
-           return false;
-       }}
-     
-      
-      
     
-      
-       if(document.getElementById("gstin").value!=""){
+       if(document.getElementById("email").value!=""){
            
-           if(!document.getElementById("gstin").value.match(/^[0-9A-Z]+$/)){
-                     document.getElementById("alert-message").innerHTML = "Please enter valid gstin";
+                         if(document.getElementById("email").value.length>45){
+                         document.getElementById("alert-message").innerHTML = "Email: Only 45 Characters allowed";
     $('#show-alert').modal('show')
-       
-           //alert("Only alphanumeric allowed");
-           document.getElementById("gstin").focus();
-     return false;
-            }
-        if(document.getElementById("gstin").value.length>15){
-                         document.getElementById("alert-message").innerHTML = "GSTIN: Only 15 Characters allowed";
-    $('#show-alert').modal('show')
-     
-                  
-           document.getElementById("gstin").focus();
-           
-           return false;
-       }
-       if(document.getElementById("gstin").value.length<15){
-                         document.getElementById("alert-message").innerHTML = " GSTIN: Only 15 Characters allowed";
-    $('#show-alert').modal('show')
-     
-                  
-           document.getElementById("gstin").focus();
-           
-           return false;
-       }
-   } 
-     
-    if(document.getElementById("rt").value!=""){
-           
-           if(!document.getElementById("rt").value.match(/^[0-9 a-z.A-Z]+$/)){
-                     document.getElementById("alert-message").innerHTML = "Report To: please enter valid name";
-    $('#show-alert').modal('show')
-       
-           //alert("Only alphanumeric allowed");
-           document.getElementById("rt").focus();
-     return false;
-            } else
-        if(document.getElementById("rt").value.length>30){
-                         document.getElementById("alert-message").innerHTML = "Report To: Only 30 Characters allowed";
-    $('#show-alert').modal('show')
-     
-                  
-           document.getElementById("rt").focus();
-           
-           return false;
-       }}
-       
-   
-        if(document.getElementById("ap").value!=""){
-           
-            if(!document.getElementById("ap").value.match(/^[0-9]+$/)){
-                          document.getElementById("alert-message").innerHTML = "Alternate Mobile :Only numbers allowed ";
-    $('#show-alert').modal('show')
-     
           
-           document.getElementById("ap").focus();
-     return false;
-            } 
-        if(document.getElementById("ap").value.length>10){
-         document.getElementById("alert-message").innerHTML = "Alternate Mobile :Only 10 digits allowed ";
-    $('#show-alert').modal('show')
-               
-           document.getElementById("ap").focus();
+           document.getElementById("email").focus();
            
            return false;
-       }  if(document.getElementById("ap").value.length<10){
-          document.getElementById("alert-message").innerHTML = "Alternate Mobile :Only 10 digits allowed  ";
-    $('#show-alert').modal('show')
-                
-           document.getElementById("ap").focus();
-           
-           return false;
-       }
-   }
-   
-  if(document.getElementById("email").value!=""){
-           
+       }else
            if(!document.getElementById("email").value.match(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/)){
                      document.getElementById("alert-message").innerHTML = "Enter valid email id";
     $('#show-alert').modal('show')
@@ -958,81 +725,54 @@ Statement st=c.createStatement();
            //alert("Only alphanumeric allowed");
            document.getElementById("email").focus();
      return false;
-            } else
-        if(document.getElementById("email").value.length>30){
-                         document.getElementById("alert-message").innerHTML = "Email id: Only 40 Characters allowed";
-    $('#show-alert').modal('show')
-     
-                  
-           document.getElementById("email").focus();
+            } 
+    } 
+   
+    if(document.getElementById("phone").value!=""){
            
-           return false;
-       }}
-       
-        if(document.getElementById("address1").value!=""){
-           
-           if(!document.getElementById("address1").value.match(/^[a-zA-Z:,'-'' '\.0-9\n]+$/)){
-                     document.getElementById("alert-message").innerHTML = "Address1: Only alphanumeric allowed";
+           if(!document.getElementById("phone").value.match(/^[0-9]+$/)){
+                     document.getElementById("alert-message").innerHTML = "Phone: Only  digit allowed";
     $('#show-alert').modal('show')
        
            //alert("Only alphanumeric allowed");
-           document.getElementById("address1").focus();
+           document.getElementById("phone").focus();
      return false;
             } else
-        if(document.getElementById("address1").value.length>30){
-                         document.getElementById("alert-message").innerHTML = "Address1:Only 30 Characters allowed";
+        if(document.getElementById("phone").value.length>15){
+                         document.getElementById("alert-message").innerHTML = "Phone: Only 15 digit allowed";
     $('#show-alert').modal('show')
      
                   
-           document.getElementById("address1").focus();
+           document.getElementById("phone").focus();
            
            return false;
-       }} 
-      
+       }
+       }
        
-      if(document.getElementById("address2").value!=""){
+        if(document.getElementById("address").value!=""){
            
-           if(!document.getElementById("address2").value.match(/^[a-zA-Z:,'-'' '\.0-9\n]+$/)){
-                     document.getElementById("alert-message").innerHTML = "Address2: Only alphanumeric allowed";
-    $('#show-alert').modal('show')
-       
-           //alert("Only alphanumeric allowed");
-           document.getElementById("address2").focus();
-     return false;
-            } else
-        if(document.getElementById("address2").value.length>30){
-                         document.getElementById("alert-message").innerHTML = "Address2:Only 30 Characters allowed";
-    $('#show-alert').modal('show')
-     
-                  
-           document.getElementById("address2").focus();
-           
-           return false;
-       }} 
-      
-      if(document.getElementById("address3").value!=""){
-           
-           if(!document.getElementById("address3").value.match(/^[a-zA-Z:,'-'' '\.0-9\n]+$/)){
-                     document.getElementById("alert-message").innerHTML = "Address3: Only alphanumeric allowed";
+           if(!document.getElementById("address").value.match(/^[a-zA-Z:,'-'' '\.0-9\n]+$/)){
+                     document.getElementById("alert-message").innerHTML = "Address: Only alphanumeric allowed";
     $('#show-alert').modal('show')
        
            //alert("Only alphanumeric allowed");
-           document.getElementById("address3").focus();
+           document.getElementById("address").focus();
      return false;
             } else
-        if(document.getElementById("address3").value.length>30){
-                         document.getElementById("alert-message").innerHTML = "Address3:Only 30 Characters allowed";
+        if(document.getElementById("address").value.length>45){
+                         document.getElementById("alert-message").innerHTML = "Address:Only 45 Characters allowed";
     $('#show-alert').modal('show')
      
                   
-           document.getElementById("address3").focus();
+           document.getElementById("address").focus();
            
            return false;
-       }} 
-      
+       } 
+     }
+     
       if(document.getElementById("city").value!=""){
            
-           if(!document.getElementById("city").value.match(/^[a-zA-Z:,'-'' '\.0-9\n]+$/)){
+           if(!document.getElementById("city").value.match(/^[0-9 a-z.A-Z]+$/)){
                      document.getElementById("alert-message").innerHTML = "City: Only alphanumeric allowed";
     $('#show-alert').modal('show')
        
@@ -1040,55 +780,78 @@ Statement st=c.createStatement();
            document.getElementById("city").focus();
      return false;
             } else
-        if(document.getElementById("city").value.length>30){
-                         document.getElementById("alert-message").innerHTML = "City: Only 30 Characters allowed";
+        if(document.getElementById("city").value.length>45){
+                         document.getElementById("alert-message").innerHTML = "City: Only 45 Characters allowed";
     $('#show-alert').modal('show')
      
                   
            document.getElementById("city").focus();
            
            return false;
-       }}
+       }
+      }
       
-      if(document.getElementById("pincode").value!=""){
+      if(document.getElementById("zipcode").value!=""){
            
-           if(!document.getElementById("pincode").value.match(/^[0-9]+$/)){
-                     document.getElementById("alert-message").innerHTML = "Pincode: Only digits allowed";
+           if(!document.getElementById("zipcode").value.match(/^[0-9]+$/)){
+                     document.getElementById("alert-message").innerHTML = "Zipcode: Only number allowed";
     $('#show-alert').modal('show')
        
            //alert("Only alphanumeric allowed");
-           document.getElementById("pincode").focus();
+           document.getElementById("zipcode").focus();
      return false;
             } else
-        if(document.getElementById("pincode").value.length>10){
-                         document.getElementById("alert-message").innerHTML = "Pincode:Only 10 digits allowed";
+        if(document.getElementById("zipcode").value.length>10){
+                         document.getElementById("alert-message").innerHTML = "Zipcode: Only 10 digits allowed";
     $('#show-alert').modal('show')
      
                   
-           document.getElementById("pincode").focus();
+           document.getElementById("zipcode").focus();
            
            return false;
-       }}
+       }
+       }
+       
+       if(document.getElementById("country").value!=""){
+           
+           if(!document.getElementById("country").value.match(/^[0-9 a-z.A-Z]+$/)){
+                     document.getElementById("alert-message").innerHTML = "Country: Only alphanumeric allowed";
+    $('#show-alert').modal('show')
+       
+           //alert("Only alphanumeric allowed");
+           document.getElementById("country").focus();
+     return false;
+            } else
+        if(document.getElementById("country").value.length>45){
+                         document.getElementById("alert-message").innerHTML = "Country: Only 45 Characters allowed";
+    $('#show-alert').modal('show')
+           
+           document.getElementById("country").focus();
+           
+           return false;
+       }
+      }
       
        if(document.getElementById("state").value!=""){
            
            if(!document.getElementById("state").value.match(/^[a-zA-Z:,'-'' '\.0-9\n]+$/)){
-                     document.getElementById("alert-message").innerHTML = "State: Only characters allowed";
+                     document.getElementById("alert-message").innerHTML = "State: Only alphanumeric allowed";
     $('#show-alert').modal('show')
        
            //alert("Only alphanumeric allowed");
            document.getElementById("state").focus();
      return false;
             } else
-        if(document.getElementById("state").value.length>30){
-                         document.getElementById("alert-message").innerHTML = "State: Only 30 Characters allowed";
+        if(document.getElementById("state").value.length>45){
+                         document.getElementById("alert-message").innerHTML = "State: Only 45 Characters allowed";
     $('#show-alert').modal('show')
      
                   
            document.getElementById("state").focus();
            
            return false;
-       }}
+       }
+       }
       
       if(document.getElementById("notes").value!=""){
            
@@ -1100,20 +863,87 @@ Statement st=c.createStatement();
            document.getElementById("notes").focus();
      return false;
             } else
-        if(document.getElementById("notes").value.length>2000){
-                         document.getElementById("alert-message").innerHTML = "Notes: Only 2000 Characters allowed";
+        if(document.getElementById("notes").value.length>45){
+                         document.getElementById("alert-message").innerHTML = "Notes: Only 45 Characters allowed";
     $('#show-alert').modal('show')
      
                   
            document.getElementById("notes").focus();
            
            return false;
-       }}
-   
+       }
+      } 
+                    $('#modal-default').modal('show')    
    return true;
    }
-</script>     
+   
+                    function aboutForm(){
+                        
+            if(document.getElementById("yearsofexperience").value!=""){
+           
+           if(!document.getElementById("yearsofexperience").value.match(/^[0-9]+$/)){
+                     document.getElementById("alert-message").innerHTML = "Years of Experience: Only  number allowed";
+    $('#show-alert').modal('show')
+       
+           //alert("Only alphanumeric allowed");
+           document.getElementById("yearsofexperience").focus();
+     return false;
+            } else
+        if(document.getElementById("yearsofexperience").value.length>15){
+                         document.getElementById("alert-message").innerHTML = "Years of Experience: Only 15 digit allowed";
+    $('#show-alert').modal('show')
+     
+                  
+           document.getElementById("yearsofexperience").focus();
+           
+           return false;
+       }
+      }
+      
+        if(document.getElementById("skills").value!=""){
+           
+           if(!document.getElementById("skills").value.match(/^[0-9 a-z.A-Z + . #]+$/)){
+                     document.getElementById("alert-message").innerHTML = "Skills: Only  alphanumeric allowed";
+    $('#show-alert').modal('show')
+       
+           //alert("Only alphanumeric allowed");
+           document.getElementById("skills").focus();
+     return false;
+            } else
+        if(document.getElementById("skills").value.length>45){
+                         document.getElementById("alert-message").innerHTML = "Skills: Only 45 Characters allowed";
+    $('#show-alert').modal('show')
+     
+                  
+           document.getElementById("skills").focus();
+           
+           return false;
+       }
+      }
+                      
+                      $('#modal-about1').modal('show')  
+                      
+                      return true;   
+                        
+                    }
 
+</script> 
+
+
+<script>
+    function processing()  
+{ 
+   $('#waitingdisplay').modal('show') 
+   document.addEventListener("contextmenu", function(e){
+    
+        e.preventDefault();
+   
+}, false);
+                $('#modal-setting1').modal('show')
+    
+   return true;
+}
+</script>
 
 <script>
 $('#dob').calendarsPicker({

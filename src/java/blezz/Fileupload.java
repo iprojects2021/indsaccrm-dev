@@ -18,6 +18,8 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.MultipartConfig;
 import javax.servlet.annotation.WebServlet;
@@ -139,7 +141,22 @@ public class Fileupload extends HttpServlet {
         Log.writeLog("Debug: Redirecting to taskedit.jsp?tid="+general);
             response.sendRedirect("taskedit.jsp?2a2e2a746964="+Nd.Encrypt(general)+"&msg=upload");
         }
-      
+           
+         if("businessprofile".equals(type)){
+           Log.writeLog("Debug: Before DB update, Type="+type);
+        String expensedb=menu.BusinessProfileService.saveBusinessProfileLogotoDB(usercid_adminid, usercid_id, general, attachmentfilename);
+        Log.writeLog("Debug: Redirecting to businessprofile.jsp?businessprofileid="+general);
+            
+            response.sendRedirect("businessprofile.jsp?"+"&message=succesfulyUploaded ");  
+        } 
+         
+         if("userprofile".equals(type)){
+           Log.writeLog("Debug: Before DB update, Type="+type);
+        String expensedb=menu.UserProfileService.saveUserProfileLogotoDB(usercid_adminid, usercid_id, general, attachmentfilename);
+        Log.writeLog("Debug: Redirecting to userprofile.jsp?userprofileid="+general);
+            
+          response.sendRedirect("userprofile.jsp?"+"&message=succesfulyUploaded ");  
+       } 
  }
       public static List<java.io.File> saveUploadedFiles(HttpServletRequest request,String FileDirName)
             throws IllegalStateException, IOException, ServletException {
@@ -181,9 +198,9 @@ public class Fileupload extends HttpServlet {
 	               //filename stores the filename
 	               String filename = fileName.split("\\.")[0];
 	               // saveFileDir stores the directory where file will be saved
-	               String saveFileDir=path + "/" + filename + filesavetime+"." + fileNameSplits[extensionIndex];
+	               String saveFileDir=path + "/" + filesavetime+"." + fileNameSplits[extensionIndex];
 	              String filenametodb="";
-                      filenametodb=filename + filesavetime+"." + fileNameSplits[extensionIndex];
+                      filenametodb= filesavetime+"." + fileNameSplits[extensionIndex];
                        
 	              //   Log.writeLog("Debug: "+java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.getPublicIP()+" Fileupload.java method=saveUploadedFiles(), filenametodb="+filenametodb);
           
@@ -222,7 +239,8 @@ public class Fileupload extends HttpServlet {
         String[] items = contentDisp.split(";");
         for (String s : items) {
             if (s.trim().startsWith("filename")) {
-                return s.substring(s.indexOf("=") + 2, s.length() - 1);
+                String filename=s.substring(s.indexOf("=") + 2, s.length() - 1);
+                return filename;
             }
         }
         return null;

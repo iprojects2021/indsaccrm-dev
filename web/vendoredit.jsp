@@ -531,29 +531,29 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+reques
                   </div>
                 </div>
                 <div class="form-group">
-                  <label for="inputPassword3" class="col-sm-2 control-label">City</label>
+                  <label for="inputPassword3" class="col-sm-3 control-label">City</label>
 
-                  <div class="col-sm-4">
+                  <div class="col-sm-3">
                     <input type="text" class="form-control" id="city" name="city"  placeholder="<%=al.get(32) %>" value="<%=al.get(32) %>">
                   </div>
                 
-                  <label for="inputPassword3" class="col-sm-2 control-label">Pincode</label>
+                  <label for="inputPassword3" class="col-sm-3 control-label">Pincode</label>
 
-                  <div class="col-sm-4">
+                  <div class="col-sm-3">
                    <input type="text" class="form-control" id="pincode" name="pincode"  placeholder="<%=al.get(33) %>" value="<%=al.get(33) %>">
                   </div>
                 </div>
 				<div class="form-group">
-                  <label for="inputPassword3" class="col-sm-2 control-label">State</label>
+                  <label for="inputPassword3" class="col-sm-3 control-label">State</label>
 
-                  <div class="col-sm-10">
+                  <div class="col-sm-9">
                   <input type="text" class="form-control" id="state" name="state"  placeholder="<%=al.get(34) %>" value="<%=al.get(34) %>">
                   </div>
                 </div>
 				     <div class="form-group">
-                  <label for="inputPassword3" class="col-sm-2 control-label">Country</label>
+                  <label for="inputPassword3" class="col-sm-3 control-label">Country</label>
 
-                  <div class="col-sm-10">
+                  <div class="col-sm-9">
                     <input type="text" class="form-control" id="country" name="country"  placeholder="<%=al.get(35) %>" value="<%=al.get(35) %>">
                   </div>
                 </div>

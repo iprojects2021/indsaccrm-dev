@@ -107,10 +107,9 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+Poul.g
           
           }
            int i = Integer.parseInt( SR ); 
-           
+           ++i;
              st.addBatch("insert into events values('"+i+"','"+sqlTime+"','0','"+Name+"','"+datepicker+"','"+importance+"','"+status+"','','"+usercid_adminid+"','"+usercid_id+"','"+cid+"','"+notes+"','"+assignedto+"','','','','','','','','','','','','','','','','','','','','')");
-      
-            
+   
        st.executeBatch(); 
         
        

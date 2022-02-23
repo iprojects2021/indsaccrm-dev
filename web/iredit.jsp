@@ -57,8 +57,7 @@
           String usercid_adminid=(String)session1.getAttribute("usercid_adminid");
              String usercid_company=(String)session1.getAttribute("usercid_company");
           String usercid_website=(String)session1.getAttribute("usercid_website"); 
-        	
-	
+ 	
 if (session != null) {
 			if (session1.getAttribute("usercid_id") == null) {
 				response.sendRedirect("signout.jsp");
@@ -71,11 +70,11 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+reques
     <%  String msg=null;
            String pagetype=request.getParameter("pagetype");
           String type=request.getParameter("2a2e2a74797065");
-    if(type!=null){type=Nd.Decrypt(type);}
+    if(type!=null){type=Nd.Encrypt(type);}
     String tid=Poul.escapeHtml(request.getParameter("2a2e2a746964"));
-             if(tid!=null){tid=Nd.Decrypt(tid);}
+             if(tid!=null){tid=Nd.Encrypt(tid);}
       String cid=Poul.escapeHtml(request.getParameter("2a2e2a636964"));
-      if(cid!=null){cid=Nd.Decrypt(cid);}
+      if(cid!=null){cid=Nd.Encrypt(cid);}
           String message="";
        if("iredit".equals(pagetype)){
            
@@ -89,9 +88,6 @@ Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+reques
      try{
        
 Connection c=Poul.getConnectionCRM();
-
-
-
 Statement st=c.createStatement();
            ResultSet rs3;
                rs3 = st.executeQuery("select  *  FROM interactionrecord where id='"+tid+"' and useradminid='"+usercid_adminid+"' ");
@@ -109,42 +105,31 @@ Statement st=c.createStatement();
                      al=rsmd.getColumnName(12);
                       am=rsmd.getColumnName(13);
                        an=rsmd.getColumnName(14);
-                       
-         
-         
+        
   st.addBatch("update interactionrecord set   "+ad+"='"+direction+"',"+ae+"='"+status+"',"+af+"='"+priority+"',"+ag+"='"+enquiry+"',"+ai+"='"+product+"'  where id='"+tid+"' and useradminid='"+usercid_adminid+"'");
-   
-            
-       st.executeBatch(); 
+     st.executeBatch(); 
         String requestcid=cid;
         session.setAttribute("requestcid",cid);
              msg="success";   
-             message="Interaction Record Edited Successfully";
-       
+             message="Interaction Record Edited Successfully";      
       rs3.close();
       st.close();
       c.close();   }
         catch(Exception e)
         {
            String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"\n invoicesetting.jsp-----\n"
-     + "LINE=125 + \n select  *  FROM interactionrecord where id='"+tid+"' and useradminid='"+usercid_adminid+"  ";
+     + "LINE=121 + \n select  *  FROM interactionrecord where id='"+tid+"' and useradminid='"+usercid_adminid+"  ";
      Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
       EmergencyEmail.send(e,errormsg);
         }
         finally{
-        
-          
-        }
-        
+        }        
        }
         %>
     
-    
-    
-    
+   
 <%
-          String al[]=new String[35];
-        
+          String al[]=new String[35];       
           String cnt=request.getParameter("cnt");
         if(!"null".equals(cid)){
        try{
@@ -159,20 +144,17 @@ Statement st=c.createStatement();
                al[i]=rs.getString(i); 
             }
         }
-        
      rs.close();
       smt.close();
       con.close();   }
         catch(Exception e){
                String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"\n invoicesetting.jsp-----\n"
-     + "LINE=164 + \n select  *  FROM interactionrecord where id='"+tid+"' and useradminid='"+usercid_adminid+"  ";
+     + "LINE=152 + \n select  *  FROM interactionrecord where id='"+tid+"' and useradminid='"+usercid_adminid+"  ";
      Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
       EmergencyEmail.send(e,errormsg);
                 }
-       //System.out.println(al.size());
-       
-        }
-     
+       //System.out.println(al.size());      
+        }  
       %>
 <div class="wrapper">
 
@@ -180,10 +162,7 @@ Statement st=c.createStatement();
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
- 
-	
 	 <section class="content-header">
-    
 
 <% if(!"".equals(message)){  %> 
         <div class="row"><div class="col-md-2"></div>
@@ -193,11 +172,6 @@ Statement st=c.createStatement();
                 <i class="icon fa fa-check"></i> 
                 <%=message %>
         </div>  </div></div>   <% } %>	
-	
-	
-		
-	
-	
 	 <div class="row invoice">
         <div class="col-xs-12">
 		 <!-- Default box -->
@@ -206,21 +180,14 @@ Statement st=c.createStatement();
           <h3 class="box-title"> Interaction Record</h3>
           <h6 class="pull-right"><%="Created By:"+Db.getEmployeeName(al[12])+" , "+al[2]  %></h6>
 <!-- form start -->
-            <form class="form-horizontal" action="" method="post">
-         
-        </div>   <input type="hidden" class="form-control"  name="own"  value="<%=al[13] %>">
-                 
-       
-	    <div class="col-md-6">
-		
+            <form class="form-horizontal" action="" method="post">        
+        </div>   
+          <input type="hidden" class="form-control"  name="own"  value="<%=al[13] %>">
+ 	    <div class="col-md-6">
 		 <div class="box ">
-            
-           
-            
-              <div class="box-body">
+            <div class="box-body">
                    <div class="form-group">
                   <label for="inputEmail3" class="col-sm-2 control-label"> Contact Name</label>
-
                   <div class="col-sm-10">
                       <%  if(!"null".equals(al[13])){ String data[]=new String [5];
                       data=Db.getCustomerName(al[13], al[11]); if(("customer").equals(data[4])){data[4]="contact";}
@@ -228,75 +195,53 @@ Statement st=c.createStatement();
                       <a href="<%=data[4] %>details.jsp?esfhrttrfhardersg=<%=Nd.Encrypt(al[13]) %>&2a2e2a74797065=<%=Nd.Encrypt(data[4]) %>"><button type="button" class="col-sm-10 btn btn-warning pull-left"> <% if("".equals(data[2])||"null".equals(data[2])){ out.print(data[3]);} else {out.print(data[2]);} %> </button></a>
            <% }  
            %>
-           
-          
                   </div>
                       </div> <br><br>
-			    <div class="form-group">
+	        <div class="form-group">
                   <label for="inputEmail3" class="col-sm-2 control-label">Date/Time</label>
-
-                  <div class="col-sm-10">
+                 <div class="col-sm-10">
                       <input type="text" class="form-control" id="date"  name="date" placeholder="<%=al[2] %>" value="<%=al[2] %>" disabled="">
                   </div>
                 </div>
                   <br><br>
 		 <div class="form-group">
                   <label for="inputPassword3" class="col-sm-2 control-label">Direction</label>
-
-                  <div class="col-sm-10">
+                <div class="col-sm-10">
                  <select id="direction" name="direction" class="form-control" >
                         <option value="<%=al[4] %>"> <%=al[4] %></option> 
                      <option value="Outbound"> Outbound</option>
                           <option value="Inbound">Inbound</option>
                           <option value="Email">Email</option>
                           <option value="Chat"> Chat</option>
-                         
-                          
-                     </select>  </div>
+                   </select>  </div>
 				  </div>
-                     <!-- /.form group --><br><br>
-           
+                     <!-- /.form group --><br><br>          
 				 <div class="form-group">
                   <label for="inputPassword3" class="col-sm-2 control-label">Priority</label>
-
                   <div class="col-sm-10">
                  <select id="priority" name="priority" class="form-control"  value="<%=al[6] %>">
                      <option value="<%=al[6] %>"> <%=al[6] %></option>
                           <option value="Midium"> Midium</option>
                           <option value="High">High</option>
-                          <option value="Low">Low</option>
-                          
+                          <option value="Low">Low</option>                          
                      </select>
-                  </div>
-                                 </div>   <br><br>
-                                 
-				     <div class="form-group">
+                  </div>                      
+                     </div>   <br><br>                                 
+		<div class="form-group">
                   <label for="inputPassword3" class="col-sm-2 control-label">Status</label>
-
                   <div class="col-sm-10">
                  <select id="status" name="status" class="form-control" value="<%=al[5] %>">
                      <option value="<%=al[5] %>"> <%=al[5] %></option>
                            <option value="Close"> Close</option>
-                          <option value="Open">Open</option>
-                          
+                          <option value="Open">Open</option>                         
                      </select>
                   </div>
-                                     </div><br><br>
-          
-		
-              
-              </div>
+                  </div><br><br>
+             </div>
               <!-- /.box-body -->
-                 
-             
-           
-              
-              
-          </div>
+       </div>
           <!-- /.box -->
-        
-
-        </div>
+       </div>
         <!--/.col (left) -->
          <%
            int i=0,j=0; 
@@ -311,11 +256,10 @@ Statement st=c.createStatement();
       con.close();    } catch(Exception e)
       { 
           String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"\n invoicesetting.jsp-----\n"
-     + "LINE=310 + \n select count(*) from stock where useradminid="+usercid_adminid+"  ";
+     + "LINE=259 + \n select count(*) from stock where useradminid="+usercid_adminid+"  ";
      Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
       EmergencyEmail.send(e,errormsg);
-      }
-      
+      }     
        int n2=Integer.parseInt(count2);
        String taskdata2[][]=new String[n2+1][17];
         try{ Connection con=Poul.getConnectionCRM();
@@ -328,8 +272,7 @@ Statement st=c.createStatement();
         { 
            for( j=1;j<=16;j++)
           {
-            taskdata2[i][j]=rs.getString(j); 
-           
+            taskdata2[i][j]=rs.getString(j);           
           }
            ++i;  
         }
@@ -338,7 +281,7 @@ Statement st=c.createStatement();
       con.close();    } catch(Exception e)
       {
           String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"\n invoicesetting.jsp-----\n"
-     + "LINE=337 + \n select * from stock  where useradminid="+usercid_adminid+"  ";
+     + "LINE=284 + \n select * from stock  where useradminid="+usercid_adminid+"  ";
      Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
       EmergencyEmail.send(e,errormsg);
       }
@@ -348,35 +291,23 @@ Statement st=c.createStatement();
           <!-- Horizontal Form -->
            <!-- general form elements -->
           <div class="box">
-           
             <!-- /.box-header -->
             <!-- form start -->
-           
               <div class="box-body">
                       <div class="form-group">
                   <label for="inputPassword3" class="col-sm-2 control-label">Product</label>
-
-                  <div class="col-sm-10">
-                
-                           <select id="productname" name="product" class="form-control"  >
+                 <div class="col-sm-10">
+                          <select id="productname" name="product" class="form-control"  >
                                 <option value="<%=al[9] %>"><%=al[9] %></option>
-                       
-                       <% for(i=1;i<=n2;++i){  %>
+                      <% for(i=1;i<=n2;++i){  %>
                          <option value="<%=taskdata2[i][2]  %>"><% out.println(taskdata2[i][2]);  %></option>
-                        
-                         <% }  %>
-                          
+                        <% }  %>
                      </select>
                   </div>
-				  </div>
-			  
-			  
-			
-                  <br><br>
-					 
-			  <div class="form-group">
+		 </div>
+               <br><br>
+	<div class="form-group">
                   <label for="inputPassword3" class="col-sm-2 control-label">Enquiry</label>
-
                   <div class="col-sm-10">
                  <textarea class="form-control" rows="7" id="enquiry" name="enquiry" placeholder="<%=al[7] %>" ><%=al[7] %></textarea>
                  <input type="hidden" name="pagetype" value="iredit">
@@ -384,17 +315,12 @@ Statement st=c.createStatement();
                  <input type="hidden" name="2a2e2a746964" value="<%=Nd.Encrypt(tid) %>">
                   </div>
                 </div>
-			
-                  
-				
-              
-              </div>
+            </div>
               <!-- /.box-body -->
 			    <div class="box-footer clearfix no-border">
 		  <button type="button" class="btn btn-default pull-left" onclick="goBack()"> Cancel</button>
               <button type="submit" class="btn btn-info pull-right"onClick="return validateForm()"> Save</button>
-            </div>
-           
+            </div>          
             </form>
           </div>
           <!-- /.box -->
@@ -404,14 +330,7 @@ Statement st=c.createStatement();
       <!-- /.box -->
 </div>
 		</div>
-		
-	
-		
-
-	
-		
-		
-    </section>
+</section>
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
@@ -483,9 +402,6 @@ Statement st=c.createStatement();
 }
     </script>
 
-
-
-
 <script>
 function goBack() {
     window.history.back();
@@ -502,7 +418,6 @@ function goBack() {
         })
   
 </script>
-  
 
 </body>
 </html>

@@ -48,8 +48,7 @@
           String usercid_adminid=(String)session1.getAttribute("usercid_adminid");
              String usercid_company=(String)session1.getAttribute("usercid_company");
           String usercid_website=(String)session1.getAttribute("usercid_website"); 
-        	
-	
+ 
 if (session != null) {
 			if (session1.getAttribute("usercid_id") == null) {
 				response.sendRedirect("signout.jsp");
@@ -63,9 +62,7 @@ if (session != null) {
       <section class="content-header">
       <h1>
        Dashboard : Interaction Record 
-       
-      </h1>
-      
+     </h1>
     </section>
     <!-- Content Header (Page header) -->
    <%    
@@ -96,8 +93,6 @@ if (session != null) {
                  {curyear=contactsbymonth;}
                  if(contactsbyday != null && !contactsbyday.isEmpty())
                  {curmonth=contactsbyday;}
-                
-                    
  try{
    Connection con =Poul.getConnectionCRM();
   
@@ -106,8 +101,6 @@ if (session != null) {
         smt.setString(2,usercid_id);
         ResultSet rs=smt.executeQuery();
    while(rs.next()){
-       
-       
        date=rs.getString("timestamp");
        dbyear=date.substring(0,4);
             month=date.substring(5,7);
@@ -140,16 +133,7 @@ if (session != null) {
                                else if("27".equals(dbday)){ d27++;}
                                else if("28".equals(dbday)){ d28++;}
                                else if("29".equals(dbday)){ d29++;} else if("30".equals(dbday)){ d30++;} else if("31".equals(dbday)){ d31++;} else{}
-                              
-                              
-                              
-                              
-                              
-                              
-                              
-                              
-                              
-                              }
+                        }
        if(month.equals("01") && dbyear.equals(curyear)){
             jan++;
         }
@@ -218,9 +202,7 @@ if (session != null) {
         } else  if(direction.equalsIgnoreCase("Chat")){
             Chat++;
         }
-       
-       
-    }
+   }
      rs.close();
       smt.close();
       con.close();
@@ -229,7 +211,7 @@ if (session != null) {
  catch(Exception e)
  {
    String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"\n interactiondash.jsp-----\n"
-     + "LINE=232 + \n select timestamp,direction,status,priority from interactionrecord where useradminid="+usercid_adminid+" AND usercid="+usercid_id+"   ";
+     + "LINE=214 + \n select timestamp,direction,status,priority from interactionrecord where useradminid="+usercid_adminid+" AND usercid="+usercid_id+"   ";
      Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
       EmergencyEmail.send(e,errormsg);
 }
@@ -245,9 +227,7 @@ if (session != null) {
               <div class="small-box bg-aqua">
                 <div class="inner">
                   <h3>
-           
-                      
-                      <% out.print(openstatus);%></h3>
+                     <% out.print(openstatus);%></h3>
                   <p>Open Interaction</p>
                 </div>
                 <div class="icon">
@@ -356,18 +336,11 @@ if (session != null) {
       </div>
       <!-- /.row -->
    <div class="row">
-               
-       
         <div class="col-xs-12" id="tasksearch">
       
 	<%    java.util.Date date123=new java.util.Date();
         java.sql.Date sqlDate=new java.sql.Date(date123.getTime());
-       
-        
-                  
-              
-                String curday11=sqlDate.toString();
-              
+               String curday11=sqlDate.toString();
              String dbdate=null;
            int i=0,j=0,CH=0;
            String count1="0";
@@ -383,7 +356,7 @@ if (session != null) {
       con.close();    } catch(Exception e)
       {
            String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"\n interactiondash.jsp-----\n"
-     + "LINE=386 + \n SELECT count(id) FROM interactionrecord  where  useradminid="+usercid_adminid+" AND usercid="+usercid_id+"  and status=Open   ";
+     + "LINE=359 + \n SELECT count(id) FROM interactionrecord  where  useradminid="+usercid_adminid+" AND usercid="+usercid_id+"  and status=Open   ";
      Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
       EmergencyEmail.send(e,errormsg);
       }
@@ -394,16 +367,12 @@ if (session != null) {
         PreparedStatement smt=con.prepareStatement("SELECT id,timestamp,product,direction,status,priority FROM interactionrecord  where  useradminid=? AND usercid=?  and status='Open'  ");
        smt.setString(1, usercid_adminid);
         smt.setString(2, usercid_id);
-      
-       
-        ResultSet rs1=smt.executeQuery();
-     
-        while(rs1.next())
+       ResultSet rs1=smt.executeQuery();
+       while(rs1.next())
         {  
           for(j=1;j<=6;j++){
             taskdata1[i][j]=rs1.getString(j); 
-          }
-          
+          }         
            i++;  
         } 
      
@@ -415,9 +384,7 @@ if (session != null) {
      Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
       EmergencyEmail.send(e,errormsg); 
       }
-        
-                  
-      %>
+       %>
 
           <div class="box">
             <div class="box-header">
@@ -428,39 +395,32 @@ if (session != null) {
               <table id="example2" class="table table-bordered table-striped">
                 <thead>
                  <tr>
-                       <th>Date</th>
+                     <th>Date</th>
                     <th>Product</th>
                     <th>Direction</th>
-					<th>Status</th>
-                                        <th>Priority</th>
-                    
+		    <th>Status</th>
+                    <th>Priority</th>
                   </tr>
                 </thead>
                 <tbody>
               <% int m=0; for(m=1;m<=n1;m++) {
                        %>
                   <tr>
-                    
-                      <td ><a href="taskedit.jsp?tid=<%=taskdata1[m][1] %>"><% out.print(taskdata1[m][2].substring(0, 10)); %></a></td>
+                      <td ><a href="taskedit.jsp?2a2e2a746964=<%=taskdata1[m][1] %>"><% out.print(taskdata1[m][2].substring(0, 10)); %></a></td>
                     
                     <td><% out.print(taskdata1[m][3]); %></td>
                     <td><% out.print(taskdata1[m][4]); %>
-                          
-                          
                      </td>
                      <td> <span class="label label-<%=Poul.statusIRColor(taskdata1[m][5])  %>"><% out.print(taskdata1[m][5]); %></span>
                       </td>
                    <td> 
-                        
-                           <span class="label label-<%=Poul.statusIRPriorityColor(taskdata1[m][6])  %>"><% out.print(taskdata1[m][6]); %></span>
+                   <span class="label label-<%=Poul.statusIRPriorityColor(taskdata1[m][6])  %>"><% out.print(taskdata1[m][6]); %></span>
                         
                    </td>
                   </tr>
                   <% } %>
-                
                 </tbody>
-               
-              </table>
+             </table>
             </div>
             <!-- /.box-body -->
           </div>
@@ -482,8 +442,7 @@ if (session != null) {
   <option value="2020">2020</option>
                         </select> <input type="submit" value="ShowData">
                     </h3>
-
-                </form>
+              </form>
             </div>
             <div class="box-body">
               <div class="chart">
@@ -493,16 +452,13 @@ if (session != null) {
             <!-- /.box-body -->
           </div>
           <!-- /.box -->
-
-        </div>
+       </div>
         <!-- /.col (RIGHT) -->
 		   <div class="col-md-6">	
 	     <div class="box box-success">
             <div class="box-header with-border">
               <h3 class="box-title">Tasks by Status</h3>
-
-             
-            </div>
+          </div>
             <div class="box-body">
               <div class="chart">
               <canvas id="chartjs-4"  width="undefined" height="undefined"></canvas>
@@ -511,16 +467,10 @@ if (session != null) {
             <!-- /.box-body -->
           </div>
           <!-- /.box -->
-
-        </div>
+       </div>
         <!-- /.col (RIGHT) -->
       </div>
       <!-- /.row -->
-	
-
-	
-	  
-      
 	 <div class="row">
         <div class="col-md-12">	
 	     <div class="box box-success">
@@ -547,7 +497,7 @@ if (session != null) {
   <option value="10">October</option>
   <option value="11">November</option>
   <option value="12">December</option>
-                        </select>
+     </select>
   
   <input type="submit" value="ShowData">
                 </form>      
@@ -560,12 +510,10 @@ if (session != null) {
             <!-- /.box-body -->
           </div>
           <!-- /.box -->
-
-        </div>
+       </div>
         <!-- /.col (RIGHT) -->
     </div>   
-	 
-    </section>
+   </section>
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
@@ -652,7 +600,6 @@ if (session != null) {
             return false;
             }
 }
-   
        return true;
     }
 </script>

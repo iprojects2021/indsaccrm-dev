@@ -103,15 +103,13 @@ if (session != null) {
         while(rs.next()){
             
                contactcreated=rs.getString(1); 
-              
-            
         }
      rs.close();
       smt.close();
       con.close();   }
         catch(Exception e){
                   String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"\n dashboard.jsp-----\n"
-     + "LINE=133\n sselect count(*) from contact   where useradminid="+usercid_adminid+" and usercid="+requestcid+" and customertype=customer  ";
+     + "LINE=112\n sselect count(*) from contact   where useradminid="+usercid_adminid+" and usercid="+requestcid+" and customertype=customer  ";
      Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
       EmergencyEmail.send(e,errormsg);
       
@@ -135,15 +133,13 @@ if (session != null) {
         while(rs.next()){
             
                openSR=rs.getString(1); 
-              
-            
-        }
+       }
      rs.close();
       smt.close();
       con.close();   }
         catch(Exception e){
                   String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"\n dashboard.jsp-----\n"
-     + "LINE=194\n select count(*) from servicerequest where  where useradminid="+usercid_adminid+" and asignedto="+requestcid+" and status=Open or status=Follow Up or status=In Process  ";
+     + "LINE=142\n select count(*) from servicerequest where  where useradminid="+usercid_adminid+" and asignedto="+requestcid+" and status=Open or status=Follow Up or status=In Process  ";
      Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
       EmergencyEmail.send(e,errormsg);
       
@@ -229,8 +225,7 @@ if (session != null) {
                 <a href="pendingtsr.jsp" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
           </div>
             </div><!-- ./col -->
-          </div><!-- /.row -->
-   
+          </div><!-- /.row -->  
     </section>
 
    <!-- Main content -->
@@ -275,7 +270,7 @@ if (session != null) {
       smt.close();
       con.close();    } catch(Exception e){
                      String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"\n dashboard.jsp-----\n"
-     + "LINE=328\n select * from servicerequest where useradminid=? "+usercid_adminid+" and asignedto="+requestcid+"   ";
+     + "LINE=273\n select * from servicerequest where useradminid=? "+usercid_adminid+" and asignedto="+requestcid+"   ";
      Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
       EmergencyEmail.send(e,errormsg);
       }
@@ -286,8 +281,6 @@ if (session != null) {
   <% if(n3>0) { %>
         <div class="row">
 	 <div class="col-xs-12">
-      
-
           <div class="box box-info">
             <div class="box-header with-border">
               <h3 class="box-title">Pending Service Request Approval</h3>
@@ -358,12 +351,10 @@ if (session != null) {
                   </tr>
          
                   <% } %>
-                 
-               
-                </tbody>
-               
+                               
+                </tbody>              
               </table>
-                  </div>
+             </div>
             </div>
             <!-- /.box-body -->
            
@@ -395,11 +386,10 @@ if (session != null) {
       smt.close();
       con.close(); } catch(Exception e){
                    String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"\n dashboard.jsp-----\n"
-     + "LINE=441\n select count(*) from task where  where useradminid="+usercid_adminid+" and duedate='"+duedate+" ";
+     + "LINE=389\n select count(*) from task where  where useradminid="+usercid_adminid+" and duedate='"+duedate+" ";
      Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
       EmergencyEmail.send(e,errormsg);
-      
-      
+     
       }
       
        int n1=Integer.parseInt(count1);
@@ -427,12 +417,10 @@ if (session != null) {
       smt.close();
       con.close();    } catch(Exception e){ 
                    String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"\n dashboard.jsp-----\n"
-     + "LINE=469 \n select * from task where useradminid="+usercid_adminid+" and duedate='"+duedate+" ";
+     + "LINE=420 \n select * from task where useradminid="+usercid_adminid+" and duedate='"+duedate+" ";
      Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
-      EmergencyEmail.send(e,errormsg);
-      
-      }
-        
+      EmergencyEmail.send(e,errormsg);     
+      }       
         try{ Connection con=Poul.getConnectionCRM();
         PreparedStatement smt=con.prepareStatement("select count(*) from servicerequest where useradminid=? AND   duedate=? and (status=? or status=? or status=?) ");
         smt.setString(1,usercid_adminid);
@@ -446,13 +434,10 @@ if (session != null) {
       smt.close();
       con.close(); } catch(Exception e){
                    String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"\n dashboard.jsp-----\n"
-     + "LINE=441\n select count(*) from task where  where useradminid="+usercid_adminid+" and duedate='"+duedate+" ";
+     + "LINE=437\n select count(*) from task where  where useradminid="+usercid_adminid+" and duedate='"+duedate+" ";
      Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
       EmergencyEmail.send(e,errormsg);
-      
-      
-      }
-      
+     }
        int n122=Integer.parseInt(count1);
        String taskdata157[][]=new String[n122+1][55];
         try{ Connection con=Poul.getConnectionCRM();
@@ -478,10 +463,9 @@ if (session != null) {
       smt.close();
       con.close();    } catch(Exception e){ 
                    String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"\n dashboard.jsp-----\n"
-     + "LINE=469 \n select * from task where useradminid="+usercid_adminid+" and duedate='"+duedate+" ";
+     + "LINE=466 \n select * from task where useradminid="+usercid_adminid+" and duedate='"+duedate+" ";
      Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
-      EmergencyEmail.send(e,errormsg);
-      
+      EmergencyEmail.send(e,errormsg);     
       }        
                   %>
 <div class="row">
@@ -489,10 +473,8 @@ if (session != null) {
                <!-- TABLE: LATEST ORDERS -->
           <div class="box box-info">
             <div class="box-header with-border">
-              <h3 class="box-title">Today's Due Date
-             
+              <h3 class="box-title">Today's Due Date           
              </h3>
-
             </div>
             <!-- /.box-header -->
             <div class="box-body">
@@ -559,7 +541,6 @@ if (session != null) {
          
                   <% } %>
                       
-                      
                 <%   m=0; for(m=n1;m>0;m--) {  %>
                   <tr>
                       <td><a href="taskedit.jsp?2a2e2a746964=<%=Nd.Encrypt(taskdata156[m][1]) %>"><% out.print("TSK"+taskdata156[m][1]); %></a></td>
@@ -609,11 +590,9 @@ if (session != null) {
                   </tr>
          
                   <% } %>
-                 
-               
-                </tbody>
-                </table>
-              </div>
+               </tbody>
+              </table>
+             </div>
               <!-- /.table-responsive -->
             </div>
             <!-- /.box-body -->
@@ -642,12 +621,10 @@ if (session != null) {
       smt.close();
       con.close();   } catch(Exception e){ 
                     String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"\n dashboard.jsp-----\n"
-     + "LINE=597 \n count(*) from task where assign=? and useradminid=? "+usercid_adminid+"   ";
+     + "LINE=624 \n count(*) from task where assign=? and useradminid=? "+usercid_adminid+"   ";
      Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
-      EmergencyEmail.send(e,errormsg);
-     
-      }
-      
+      EmergencyEmail.send(e,errormsg);    
+      }     
        int n=Integer.parseInt(count);
        String taskdata11[][]=new String[n+1][55];
         try{ Connection con=Poul.getConnectionCRM();
@@ -663,29 +640,25 @@ if (session != null) {
         { 
            for( j=1;j<=32;j++)
           {
-            taskdata11[i][j]=rs.getString(j); 
-           
+            taskdata11[i][j]=rs.getString(j);           
           }
            ++i;  
         }
     rs.close();
       smt.close();
-      con.close();    } catch(Exception e){ 
-                    String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"\n dashboard.jsp-----\n"
-     + "LINE=627  \n * from task where assign=? and useradminid=? "+usercid_adminid+"   ";
+      con.close();    
+        } catch(Exception e){ 
+        String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"\n dashboard.jsp-----\n"
+     + "LINE=652  \n * from task where assign=? and useradminid=? "+usercid_adminid+"   ";
      Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
       EmergencyEmail.send(e,errormsg);
-     
-      
       }
       %>
 	
   <!-- ./row -->	
         <div class="row" id="opentask">
 	 <div class="col-xs-12">
-      
-
-          <div class="box box-danger">
+         <div class="box box-danger">
             <div class="box-header">
               <h3 class="box-title">Task Assigned to Me</h3>
             </div>
@@ -753,13 +726,10 @@ if (session != null) {
                   </tr>
          
                   <% } %>
-                 
-               
-                </tbody>
-               
-              </table>
-                 </div>
-            </div>
+               </tbody>
+             </table>
+           </div>
+         </div>
             <!-- /.box-body -->
            
             <!-- /.box-footer -->
@@ -767,7 +737,6 @@ if (session != null) {
           <!-- /.box -->
         </div>
         <!-- /.col -->
-	
 
 </div> <!--/.row  -->
         
@@ -789,14 +758,11 @@ if (session != null) {
       smt.close();
       con.close();    } catch(Exception e){ 
                        String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"\n dashboard.jsp-----\n"
-     + "LINE=740  \n * from task where assign=? and useradminid=? "+usercid_adminid+"   ";
+     + "LINE=761  \n * from task where assign=? and useradminid=? "+usercid_adminid+"   ";
      Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
       EmergencyEmail.send(e,errormsg);
-     
-      
-      }
-      
-        n=Integer.parseInt(count);
+     }
+       n=Integer.parseInt(count);
        String taskdata[][]=new String[n+1][55];
         try{ Connection con=Poul.getConnectionCRM();
         PreparedStatement smt=con.prepareStatement("select * from servicerequest   where useradminid=? and asignedto=? and (status=? or status=? or status=?)");
@@ -811,29 +777,24 @@ if (session != null) {
         { 
            for( j=1;j<=32;j++)
           {
-            taskdata[i][j]=rs.getString(j); 
-           
+            taskdata[i][j]=rs.getString(j);           
           }
            ++i;  
         }
    rs.close();
       smt.close();
-      con.close();     } catch(Exception e){ 
-      
-                       String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"\n dashboard.jsp-----\n"
-     + "LINE=772  \n * from task where assign=? and useradminid=? "+usercid_adminid+"   ";
+      con.close();    
+        } catch(Exception e){      
+        String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"\n dashboard.jsp-----\n"
+     + "LINE=789  \n * from task where assign=? and useradminid=? "+usercid_adminid+"   ";
      Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
       EmergencyEmail.send(e,errormsg);
-     
-      
       }
       %>
 	
   <!-- ./row -->	
         <div class="row" id="openSR">
 	 <div class="col-xs-12">
-      
-
           <div class="box box-warning">
             <div class="box-header">
               <h3 class="box-title">SR  Assigned to Me</h3>
@@ -904,12 +865,10 @@ if (session != null) {
                    <td><%=Db.getEmployeeName(taskdata[m][10]) %></td>
                   </tr>
                   <% } %>
-                 
                
                 </tbody>
-               
-              </table>
-                 </div>
+             </table>
+            </div>
             </div>
             <!-- /.box-body -->
            
@@ -918,24 +877,15 @@ if (session != null) {
           <!-- /.box -->
         </div>
         <!-- /.col -->
-	
 
 </div> <!--/.row  -->
 	
 	 <div class="row">
   <div class="col-md-6">
-		
-		
-
-        </div>
+      </div>
         <!--/.col (left) -->
-		
-		
-		
 
 </div> <!--/.row  -->
-	
-	
 
 	 
 	<%
@@ -952,17 +902,15 @@ if (session != null) {
         while(rs.next()){  count1=rs.getString(1);  }
       rs.close();
       smt.close();
-      con.close();  } catch(Exception e){ 
-                       String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"\n dashboard.jsp-----\n"
-     + "LINE=902  \n * from task where assign=? and useradminid=? "+usercid_adminid+"   ";
+      con.close();  
+       } catch(Exception e){ 
+       String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"\n dashboard.jsp-----\n"
+     + "LINE=908  \n * from task where assign=? and useradminid=? "+usercid_adminid+"   ";
      Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
       EmergencyEmail.send(e,errormsg);
-     
-      
-      }
-      
-        n1=Integer.parseInt(count1);
-String taskdata1[][]=new String[n1+1][55];
+     }
+       n1=Integer.parseInt(count1);
+       String taskdata1[][]=new String[n1+1][55];
         try{ Connection con=Poul.getConnectionCRM();
         PreparedStatement smt=con.prepareStatement("select * from interactionrecord where useradminid=? and usercid=?  and (status=? or status=? or status=?)");
         smt.setString(1,usercid_adminid);
@@ -976,27 +924,23 @@ String taskdata1[][]=new String[n1+1][55];
         { 
            for( j=1;j<=32;j++)
           {
-            taskdata1[i][j]=rs.getString(j); 
-           
+            taskdata1[i][j]=rs.getString(j);          
           }
            ++i;  
         }
       rs.close();
       smt.close();
-      con.close();  } catch(Exception e){ 
-                       String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"\n dashboard.jsp-----\n"
-     + "LINE=933  \n * from task where assign=? and useradminid=? "+usercid_adminid+"   ";
+      con.close();  
+        } catch(Exception e){ 
+        String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"\n dashboard.jsp-----\n"
+     + "LINE=936  \n * from task where assign=? and useradminid=? "+usercid_adminid+"   ";
      Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
       EmergencyEmail.send(e,errormsg);
-     
-      
-      }
+     }
       %>
   
 	 <div class="row">
         <div class="col-xs-12">
-      
-
           <div class="box box-primary">
             <div class="box-header">
               <h3 class="box-title">Interaction Record </h3>
@@ -1018,7 +962,7 @@ String taskdata1[][]=new String[n1+1][55];
                 <tbody>
                 <% int m1=0; for(m1=n1;m1>0;m1--) {  %>
                   <tr>
-                      <td><a  href="iredit.jsp?tid=<%=taskdata1[m1][1] %>&cid=<%=taskdata1[m1][13] %>&type=lead"><% out.print(taskdata1[m1][2]); %></a></td>
+                      <td><a  href="iredit.jsp?2a2e2a746964=<%=taskdata1[m1][1] %>&2a2e2a636964=<%=Nd.Encrypt(taskdata1[m1][13]) %>&2a2e2a74797065="><% out.print(taskdata1[m1][2]); %></a></td>
                     <td><% out.print(taskdata1[m1][9]); %></td>
                     <td><% out.print(taskdata1[m1][4]); %></td>
                     <td><% if(taskdata1[m1][5].equals("Open")) {   %>
@@ -1041,15 +985,11 @@ String taskdata1[][]=new String[n1+1][55];
                         <% } %>
                       
                    </td>
-                     <td><%=Db.getEmployeeName(taskdata1[m1][12])   %></td>
-                 
+                     <td><%=Db.getEmployeeName(taskdata1[m1][12])   %></td>                
                   </tr>
          
                   <% } %>
-                 
-               
-                </tbody>
-               
+                </tbody>             
               </table>
                  </div>
             </div>
@@ -1060,10 +1000,7 @@ String taskdata1[][]=new String[n1+1][55];
         <!-- /.col -->
       </div>
       <!-- /.row -->
-
-	
-      
-    </section>
+  </section>
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->

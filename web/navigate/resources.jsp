@@ -95,7 +95,7 @@
         <div class="container">
             <div class="cwp4-two row">
             <div class="col-xl-6 cwp4-image ">
-                <img src="assets/images/crm.jpg" alt="product" class="img-responsive ">
+                <img src="assets/images/indsac-crm.gif" alt="product" class="img-responsive ">
             </div>
                 <div class="cwp4-text col-xl-6">
                     <h4>What is CRM?</h4>

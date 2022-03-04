@@ -203,7 +203,7 @@ and access medical histories of patients to provide better care.<br>The reportin
 <br>The task management module of the CRM allows staff to add a task, assign it to an individual staff member, and track the progress, deadline, priority, and completion of the job.
 				   </div>
 				 <div class="col-xl-6 cwp4-image ">
-                <img src="assets/images/h2.png" alt="product" class="img-responsive ">
+                <img src="assets/images/indsac-management-processes.gif" alt="product" class="img-responsive ">
             </div>
             </div>
         </div>
@@ -216,7 +216,7 @@ and access medical histories of patients to provide better care.<br>The reportin
         <div class="container">
             <div class="cwp4-two row">
             <div class="col-xl-6 cwp4-image ">
-                <img src="assets/images/h5.png" alt="product" class="img-responsive ">
+                <img src="assets/images/indsac-multiple-platforms.gif" alt="product" class="img-responsive ">
             </div>
                 <div class="cwp4-text col-xl-6">
                     <h4> Availability on Multiple platforms</h4>

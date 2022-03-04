@@ -130,7 +130,7 @@
                     6. Automatically capture e-mails to and from your CRM contacts to your activities timeline.</p>
                    </div>
 	 <div class="col-xl-6 cwp4-image ">
-                <img src="assets/images/email2.png" alt="product" class="img-responsive ">
+                <img src="assets/images/indsac-email2.gif" alt="product" class="img-responsive ">
             </div>
             </div>
            </div><br><br><br>
@@ -156,7 +156,7 @@
                 </div>
                 
                 <div class="col-xl-6 cwp4-image ">
-                <img src="assets/images/email3.jpg" alt="product" class="img-responsive ">
+                <img src="assets/images/indsac-email3.gif" alt="product" class="img-responsive ">
             </div>
 	
             </div>
@@ -170,7 +170,7 @@
         <div class="container">
             <div class="cwp4-two row">
             <div class="col-xl-6 cwp4-image ">
-                <img src="assets/images/email7.jpg" alt="product" class="img-responsive ">
+                <img src="assets/images/indsac-email4.gif" alt="product" class="img-responsive ">
             </div>
                 <div class="cwp4-text col-xl-6">
                     <h3 class="header-name">Email Attachments </h3> <br>
@@ -208,7 +208,7 @@
         <div class="container">
             <div class="cwp4-two row">
             <div class="col-xl-6 cwp4-image ">
-                <img src="assets/images/email4.png" alt="product" class="img-responsive ">
+                <img src="assets/images/indsac-email5.gif" alt="product" class="img-responsive ">
             </div>
                 <div class="cwp4-text col-xl-6">
                     <h3 class="header-name">Email status updates </h3> <br>

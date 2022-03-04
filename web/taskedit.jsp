@@ -59,8 +59,7 @@
           String usercid_adminid=(String)session1.getAttribute("usercid_adminid");
              String usercid_company=(String)session1.getAttribute("usercid_company");
           String usercid_website=(String)session1.getAttribute("usercid_website"); 
-        	
-	
+ 	
 if (session != null) {
 			if (session1.getAttribute("usercid_id") == null) {
 				response.sendRedirect("signout.jsp");
@@ -77,14 +76,13 @@ if (session != null) {
        String pagetype=request.getParameter("pagetype");
             String type=request.getParameter("type");
           String tid=request.getParameter("2a2e2a746964");
-          if(tid!=null){tid=Nd.Decrypt(tid);}
+          if(tid!=null){tid=Nd.Encrypt(tid);}
       String cid=Poul.escapeHtml(request.getParameter("cid"));
        
     Log.writeLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" ,"+request.getRemoteAddr()+" ,useradminid="+usercid_adminid+" ,usercid="+usercid_id+",tid="+tid+",cid="+cid+" --Entering taskedit.jsp----------Task Edit---");
     
           try{
-           
-        Connection con=Poul.getConnectionCRM();
+       Connection con=Poul.getConnectionCRM();
         PreparedStatement smt=con.prepareStatement("select * from task where id=? ");
         smt.setString(1,tid);
         
@@ -100,24 +98,18 @@ if (session != null) {
       con.close();    }
         catch(Exception e){
       String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"\n taskedit.jsp-----\n"
-     + "LINE=92\nselect * from task where id="+tid+"  ";
+     + "LINE=101\nselect * from task where id="+tid+"  ";
      Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
-      EmergencyEmail.send(e,errormsg);
-     
+      EmergencyEmail.send(e,errormsg);    
                 }
        //System.out.println(al.size());
-       
-     
-     
       %>
     
     <%  String msg=null;
           
           String message="";
        if("taskedit".equals(pagetype)){
-         
-     
-        String subject=Poul.escapeHtml(request.getParameter("subject"));
+       String subject=Poul.escapeHtml(request.getParameter("subject"));
         String datepicker=Poul.escapeHtml(request.getParameter("datepicker"));
         String importance=Poul.escapeHtml(request.getParameter("importance"));
         String status=Poul.escapeHtml(request.getParameter("status"));
@@ -158,17 +150,13 @@ Statement st=c.createStatement();
                       am=rsmd.getColumnName(13);
                        an=rsmd.getColumnName(14);
                         ap=rsmd.getColumnName(15);
-                      
-         
-         
   st.addBatch("update task set   "+ad+"='"+subject+"',"+ae+"='"+datepicker+"',"+af+"='"+importance+"',"+ag+"='"+status+"',"+al+"='"+notes+"',"+am+"='"+assignedto+"'  where id='"+tid+"'");
    String logstatus="Task Update";
       rs3 = st.executeQuery("select  id  FROM tasklog  ");
   String SR="0";
       while(rs3.next())
         
-          {SR=rs3.getString(1);
-          
+          {SR=rs3.getString(1);        
           }
           int  i = Integer.parseInt( SR ); 
            ++i;  
@@ -177,23 +165,19 @@ Statement st=c.createStatement();
         java.sql.Timestamp sqlTime=new java.sql.Timestamp(date.getTime());
        
              st.addBatch("insert into tasklog values('"+i+"','"+sqlTime+"','"+tid+"','"+subject+"','"+datepicker+"','"+importance+"','"+status+"','','"+usercid_adminid+"','"+usercid_id+"','"+cid+"','"+notes+"','"+assignedto+"','"+logstatus+"','','','','','','','','','','','','','','','','','','','')");
-       
-            
        st.executeBatch(); 
         String requestcid=cid;
         session.setAttribute("requestcid",cid);
-             msg="success";    
-       
+             msg="success";          
      rs3.close();
       st.close();
       c.close();    }
         catch(Exception e)
         {
       String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"\n taskedit.jsp-----\n"
-     + "LINE=183\nupdate task where useradminid="+usercid_adminid+" AND usercid=?"+usercid_id+"  ";
+     + "LINE=178\nupdate task where useradminid="+usercid_adminid+" AND usercid=?"+usercid_id+"  ";
      Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
-      EmergencyEmail.send(e,errormsg);
-     
+      EmergencyEmail.send(e,errormsg);   
         }
         finally{
         
@@ -229,14 +213,12 @@ Statement st=c.createStatement();
       con.close();    }
         catch(Exception e){
       String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"\n taskedit.jsp-----\n"
-     + "LINE=230\nselect * from task where id="+tid+"  ";
+     + "LINE=216\nselect * from task where id="+tid+"  ";
      Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
       EmergencyEmail.send(e,errormsg);
      
                 }
        //System.out.println(al.size());
-       
-      
      
       %>
 <div class="wrapper">
@@ -269,12 +251,8 @@ Statement st=c.createStatement();
                       data=Db.getCustomerName(al[11], al[9]); if(("customer").equals(data[4])){data[4]="contact";}
                       %>
                       <a href="<%=data[4] %>details.jsp?esfhrttrfhardersg=<%=Nd.Encrypt(al[11]) %>&2a2e2a74797065=<%=Nd.Encrypt(data[4]) %>"><button type="button" class="col-sm-10 btn btn-warning pull-left"> <% if("".equals(data[2])||"null".equals(data[2])){ out.print(data[3]);} else {out.print(data[2]);} %> </button></a>
-          
-          
-          
-                  </div>
-                   </div> <br><br> <% }    %>
-         
+                 </div>
+                   </div> <br><br> <% }    %>        
 			    <div class="form-group">
                   <label for="inputEmail3" class="col-sm-2 control-label"> Subject</label>
 
@@ -288,8 +266,7 @@ Statement st=c.createStatement();
         %>
 				<div class="form-group">
                 <label class="col-sm-2 control-label">Due Date</label>
-
-                <div class="input-group date" class="col-sm-10 ">
+              <div class="input-group date" class="col-sm-10 ">
                   <div class="input-group-addon">
                     <i class="fa fa-calendar"></i>
                   </div> 
@@ -297,8 +274,7 @@ Statement st=c.createStatement();
                 </div>
                 <!-- /.input group -->
               </div>
-              <!-- /.form group -->
-           
+              <!-- /.form group -->           
 				 <div class="form-group">
                   <label for="inputPassword3" class="col-sm-2 control-label">Priority</label>
 
@@ -311,16 +287,14 @@ Statement st=c.createStatement();
                           <option value="Critical Situation"> Critical Situation</option>
                           <option value="Normal">Normal</option>
                           <option value="Midium">Midium</option>
-                          <option value="Low">Low</option>
-                          
+                          <option value="Low">Low</option>                        
                      </select>
                   </div>
-                                 </div>   <br><br><br>
+                          </div>   <br><br><br>
                                  
-				     <div class="form-group">
+	         <div class="form-group">
                   <label for="inputPassword3" class="col-sm-2 control-label">Status</label>
-
-                  <div class="col-sm-10">
+                 <div class="col-sm-10">
                  <select id="status" name="status" class="form-control" value="<%=al[7] %>">
                      <option value="<%=al[7] %>"> <%=al[7] %></option>
                           <option value="Open"> Open</option>
@@ -333,23 +307,17 @@ Statement st=c.createStatement();
                   </div>
                 </div>
             </div>
-              <!-- /.box-body -->
-              
-          </div>
+                <!-- /.box-body -->
+        </div>
           <!-- /.box -->
-        
-
         </div>
         <!--/.col (left) -->
-      
         <div class="col-md-6">
           <!-- Horizontal Form -->
            <!-- general form elements -->
           <div class="box">
-           
             <!-- /.box-header -->
             <!-- form start -->
-           
               <div class="box-body">
 			  <div class="form-group">
                   <label for="inputPassword3" class="col-sm-2 control-label">Assigned To</label>
@@ -374,22 +342,18 @@ Statement st=c.createStatement();
 					 
 			  <div class="form-group">
                   <label for="inputPassword3" class="col-sm-2 control-label"> Add Notes</label>
-
-                  <div class="col-sm-10">
+                <div class="col-sm-10">
                  <textarea class="form-control" rows="2" id="notes" name="notes"  ></textarea>
                  </div>
                 </div>
-				
 		  <div class="form-group">
                   <label for="inputPassword3" class="col-sm-2 control-label"> Previous Notes</label>
-
-                  <div class="col-sm-10">
+                <div class="col-sm-10">
                       <textarea class="form-control" rows="5" id="previousnotes" name="previousnotes" readonly placeholder="<%=al[12] %>" ><%=al[12] %></textarea>
                  <input type="hidden" name="pagetype" value="taskedit">
                  <input type="hidden" name="2a2e2a746964" value="<%=Nd.Encrypt(tid) %>">
                   </div>
                 </div>		
-              
               </div>
               <!-- /.box-body -->
 		    <div class="box-footer clearfix no-border">
@@ -402,7 +366,6 @@ Statement st=c.createStatement();
                  <button type="submit" class="btn btn-info pull-right" onClick="return validateForm()" type="submit"> Save</button>
           <%  } %>
                  </div>
-           
             </form>
           </div>
           <!-- /.box -->
@@ -432,11 +395,9 @@ Statement st=c.createStatement();
             </div>
                <input type="hidden" class="form-control"  name="general"  value="<%=Nd.Encrypt(al[1])  %>" >
                  <input type="hidden" class="form-control"  name="type"  value="taskfile" >
-                     
               </div>
               <!-- /.box-body -->
-
-              <div class="box-footer">
+             <div class="box-footer">
                 <button type="submit" onclick="return processing()" class="btn btn-primary">Submit</button>
               </div>
             </form>
@@ -501,12 +462,10 @@ Statement st=c.createStatement();
       smt.close();
       con.close();    } catch(Exception e){
           String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"\n taskedit.jsp-----\n"
-     + "LINE=456\nselect count(*) from tasklog where tid="+tid+" ";
+     + "LINE=465\nselect count(*) from tasklog where tid="+tid+" ";
      Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
-      EmergencyEmail.send(e,errormsg); 
-     
+      EmergencyEmail.send(e,errormsg);    
       }
-      
         n=Integer.parseInt(count1);
         String requestdata[][]=new String[n+1][55];
         try{ Connection con=Poul.getConnectionCRM();
@@ -536,8 +495,6 @@ Statement st=c.createStatement();
 	
 	<div class="row">
 	 <div class="col-xs-12">
-      
-
           <div class="box">
             <div class="box-header">
               <h3 class="box-title">Task History </h3>
@@ -580,10 +537,8 @@ Statement st=c.createStatement();
          
                   <% } %>
                  
-               
                 </tbody>
-               
-              </table>
+             </table>
             </div>
             <!-- /.box-body -->
          
@@ -592,7 +547,6 @@ Statement st=c.createStatement();
           <!-- /.box -->
         </div>
         <!-- /.col -->
-	
 
 </div> <!--/.row  -->		
 	
@@ -603,7 +557,6 @@ Statement st=c.createStatement();
               <div class="modal-body">
                  Processing     <i  class="fa fa-spinner fa-spin" > </i>
               </div>
-             
             </div>
             <!-- /.modal-content -->
           </div>
@@ -635,9 +588,7 @@ Statement st=c.createStatement();
 	 <div class="overlay"   >
              
             </div>
-		
-		
-    </section>
+   </section>
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->

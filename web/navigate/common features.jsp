@@ -168,7 +168,7 @@ CRM automates and streamlines this process for business. It improves order proce
 It captures and organizes company or division or household information and manages relationship.</p>
                 </div>
 				 <div class="col-xl-6 cwp4-image ">
-                <img src="assets/images/acc.png" alt="product" class="img-responsive ">
+                <img src="assets/images/indsac-account-management.gif" alt="product" class="img-responsive ">
             </div>
             </div>
         </div>
@@ -181,7 +181,7 @@ It captures and organizes company or division or household information and manag
         <div class="container">
             <div class="cwp4-two row">
             <div class="col-xl-6 cwp4-image ">
-                <img src="assets/images/camp.png" alt="product" class="img-responsive ">
+                <img src="assets/images/indsac-campaign-management.gif" alt="product" class="img-responsive ">
             </div>
                 <div class="cwp4-text col-xl-6">
                     <h4>Campaign Management</h4>

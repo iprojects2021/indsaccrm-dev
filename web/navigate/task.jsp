@@ -102,7 +102,7 @@
             </div>
             <div class="cwp4-two row">
             <div class="col-xl-6 cwp4-image ">
-                <img src="assets/images/task1.gif" alt="product" class="img-responsive ">
+                <img src="assets/images/indsac-task.gif" alt="product" class="img-responsive ">
             </div>
                 <div class="cwp4-text col-xl-6">
                    
@@ -130,7 +130,7 @@
                     6. Organize your organization.</p>
                    </div>
 	 <div class="col-xl-6 cwp4-image ">
-                <img src="assets/images/task2.gif" alt="product" class="img-responsive ">
+                <img src="assets/images/indsac-task1.gif" alt="product" class="img-responsive ">
             </div>
             </div>
             <br> <br> 
@@ -165,7 +165,7 @@
                    </p>
                    </div>
 	 <div class="col-xl-6 cwp4-image ">
-                <img src="assets/images/task3.jpg" alt="product" class="img-responsive ">
+                <img src="assets/images/indsac-task3.gif" alt="product" class="img-responsive ">
             </div>
             </div>
             </div><br><br>

@@ -156,7 +156,7 @@
                 </div>
                 
                 <div class="col-xl-6 cwp4-image ">
-                <img src="assets/images/cm5.png" alt="product" class="img-responsive ">
+                <img src="assets/images/indsac-email-campaigns.gif" alt="product" class="img-responsive ">
             </div>
 	
             </div>

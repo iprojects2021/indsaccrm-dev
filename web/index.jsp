@@ -17,7 +17,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>Increase Sales,Customer Relationship | indsaccrm.com</title>
-
+    
     <!-- Template CSS -->
     <link rel="stylesheet" href="navigate/assets/css/style-starter.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700&display=swap" rel="stylesheet">
@@ -211,7 +211,7 @@
     </div>
     </section>
   </div>
- 
+
 <section class="w3l-call-to-action_9">
     <div class="call-w3">
         <div class="container">
@@ -422,7 +422,7 @@
 					</div>
 					
 				<div class="col-lg- col-md- col-12 copyright-grid ">
-					<p class="copy-footer-29">© 2020 | All rights reserved | Design by <a
+					<p class="copy-footer-29">Â© 2020 | All rights reserved | Design by <a
 							href="https://indsac.com" target="_blank"> INDSAC SOFTECH</a>
 					</p>
 				</div>

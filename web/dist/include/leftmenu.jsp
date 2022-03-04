@@ -420,8 +420,6 @@ if (session != null) {
             </span>
           </a>
           <ul class="treeview-menu">
-               <li ><a href="profilesetting.jsp"><i class="fa fa-dashboard"></i> Profile Setting</a></li>
-       
            
            <% if("admin".equals( useraccountype)){  %>
            <li ><a href="userprofile.jsp"><i class="fa fa-dashboard"></i>User Profile </a></li>
@@ -429,7 +427,6 @@ if (session != null) {
            <li ><a href="invoicesetting.jsp"><i class="fa fa-dashboard"></i> Invoice Setting</a></li>
            <li ><a href="hrdashboard.jsp"><i class="fa fa-dashboard"></i> HRM</a></li>
           <li ><a href="addemployee.jsp"><i class="fa fa-dashboard"></i> Add Employee</a></li>
-          <li ><a href="businessprofile.jsp"><i class="fa fa-dashboard"></i> Business Profile </a></li>
            <% }  %>
           </ul>
               

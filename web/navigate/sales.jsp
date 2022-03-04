@@ -135,7 +135,7 @@
                    </p>
                    </div>
 	 <div class="col-xl-6 cwp4-image ">
-                <img src="assets/images/sales-automation.jpg" alt="product" class="img-responsive ">
+                <img src="assets/images/indsac-sales-automation.gif" alt="product" class="img-responsive ">
             </div>
             </div>
             </div>

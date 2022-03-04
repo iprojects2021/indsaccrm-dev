@@ -98,7 +98,7 @@
         <div class="container">
             <div class="cwp4-two row">
             <div class="col-xl-6 cwp4-image ">
-                <img src="assets/images/CRM1.png" alt="product" class="img-responsive ">
+                <img src="assets/images/indsac-contact-management.gif" alt="product" class="img-responsive ">
             </div>
                 <div class="cwp4-text col-xl-6">
                     <h4> Contact management</h4>
@@ -130,7 +130,7 @@ Using CRM, business can automate task management process.
 It creates and assigns tasks among employees based on their skill set, availability, location etc.</p>
                 </div>
 				 <div class="col-xl-6 cwp4-image ">
-                <img src="assets/images/task.jpg" alt="product" class="img-responsive ">
+                <img src="assets/images/indsac-task3.gif" alt="product" class="img-responsive ">
             </div>
             </div>
         </div>
@@ -145,7 +145,7 @@ It creates and assigns tasks among employees based on their skill set, availabil
         <div class="container">
             <div class="cwp4-two row">
             <div class="col-xl-6 cwp4-image ">
-                <img src="assets/images/lead1.jpg" alt="product" class="img-responsive ">
+                <img src="assets/images/indsac-lead-management.gif" alt="product" class="img-responsive ">
             </div>
                 <div class="cwp4-text col-xl-6">
                     <h4> Lead management</h4>

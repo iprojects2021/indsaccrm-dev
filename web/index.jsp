@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>Increase Sales,Customer Relationship | indsaccrm.com</title>
-
+    
     <!-- Template CSS -->
     <link rel="stylesheet" href="navigate/assets/css/style-starter.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700&display=swap" rel="stylesheet">
@@ -167,7 +167,7 @@
     </div>
     </section>
   </div>
- 
+
 <section class="w3l-call-to-action_9">
     <div class="call-w3">
         <div class="container">
@@ -319,7 +319,6 @@
     </div>
 </section>
 <!-- grids block 4 -->
-
 
 
 <section class="w3l-footers-20">

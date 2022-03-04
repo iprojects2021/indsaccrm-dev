@@ -145,7 +145,7 @@
                 <div class="contact-gtids ">
                     <span class="fa fa-phone" aria-hidden="true"></span>
                 <h4>Phone Number</h4>
-                <a href="tel:+7-800-999-800">
+                <a href="tel:+91 7676289081">
                     <p class="contact-text-sub">+91 7676289081</p>
                 </a>
                
@@ -156,7 +156,7 @@
                     <div class="contact-gtids ">
                         <span class="fa fa-building" aria-hidden="true"></span>
                     <h4>Address Line</h4>
-                <p class="contact-text-sub">373, Aswath Nagar, Bengaluru, 2nd Main Road, Marathahalli, Bangalore - 560037, Near Annapoorna Theatre</p>
+                    <p class="contact-text-sub">INDSAC SOFTECH  <br> Manyata Embassy Business Park Ground Floor, E-1, Nagavara, Bengaluru, Karnataka 560045</p>
     
             </div>
         </div>
@@ -204,7 +204,7 @@
             </form>
                    
              <div class=" contact-map">
-                   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15552.882637193943!2d77.7034409!3d12.9577274!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x357fd0906e5de67e!2sIndsac%20Softech!5e0!3m2!1sen!2sin!4v1614863435029!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> 
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15547.339832652282!2d77.6206769!3d13.0461752!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x357fd0906e5de67e!2sIndsac%20Softech!5e0!3m2!1sen!2sin!4v1646367013019!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
     </div>

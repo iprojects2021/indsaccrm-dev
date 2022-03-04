@@ -8,6 +8,7 @@ package email;
 
 import blezz.EmailUtility;
 import blezz.Nd;
+import com.oreilly.servlet.multipart.ExceededSizeException;
 import java.io.IOException;
 import java.util.Random;
 import javax.servlet.http.HttpServletRequest;
@@ -27,10 +28,10 @@ public class EmergencyEmail {
      String port;
      String user;
      String pass;
-   host="smtp.gmail.com";port="587";user="indsaccrmservice@gmail.com";pass="polo9070321";
+   //host="smtp.gmail.com";port="587";user="indsaccrmservice@gmail.com";pass="polo9070321";
   
-     // host="mail.indsaccrm.com";port="587";user="emergency@indsaccrm.com";
-     // pass=Nd.Decrypt("2a2e2a656d657267656e637940323032316d61696c");
+      host="103.92.235.138";port="465";user="emergency@indsaccrm.com";
+      pass=Nd.Decrypt("2a2e2a656d657267656e637940323032316d61696c");
     HttpServletRequest request = null; 
     HttpServletResponse response=null;
       

@@ -98,13 +98,13 @@
                 <div class="cwp4-text col-xl-6">
                     <h4>CRM Analysis</h4>
 <p class="para">Data analysis is defined as a process of cleaning, transforming, and modeling data to discover useful 
-    information for business decision-making. The purpose of Data Analysis is to extract useful information from data and
-    taking the decision based upon the data analysis.
-                    </p>
+    information for business decision-making. The purpose of Data Analysis is to extract useful information from data 
+    and make decisions based upon the data analysis.</p>
                     <br>
-                    <p class="para"> If your business is not growing, then you have to look back and acknowledge your mistakes and make a plan again without repeating those mistakes. 
-                            And even if your business is growing, then you have to look forward to making the business to grow more. 
-                        All you need to do is analyze your business data and business processes.</p>
+                    <p class="para"> If your business is not growing, then you have to look back and acknowledge your 
+                        mistakes and make a plan again without repeating those mistakes. And even if your business is 
+                        growing, then you have to look forward to making the business grow more. All you need to do is 
+                        analyze your business data and business processes.</p>
                 </div>
             </div>
         </div>
@@ -122,7 +122,7 @@
 Data Analysis consists of the following phases: <br> <br>     
         1. Data Requirement Gathering<br>
         2. Data Collection<br> 
-        3. Data Cleaningn<br> 
+        3. Data Cleaning<br> 
         4. Data Analysis<br>
         5. Data Interpretation<br>
         6. Data Visualization</p>
@@ -135,29 +135,31 @@ Data Analysis consists of the following phases: <br> <br>
 <p class="para"> There are several types of Data Analysis techniques that exist based on business and technology.<br>
     However, the major Data Analysis methods are:<br><br>    
     
-    1. Text Analysis : Text Analysis is also referred to as Data Mining. It is one of the methods of data analysis to discover 
-    a pattern in large data sets using databases or data mining tools. It used to transform raw data into business information. 
-    Business Intelligence tools are present in the market which is used to take strategic business decisions. Overall it offers 
-    a way to extract and examine data and deriving patterns and finally interpretation of the data.<br><br>
+    1. Text Analysis: Text Analysis is also referred to as Data Mining. It is one of the methods of data analysis to 
+    discover a pattern in large data sets using databases or data mining tools. It is used to transform raw data into 
+    business information. Business Intelligence tools are present in the market which are used to make strategic business
+    decisions. Overall it offers a way to extract and examine data and derive patterns and finally interpretation of the 
+    data.<br><br>
      
-    2. Diagnostic Analysis : Diagnostic Analysis shows "Why did it happen?" by finding the cause from the insight found in <br><br>
+    2. Diagnostic Analysis: Diagnostic Analysis shows "Why did it happen?" by finding the cause from the insight found in
+ <br><br>
         
     3. Statistical Analysis. Statistical Analysis shows "What happen?" by using past data in the form of dashboards. 
-    Statistical Analysis includes collection, Analysis, interpretation, presentation, and modeling of data. 
+    Statistical Analysis includes collection, analysis, interpretation, presentation, and modeling of data. 
     It analysis a set of data or a sample of data. <br><br>
         
-    4. Predictive Analysis :  This Analysis makes predictions about future outcomes based on current or past data. 
-    Forecasting is just an estimate. 
-    Its accuracy is based on how much detailed information you have and how much you dig in it. <br><br>
+    4. Predictive Analysis : Predictive Analysis: This Analysis makes predictions about future outcomes based on current 
+    or past data. Forecasting is just an estimate. 
+    Its accuracy is based on how much detailed information you have and how much you dig into it.
+ <br><br>
         
-    5. Prescriptive Analysis : Prescriptive Analysis combines the insight from all previous Analysis to determine 
-    which action to take in a current problem or decision. Most data-driven companies are utilizing Prescriptive 
-    Analysis because predictive and descriptive Analysis are not enough to improve data performance. Based on current 
-    situations and problems, they analyze the data and make decisions.</p>
-                                        </div>
+    5. Prescriptive Analysis: Prescriptive Analysis combines the insight from all previous Analysis to determine which 
+    action to take in a current problem or decision. Most data-driven companies are utilizing Prescriptive Analysis 
+    because predictive and descriptive Analysis is not enough to improve data performance. Based on current situations and
+    problems, they analyze the data and make decisions.</p>
+    </div>
 </div>                                                             
 </section>
-
 
 <%@include file="footer.jsp" %>
 

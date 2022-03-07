@@ -106,8 +106,8 @@
             </div>
                 <div class="cwp4-text col-xl-6">
                    
-                    <p class="para"> Task management is the process of effective allocation and distribution of tasks in an organization for an increased professional and personal productivity. </p><br>
-                       <p class="para">   Basically, this involves the proper management of various customer relationship management (CRM) functions and more abstract sales.</p><br>
+                    <p class="para">Task management is the process of effective allocation and distribution of tasks in an organization for increased professional and personal productivity. </p><br>
+                       <p class="para"> This involves the proper management of various customer relationship management (CRM) functions and more abstract sales.</p><br>
                      <p class="para"> It helps in scheduling various tasks that come across service, sales, contact center, and other marketing functions.</p>
                 </div>
             </div>
@@ -191,7 +191,7 @@
 		<div class="about-grids">
 <h4>Assign Tasks </h4>
 
-<p class="para">Setting a task for yourself or assigning to different team members or colleagues across the organization.</p><br>
+<p class="para">Set a task for yourself or assign it to different team members or colleagues across the organization.</p><br>
 <div class="mt-3 about-list">
 	
 </div>
@@ -212,8 +212,7 @@
 		<div class="about-grids">
 
 <h4>Map Out Your Workflow</h4>
-<p class="para">This will make it easier to understand which tasks are completed, what needs to be done and how different strategies will help you. 
-    You can also automate recurring tasks such as follow-ups from customers, different task alerts and updating databases.  </p>
+<p class="para">This will make it easier to understand which tasks are completed, what needs to be done, and how different strategies will help you. You can also automate recurring tasks such as follow-ups from customers, different task alerts, and updating databases.</p>
 <div class="mt-3 about-list">
 	
 </div>

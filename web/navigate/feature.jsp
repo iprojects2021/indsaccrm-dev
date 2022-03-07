@@ -106,7 +106,7 @@
                        </div>
                         <div class="icon-text mt-lx-3 pt-lx-1">
                          
-                            <p class="para">INDSAC-CRM software provide you three main types of features that help you to grow your business.</p>
+                            <p class="para">INDSAC-CRM software provides you with three main types of features that help you to grow your business.</p>
                         </div>
                     </div>
                 </div>
@@ -118,7 +118,7 @@
    					<section class="w3l-recent-work-hobbies">
    				    <div class="recent-work ">
    				        <div class="container">
-<div class="left-text">
+        <div class="left-text">
 	<h3>Categories of INDSAC-CRM features</h3>
 	</div>
 <div class="row about-about">
@@ -126,7 +126,7 @@
 		<div class="about-grids">
 
 <h4>Core CRM Features</h4>
-<p class="para">Core features make or break a systems inclusion in the CRM category; these features should be standard across all CRM software. </p>
+<p class="para">Core features make or break a system's inclusion in the CRM category; these features should be standard across all CRM software.</p>
 <div class="mt-3 about-list">
 	<a href ="core features.jsp" class="btn action-button mt-lg-5 mt-4 ">Read more</a>
 </div>
@@ -136,7 +136,7 @@
 		<div class="about-grids">
 <h4>Common CRM Features</h4>
 
-<p class="para">Common features show up in the majority of systems on the CRM market, but not all of them. These features often indicate more robust systems, rather than a basic plan or offering. </p>
+<p class="para">Common features show up in the majority of systems on the CRM market, but not all of them. These features often indicate more robust systems, rather than a basic plan or offer.</p>
 <div class="mt-3 about-list">
 	<a href ="common features.jsp" class="btn action-button mt-lg-5 mt-4 ">Read more</a>
 </div>
@@ -145,19 +145,18 @@
 	<div class="col-lg-4 col-md-6 about-line-top">
 		<div class="about-grids">
 <h4> Optional CRM features</h4>
-<p class="para"> Optional features aren't common across CRM systems, and can set certain software offerings apart from others within the category.</p>
+<p class="para"> Optional features aren't common across CRM systems and can set certain software offerings apart from others within the category.</p>
 <div class="mt-3 about-list">
 <a href ="optional features.jsp" class="btn action-button mt-lg-5 mt-4 ">Read more</a>
 </div>
-		</div>
 	</div>
+</div>
 </div>
        </div>
      </div>
-				</section>
+ </section>
 	
 <%@include file="footer.jsp" %>
-
 
 <!-- move top -->
 <button onclick="topFunction()" id="movetop" title="Go to top">

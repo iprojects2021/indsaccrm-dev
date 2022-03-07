@@ -116,24 +116,25 @@
 	<h3>Sale CRM Goals</h3>
 	<p class="para">    </p>
 </div>
-<p class="para"><h4>1.Increase customer retention</h4>Happy customers are loyal customers and they also offer good word of mouth advertising, which can be invaluable.
-One of the major benefits in mapping out your CRM plan with increased customer satisfaction as your
-primary goal is the fact that all other goals and objectives will invariably support this effort. 
-In this way, each method that you use or measure that you take will share a symbiotic relationship 
-with the rest. As a result, all of your investments in CRM will be supporting your goals in a balanced
-and seamless fashion.</p>
-              <br>      <br>                                
+<p class="para"><h4>1. Increase customer retention</h4>Happy customers are loyal customers and they also offer good word-of-mouth
+         advertising, which can be invaluable. One of the major benefits in mapping out your CRM plan with increased 
+         customer satisfaction as your primary goal is the fact that all other goals and objectives will invariably support
+         this effort. In this way, each method that you use or measure that you take will share a symbiotic relationship 
+         with the rest. As a result, all of your investments in CRM will be supporting your goals in a balanced and seamless 
+         fashion.</p>
+              <br><br>                                
        <p class="para"><h4>2. Improve The Efficiency Of Your Business </h4> 
-       A good CRM platform will collect and organize a wealth of data pertaining to individual and group consumer profiles. Another part of these endeavors can be the implementation and use of knowledge management systems that increase the speed at which customer inquiries are addressed and problems are resolved. 
-       Greater levels of efficiency will also lead to improved client satisfaction.  </p>                                 
+      A good CRM platform will collect and organize a wealth of data about individual and group consumer profiles. 
+      Another part of these endeavors can be the implementation and use of knowledge management systems that increase the 
+      speed at which customer inquiries are addressed and problems are resolved. Greater levels of efficiency will also
+      lead to improved client satisfaction. </p>                                 
         <br><br>
-        <p class="para"><h4>3. Expand You Customer Base </h4> 
-       CRM program that is linked to a high-quality knowledge management platform will allow you to 
-       stay in contact with prospects that have yet to convert. It will also allow you to identify 
-       commonalities and relationships among the clients that you already have, so that you can hone and 
-       improve your future efforts in outreach. A larger customer base will allow for increased continuity 
-       in profits, even in a seasonal industry. </p>   
-        <br>      <br> 
+        <p class="para"><h4>3. Expand Your Customer Base</h4> 
+       CRM program that is linked to a high-quality knowledge management platform will allow you to stay in contact with 
+       prospects that have yet to convert. It will also allow you to identify commonalities and relationships among the 
+       clients that you already have so that you can hone and improve your future efforts in outreach. A larger customer 
+       base will allow for increased continuity in profits, even in a seasonal industry.</p>   
+        <br><br> 
 <p class="para"><h4>4. Enhance Your Sales And Support Teams</h4>
 CRM helps you replace undesirable additions to your team or gives you a framework for increasing the customer service skills of existing employees, it is certain to 
 improve the benefits that hired workers are providing.<br><br>

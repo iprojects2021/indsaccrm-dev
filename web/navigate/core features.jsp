@@ -102,9 +102,10 @@
             </div>
                 <div class="cwp4-text col-xl-6">
                     <h4> Contact management</h4>
-                    <p class="para">It allows users to segment your contacts into groups to organize and better cater to them. With this CRM feature, you'll be able to gather crucial 
-					customer data and bolster your marketing strategies when introducing new products. It also improves the personalization of all contacts with customers, 
-					making them feel important and catered to.</p>
+                    <p class="para">It allows users to segment their contacts into groups to organize and better cater to 
+                        them. With this CRM feature, you'll be able to gather crucial customer data and bolster your 
+                        marketing strategies when introducing new products. It also improves the personalization of all 
+                        contacts with customers, making them feel important and catered to.</p>
                 </div>
             </div>
         </div>
@@ -117,17 +118,12 @@
            
                 <div class="cwp4-text col-xl-6">
                     <h4>Task Management</h4>
-                    <p class="para">Customer management is tightly coupled with employee management.
-
-If you want to serve your customers better, first manage your employees better.
-
-If a customers request is pending for long time because your employees do not know who should work on it, it will never improve customer experience.
-
-It is important to assign and complete tasks within time and budget.
-
-Using CRM, business can automate task management process.
-
-It creates and assigns tasks among employees based on their skill set, availability, location etc.</p>
+                    <p class="para">Customer management is tightly coupled with employee management. If you want to serve 
+                        your customers better, first manage your employees better. If a customer's request is pending for 
+                        a long time because your employees do not know who should work on it, it will never improve the 
+                        customer experience. It is important to assign and complete tasks within time and budget. Using 
+                        CRM, a business can automate the task management process. It creates and assigns tasks among 
+                        employees based on their skill set, availability, location, etc.</p>
                 </div>
 				 <div class="col-xl-6 cwp4-image ">
                 <img src="assets/images/indsac-task3.gif" alt="product" class="img-responsive ">
@@ -136,9 +132,6 @@ It creates and assigns tasks among employees based on their skill set, availabil
         </div>
     </div>
 </section>
-
-
-
 
 <section class="w3l-content-with-photo-4">
     <div class="content-with-photo4-block">

@@ -84,20 +84,19 @@
             </div>
                 <div class="cwp4-text col-xl-6">
                     <h4>Agriculture Industry</h4>
-                    <p class="para">CRM software for the agriculture industry allows farmers to store and follow up on customer leads to help find new customers, 
-					track customer behaviour, interactions and purchases of products and services.</p>
+                    <p class="para">CRM software for the agriculture industry allows farmers to store and follow up on 
+                        customer leads to help find new customers, track customer behavior, interactions, and purchases of products and services.</p>
                     <div class="jst-two-coloums mt-4">
                         <div class="icon-text">
                             <h5> <a href="#" ></a>
                             </h5>
-                            <p class="para"> It also helps to develop personalised and targeted marketing activities that have a better chance of creating 
-							a relationship with the buyers and the supply chain. </p>
+                            <p class="para"> It also helps to develop personalized and targeted marketing activities that have a better chance of creating a relationship with the buyers and the supply chain.</p>
                        </div>
                         <div class="icon-text mt-lx-3 pt-lx-1">
                             <h5 ><a href="#" ></a>
                             </h5>
-                            <p class="para">Agriculture industry CRM needs to maintain long-term relationships with their buyers, agents and supply chain customers,
-							while gaining the reputation of providing value to customers, increasing their loyalty and achieving mutual trust. </p>
+                            <p class="para">Agriculture industry CRM needs to maintain long-term relationships with their buyers, agents, and supply chain customers, while gaining the
+                                reputation of providing value to customers, increasing their loyalty, and achieving mutual trust.</p>
                         </div>
                     </div>
                 </div>
@@ -113,27 +112,27 @@
 	<p class="para">The main goal of INDSAC-CRM is to help businesses in building good relationships with clients and provide good management of your 
 	client base along with a variety of other agricultural processes. </p><br>
 	
-<p class="para">By using CRM in your agricultural business, you can deal with suppliers, customers and so on. To be precise, it is capable of storing contacts, 
-adding information about deals, getting the access to price history and more. <br><br>
+<p class="para">By using CRM in your agricultural business, you can deal with suppliers, customers, and so on. To be
+    precise, it is capable of storing contacts, adding information about deals, getting access to price history, and more. <br><br>
 1. Show you the best purchase offers<br><br>
 2. Keep track of how effective your managers are<br><br>
 3. Give an opportunity to work remotely<br><br>
-4. Allow users to access only the information they supposed to see</p><br>
+4. Allow users to access only the information they are supposed to see</p><br>
 </div>
 
 
 <div class="left-text">
 	<h3>CRM Tasks for Agriculture Business</h3>
-	<p class="para">CRM for agribusiness is able to keep track of equipment along with machinery, and the total number of livestock. Besides, 
-	it is able to track the growth of a variety of animals and plants. INDSAC-CRM for agribusiness constantly analyze the needs and preferences 
-	of their customer in order to provide them with the most essential features. </p><br>
+	<p class="para">CRM for agribusiness is able to keep track of equipment along with machinery, and the total number
+            of livestock. Besides, it is able to track the growth of a variety of animals and plants. INDSAC-CRM for 
+            agribusiness constantly analyzes the needs and preferences of their customer in order to provide them with the most essential features. </p><br>
 	
 <p class="para">
-1. Plan a tasklist that is based on natural cycles<br><br>
+1. Plan a task list that is based on natural cycles<br><br>
 2. Keep a record of a warehouse and other physical assets<br><br>
 3. Keep finances under control<br><br>
 4. Manage documentation<br><br>
-5. Control of employees working efficiency</p>
+5. Control of employee's working efficiency</p>
 </div>
 
  </div>

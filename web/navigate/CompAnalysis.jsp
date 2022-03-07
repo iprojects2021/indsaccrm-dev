@@ -98,21 +98,19 @@
             </div>
                 <div  class="cwp4-text col-xl-6">
                    <h4> What is a competitor analysis?</h4>
-                    <p class="para">A competitor analysis is the process of identifying businesses in 
-                        your market that offer similar products or services to yours and evaluating them
-                        based on a set of predetermined business criteria. <br> <br>A good competitor analysis 
-                        will help you see your business and competitors through your customers 
-                        eyes to pinpoint where you can improve.  <br> <br>
-                        A competitor analysis focuses on identifying market participants positioned to 
-                        encroach on your opportunity and isolates each participants operational 
-                        strengths, substantive weaknesses, product offerings, market dominance, and 
-                        missed opportunities
-                    </p>
+                    <p class="para">Competitor analysis is the process of identifying businesses in your market that offer 
+                        similar products or services to yours and evaluating them based on a set of predetermined business
+                        criteria. <br> <br>A good competitor analysis will help you see your business and competitors 
+                        through your customer's eyes to pinpoint where you can improve. <br> <br>
+                        A competitor analysis focuses on identifying market participants positioned to encroach on your 
+                        opportunity and isolates each participant's operational strengths, substantive weaknesses, product 
+                        offerings, market dominance, and missed opportunities
+                  </p>
                 </div>
             </div>
         </div>
     </div>
-</section>
+</section>  
    				<section class="w3l-recent-work-hobbies">
    				    <div class="recent-work ">
    				        <div class="container">
@@ -120,14 +118,13 @@
 	<h3>Benefits of conducting a competitor analysis</h3>
 	<p class="para">    </p>
 </div>
-<p class="para">1. Analyzing your business against your competitors can help you in many ways. For example, 
-    it will reveal which areas of your business, product or service need improvement. With this knowledge,
-    you can adjust your processes to better serve your target market and increase profit.
-    It can also show you new strategic opportunities to enhance your products or services and grow your
-    business.</p>
-              <br>      <br>   
+<p class="para">1. Analyzing your business against your competitors can help you in many ways. For example, it will reveal 
+    which areas of your business, product, or service need improvement. With this knowledge, you can adjust your processes 
+    to better serve your target market and increase profit. It can also show you new strategic opportunities to enhance 
+    your products or services and grow your business.</p>
+              <br><br>   
               
-       <p class="para">2.Once you conduct a competitor analysis, you can use it for benchmarking and measuring future growth.</p>                                 
+       <p class="para">2. Once you conduct a competitor analysis, you can use it for benchmarking and measuring future growth.</p>                                 
         <br><br>
         <p class="para">3. Routine analyses will reveal market trends to keep track of and new players to be aware of.</p>   
         <br>      <br> 
@@ -152,13 +149,12 @@ Find all the features that each direct competitor's product or service has. Keep
 competitor insight spreadsheet to visualize how companies stack up against one another.</p><br><br>
 
  <p class="para"><h4>2. Market share percentage</h4>
-This helps to identify who your main competitors in your market are. Don't exclude larger 
-competitors completely, as they have much to teach about how to succeed in your industry.</p><br><br>
+This helps to identify who the main competitors in your market are. Don't exclude larger competitors completely, as they 
+have much to teach about how to succeed in your industry.</p><br><br>
 
 <p class="para"><h4>3. Marketing</h4>
-What type of marketing strategy does each competitor employ? Look at competitors
-websites, social media presence, the type of events they sponsor, their SEO strategies, 
-their taglines and current marketing campaigns.</p><br><br>
+What type of marketing strategy does each competitor employ? Look at competitors' websites, social media presence, the type
+of events they sponsor, their SEO strategies, their taglines, and current marketing campaigns.</p><br><br>
 
 <p class="para"><h4>4. Pricing</h4>
 Pinpoint how much your competitors charge and where they fall on the quantity vs. quality spectrum. </p><br><br>
@@ -170,11 +166,10 @@ Pinpoint how much your competitors charge and where they fall on the quantity vs
   Identify what your competitors are doing well and what works for them. </p><br><br> 
  
  <p class="para"><h4>7. Customer reviews</h4>
- Analyze your competitors' customer reviews, recording both pros and cons. 
- In a 5-star system, look at 5-star, 3-star and 1-star reviews. </p><br><br> 
+ Analyze your competitors' customer reviews, recording both pros and cons. In a 5-star system, look at 5-star, 3-star, and 1-star reviews.   </p><br><br> 
  
   <p class="para"><h4>8. Culture</h4>
- Evaluate your competitors' objectives, employee satisfaction and company culture. </p><br><br> 
+ Evaluate your competitors' objectives, employee satisfaction, and company culture.</p><br><br> 
 </div>
 </div>
 </div>                                                             

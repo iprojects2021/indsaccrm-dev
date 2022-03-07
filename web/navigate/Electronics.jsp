@@ -98,20 +98,19 @@
             </div>
                 <div class="cwp4-text col-xl-6">
                     <h4>E-CRM?</h4>
-                    <p class="para">E-CRM, or Electronic Customer Relationship Management, is an integrated online sales, marketing and service strategy that is used to 
-					identify, attract and retain an organisations customers.
+                    <p class="para">E-CRM, or Electronic Customer Relationship Management, is an integrated online sales, 
+                        marketing, and service strategy that is used to identify, attract and retain an organization's customers.
                     </p>
                     <div class="jst-two-coloums mt-4">
                         <div class="icon-text">
                             <h5> <a href="#" ></a>
                             </h5>
-                            <p class="para">It describes improved and increased communication between an organisation and its clients by creating and enhancing customer interaction through innovative technology.  </p>
+                            <p class="para">It describes improved and increased communication between an organization and its clients by creating and enhancing customer interaction through innovative technology. </p>
                        </div>
                         <div class="icon-text mt-lx-3 pt-lx-1">
                             <h5 ><a href="#" ></a>
                             </h5>
-                            <p class="para">E-CRM software provides profiles and histories of each interaction the organisation has with its customers, making it an important tool 
-							for all small and medium businesses.</p>
+                            <p class="para">E-CRM software provides profiles and histories of each interaction the organization has with its customers, making it an important tool for all small and medium businesses.</p>
                         </div>
                     </div>
                 </div>
@@ -124,16 +123,16 @@
    				        <div class="container">
 <div class="left-text">
 	<h3>Business Benefits of E-CRM </h3>
-	<p class="para">Implementation of an E-CRM system enables an organization to streamline processes and provide sales, marketing and service personnel with better, 
-	more complete customer information. The result is that E-CRM allows organizations to build more profitable customer relationships and decrease operating costs.</p>
+	<p class="para">Implementation of an E-CRM system enables an organization to streamline processes and provide sales, marketing,
+            and service personnel with better, more complete customer information. The result is that E-CRM allows organizations to build more profitable customer relationships and decrease operating costs.</p>
 	<br>
-	<p class="para">Businesses that strategize and implement an E-CRM solution are able to align their processes around technology to effectively deliver seamless,
-	high-quality customer experience across all channels. Customers have the power to help themselves through online personalized services that are made available on demand. 
-	The Internet provides a simple and ideal medium where customers can get information from websites, buy products and find answers using FAQ sections, forums or chat rooms.  </p>
+	<p class="para">Businesses that strategize and implement an E-CRM solution can align their processes around technology 
+            to effectively deliver a seamless, high-quality customer experience across all channels. Customers have the power 
+            to help themselves through online personalized services that are made available on demand. The Internet provides a simple and ideal medium where customers can get information from websites, buy products and find answers using FAQ sections, forums, or chat rooms. </p>
 	<br>
 	<p class="para">The benefits of E-CRM include the following <br><br>
 
-1. Improved customer relations, service and support<br><br>
+1. Improved customer relations, service, and support<br><br>
 2. Matching the customers' behavior with suitable offers<br><br>
 3. Increased customer satisfaction and loyalty<br><br>
 4. Greater efficiency and cost reduction<br><br>
@@ -149,7 +148,7 @@
 		<div class="about-grids">
 
 <h4>Customer management</h4>
-<p class="para">Provides access to all customer information including enquiry status and correspondence.</p>
+<p class="para">Provides access to all customer information including inquiry status and correspondence.</p>
 <div class="mt-3 about-list">
 	
 </div>
@@ -159,7 +158,7 @@
 		<div class="about-grids">
 <h4> Knowledge management</h4>
 
-<p class="para">A centralised knowledge base that handles and shares customer Information. </p>
+<p class="para">A centralized knowledge base that handles and shares customer Information. </p>
 <div class="mt-3 about-list">
 	
 </div>
@@ -168,7 +167,7 @@
 	<div class="col-lg-4 col-md-6 about-line-top">
 		<div class="about-grids">
 <h4>Back-end integration</h4>
-<p class="para">Blends with other systems such as billing, inventory through relevant customer contact points such as websites and call centres.</p>
+<p class="para">Blends with other systems such as billing, inventory through relevant customers contact points such as websites and call centers.</p>
 <div class="mt-3 about-list">
 
 </div>

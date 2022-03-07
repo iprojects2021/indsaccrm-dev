@@ -106,10 +106,11 @@
             </div>
                 <div class="cwp4-text col-xl-6">
                   
-                    <p class="para">Dashboards & Reporting are an important tool in the best CRM software.  </p><br>
-                       <p class="para">Dashboards typically focus on images, graphs and figures instead of lengthy sections of text. 
-                           They provide a quick snapshot of your sales activity and key performance indicators (KPI). 
-                       You and your sales team can use them to see an overview of your sales pipeline's effectiveness and determine which tasks need to be completed next.</p><br>
+                    <p class="para">Dashboards & Reporting are important tools in the best CRM software. </p><br>
+                       <p class="para">Dashboards typically focus on images, graphs, and figures instead of lengthy sections
+                           of text. They provide a quick snapshot of your sales activity and key performance indicators (KPI)
+                           You and your sales team can use them to see an overview of your sales pipeline's effectiveness 
+                           and determine which tasks need to be completed next.</p><br>
                           <p class="para">A CRM report is a management tool that offers all the needed data to strengthen your customer relationships. 
                               They usually exist inside CRM dashboards that connect your data in a way that will make your reports interactive, focused, and efficient through automation.</p><br>
                 </div>
@@ -127,18 +128,22 @@
 
   <h4>It keeps your team on track.<h4>
 <p class="para" > 
- An in-depth sales report might not always be what your team needs to stay on pace to meet its goals. 
-The top-level information that a dashboard presents can be enough to tell your salespeople what needs to get done now and what can wait, saving the time and effort of analyzing detailed reports. </p><br>
+ An in-depth sales report might not always be what your team needs to stay on pace to meet its goals. The top-level 
+information that a dashboard presents can be enough to tell your salespeople what needs to get done now and what can wait, 
+saving the time and effort of analyzing detailed reports. </p><br>
 
 <h4>It streamlines your team's work. <h4>
 <p class="para" > With dashboards, your team can rapidly determine which tasks should be done first without clicking through your CRM software to pull up reports. This function can save tremendous amounts of time. </p><br>
 
-<h4>It updates in real time. <h4>
+<h4>It updates in real-time. <h4>
 <p class="para" > A report is a static document that inflexibly presents data for a given period. A dashboard, on the other hand, reacts to and reflects changes in your data instantly. 
     This way, your team gets to build its strategy based on your most recent KPI data rather than outdated numbers. </p><br>
 
 <h4>It results in stronger sales processes overall. <h4>
-<p class="para" >Dashboards bring your sales teams work into the present tense, they result in better overall sales performance. A current picture of your sales pipeline and your prospects progress along it is far more meaningful to your team than data from an old report, so CRM dashboards are especially powerful in guiding your sales team. </p><br>
+<p class="para" >Dashboards bring your sales team's work into the present tense, they result in better overall sales 
+    performance. A current picture of your sales pipeline and your prospect's progress along it is far more meaningful to 
+    your team than data from an old report, so CRM dashboards are especially powerful in guiding your sales team.
+ </p><br>
 </div>
   </div>
      </div>
@@ -154,7 +159,7 @@ The top-level information that a dashboard presents can be enough to tell your s
 <p class="para" > CRM reporting and CRM reporting tools will help you make quicker, more informed decisions based on robust, reliable visual data. </p><br>
 
 <h4>Increased insight <h4>
-<p class="para" > CRM reporting software offers you in-depth insights based on historic, predictive, and in the moment data. </p><br>
+<p class="para" >CRM reporting software offers you in-depth insights based on historic, predictive, and in-the-moment data.</p><br>
 <p class="para" >The digestible visual information served up by CRM dashboards will empower you to spot emerging trends, identify strengths and weaknesses, and ultimately, meet the needs of your customers head-on. </p><br>
 
 <h4>More engagement <h4>

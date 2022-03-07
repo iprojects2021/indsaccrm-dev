@@ -98,45 +98,39 @@
 	<h3>Establish A Strong Connection With Customers</h3><br><br>
         
   <h4>Make customer service your priority</h4>
-<p class="para" > The product you have might have outstanding features and qualities but what if 
-    customer service isn't as good as the product. Is it at least meeting the basic standards.
-    And, this is one aspect that drives sales away. Also, continuous marketing promotions could make
-    worst of sales. CRM software, in its unique way, helps you in offering industry-standard customer 
-    service.</p><br>
-
+<p class="para" > The product you have might have outstanding features and qualities but what if customer service isn't as 
+    good as the product. Is it at least meeting the basic standards? And, this is one aspect that drives sales away. Also,
+    continuous marketing promotions could make worst of sales. CRM software, in its unique way, helps you in offering
+    industry-standard customer service.</p><br>
 
 <h4>Customer retention gets improved</h4>
 <p class="para" > 
- This is one of the most important things to consider when choosing a CRM for your business.CRM software integrate with: an ERP or other accounting software, a HR software, your 
-own website and web forms to import new leads, billing and e-commerce platforms to register transactions, as well as marketing solutions. </p><br>
+ This is one of the most important things to consider when choosing a CRM for your business. CRM software integrates with: 
+an ERP or other accounting software, HR software, your website, and web forms to import new leads, billing and e-commerce platforms to register transactions, as well as marketing solutions. </p><br>
 
 <h4>Know what your customers want</h4>
-<p class="para" > One of the important ways to help your customers is self-help. 
-    Predicting issues or queries that your customers might face in the future and preparing solutions 
-    or support documents will definitely help them.
-It is an essential component to be followed to improve customer communication and reduce customer 
-service errors and also confusion over your product or service. You can create support documents such as:<br>
+<p class="para" > One of the important ways to help your customers is self-help. Predicting issues or queries that your 
+    customers might face in the future and preparing solutions or support documents will help them. It is an essential 
+    component to be followed to improve customer communication and reduce customer service errors and also confusion over
+    your product or service. You can create support documents such as:<br>
 1. Knowledgebase<br>
 2. FAQs<br>
 3. Video tutorials<br>
 4. How to guides</p><br>
 
 <h4>Offer better customer service</h4>
-<p class="para" > Even the best product is only as good as the service that comes with it both before 
-    and after the sale. Don't hit up your prospects with multiple marketing promotions that will annoy or 
-    scare them away. Drop the ball after a sale and you've wasted the time and effort that went into winning 
-   a valuable customer. When your entire team has immediate access to a customer's complete history, everyone can quickly provide personalised messages and solutions, with the right resources. 
-    Smoother interactions build trust and encourage repeat business. </p><br>
+<p class="para" > Even the best product is only as good as the service that comes with it both before and after the sale. 
+    Don't hit up your prospects with multiple marketing promotions that will annoy or scare them away. Drop the ball after 
+    a sale and you've wasted the time and effort that went into winning a valuable customer. When your entire team has 
+    immediate access to a customer's complete history, everyone can quickly provide personalized messages and solutions, 
+    with the right resources. Smoother interactions build trust and encourage repeat business. </p><br>
 
 <h4>Faster solutions</h4>
-<p class="para" > Using a video based call center helps to offer faster resolutions through face-to-face personalized conversations. It helps 
-    to identify the main cause of the error and deliver effective solutions at the first touchpoint.  </p><br>
+<p class="para" > Using a video-based call center helps to offer faster resolutions through face-to-face personalized 
+    conversations. It helps to identify the main cause of the error and deliver effective solutions at the first touchpoint.  </p><br>
 
-<h4>Real time support</h4>
-<p class="para" > Implement both live chat and chat-bot to deliver real time support to your customers, 
-    depending upon your business requirements.  </p><br>
-
-
+<h4>Real-time support</h4>
+<p class="para" > Implement both live chat and chat-bot to deliver real-time support to your customers, depending upon your business requirements. </p><br>
 </div>
 
 

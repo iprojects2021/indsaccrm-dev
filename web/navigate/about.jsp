@@ -97,11 +97,12 @@
             </div>
                 <div class="cwp4-text col-xl-6">
                     <h4>About INDSAC-CRM </h4>
-                    <p class="para">  Business solutions platform for the  digital age.
-				INDSAC-CRM	has a very well-equipped solutions with some unique features.  Providing the business solutions for across all industry segments with an aim to give access to all. Every business has the right to acess world class business solutions. Its the guiding principle behind our work, and reinforcess our belief that the best technology makes your business  smarter. </p>
-                       
-                   
-                </div>
+                    <p class="para">  Business solutions platform for the digital age. INDSAC-CRM has a very well-equipped 
+                        solution with some unique features. Providing business solutions across all industry segments to 
+                        give access to all. Every business has the right to access world-class business solutions. 
+                        It's the guiding principle behind our work and reinforces our belief that the best technology makes
+                        your business smarter. </p>
+               </div>
             </div>
         </div>
     </div>
@@ -110,14 +111,15 @@
    				    <div class="recent-work ">
    				        <div class="container">
 <div class="left-text">
-	<h3>A product to meet every needs</h3>
+	<h3>A product to meet every need</h3>
 	<p class="para">    </p>
 </div>
 <div class="row about-about">
 	<div class="col-lg-4 col-md-6">
 		<div class="about-grids">
 <h4>Who we are</h4>
-<p class="para">Young Entrepreneurs  fostering the next generation of entrepreneurs and business leaders and having the right mindset to provide the good platform for every business.  </p>
+<p class="para">Young Entrepreneurs foster the next generation of entrepreneurs and business leaders and have the right 
+    mindset to provide a good platform for every business.</p>
 <div class="mt-3 about-list">
 	<ul>
 		<li ><span class="fa fa-chevron-circle-right" aria-hidden="true"></span>
@@ -137,7 +139,7 @@
 	<div class="col-lg-4 col-md-6 about-line-top">
 		<div class="about-grids">
 <h4>Discovery</h4>
-<p class="para">With an aim to constantly reinvents new business solutions across all domain with new technology and deliver to pursue happier and richer lives.  We develop and expand strategic products for providing business experience.</p>
+<p class="para">To constantly reinvents new business solutions across all domains with new technology and deliver to pursue happier and richer lives. We develop and expand strategic products for providing the business experience.</p>
 <div class="mt-3 about-list">
 	<ul>
 		<li ><span class="fa fa-chevron-circle-right" aria-hidden="true"></span>
@@ -146,7 +148,7 @@
 		</li>
 		
 		<li><span class="fa fa-chevron-circle-right" aria-hidden="true"></span>
-			<p class="para">To cater diverse business preferences</p>
+			<p class="para">To cater to diverse business preferences</p>
 		</li>
 	</ul>
 </div>
@@ -155,7 +157,7 @@
 	<div class="col-lg-4 col-md-6 about-line-top">
 		<div class="about-grids">
 <h4>Our Vision</h4>
-<p class="para">To be recognized as the industry leader driving modernization in IT services  in the developing world and to be the centre of modern Research and Development in IT sector. </p>
+<p class="para">To be recognized as the industry leader driving modernization in IT services in the developing world and to be the center of modern Research and Development in the IT sector.</p>
 <div class="mt-3 about-list">
 	<ul>
 		<li ><span class="fa fa-chevron-circle-right" aria-hidden="true"></span>

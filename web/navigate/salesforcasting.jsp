@@ -107,9 +107,9 @@
                 <div class="cwp4-text col-xl-6">
                   
                     <p class="para"> Sales forecasting predicts what your sales pipeline may look like in the future. </p><br>
-                   <p class="para">  By using a INDSAC-CRM with sales forecast services, sales teams can fine-tune their selling strategy. </p><br>
+                   <p class="para">  By using an INDSAC-CRM with sales forecast services, sales teams can fine-tune their selling strategy. </p><br>
                        <p class="para">Sales reps can see how they're tracking against their quotas at any given moment, while sales managers can make more informed business decisions on how to manage their resources.</p><br>
-                     <p class="para"> Then, you can eventually use it to shape your own forecast. <br>
+                     <p class="para"> Then, you can eventually use it to shape your forecast. <br>
                          When you do, you may notice the accuracy of your predictions goes up.</p>
                 </div>
             </div>
@@ -167,7 +167,7 @@
                     <div class="back-color">
                         
                        
-                        <p class="para">sales reps can prioritize the prospects that are ready to buy, and identify the leads that need further nurturing from the marketing department..</p>
+                        <p class="para">sales reps can prioritize the prospects that are ready to buy and identify the leads that need further nurturing from the marketing department.</p>
                     </div>
                 </div>
                 
@@ -184,7 +184,7 @@
 
                     <div class="back-color">
                       
-                        <p class="para"> Generate sales forecast reports on demand to see projected sales and get valuable insights on your team's sales to date, current deals in the pipeline, and quota.</p>
+                        <p class="para"> Generate sales forecast reports on-demand to see projected sales and get valuable insights on your team's sales to date, current deals in the pipeline, and quota.</p>
                     </div>
                 </div>
                 
@@ -203,10 +203,9 @@
                     <div class="back-color">
                        
                         <p class="para">Sales reps require time to adjust to a new territory. 
-                            Sales is usually better in familiar territories than in a new territory when a rep is just settling in.  </p>
+                            Sales are usually better in familiar territories than in new territory when a rep is just settling in. </p>
                     </div>
-                </div>
-                
+                </div>               
                  </div>
              </div>
          </div>

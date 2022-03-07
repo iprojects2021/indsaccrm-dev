@@ -135,42 +135,34 @@
             and support departments. To help you understand how each team works together.<br>
 <br>
 <h3>1. Generate brand awareness</h3><br>
-Acquiring new customers is to introduce them to your business. 
-The marketing team typically takes on this task through a number of measures:<br><br>
+Acquiring new customers is to introduce them to your business. The marketing team typically takes on this task through 
+several measures:<br><br>
 1.  Learning about your target audience.<br>
 2.  Segmenting your target audience.<br>
 3. Creating marketing campaigns that speak to those target demographics.<br><br>
 
 <h3>2.Acquire leads </h3>
-	<p class="para">  Itroducing your brand to a potential customer is just the beginning of the CRM process. 
-            From there, you have to encourage them to learn more about your business and engage with it.<br>
+	<p class="para">Introducing your brand to a potential customer is just the beginning of the CRM process. From there, 
+            you have to encourage them to learn more about your business and engage with it.<br>
 <br>
-
 <h3>3.Convert leads into customers </h3>
 	<p class="para">  You've successfully engaged with your leads, and they're interested.
             Now it's time to turn those leads into customers.<br>
 <br>
-
-
 <h3>4. Provide superior customer service </h3>
-	<p class="para">  You've successfully converted your lead into a customer. 
-            But the CRM process doesn't end when a customer converts. 
-            In order to grow as a company, you need to retain customers. <br>
-<br>
-      
+	<p class="para"> You've successfully converted your lead into a customer. But the CRM process doesn't end when a 
+            customer converts. To grow as a company, you need to retain customers. <br>
+<br>     
  <h3>5.Drive upsells</h3>
 	<p class="para">  When we think of a returning customer, we imagine a shopper continually coming back to the same business 
             to buy the products they know and love. 
             But there is another key way existing customers provide value by upgrading to more expensive products. <br>
-<br>       
-        </p>
+  <br>       
+    </p>
 </div>
 </div>
 </div>                                                             
 </section>
-
-
-
 <%@include file="footer.jsp" %>
 
 <!-- move top -->

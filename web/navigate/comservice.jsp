@@ -98,8 +98,10 @@
             </div>
                 <div class="cwp4-text col-xl-6">
                     <h4> You can plan and manage IT projects here</h4>
-                    <p class="para">CRM is the one that handles your work to ease your high-efforts. Customer Relationship Management (CRM) can plan and control your crucial projects.
-It can handle your IT projects too as it can structure your projects, focus on target, goals, budget, etc from the starting. This is the best way for not meeting up with any big issues. You can also watch project status just for a reminder.</p>
+                    <p class="para">CRM is the one that handles your work to ease your high efforts. Customer Relationship 
+                        Management (CRM) can plan and control your crucial projects. It can handle your IT projects too as 
+                        it can structure your projects, focus on targets, goals, budget, etc from the starting. This is the
+                        best way to not meet up with any big issues. You can also watch project status just for a reminder.</p>
                 </div>
             </div>
         </div>
@@ -111,10 +113,12 @@ It can handle your IT projects too as it can structure your projects, focus on t
             <div class="cwp4-two row">
            
                 <div class="cwp4-text col-xl-6">
-                    <h4>Boost up the customer satisfaction and loyalty</h4>
-                    <p class="para">CRM users use less features of CRM. If they start focusing on every feature then their work can be done in a great way as well. Every industry keeps their eyeballs on customer support service, because the customer is the king for every industry or for every sector. 
-					INDSAC-CRM for  IT industry is to offer the timely and efficient customer support and help to their customers that daily deals with them. 
-					</p>
+                    <h4>Boost up customer satisfaction and loyalty</h4>
+                    <p class="para">CRM users useless features of CRM. If they start focusing on every feature then their 
+                        work can be done in a great way as well. Every industry keeps its eyeballs on customer support 
+                        service because the customer is the king for every industry or every sector. INDSAC-CRM for the IT 
+                        industry is to offer timely and efficient customer support and help to their customers that daily 
+                        deals with them.</p>
                 </div>
 				 <div class="col-xl-6 cwp4-image ">
                 <img src="assets/images/itp1.png" alt="product" class="img-responsive ">
@@ -123,9 +127,6 @@ It can handle your IT projects too as it can structure your projects, focus on t
         </div>
     </div>
 </section>
-
-
-
 
 <section class="w3l-content-with-photo-4">
     <div class="content-with-photo4-block">
@@ -136,9 +137,11 @@ It can handle your IT projects too as it can structure your projects, focus on t
             </div>
                 <div class="cwp4-text col-xl-6">
                     <h4>CRM Analytics</h4>
-                    <p class="para">INDSAC-CRM process, interpret and report the data of sales and operations to build a picture of the ideal customer and current performance of operations. 
-					This doesn't just enable companies to focus more on which marketing campaigns work, but also they can improve operational efficiency. 
-					Employees also generate reports to share internally and with their customers faster, and have to depend less on multiple tools for the same, since all the information become available in a single integrated tool.</p>
+                    <p class="para">CRM users useless features of CRM. If they start focusing on every feature then their
+                        work can be done in a great way as well. Every industry keeps its eyeballs on customer support 
+                        service because the customer is the king for every industry or every sector. INDSAC-CRM for the IT 
+                        industry is to offer timely and efficient customer support and help to their customers that daily 
+                        deals with them.</p>
                     </div>
                 </div>
             </div>

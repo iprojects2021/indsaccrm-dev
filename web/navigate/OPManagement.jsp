@@ -214,11 +214,9 @@
             </div>
                 <div class="cwp4-text col-xl-6">
                     <h3 class="header-name">Maximize up-selling <br>and cross-selling</h3> <br>
-                <p class="para">Operational CRM start capturing your customers data from the first touch-point and it maintains
-                    those records through the life-cycle of the customer, logging each sale, contact, and issue. 
-                    This sets up your sales team for the perfect up-sell and cross-sell opportunities. 
-                    With purchase history available to them, sales reps can use sales tactics tailored for each client.</p>
-                    
+                <p class="para">Operational CRM starts capturing your customer's data from the first touch-point and it 
+                    maintains those records through the life-cycle of the customer, logging each sale, contact, and issue.
+                    This sets up your sales team for the perfect up-sell and cross-sells opportunities. With purchase history available to them, sales reps can use sales tactics tailored for each client.</p>                   
                     </div>
                 </div>
             </div>

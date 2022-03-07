@@ -106,9 +106,9 @@
             </div>
                 <div class="cwp4-text col-xl-6">
                    
-                    <p class="para">With INDSAC-CRM workflows, you can automate several sales, marketing, customer support and account management tasks, thus freeing your team's time for more complex, meaningful tasks. </p>
+                    <p class="para">With INDSAC-CRM workflows, you can automate several sales, marketing, customer support, and account management tasks, thus freeing your team's time for more complex, meaningful tasks. </p>
                 <br> <p class="para">   CRM workflows can also alert your team to major lead and prospect updates that could help you for your next customer or client. Best of all, CRM workflows are easy to set up.</p><br>
-                        <p class="para"> Workflow management helps you to automate your sales, marketing and support. You can automatically assign tasks to users, based on the criteria defined in the rules and update certain fields. </p>
+                        <p class="para">Workflow management helps you to automate your sales, marketing, and support. You can automatically assign tasks to users, based on the criteria defined in the rules and update certain fields.    </p>
                 </div>
             </div>
         </div>
@@ -207,10 +207,9 @@
             </div>
                 <div class="cwp4-text col-xl-6">
                     <h3 class="header-name">Customer service</h3> <br>
-                <p class="para">ith CRM workflows, you can automate the process through which help tickets get completed. 
-                    You can send customer service emails, flag customers for personal follow-up and alert relevant support reps.
-                    These workflows can also escalate and de-escalate issues or close help tickets.</p>
-                    
+                <p class="para">With CRM workflows, you can automate the process through which help tickets get completed. 
+                    You can send customer service emails, flag customers for personal follow-up, and alert relevant support
+                    reps. These workflows can also escalate and de-escalate issues or close help tickets.</p>                   
                     </div>
                 </div>
             </div>

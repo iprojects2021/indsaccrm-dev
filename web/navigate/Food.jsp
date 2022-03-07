@@ -99,7 +99,7 @@
             </div>
                 <div class="cwp4-text col-xl-6">
                     <h4>Food Industry?</h4>
-                    <p class="para">Food Industry comprises processing, preservation, conversion, and preservation of eatable items. The raw material for the food industry is obtained from the agriculture industry. Therefore, the food industry is dependent on the agriculture industry.  </p>
+                    <p class="para">The food Industry comprises processing, preservation, conversion, and preservation of eatable items. The raw material for the food industry is obtained from the agriculture industry. Therefore, the food industry is dependent on the agriculture industry.</p>
                     <div class="jst-two-coloums mt-4">
                         <div class="icon-text">
                             <h5> <a href="#" ></a>
@@ -108,14 +108,14 @@
                        </div>
                         <div class="icon-text mt-lx-3 pt-lx-1">
                             <h5 ><a href="#" ></a>
-							 <p class="para">Constantly increasing market demands require standardized processes and that company processes from purchasing to production and sales all run smoothly.</p>
+				<p class="para">Constantly increasing market demands require standardized processes and company processes from purchasing to production and sales all run smoothly.</p>
                         </div>
                     </div>
                 </div>
 				<div class="left-text">
 	<h3>CRM For Food Industry</h3>
 	<p class="para">INDSAC-CRM solutions help to create standardized and clearly defined processes. All information that used to be stored separately is now kept in one place, which makes searching for it that much easier. </p><br>
-<p class="para">Your sales staff benefit from centrally stored information. Your sales team is always well informed and can access the in-house database directly from their mobile devices. This system saves your company time and money. </p>
+<p class="para">Your sales staff benefits from centrally stored information. Your sales team is always well informed and can access the in-house database directly from their mobile devices. This system saves your company time and money. </p>
 </div>
             </div>
         </div>
@@ -136,7 +136,7 @@
                     <div class="back-color">
                     <span class="fa fa-tachometer" aria-hidden="true"></span>
                     <h4><a href="dashboard.jsp" class="title-head">Dashboard</a></h4>
-                    <p class="para">INDSAC CRM provides you with focused promotional activities which is an excellent way to introduce your product in the market. </p>
+                    <p class="para">INDSAC CRM provides you with focused promotional activities which is an excellent way to introduce your product to the market. </p>
                 </div>
             </div>
                 <div class=" grids-effect-2 col-lg-4 col-md-6 col-sm-6">
@@ -150,15 +150,14 @@
                     <div class="back-color">
                     <span class="fa fa-file-text-o" aria-hidden="true"></span>
                     <h4><a href="Docmangement.jsp" class="title-head">Managing Documents</a></h4>
-                    <p class="para">INDSAC 360 degree customer view strategic approach enabling businesses to offer the best customer experience across all channels.</p>
+                    <p class="para">INDSAC 360 degrees customer view strategic approach enabling businesses to offer the best customer experience across all channels.</p>
                 </div>
             </div>
                 <div class="grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1">
                     <div class="back-color">
                     <span class="fa fa-mobile" aria-hidden="true"></span>
                     <h4><a href="digitalmobile.jsp" class="title-head">Mobile Access To Data</a></h4>
-                    <p class="para">Utilize the amazing technology where ever you are to benefits your business. View data and receive 
-                    valuable alerts in mobile.</p>
+                    <p class="para">Utilize the amazing technology where ever you are to benefits your business. View data and receive valuable alerts on mobile.</p>
                 </div>
             </div>
                 <div class=" grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1">
@@ -172,8 +171,7 @@
                     <div class="back-color">
                     <span class="fa fa-line-chart" aria-hidden="true"></span>
                     <h4><a href="salesforcasting.jsp" class="title-head">Visualize Your Sales Process</a></h4>
-                    <p class="para">Get high level overview of your entire business that will develop a better understanding 
-                    of effective business planning process.</p>
+                    <p class="para">Get high-level overview of your entire business that will develop a better understanding of the effective business planning process.</p>
                 </div>
             </div>
         </div>

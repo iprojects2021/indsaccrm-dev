@@ -365,7 +365,7 @@
 		<div class="container">
 		
 			<h2><a class="footer-logo" href="index.jsp">
-				<span class="fa fa-line-chart mr-2"aria-hidden="true"></span>INDSAC_CRM</a></h2>
+				<span class="fa fa-line-chart mr-2"aria-hidden="true"></span>INDSAC-CRM</a></h2>
 			<div class=" row">
 				<div class="grid-col col-lg-7 col-md-7">
 					<h3>Get latest updates and offers.</h3>
@@ -421,7 +421,7 @@
 					</div>
 					
 				<div class="col-lg- col-md- col-12 copyright-grid ">
-					<p class="copy-footer-29">© 2020 | All rights reserved | Design by <a
+					<p class="copy-footer-29">© 2022 | All rights reserved | Design by <a
 							href="https://indsac.com" target="_blank"> INDSAC SOFTECH</a>
 					</p>
 				</div>

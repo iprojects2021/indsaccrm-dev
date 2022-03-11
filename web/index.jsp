@@ -5,16 +5,21 @@
 <%@page import="blezz.Poul"%>
 <%@page import="email.EmergencyEmail"%>
 <!--
-   Author: indsaccrm.com
-   Author URL: http://indsaccrm.com.com
+   Author: www.indsaccrm.com
+   Author URL: https://www.indsaccrm.com
 -->
 <!doctype html>
 <%@page  import="log.Log" %>
-<html lang="en">
+<html lang= "en">
   <head><link rel="shortcut icon" href="dist/img/u.png" type="image/x-icon" />
+      <link rel="canonical" href="https://www.indsaccrm.com/index.jsp" />
+      <link rel="apple-touch-icon" href="dist/img/u.png"/>
+      <link rel="alternate" hreflang="en" href ="https://www.indsaccrm.com/" />
+          
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="INDSAC CRM offers you a well-executed customer service strategy that will maximize customer lifetime value ">
 
     <title>Increase Sales,Customer Relationship | indsaccrm.com</title>
     
@@ -80,7 +85,7 @@
         
             }catch(Exception e){
             String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" \n index.jsp-----\n"
-            + "\nLINE=83 \n insert insert into subscribe(emailid,status) values (?,?) ";
+            + "\nLINE=88 \n insert insert into subscribe(emailid,status) values (?,?) ";
             Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
             EmergencyEmail.send(e,errormsg);  
         } 
@@ -99,7 +104,7 @@
            
            }catch(Exception e){
           String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" \n index.jsp-----\n"
-          + "\nLINE=102 \n insert into subscribelog (email,status) values('"+email+"','Update Data') ";
+          + "\nLINE=107 \n insert into subscribelog (email,status) values('"+email+"','Update Data') ";
           Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
           EmergencyEmail.send(e,errormsg); 
         }
@@ -220,20 +225,20 @@
 
                   <div class="call-grids-w3 ">
                         <div class="grids-effect-2">
-                            <img src="navigate/assets/images/marketing.jpg" alt="">
+                            <img src="navigate/assets/images/marketing.jpg" alt="indsac-marketing">
                         </div>
 
                         <div class=" grids-effect-2">
-                            <img src="navigate/assets/images/sales.jpg" alt="">
+                            <img src="navigate/assets/images/sales.jpg" alt="indsac-sales ">
                         </div>
                         <div class="grids-effect-2">
-                            <img src="navigate/assets/images/inventory.jpg" alt="">
+                            <img src="navigate/assets/images/inventory.jpg" alt="indsac-inventory">
                         </div>
                         <div class="grids-effect-2">
-                            <img src="navigate/assets/images/account.jpg" alt="">
+                            <img src="navigate/assets/images/account.jpg" alt="indsac-account">
                         </div>
                         <div class="grids-effect-2">
-                            <img src="navigate/assets/images/analytics.jpg" alt="">
+                            <img src="navigate/assets/images/analytics.jpg" alt="indsac-analytics">
                         </div>
                     </div>
                 </div>
@@ -251,9 +256,9 @@
 				</div>
 				<div class="column2 col-lg-6">
 					<h3 class="team-head">A better business means better client experience</h3>
-					<p class="para text">The journey involves understanding the customer requirements. INDSAC CRM offers you a well executed
-                                        customer service strategy which will maximize customer lifetime value. Customer experience impacted customers enthusiasm for being brand advocates.
-                                        We provide the smooth communication process between your business and customers. Everything you do impacts your
+					<p class="para text">The journey involves understanding the customer requirements. INDSAC CRM offers you a well executed <a href="https://www.indsaccrm.com/navigate/comservice.jsp">customer service</a>
+                                         strategy which will maximize customer lifetime value. Customer experience impacted customers enthusiasm for being brand advocates.
+                                        We provide the smooth <a href="https://www.indsaccrm.com/navigate/impcomm.jsp">communication</a> process between your business and customers. Everything you do impacts your
                                         customer's perception and their decision to keep coming back.</p>
 				<p class="para mt-2 dis-none">
 					We provide you every touchpoint a customer ever has with your business. By having a measurable indicator
@@ -279,7 +284,7 @@
                     <div class="back-color">
                     <span class="fa fa-thumbs-up" aria-hidden="true"></span>
                     <h4><a href="navigate/Promotions.jsp" class="title-head">Promotions</a></h4>
-                    <p class="para">INDSAC CRM provides you with focused promotional activities which is an excellent way to introduce your product in the market. </p>
+                    <p class="para">INDSAC CRM provides you with focused <a href="https://www.indsaccrm.com/navigate/Promotions.jsp">promotional</a>  activities which is an excellent way to introduce your product in the market. </p>
                 </div>
             </div>
                 <div class=" grids-effect-2 col-lg-4 col-md-6 col-sm-6">
@@ -293,14 +298,14 @@
                     <div class="back-color">
                     <span class="fa fa-pie-chart" aria-hidden="true"></span>
                     <h4><a href="navigate/360view.jsp" class="title-head">360 Degree View</a></h4>
-                    <p class="para">INDSAC 360 degree customer view strategic approach enabling businesses to offer the best customer experience across all channels</p>
+                    <p class="para">INDSAC <a href="https://www.indsaccrm.com/navigate/360view.jsp">360 degree</a>  customer view strategic approach enabling businesses to offer the best customer experience across all channels</p>
                 </div>
             </div>
                 <div class="grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1">
                     <div class="back-color">
                     <span class="fa fa-mobile" aria-hidden="true"></span>
                     <h4><a href="navigate/digitalmobile.jsp" class="title-head">Digital & Mobile</a></h4>
-                    <p class="para">Utilize the amazing technology where ever you are to benefits your business. View data and receive 
+                    <p class="para">Utilize the amazing <a href="https://www.indsaccrm.com/navigate/digitalmobile.jsp">technology</a>  where ever you are to benefits your business. View data and receive 
                     valuable alerts in mobile.</p>
                 </div>
             </div>
@@ -308,7 +313,7 @@
                     <div class="back-color">
                     <span class="fa fa-bolt" aria-hidden="true"></span>
                     <h4><a href="navigate/crmmarketing.jsp" class="title-head"> Marketing</a></h4>
-                    <p class="para">Works best for you that will determine and pursue your business marketing goals. Boost visibility and increase sales while sustaining a profit</p>
+                    <p class="para">Works best for you that will determine and pursue your <a href="https://www.indsaccrm.com/navigate/crmmarketing.jsp">business marketing</a> goals. Boost visibility and increase sales while sustaining a profit</p>
                 </div>
             </div>
                 <div class="grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1 ">
@@ -316,7 +321,7 @@
                     <span class="fa fa-cubes" aria-hidden="true"></span>
                     <h4><a href="navigate/Planning.jsp" class="title-head">Planing</a></h4>
                     <p class="para">Get high level overview of your entire business that will develop a better understanding 
-                    of effective business planning process.</p>
+                    of effective business <a href="https://www.indsaccrm.com/navigate/Planning.jsp">planning</a> process.</p>
                 </div>
             </div>
         </div>
@@ -344,7 +349,7 @@
                 </div>
                 <div class="grids-1 grids-effect-2">
                     <h4><a href="navigate/digitalmarketing.jsp" class="title-head">Digital Marketing</a></h4>
-                    <p class="para">Allows you to find new markets and trade globally for only a small investment. </p>
+                    <p class="para">Allows you to find new <a href="https://www.indsaccrm.com/navigate/digitalmarketing.jsp">markets</a>  and trade globally for only a small investment. </p>
                 </div>
                 <div class="grids-1 grids-effect-2">
                     <h4><a href="navigate/crmmarketing.jsp" class="title-head">Social Marketing</a></h4>

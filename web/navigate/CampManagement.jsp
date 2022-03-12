@@ -146,7 +146,7 @@
             <div class="cwp4-two row">
                 <div class="cwp4-text col-xl-6">
                      <h3 class="header-name">Email Campaigns</h3> <br>
-                   <p class="para"> Use INSAC-CRM campaign management tools for email marketing campaign automation. Select
+                   <p class="para"> Use INDSAC-CRM campaign management tools for email marketing campaign automation. Select
                        the emails you wish to send, insert the time you want the system to wait between each email, and
                        select the criteria for your campaign member list. Then turn it on and the system does the rest. 
                        Include as many emails as you want in your email campaign. It's a great way to manage your B2C or

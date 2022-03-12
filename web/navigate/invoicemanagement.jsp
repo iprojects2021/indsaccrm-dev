@@ -102,6 +102,8 @@
                         invoicing. 
                     </p>
                     <br>
+                    <p class="para">Your CRM lets you grow your relationship with your customers, and quotes and invoices are just one part of that.</p>
+                    <br>
                      <p class="para">With so many integrations, you can talk to your clients on whatever platform they want
                          and keep a record of all interactions and billing in one place. When you're ready to send the 
                          invoice, with just a click of a button, you can send it by email or print it as a PDF.

@@ -148,7 +148,7 @@
 		</li>
 		
 		<li><span class="fa fa-chevron-circle-right" aria-hidden="true"></span>
-			<p class="para">To cater to diverse business preferences</p>
+			<p class="para">To cater diverse business preferences</p>
 		</li>
 	</ul>
 </div>

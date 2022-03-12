@@ -188,11 +188,6 @@ These channels that are in question include all the touchpoints, including conta
 phone calls, and much more.</p><br><br>
 
 <p class="para">
-*  It allows users to track customer and company interactions through the available channels. 
-These channels that are in question include all the touchpoints, including contact forms, emails, 
-phone calls, and much more.</p><br><br>
-
-<p class="para">
 *  CRM systems are embedded with tracking features that record frequent customer interactions online. </p><br><br>
 
 <p class="para">

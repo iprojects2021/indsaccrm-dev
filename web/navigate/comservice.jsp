@@ -137,11 +137,12 @@
             </div>
                 <div class="cwp4-text col-xl-6">
                     <h4>CRM Analytics</h4>
-                    <p class="para">CRM users useless features of CRM. If they start focusing on every feature then their
-                        work can be done in a great way as well. Every industry keeps its eyeballs on customer support 
-                        service because the customer is the king for every industry or every sector. INDSAC-CRM for the IT 
-                        industry is to offer timely and efficient customer support and help to their customers that daily 
-                        deals with them.</p>
+                    <p class="para">INDSAC-CRM process, interpret, and report the data of sales and operations to build a 
+                        picture of the ideal customer and current performance of operations. This doesn't just enable 
+                        companies to focus more on which marketing campaigns work, but also they can improve operational 
+                        efficiency. Employees also generate reports to share internally and with their customers faster, 
+                        and have to depend less on multiple tools for the same, since all the information becomes available in a single integrated tool.
+</p>
                     </div>
                 </div>
             </div>

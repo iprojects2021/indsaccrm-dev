@@ -134,7 +134,7 @@ already known to meet the majority of your needs. </p>
      use those standards to help you target a response</p>   
         <br> <br> 
         <p class="para"><h4>4. Risk Acceptance</h4>
-          we must accept the things we cannot change. In certain cases, you will have to do just that. It's not ideal of
+          We must accept the things we cannot change. In certain cases, you will have to do just that. It's not ideal of
           course, but it is a necessary strategy for two main situations: Either the risks are minor enough that you can 
           choose to handle them at the moment if they come up, or the necessary response is simply not possible due to lack 
           of resources, budget, or time.
@@ -153,7 +153,7 @@ already known to meet the majority of your needs. </p>
 	<p class="para">    </p>
 </div>
    <p class="para"><h4>1. Your CRM partner</h4>
-if you are new to CRM, you will need much more guidance from your CRM partner, so you
+If you are new to CRM, you will need much more guidance from your CRM partner, so you
 should choose one with an approach that matches your needs.</p><br><br>
 
  <p class="para"><h4>2. The CRM software</h4>

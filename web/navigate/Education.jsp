@@ -137,7 +137,7 @@
 
 <div class="left-text">
 	<h3>Features of CRM For Educational Organization</h3>
-	<p class="para">1.Centralize students' information. This keeps all the data of students, staff, and admission records in one software.<br><br>
+	<p class="para">1. Centralize students' information. This keeps all the data of students, staff, and admission records in one software.<br><br>
 2. Manage student inquiries and courses enquired.<br><br>
 3. Manage student's enrolment information<br><br>
 4. Maximize student's admission efficiency<br><br>

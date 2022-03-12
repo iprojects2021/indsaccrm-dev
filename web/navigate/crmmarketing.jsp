@@ -149,7 +149,7 @@
 	 <h4>1. Web Marketing<h4> <br>
              <p class="para">   1. It is relatively very inexpensive as it reduces the cost of physically reaching the target customers for interaction. <br>
 2. Suppliers can reach more customers in a lesser amount of time. <br>
-3. online marketing campaigns can be easily tracked, traced, calculated, and tested. <br>
+3. Online marketing campaigns can be easily tracked, traced, calculated, and tested. <br>
 4. Online marketing campaigns are more promotional as compared to manual campaigns.</p>       
            <br>  
  <h4>2. Email Marketing<h4><br>

@@ -128,7 +128,7 @@
 
   <h4>It keeps your team on track.<h4>
 <p class="para" > 
- An in-depth sales report might not always be what your team needs to stay on pace to meet its goals. The top-level 
+An in-depth sales report might not always be what your team needs to stay on pace to meet its goals. The top-level 
 information that a dashboard presents can be enough to tell your salespeople what needs to get done now and what can wait, 
 saving the time and effort of analyzing detailed reports. </p><br>
 

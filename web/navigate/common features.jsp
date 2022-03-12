@@ -142,8 +142,7 @@
                     <p class="para">When a customer is interested to buy a product or service, the salesperson creates a 
                         quote with all details. If the customer agrees to buy it at the specified price, an order will be 
                         generated. If not, the salesperson either cancels the quote or revises it to meet customer 
-                        requirements. CRM automates and streamlines this process for business. It improves order processing 
-                        capability, sales visibility, and relationship with customers.</p>                 
+                        requirements. CRM automates and streamlines this process for business. It improves order processing capability, sales visibility, and relationship with customers.</p>                 
                     </div>
                 </div>
             </div>

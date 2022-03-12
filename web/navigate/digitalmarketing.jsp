@@ -131,7 +131,7 @@
      <br>   1. Digital Marketing Strategies Connected to CRM
       <br>   2. CRM Personalizes the Digital Marketing Campaign
        <br>  3. Digital Connections
-         <br>4.Satisfaction Guaranteed
+         <br>4. Satisfaction Guaranteed
         </p>
 </div>
 

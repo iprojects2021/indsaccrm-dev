@@ -105,7 +105,7 @@
 
 <h4>Customer retention gets improved</h4>
 <p class="para" > 
- This is one of the most important things to consider when choosing a CRM for your business. CRM software integrates with: 
+This is one of the most important things to consider when choosing a CRM for your business. CRM software integrates with: 
 an ERP or other accounting software, HR software, your website, and web forms to import new leads, billing and e-commerce platforms to register transactions, as well as marketing solutions. </p><br>
 
 <h4>Know what your customers want</h4>

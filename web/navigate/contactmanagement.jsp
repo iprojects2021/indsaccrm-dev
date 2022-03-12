@@ -102,7 +102,7 @@
             </div>
             <div class="cwp4-two row">
             <div class="col-xl-6 cwp4-image ">
-                <img src="assets/images/contactmgm.gif" alt="product" class="img-responsive ">
+                <img src="assets/images/indsac-contact-management.gif" alt="product" class="img-responsive ">
             </div>
                 <div class="cwp4-text col-xl-6">
                     <h4>The Key To Your Customer Success</h4>

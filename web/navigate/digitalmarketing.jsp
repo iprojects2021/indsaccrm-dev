@@ -97,11 +97,10 @@
             </div>
                 <div class="cwp4-text col-xl-6">
                     <h4>Digital Marketing</h4>
-                    <p class="para">Digital marketing is basically every marketing activity, strategy 
-                        that is used on digital platforms such as social media, websites to attract 
-                        prospective customers. It aims your marketing methods on platforms that 
-                        prospective customers spend most of their time on such as Facebook, Twitter, 
-                        Instagram etc.
+                    <p class="para">Digital marketing is every marketing activity, a strategy that is used on digital 
+                        platforms such as social media, websites to attract prospective customers. It aims your marketing 
+                        methods on platforms that prospective customers spend most of their time on such as Facebook, 
+                        Twitter, Instagram, etc.
                     </p>
                 </div>
             </div>
@@ -115,12 +114,14 @@
 	<h3>What is the role of CRM in digital marketing?</h3>
 	<p class="para">    </p>
 </div>
-<p class="para">  More and more activities are taking place online from web searches, to shopping etc. as it is quicker and more practical. There is no longer the need to stand in a line in a store if you choose not too, and especially during sales season when everything is chaotic, nor go to the library for information on a company. </p>       
+<p class="para">  More and more activities are taking place online from web searches to shopping etc. as it is quicker and 
+    more practical. There is no longer the need to stand in a line in a store if you choose not to, especially during 
+    sales season when everything is chaotic, nor go to the library for information on a company. </p>       
 <br><p class="para">For these, brands needed a quick adaptation as well as something that would help manage audience engagement and data.
 
 <br>So, what have stores or businesses chosen to do? They have decided to bring their products and services to your doorstep and online.
 
-<br>With technology updates and limitless of information, a customer is exposed to many other offers of the same product, CRM is key to stay ahead of the game. </p>       
+<br>With technology updates and limitless information, a customer is exposed to many other offers of the same product, CRM is key to staying ahead of the game. </p>       
  <br>
 <div class="left-text">
 	<h3>Importance of CRM in Digital Marketing</h3>
@@ -130,7 +131,7 @@
      <br>   1. Digital Marketing Strategies Connected to CRM
       <br>   2. CRM Personalizes the Digital Marketing Campaign
        <br>  3. Digital Connections
-         <br>4.Satisfaction Guaranteed
+         <br>4. Satisfaction Guaranteed
         </p>
 </div>
 

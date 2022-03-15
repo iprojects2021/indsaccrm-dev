@@ -108,7 +108,7 @@
                    
                     <p class="para"> Email integration in your CRM lets you automatically capture your messages to and from your contacts to your account.  </p><br>
                        <p class="para">  INDSAC-CRM automatically associates all e-mails with their respective customer records, so you'll never have to comb through a mountain of messages to send your next round of follow-ups.</p><br>
-                     <p class="para"> These tools offer you a wide variety of additional ways to engage with your customers and subscribers at different points in the campaign..</p>
+                     <p class="para">These tools offer you a wide variety of additional ways to engage with your customers and subscribers at different points in the campaign...</p>
                 </div>
             </div>
         </div>
@@ -125,8 +125,8 @@
                     <p class="para"> 1. CRM makes the outreach highly appealing due to collecting prospects personal data, creating a holistic view of a prospect, and crafting e-mails based on it. <br><br>
                     2. CRM has pre-designed email templates, which allow customers to create visually appealing branded messages.<br> <br>
                     3. Saves any documents attached to an email to the company account record. <br><br>
-                    4. Synchronizes in real-time so your team will always see the latest correspondence.<br><br>
-                    5. Automatically create new customer support cases from incoming email.<br><br>
+                    4. Synchronize in real-time so your team will always see the latest correspondence.<br><br>
+                    5. Automatically create new customer support cases from incoming emails.<br><br>
                     6. Automatically capture e-mails to and from your CRM contacts to your activities timeline.</p>
                    </div>
 	 <div class="col-xl-6 cwp4-image ">
@@ -137,7 +137,7 @@
         <div class="main-titles-head text-center">
 
                 <h3 class="header-name">
-				INDSAC-CRM email integration for complete transparency<br> of every interaction across your team.
+	INDSAC-CRM email integration for complete transparency<br> of every interaction across your team.
                 </h3>
             </div>
     </div>
@@ -175,8 +175,7 @@
                 <div class="cwp4-text col-xl-6">
                     <h3 class="header-name">Email Attachments </h3> <br>
                 <p class="para">The CRM will store any attached documents to the email record. 
-                    This might be your proposal documents, meeting minutes, quotations or images. The volume of documents stored is determined by your CRM price plan.</p>
-                    
+                    This might be your proposal documents, meeting minutes, quotations, or images. The volume of documents stored is determined by your CRM price plan.</p>                   
                     </div>
                 </div>
             </div>
@@ -212,10 +211,10 @@
             </div>
                 <div class="cwp4-text col-xl-6">
                     <h3 class="header-name">Email status updates </h3> <br>
-                <p class="para">INDSAC-CRM informs you when your e-mails were delivered, if they've been opened, and when they were read. 
-                    You can also use advanced filters to identify leads who haven't responded within a certain time-frame as well as leads that are responding well and are ready to close. 
-                    This analysis allows you to strategically plan your follow-ups for maximum benefit.</p>
-                    
+                <p class="para">INDSAC-CRM informs you when your e-mails were delivered if they've been opened, and when 
+                    they were read. You can also use advanced filters to identify leads who haven't responded within a 
+                    certain time frame as well as leads that are responding well and are ready to close. This analysis 
+                    allows you to strategically plan your follow-ups for maximum benefit.</p>                   
                     </div>
                 </div>
             </div>

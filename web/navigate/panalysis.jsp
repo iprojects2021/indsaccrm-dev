@@ -109,7 +109,7 @@
                     <p class="para">Productivity is about saving TIME.  </p><br>
                        <p class="para"> Save time in gathering information, save time in making smart decisions, save time from bad strategic decisions, save time for the more enjoyable parts of business life!</p><br>
                           <p class="para">Productivity Analysis allows the user to compare the volume of activities with the sales recorded by each sales representative. </p><br>
-                            <p class="para">  Through the use of filters, users can restrict the analysis to specific activity types, sales-persons, time frames and other useful attributes.</p><br>
+                            <p class="para">  Through the use of filters, users can restrict the analysis to specific activity types, salespersons, time frames, and other useful attributes.</p><br>
                 </div>
             </div>
             <br><br><br>
@@ -119,7 +119,7 @@
                     <h4>Productivity Analysis Benefits</h4>
                     <p class="para"> 1. View to-do lists by user and time-frame<br><br> 
                     2.  View activities by results and representative<br><br> 
-                    3. View incidents by time-frame, priority, volume and more <br><br>
+                    3. View incidents by time-frame, priority, volume, and more<br><br>
                     4. View top opportunities in your pipeline<br><br>
                     5. View year-to-date quote totals<br><br>
                    </p>
@@ -186,7 +186,7 @@
         <div class="container">
             <div class="cwp4-two row">
                 <div class="cwp4-text col-xl-6">
-                     <h3 class="header-name"> Use INDSAC-CRM Organization Wide </h3> <br>
+                     <h3 class="header-name"> Use INDSAC-CRM Organization-Wide </h3> <br>
                    <p class="para"> 
                     1. Capabilities to standardize different business work processes<br><br> 
                     2. Encourage collaboration by bringing together customer-facing and other teams on one platform<br><br> 

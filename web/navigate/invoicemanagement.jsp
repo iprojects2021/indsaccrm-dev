@@ -107,15 +107,16 @@
             </div>
                 <div class="cwp4-text col-xl-6">
                     <h4>INDSAC-CRM With Invoicing</h4>
-                    <p class="para">Easily organize your billing with INDSAC-CRM and invoicing software. 
-                        Perfect for large and small businesses, you get an all-round business tool that goes way beyond simply 
-                        quoting and invoicing. <br><br>Your CRM lets you grow your relationship with your customers, and quotes and 
-                        invoices are just one part of that. 
+                    <p class="para">Easily organize your billing with INDSAC-CRM and invoicing software. Perfect for large
+                        and small businesses, you get an all-around business tool that goes way beyond simply quoting and 
+                        invoicing. 
                     </p>
                     <br>
+
                      <p class="para">With so many integrations, you can talk to your clients on whatever platform they want 
                          and keep a record of all interactions and billing in one place. When you're ready to send the invoice, 
                          in just a click of a button, you can send it by email or print it as a PDF.
+
                     </p>
                     <br>                 
                 </div>
@@ -123,7 +124,6 @@
         </div>
     </div>
 </section>
-
 <section class="w3l-specification-6">
     <div class="specification-layout">
         <div class="container">

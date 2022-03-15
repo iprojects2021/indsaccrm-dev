@@ -98,13 +98,12 @@
             </div>
                 <div class="cwp4-text col-xl-6">
                     <h4>Pharmaceutical Industry</h4>
-                    <p class="para">The pharmaceutical company is a firm to research, discover, develop, market and sell the drugs. It is an important industry worldwide. These companies research and produce drugs to cure diseases of humans and animals. There are some drugs that also treat symptoms. </p>
+                    <p class="para">The pharmaceutical company is a firm to research, discover, develop, market, and sell drugs. It is an important industry worldwide. These companies research and produce drugs to cure diseases of humans and animals. Some drugs also treat symptoms.</p>
                     <div class="jst-two-coloums mt-4">
                         <div class="icon-text">
                             <h5> <a href="#" ></a>
                             </h5>
-                            <p class="para">Large and small pharmaceutical companies, independent pharmacies, and medicine wholesalers are perhaps the most critical role play in the pharmaceutical industry. 
-							All three of the industry's face multiple challenges. But, some common tools come to their aid and help meet business needs. </p>
+                            <p class="para">Large and small pharmaceutical companies, independent pharmacies, and medicine wholesalers are perhaps the most critical role play in the pharmaceutical industry. All three of the industries face multiple challenges. But, some common tools come to their aid and help meet business needs. </p>
                        </div>
                         <div class="icon-text mt-lx-3 pt-lx-1">
                             <h5 ><a href="#" ></a>
@@ -121,8 +120,8 @@
    				    <div class="recent-work ">
    				        <div class="container">
 <div class="left-text">
-	<h3>The role of crm in pharmaceutical industry</h3>
-	<p class="para">Assessment procedures, quality system, data security, transfer of information, data collection, and the documentation process are often under the spotlight in the industry. The pharmaceutical sector is faces challenges in the form of new regulations, competition in various markets around the world.  </p>
+	<h3>The role of CRM in the pharmaceutical industry</h3>
+	<p class="para">Assessment procedures, quality systems, data security, transfer of information, data collection, and the documentation process are often under the spotlight in the industry. The pharmaceutical sector is faces challenges in the form of new regulations, competition in various markets around the world.  </p>
 	<br>
 <p class="para">Using INDSAC-CRM pharma companies can enhance their sales and marketing processes, territory management, and account management activities. The main benefits offered by the INDSAC-CRM systems are the improvement in data analysis and reporting, 
 customer service, and creating a strong connection with the customer. </p><br>
@@ -154,8 +153,7 @@ customer service, and creating a strong connection with the customer. </p><br>
                     <div class="back-color">
                           <a href="strongconnection.jsp"><img class="img-responsive" src="assets/images/ph2.jpeg" alt=" "></a><br><br>
                         <h4><a href="strongconnection.jsp" class="title-head">Establish A Strong Connection With Customers</a></h4>
-                        <p class="para">CRM help you to maintain & intensify connection with your potential customers. With the reminder facility, 
-						it is simple to get a reminder when the service expires.</p><br>
+                        <p class="para">CRM helps you to maintain & intensify connection with your potential customers. With the reminder facility, it is simple to get a reminder when the service expires.</p><br>
                     </div>
                 </div>
                
@@ -179,8 +177,7 @@ customer service, and creating a strong connection with the customer. </p><br>
                     <div class="back-color">
                           <a href="services.jsp"><img class="img-responsive" src="assets/images/ph3.jpg" alt=" "></a><br><br>
                         <h4><a href="services.jsp" class="title-head">Offer improved Customer Services</a></h4>
-                        <p class="para">A INDSAC-CRM allows to efficiently manage customer database and offer them customized services. In the case of a past query, t
-						he system can fetch all data within seconds.</p>
+                        <p class="para">An INDSAC-CRM allows to efficiently manage customer databases and offer them customized services. In the case of a past query, the system can fetch all data within seconds.</p>
                     </div>
                 </div>
 				
@@ -204,10 +201,9 @@ customer service, and creating a strong connection with the customer. </p><br>
 <div class="left-text">
 
 
-<h3> Why use INDSAC-CRM for pharmaceutical industry?</h3>
-	<p class="para">INDSAC-CRM software all your product to get large reach by creating a clear marketing strategy. This software boost your market reach and give you an efficient work flow. Apart from offering improved customer services, you can perform other 
-	essential tasks for your pharmaceutical business like Optimize products & services, efficient, operation management, run marketing campaigns, and many more. With CRM for your pharmaceutical business, you can reveal the existence of your newest medications, and organize staff work for maximum productivity. </p>
-
+<h3> Why use INDSAC-CRM for the pharmaceutical industry?</h3>
+	<p class="para">INDSAC-CRM software all your product to get large reach by creating a clear marketing strategy. 
+            This software boosts your market reach and gives you an efficient workflow. Apart from offering improved customer services, you can perform other essential tasks for your pharmaceutical business like optimizing products & services, efficiency, operation management, running marketing campaigns, and many more. With CRM for your pharmaceutical business, you can reveal the existence of your newest medications, and organize staff work for maximum productivity. </p>
 	
 </div>
 </div>

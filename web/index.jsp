@@ -256,13 +256,15 @@
 				</div>
 				<div class="column2 col-lg-6">
 					<h3 class="team-head">A better business means better client experience</h3>
+
 					<p class="para text">The journey involves understanding the customer requirements. INDSAC CRM offers you a well executed <a href="https://www.indsaccrm.com/navigate/comservice.jsp">customer service</a>
                                          strategy which will maximize customer lifetime value. Customer experience impacted customers enthusiasm for being brand advocates.
                                         We provide the smooth <a href="https://www.indsaccrm.com/navigate/impcomm.jsp">communication</a> process between your business and customers. Everything you do impacts your
                                         customer's perception and their decision to keep coming back.</p>
+
 				<p class="para mt-2 dis-none">
-					We provide you every touchpoint a customer ever has with your business. By having a measurable indicator
-                                        of customer, you can track how your business improves over time and use it to evaluate your success stories.
+					We provide you with every touchpoint a customer ever has with your business. By having a measurable indicator 
+                                        of the customer, you can track how your business improves over time and use it to evaluate your success stories.
 				</p>
 				</div>
 			</div>
@@ -298,15 +300,19 @@
                     <div class="back-color">
                     <span class="fa fa-pie-chart" aria-hidden="true"></span>
                     <h4><a href="navigate/360view.jsp" class="title-head">360 Degree View</a></h4>
+
                     <p class="para">INDSAC <a href="https://www.indsaccrm.com/navigate/360view.jsp">360 degree</a>  customer view strategic approach enabling businesses to offer the best customer experience across all channels</p>
+
                 </div>
             </div>
                 <div class="grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1">
                     <div class="back-color">
                     <span class="fa fa-mobile" aria-hidden="true"></span>
                     <h4><a href="navigate/digitalmobile.jsp" class="title-head">Digital & Mobile</a></h4>
+
                     <p class="para">Utilize the amazing <a href="https://www.indsaccrm.com/navigate/digitalmobile.jsp">technology</a>  where ever you are to benefits your business. View data and receive 
                     valuable alerts in mobile.</p>
+
                 </div>
             </div>
                 <div class=" grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1">
@@ -319,9 +325,11 @@
                 <div class="grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1 ">
                     <div class="back-color">
                     <span class="fa fa-cubes" aria-hidden="true"></span>
+
                     <h4><a href="navigate/Planning.jsp" class="title-head">Planing</a></h4>
                     <p class="para">Get high level overview of your entire business that will develop a better understanding 
                     of effective business <a href="https://www.indsaccrm.com/navigate/Planning.jsp">planning</a> process.</p>
+
                 </div>
             </div>
         </div>
@@ -345,7 +353,7 @@
                 </div>
                 <div class="grids-1 grids-effect-2">
                     <h4><a href="navigate/Analytics.jsp" class="title-head">CRM Analytics</a></h4>
-                    <p class="para"> Enable decision makers to make better and more timely business decisions </p>
+                    <p class="para"> Enable decision-makers to make better and more timely business decisions</p>
                 </div>
                 <div class="grids-1 grids-effect-2">
                     <h4><a href="navigate/digitalmarketing.jsp" class="title-head">Digital Marketing</a></h4>
@@ -371,7 +379,7 @@
 		<div class="container">
 		
 			<h2><a class="footer-logo" href="index.jsp">
-				<span class="fa fa-line-chart mr-2"aria-hidden="true"></span>INDSAC_CRM</a></h2>
+				<span class="fa fa-line-chart mr-2"aria-hidden="true"></span>INDSAC-CRM</a></h2>
 			<div class=" row">
 				<div class="grid-col col-lg-7 col-md-7">
 					<h3>Get latest updates and offers.</h3>
@@ -427,7 +435,7 @@
 					</div>
 					
 				<div class="col-lg- col-md- col-12 copyright-grid ">
-					<p class="copy-footer-29">© 2020 | All rights reserved | Design by <a
+					<p class="copy-footer-29">© 2022 | All rights reserved | Design by <a
 							href="https://indsac.com" target="_blank"> INDSAC SOFTECH</a>
 					</p>
 				</div>

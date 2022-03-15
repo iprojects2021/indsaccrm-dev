@@ -110,11 +110,12 @@
    				    <div class="recent-work ">
    				        <div class="container">
 <div class="left-text">
-	<h3>How INDSAC-CRM analytics can help your business</h3>
+	<h3>How INDSAC-CRM analytics can help your business?</h3>
 	<p class="para">    </p>
 </div>
-<p class="para"> While there are specific functions a CRM should provide in order to work well, another side of its functionality is providing data and analytics. Business analytics is the foundation for successfully 
-    converting leads into customers and customers into brand advocates. <br> <br>     
+<p class="para"> While there are specific functions a CRM should provide to work well, another side of its functionality 
+    is providing data and analytics. Business analytics is the foundation for successfully converting leads into 
+    customers and customers into brand advocates.<br> <br>     
          1. Shows a clear customer journey <br>
         2. Indicates a change in lead status<br> 
         3. Offers insight into customer retention strategies<br> 
@@ -128,12 +129,13 @@
 <p class="para"> After implementation, CRM analytics offers insights to understand and use the data that is mined. 
     Organizations use CRM analytics in the following ways:<br><br>    
     
-    1. Customer segmentation groupings : Dividing customers into those most and least likely to repurchase a product.<br><br>
-        2. Profitability analysis and customer value : Learning which customers contribute to the highest profits over time. 
-        This involves understanding not just how much a customer spends, but how many resources you dedicate to that customer in return.<br> <br>
-        3. Personalization : The ability to market to individual customers based on the data collected about them.<br> <br>
-        4. Measuring and tracking escalation : The ability to measure how often problems arise with a product or service to eliminate that issue and quickly achieve customer satisfaction.<br> <br>
-        5. Predictive modeling : Comparing various product development plans in terms of likely future success given the customer knowledge base by measuring engagement levels through customer shares.</p>
+       1. Customer segmentation groupings: Dividing customers into those most and least likely to repurchase a product.<br><br>
+       2. Profitability analysis and customer value: Learning which customers contribute to the highest profits over time.
+       This involves understanding not just how much a customer spends, but how many resources you dedicate to that customer in return.<br> <br>
+       3. Personalization: The ability to market to individual customers based on the data collected about them.<br> <br>
+       4. Measuring and tracking escalation: The ability to measure how often problems arise with a product or service to 
+       eliminate that issue and quickly achieve customer satisfaction.<br> <br>
+       5. Predictive modeling: Comparing various product development plans in terms of likely future success given the customer knowledge base by measuring engagement levels through customer shares.</p>
 </div>
 </div>                                                             
 </section>

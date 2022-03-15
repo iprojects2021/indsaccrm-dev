@@ -102,18 +102,17 @@
             </div>
                 <div class="cwp4-text col-xl-6">
                     <h4>360 Degree view </h4>
-                    <p class="para"> The term 360 degree view of the customer designates all available and significant 
-                        information about the customer collected by a company in order to provide the most personalized 
-                        and efficient customer service. The concept is widely used by companies implementing customer 
-                        centric approach to their business. 
+                    <p class="para"> The term 360-degree view of the customer designates all available and significant 
+                        information about the customer collected by a company to provide the most personalized and 
+                        efficient customer service. The concept is widely used by companies implementing a customer-centric 
+                        approach to their business. 
                     </p>
                        <br>
-                       <p class="para"> The importance of 360-degree view of the customer cannot be 
-                           overstated. It improves the effectiveness of all your marketing efforts, 
-                           predicts the potential demand, helps salespeople to up-sell and cross sell
-                           more. Finally, 360-degree view enables companies to provide the best customer
-                           experience, increase customer loyalty and satisfaction. </p>
-                   
+                       <p class="para"> The importance of a 360-degree view of the customer cannot be overstated. 
+                           It improves the effectiveness of all your marketing efforts, predicts the potential demand, 
+                           helps salespeople to up-sell and cross-sell more. Finally, a 360-degree view enables companies 
+                           to provide the best customer experience, increase customer loyalty and satisfaction.
+ </p>                  
                 </div>
             </div>
         </div>
@@ -124,7 +123,7 @@
    				        <div class="container">
 <div class="left-text">
 	<h3>Benefits of a 360-Degree View</h3>
-	<p class="para">    </p>
+	<p class="para"></p>
 </div>
 <div class="row about-about">
 	<div class="col-lg-4 col-md-6">
@@ -137,24 +136,22 @@
 	<div class="col-lg-4 col-md-6 about-line-top">
 		<div class="about-grids">
 <h4>Superior predictive analysis</h4>
-<p class="para">It's about taking that complete picture of the customer's situation drawing on their 
-    accounts, transactions, priorities and service calls and predicting where they're headed and 
-    what they'll need in the future.</p>
+<p class="para">It's about taking that complete picture of the customer's situation drawing on their accounts, 
+    transactions, priorities, and service calls, and predicting where they're headed and what they'll need in the future.</p>
 		</div>
 	</div>
 	<div class="col-lg-4 col-md-6 about-line-top">
 		<div class="about-grids">
 <h4>Improved customer loyalty</h4>
-<p class="para">Landing a customer is important for starting a business, but keeping them coming back 
-    is the secret to long-term success. Well-timed and informative communications are at the heart of 
-    building those ongoing customer relationships.</p>
+<p class="para">Landing a customer is important for starting a business, but keeping them coming back is the secret to 
+    long-term success. Well-timed and informative communications are at the heart of building those ongoing customer 
+    relationships.</p>
 		</div>
 	</div>
 </div>
    </div>
 </div>
 </section>
-
 
 <%@include file="footer.jsp" %>
 

@@ -114,7 +114,7 @@
    				    <div class="recent-work ">
    				        <div class="container">
 <div class="left-text">
-    <h3>The Customer On-boarding Process</h3>
+    <h3>The Customer Onboarding Process</h3>
 	<p class="para">    </p>
 </div>
 <p class="para"><h4>1. Welcome Email </h4>

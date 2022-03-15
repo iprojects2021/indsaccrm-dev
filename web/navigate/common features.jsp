@@ -101,9 +101,10 @@
             </div>
                 <div class="cwp4-text col-xl-6">
                     <h4>Sales Process Automation</h4>
-                    <p class="para">Sales process automation is one of the most important  feature. It automates and streamlines various sales functionalities to standardize business processes.
-Business can customize the application as per requirements. It reduces human error, makes sales cycle shorter and improves lead to customer conversion ratio.</p>
-                   
+                    <p class="para">Sales process automation is one of the most important features. It automates and 
+                        streamlines various sales functionalities to standardize business processes. Businesses can 
+                        customize the application as per requirements. It reduces human error, makes the sales cycle 
+                        shorter, and improves lead to customer conversion ratio.</p>                 
                 </div>
             </div>
         </div>
@@ -117,24 +118,18 @@ Business can customize the application as per requirements. It reduces human err
            
                 <div class="cwp4-text col-xl-6">
                     <h4>Opportunity Management</h4>
-                    <p class="para">When business qualifies a lead, it becomes an opportunity.
-
-An opportunity is potential revenue generating contact or account.
-
-If business does not nurture contacts or accounts properly, it will lose selling opportunity.
-
-Opportunity Management enables business to manage and monitor sales funnel and provides necessary info to complete the sales process.</p>
-                    
-				   </div>
-				 <div class="col-xl-6 cwp4-image ">
+                    <p class="para">When a business qualifies for a lead, it becomes an opportunity. An opportunity is a 
+                        potential revenue-generating contact or account. If the business does not nurture contacts or 
+                        accounts properly, it will lose its selling opportunity. Opportunity Management enables businesses 
+                        to manage and monitor the sales funnel and provides necessary info to complete the sales process.</p>                   
+				</div>
+		<div class="col-xl-6 cwp4-image ">
                 <img src="assets/images/op.png" alt="product" class="img-responsive ">
             </div>
             </div>
         </div>
     </div>
-</section>
-   					
-					
+</section>										
 					<section class="w3l-content-with-photo-4">
     <div class="content-with-photo4-block">
         <div class="container">
@@ -144,12 +139,10 @@ Opportunity Management enables business to manage and monitor sales funnel and p
             </div>
                 <div class="cwp4-text col-xl-6">
                     <h4>Quote and Order Management</h4>
-                    <p class="para">When a customer is interested to buy product or service, sales person creates a quote with all details.
-
-If customer agrees to buy it with specified price, order will be generated. If not, sales person either cancels the quote or revises it to meet customer requirement.
-
-CRM automates and streamlines this process for business. It improves order processing capability, sales visibility and relationship with customers.</p>
-                    
+                    <p class="para">When a customer is interested to buy a product or service, the salesperson creates a 
+                        quote with all details. If the customer agrees to buy it at the specified price, an order will be 
+                        generated. If not, the salesperson either cancels the quote or revises it to meet customer 
+                        requirements. CRM automates and streamlines this process for business. It improves order processing capability, sales visibility, and relationship with customers.</p>                 
                     </div>
                 </div>
             </div>
@@ -163,11 +156,10 @@ CRM automates and streamlines this process for business. It improves order proce
            
                 <div class="cwp4-text col-xl-6">
                     <h4>Account Management</h4>
-                    <p class="para">Account Management is another primary feature of CRM software.
-
-It captures and organizes company or division or household information and manages relationship.</p>
+                    <p class="para">Account Management is another primary feature of CRM software. It captures and 
+                        organizes company or division or household information and manages relationships</p>
                 </div>
-				 <div class="col-xl-6 cwp4-image ">
+		  <div class="col-xl-6 cwp4-image ">
                 <img src="assets/images/indsac-account-management.gif" alt="product" class="img-responsive ">
             </div>
             </div>
@@ -185,9 +177,10 @@ It captures and organizes company or division or household information and manag
             </div>
                 <div class="cwp4-text col-xl-6">
                     <h4>Campaign Management</h4>
-                    <p class="para">Sales process automation is one of the most important  feature. It automates and streamlines various sales functionalities to standardize business processes.
-Business can customize the application as per requirements. It reduces human error, makes sales cycle shorter and improves lead to customer conversion ratio.</p>
-                   
+                    <p class="para">Sales process automation is one of the most important features. It automates and 
+                        streamlines various sales functionalities to standardize business processes. Businesses can 
+                        customize the application as per requirements. It reduces human error, makes the sales cycle 
+                        shorter, and improves the lead-to-customer conversion ratio...</p>                  
                 </div>
             </div>
         </div>

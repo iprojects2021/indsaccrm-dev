@@ -3,7 +3,7 @@
 		<div class="container">
 		
 			<h2><a class="footer-logo" href="index.jsp">
-				<span class="fa fa-line-chart mr-2"aria-hidden="true"></span>INDSAC_CRM</a></h2>
+				<span class="fa fa-line-chart mr-2"aria-hidden="true"></span>INDSAC-CRM</a></h2>
 			<div class=" row">
 				<div class="grid-col col-lg-7 col-md-7">
 					<h3>Get latest updates and offers.</h3>
@@ -34,45 +34,27 @@
 						<a href="../index.jsp" class="contact-para3">Home</a>
 						<a href="about.jsp" class="contact-para3">About</a>
 					</div>
-
 				</div>
 				<div class="grids-content col-lg-3 col-md-3 col-sm-6">
-			
 					<div class="footer-nav">
 						<a href="termsofuse.jsp" class="contact-para3">Term of Use</a>
 						<a href="privacypolicy.jsp" class="contact-para3">Privacy Policy</a>
 						
 						<a href="ourstory.jsp" class="contact-para3">Our Story</a>
-						
-			
 					</div>
-					
 					</div>
-					
-					
 					<div class="grids-content col-lg-4 col-md-4 col-sm-6">
-			
 					<div class="footer-nav">
 						<a href="resources.jsp" class="contact-para3">What is CRM? </a>
 						<a href="contact.jsp" class="contact-para3">Help Desk </a>
 						<a href="whychooseus.jsp" class="contact-para3">Why Choose INDSAC CRM</a>
-						
 					</div>
-					
-					</div>
-					
-					
+				   </div>
 					<div class="grids-content col-lg- col-md- col-sm-">
-			
 					<div class="footer-nav">
 						<a href="../index.jsp" class="contact-para3">Free Demo</a>
 						<a href="pricing.jsp" class="contact-para3">Pricing </a>
-	
-			
-						
-				
 					</div>
-					
 					</div>
 					
 				<div class="col-lg- col-md- col-12 copyright-grid ">

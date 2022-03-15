@@ -108,23 +108,18 @@
                   
                     <p class="para"> Lead management is a systematic process in which incoming leads are qualified, analyzed, and nurtured so that they can be converted into new business opportunities.</p><br>
                        <p class="para">In a sales process, leads from multiple channels enter your lead management system, and the sales-ready leads are converted into deals.</p><br>
-                     <p class="para">From lead generation to conversion and analysis, take a look at some of the popular ways that you can find sales success with INDSAC-CRM lead management system.</p>
+                     <p class="para">From lead generation to conversion and analysis, take a look at some of the popular ways that you can find sales success with the INDSAC-CRM lead management system.</p>
                 </div>
             </div>
         </div>
     </div>
-    
-    
-    
-    <div class="main-titles-head text-center">
+  <div class="main-titles-head text-center">
 
                 <h3 class="header-name">
-				The Lead Management Process
+	      The Lead Management Process
                 </h3>
-            </div>
-    
+            </div>   
 </section>
-
 <section class="w3l-content-with-photo-4">
     <div class="content-with-photo4-block">
         <div class="container">
@@ -154,9 +149,10 @@
             </div>
                 <div class="cwp4-text col-xl-6">
                     <h3 class="header-name">2: Lead enrichment & tracking </h3> <br>
-                <p class="para">Lead management software mines data from multiple sources. It uses direct mailing or email marketing lists. Other times, it extracts information from customer databases or even social media platforms.
-                With access to the right data, it analyzes the information, segments valuable customer identifiers and produces a set of qualified leads.</p>
-                    
+                <p class="para">Lead management software mines data from multiple sources. It uses direct mailing or email 
+                    marketing lists. Other times, it extracts information from customer databases or even social media 
+                    platforms. With access to the right data, it analyzes the information, segments valuable customer 
+                    identifiers, and produces a set of qualified leads.</p>                   
                     </div>
                 </div>
             </div>
@@ -203,10 +199,11 @@
             <div class="cwp4-two row">
                 <div class="cwp4-text col-xl-6">
                      <h3 class="header-name">5: Lead nurturing</h3> <br>
-                   <p class="para"> Your all leads are  not sales-ready.  Lead nurturing educate and demonstrate the value of your product/service. 
-                   With a lead management software in place, you can send campaigns to these leads who are not quite ready yet to make a purchase.</p>
+                   <p class="para"> Your all leads are not sales-ready. Lead nurturing educate and demonstrate the value 
+                       of your product/service. With lead management software in place, you can send campaigns to these 
+                       leads who are not quite ready yet to make a purchase.</p>
                 </div>
-	<div class="col-xl-6 cwp4-image ">
+	    <div class="col-xl-6 cwp4-image ">
                 <img src="assets/images/lead7.jpg" alt="product" class="img-responsive ">
             </div>
             </div>

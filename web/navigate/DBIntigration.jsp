@@ -103,8 +103,8 @@
                         company in one customizable dashboard.<br> <br>
                         This means that support agents don't need to log in and out of multiple systems, copying and pasting 
                         account numbers into different software tools to get basic information about a customer.<br>  <br>
-                        With CRM, all of the data created about customers across disparate tools, accounts, and systems is automatically stored 
-                        in the database and easily accessible to everyone on the team.
+                       With CRM, all of the data created about customers across disparate tools, accounts, and systems are
+                       automatically stored in the database and easily accessible to everyone on the team.
                     </p>
                 </div>
             </div>
@@ -119,30 +119,28 @@
 	<p class="para">    </p>
 </div>
 <p class="para"><h4>1. A centralized database for sales teams </h4>
-One of the biggest benefits that companies can expect from using a CRM database is a centralized 
-database for its sales organization. By eliminating the need for individual sales reps to do the 
-tedious work required in maintaining their own personal databases, CRM automates the process and 
-makes it easy for anyone in the company to get the latest information from the CRM dashboard.  </p>
-              <br>      <br>   
+One of the biggest benefits that companies can expect from using a CRM database is a centralized database for their sales 
+organization. By eliminating the need for individual sales reps to do the tedious work required in maintaining their 
+databases, CRM automates the process and makes it easy for anyone in the company to get the latest information from the CRM
+dashboard.  </p>
+              <br><br>   
               
        <p class="para"><h4>2. One place for all customer communications</h4> 
-      CRM also makes it simple to manage communications with all customers and potential customers in 
-      one place. Companies that use CRM are able to see the company's entire history communicating with 
-      each customer with the click of a button. The CRM database also makes relationship management simple,
-      with the ability to set reminders and assign agents to keep deals moving, 
-      while providing managers the transparency to make sure leads are being followed up on</p>                                 
+      CRM also makes it simple to manage communications with all customers and potential customers in one place. Companies 
+      that use CRM can see the company's entire history communicating with each customer with the click of a button. 
+      The CRM database also makes relationship management simple, with the ability to set reminders and assign agents to 
+      keep deals moving, while providing managers the transparency to make sure leads are being followed up on</p>                                 
         <br><br>
         <p class="para"><h4>3. Automated data entry </h4> 
-       Automating data entry is another benefit for companies that implement a CRM solution. Reps and agents 
-       don't need to update information about their calls or emails with clients into a different system. 
-       Everything is logged automatically in the CRM solution, 
-       freeing up employees to do higher value work to close deals and solve customer problems </p>   
+       Automating data entry is another benefit for companies that implement a CRM solution. Reps and agents don't need to
+       update information about their calls or emails with clients into a different system. Everything is logged 
+       automatically in the CRM solution, freeing up employees to do higher-value work to close deals and solve customer problems </p>   
         <br>      <br> 
         <p class="para"><h4>4. Organized company contacts</h4>
-            CRM benefits also include powerful ways to organize all of a company's contacts. 
-            The CRM makes it easy to see whether the customer has visited a web site, contacted support, 
-               requested a demo, as well as notes from agents who handled previous interactions. 
-                The CRM also makes all of this data searchable, no matter where a customer is in the pipeline.
+            CRM benefits also include powerful ways to organize all of a company's contacts. The CRM makes it easy to see 
+            whether the customer has visited a website, contacted support, requested a demo, as well as notes from agents
+            who handled previous interactions. The CRM also makes all of this data searchable, no matter where a customer
+            is in the pipeline.
 </p>
 <br><br>
 
@@ -173,26 +171,24 @@ makes it easy for anyone in the company to get the latest information from the C
 	<p class="para">    </p>
 </div>
 <p class="para"><h4>1. Open source CRM systems</h4>
-Open source CRM systems are software solutions that are available online and are downloaded and 
-installed on a company's own servers. One of the benefits of open source CRM is how it enables
-companies to build and customize the solution for specific use cases. It also provides total 
-control of customer data and is inexpensive, with many free options available.  </p>
-              <br>      <br>   
+Open source CRM systems are software solutions that are available online and are downloaded and installed on a company's 
+servers. One of the benefits of open source CRM is how it enables companies to build and customize the solution for specific use cases. It also provides total control of customer data and is inexpensive, with many free options available.
+
+  </p>
+              <br><br>   
               
               <p class="para"><h4>2. On-premise</h4>
-On-premise is another type of CRM that businesses can evaluate. Like open source solutions, 
-on-premise solutions reside on a companys own servers. On-premise solutions also require dedicated
-hardware and IT staff to manage, operate, and maintain the CRM software. Unlike free open source 
-CRM systems, on-premise options can be much more robust and feature rich. On-premise solutions 
-are also the most expensive CRM options, as they require a large upfront payment to purchase the software.  </p>
-              <br>      <br>   
+On-premise is another type of CRM that businesses can evaluate. Like open-source solutions, on-premise solutions reside on 
+a company's servers. On-premise solutions also require dedicated hardware and IT staff to manage, operate, and maintain the
+CRM software. Unlike free open source CRM systems, on-premise options can be much more robust and feature-rich. On-premise solutions are also the most expensive CRM options, as they require a large upfront payment to purchase the software.  </p>
+              <br><br>   
               
               <p class="para"><h4>3. Cloud-based CRM</h4>
-With cloud-based solutions, the CRM system runs on the provider's servers. That means companies do not need 
-to worry about maintaining their own servers or having a team of IT professionals to manage the system. 
-Cloud-based CRM companies also have large teams of security experts that constantly monitor the system, 
-which also features many layers of enterprise-grade security protocols and measures.  </p>
-              <br>      <br>   
+With cloud-based solutions, the CRM system runs on the provider's servers. That means companies do not need to worry about 
+maintaining their servers or having a team of IT professionals to manage the system. Cloud-based CRM companies also have
+large teams of security experts that constantly monitor the system, which also features many layers of enterprise-grade
+security protocols and measures.</p>
+              <br><br>   
 </div>
 </div>                                                             
 </section>

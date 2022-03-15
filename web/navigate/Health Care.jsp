@@ -99,13 +99,12 @@
             </div>
                 <div class="cwp4-text col-xl-6">
                     <h4>Health Care Industry</h4>
-                    <p class="para">The goal of all healthcare providers to deliver care of the highest quality to patients and consumers. 
-					Part of delivering high-quality healthcare services establishing reliable relationships with care seekers and maintaining an organized patient information structure 
-					that is accessible by everyone involved in the delivery of healthcare services, 
-					while complying with medical information, security and privacy regulations. 
-					
-					
-                    </p>
+                    <p class="para">The goal of all healthcare providers is to deliver care of the highest quality to 
+                        patients and consumers. Part of delivering high-quality healthcare services establishing reliable 
+                        relationships with care seekers and maintaining an organized patient information structure that is
+                        accessible by everyone involved in the delivery of healthcare services, while complying with
+                        medical information, security, and privacy regulations.
+                </p>
                     <div class="jst-two-coloums mt-4">
                         <div class="icon-text">
                             <h5> <a href="#" ></a>
@@ -130,16 +129,15 @@
    				        <div class="container">
 <div class="left-text">
 	<h3>How Healthcare CRM improves patient care?</h3>
-	<p class="para">A Healthcare CRM helps to meeting patients needs.
-	Like other business organizations, healthcare firms too can utilize CRM technology to focus on relationship management, 
-	while offering more tangible benefits.</p><br>
+	<p class="para">A Healthcare CRM helps to meet patients' needs. 
+            Like other business organizations, healthcare firms too can utilize CRM technology to focus on relationship management, while offering more tangible benefits.</p><br>
 	
 <p class="para">A healthcare CRM solution can become a centralized healthcare hub data to manage different data streams. 
-This includes communications, analytics, and other passive patient interactions. 
-This helps healthcare institutes to create an actively engaged consumer base involved a partnership with healthcare professionals.</p><br>
+    This includes communications, analytics, and other passive patient interactions. This helps healthcare institutes to 
+    create an actively engaged consumer base involved in a partnership with healthcare professionals.</p><br>
 
-<p class="para">A CRM can free up you and your staff to focus on the patients treatments, and more strategic projects, 
-which results in enhanced customer experience, reducing waiting times, and satisfaction.</p>
+<p class="para">A CRM can free up you and your staff to focus on the patients' treatments, and more strategic projects,
+    which results in enhanced customer experience, reducing waiting times, and satisfaction.</p>
 </div>
 </div>
        </div>
@@ -160,8 +158,8 @@ which results in enhanced customer experience, reducing waiting times, and satis
                     <h4>Reports, Metrics, and Dashboards</h4>
                     <p class="para">
 A CRM stores data on patients in a communications module so that it is readily available to employees throughout the healthcare 
-system to schedule and track patient appointments and interactions. <br>The patient management module of the CRM enables staff to add or update patient records 
-and access medical histories of patients to provide better care.<br>The reporting module of the CRM can be designed to segment the patient population to analyze and then understand them better. </p>
+system to schedule and track patient appointments and interactions. <br>The patient management module of the CRM enables 
+staff to add or update patient records and access the medical histories of patients to provide better care.<br>The reporting module of the CRM can be designed to segment the patient population to analyze and then understand them better. </p>
                     
 				   </div>
 				 <div class="col-xl-6 cwp4-image ">
@@ -181,9 +179,8 @@ and access medical histories of patients to provide better care.<br>The reportin
             </div>
                 <div class="cwp4-text col-xl-6">
                     <h4> Mailing and Marketing Campaigns</h4>
-                    <p class="para"> A healthcare CRM can track patient satisfaction and the patients likelihood of referring others to the healthcare establishment. 
-					Such data provides valuable feedback to healthcare executives to make data-driven decisions. <br>The CRM allows you to filter your contacts to get a targeted list of patients or prospective patients who would most likely be interested in upcoming special offers or new services or products.</p>
-                   
+                    <p class="para"> A healthcare CRM can track patient satisfaction and the patients' likelihood of referring others to the healthcare establishment. Such data provides valuable feedback to healthcare executives to make data-driven decisions.
+                        <br>The CRM allows you to filter your contacts to get a targeted list of patients or prospective patients who would most likely be interested in upcoming special offers or new services or products.</p>                  
                 </div>
             </div>
         </div>
@@ -220,9 +217,8 @@ and access medical histories of patients to provide better care.<br>The reportin
             </div>
                 <div class="cwp4-text col-xl-6">
                     <h4> Availability on Multiple platforms</h4>
-                    <p class="para">CRM software is one of the most popular types of software for business and healthcare practices. 
-					Approximately 50 % of users access CRM software from a smartphone, or a tablet.</p>
-                   
+                    <p class="para">CRM software is one of the most popular types of software for business and healthcare 
+                        practices. Approximately 50 % of users access CRM software from a smartphone or a tablet.</p>                  
                 </div>
             </div>
         </div>

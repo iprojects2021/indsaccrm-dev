@@ -98,8 +98,8 @@
             </div>
                 <div class="cwp4-text col-xl-6">
                     <h4> Expand Your Business with INDSAC-CRM </h4>
-                    <p class="para">This software has the ability to generate exceptional revenue and empower employees 
-                        to work even when they are away from their desks.<br> <br>
+                    <p class="para">This software can generate exceptional revenue and empower employees to work even when 
+                        they are away from their desks.<br> <br>
                         CRM products combined with your sales team can boost your results and increase the 
                         conversion rate at a faster pace.<br>  <br>
                         CRM also provides the option to utilize the CRM tools from multiple platforms and does not restrict 
@@ -120,10 +120,8 @@
 </div>
 <p class="para"><h4>1. Attracts Customers </h4>
 A major part of a business is bringing in leads and increasing your client base. 
-This way you can increase your sales to fund your activities. So, your top priority should be to 
-try to get as many clients as possible. 
-CRM manage your buyer's details and help you construct long-lasting relations with customers. </p>
-              <br>      <br>   
+This way you can increase your sales to fund your activities. So, your top priority should be to try to get as many clients as possible. CRM manages your buyer's details and helps you construct long-lasting relations with customers. </p>
+              <br><br>   
               
        <p class="para"><h4>2. Lead Conversion</h4> 
      Leads are potential patrons that are yet to purchase your product. They are those that are 
@@ -149,23 +147,20 @@ CRM manage your buyer's details and help you construct long-lasting relations wi
 <br><br>
 
  <p class="para"><h4>5. Improve Customer Retention</h4>
-            CRM helps to improve the retention of customers, as old customers are able to satisfy, 
-            they will purchase the same company products. This way, CRM retain new clients and keep 
-            old customers. Additionally, the wonderful features of Customer Relationship Management tailored in 
-order to meet the requirements of every business organizations. Some vital features are multiple 
-user environments, sale force automation, effective data backup system, document sharing and wider
-assortment of reports. Once you understand the needs of CRM, you can choose the best solution that
-will make the most sense in your business.</p>
+            CRM helps to improve the retention of customers, as old customers can satisfy, they will purchase the same 
+            company products. This way, CRM retains new clients and keeps old customers. Additionally, the wonderful 
+            features of Customer Relationship Management are tailored to meet the requirements of every business 
+            organization. Some vital features are multiple user environments, sale force automation, an effective data 
+            backup system, document sharing, and a wider assortment of reports. Once you understand the needs of CRM, you 
+            can choose the best solution that will make the most sense in your business.</p>
  <br><br>
  
  <p class="para"><h4>6.  Omnichannel Marketing</h4>
-           businesses used to focus on phone calls and emails to deal with customer inquiries 
-           and transactions. But today, many other communication channels are made available for use. 
-           This has its own share of pros and cons. While it opened up so many ways to interact with 
-           consumers, so many different channels became a headache to manage. Omnichannel marketing is a
-           method of using various communication routes, but still providing the same level of 
-           personalized service through each. CRM enables you to do this by pooling all the data into 
-           a single software.</p>
+           businesses used to focus on phone calls and emails to deal with customer inquiries and transactions. But today, 
+           many other communication channels are made available for use. This has its share of pros and cons. While it 
+           opened up so many ways to interact with consumers, so many different channels became a headache to manage. 
+           Omnichannel marketing is a method of using various communication routes, but still providing the same level of 
+           personalized service through each. CRM enables you to do this by pooling all the data into a single software.</p>
  <br><br>
 
 <p class="para"><h4>7. Handling Customer Feedback</h4>
@@ -193,11 +188,6 @@ These channels that are in question include all the touchpoints, including conta
 phone calls, and much more.</p><br><br>
 
 <p class="para">
-*  It allows users to track customer and company interactions through the available channels. 
-These channels that are in question include all the touchpoints, including contact forms, emails, 
-phone calls, and much more.</p><br><br>
-
-<p class="para">
 *  CRM systems are embedded with tracking features that record frequent customer interactions online. </p><br><br>
 
 <p class="para">
@@ -211,11 +201,11 @@ course, and grow the revenue of business enterprises.
 Teams can show the level of progress with the stakeholders also. </p><br><br>
 
 <p class="para">
-*  Automate the routine processes that provide the manager with diverse tools that allow for tracking and measuring the companys performance and productivity. </p><br><br>
+*  Automate the routine processes that provide the manager with diverse tools that allow for tracking and measuring the company's performance and productivity. </p><br><br>
 
 <p class="para">
-*  CRM software can come handy in reminding managers of tasks that they need to complete on time. 
-CRM software can perform pre-scheduled activities, like sending emails and making phone calls. </p><br><br>
+*  CRM software can come in handy in reminding managers of tasks that they need to complete on time. CRM software can 
+perform pre-scheduled activities, like sending emails and making phone calls. </p><br><br>
 
 <p class="para">
 *  CRM also offers deep analytics capabilities allowing users to track the efficacy of diverse marketing

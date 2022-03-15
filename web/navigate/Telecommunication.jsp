@@ -98,19 +98,19 @@
             </div>
                 <div class="cwp4-text col-xl-6">
                     <h4> Telecommunication Industry</h4>
-                    <p class="para">Telecommunication industry consists of companies which makes communication possible worldwide through mobile phones, internet, cable or wirelessly. It allows people to communicate using words, audio or video from any part of the world to any part of the world. 
+                    <p class="para">The telecommunication industry consists of companies that make communication possible worldwide through mobile phones, the internet, cable, or wirelessly. It allows people to communicate using words, audio, or video from any part of the world to any part of the world. 
                     </p>
                     <div class="jst-two-coloums mt-4">
                         <div class="icon-text">
                             <h5> <a href="#" ></a>
                             </h5>
-                            <p class="para">The leading companies in the telecommunication industry are satellite companies, internet service providers, wireless operator. </p>
+                            <p class="para">The leading companies in the telecommunication industry are satellite companies, internet service providers, wireless operators.</p>
                        </div>
                         <div class="icon-text mt-lx-3 pt-lx-1">
                             <h5 ><a href="#" ></a>
                             </h5>
-                            <p class="para">Telecommunication industry includes various sub-sectors such as  wireless communication, ad-hoc network, mobile ad-hoc network, domestic telecommunication services, processing products, and systems. 
-							Mobile Ad-hoc network is the fastest growing sector in the telecommunication industry.  </p>
+                            <p class="para">The telecommunication industry includes various sub-sectors such as wireless
+                                communication, ad-hoc network, mobile ad-hoc network, domestic telecommunication services, processing products, and systems. Mobile Ad-hoc network is the fastest growing sector in the telecommunication industry. </p>
                         </div>
                     </div>
                 </div>
@@ -126,9 +126,11 @@
 	<p class="para">CRM in the telecom industry can serve as a powerful tool to increase sales and improve customer engagement. 
 	CRM software systems developed by our team for telecommunications companies with competitive ability by supplying the tools to identify and withhold profitable customers.
  </p><br>
-<p class="para">The power of INDSAC-CRM for Telecoms lies in its ability to make life easier for users. CRM for Telecoms is a user-friendly system dedicated to helping customer service representatives build unique and personalized customer relations. Navigating in data is streamlined for rapid and logical access. 
-The telecom industry is spreading fast! New innovations are being discussed every day. INDSAC-CRM bring innovations to help telecom industry.</p>
-</div>
+<p class="para">The power of INDSAC-CRM for Telecoms lies in its ability to make life easier for users. CRM for Telecoms is 
+    a user-friendly system dedicated to helping customer service representatives build unique and personalized customer 
+    relations. Navigating in data is streamlined for rapid and logical access. The telecom industry is spreading fast! 
+    Innovations are being discussed every day. INDSAC-CRM brings innovations to help the telecom industry.</p>
+     </div>
        </div>
      </div>
 				</section>
@@ -145,37 +147,36 @@ The telecom industry is spreading fast! New innovations are being discussed ever
                     <div class="back-color">
                         <a href="contactmanagement.jsp"><img class="img-responsive" src="assets/images/tel1.jpg" alt=" "></a>
                         <h4><a href="contactmanagement.jsp" class="title-head">Handle customer interactions comprehensively</a></h4>
-                        <p class="para">Use one single tool to manage business processes such as task management, lead management, contact management etc. </p><br>
+                        <p class="para">Use one single tool to manage business processes such as task management, lead management, contact management, etc.</p><br>
                     </div>
                 </div>
                 <div class=" grids-effect-2 col-lg-4 col-md-6 col-sm-6">
                     <div class="back-color">
                           <a href="CompAnalysis.jsp"><img class="img-responsive" src="assets/images/tel2.png" alt=" "></a>
                         <h4><a href="CompAnalysis.jsp" class="title-head">Analyze Your Competitors</a></h4>
-                        <p class="para"> The telecom industry is an extremely competitive industry. The competitive analysis provides you with complete information like 
-						brand equity, distribution channels, post-purchase service etc.  </p>
+                        <p class="para"> The telecom industry is extremely competitive. The competitive analysis provides you with complete information like brand equity, distribution channels, post-purchase service, etc. </p>
                     </div>
                 </div>
                 <div class="grids-effect-2 col-lg-4 col-md-6 col-sm-6">
                     <div class="back-color">
                           <a href="salesforcasting.jsp"><img class="img-responsive" src="assets/images/tel3.png" alt=" "></a>
                         <h4><a href="salesforcasting.jsp" class="title-head">Sales forecasting</a></h4>
-                        <p class="para">A CRM provide a telecom company a future overview by analyzing the historical data and performance of the company in previous years  
-						so, telecom company to prepare for the future tasks.</p>
+                        <p class="para">A CRM provides a telecom company a future overview by analyzing the historical data and performance of the company in previous years so, 
+                            the telecom company to prepare for future tasks.</p>
                     </div>
                 </div>
                 <div class="grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1">
                     <div class="back-color">
                          <a href="Risk.jsp"><img class="img-responsive" src="assets/images/tel4.jpg" alt=" "></a>
                         <h4><a href="Risk.jsp" class="title-head">Minimizing the Risk</a></h4>
-                        <p class="para">The managers can benefit from this feature and they can have a look at all the interaction between a customer and their employee to rectify any problem the moment it occurs.</p>
+                        <p class="para">The managers can benefit from this feature and they can have a look at all the interactions between a customer and their employee to rectify any problem the moment it occurs.</p>
                     </div>
                 </div>
                 <div class=" grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1">
                     <div class="back-color">
                        <a href="Survey.jsp"><img class="img-responsive" src="assets/images/tel5.jpg" alt=" "></a>
                         <h4><a href="Survey.jsp" class="title-head"> Instant Feedback</a></h4>
-                        <p class="para">A CRM provides the sales manager a chance to track and analyze the individual performance of every sales individual. An instant feedback function improve their performance.</p><br>
+                        <p class="para">A CRM provides the sales manager a chance to track and analyze the individual performance of every sales individual. An instant feedback function improves their performance.</p><br>
                     </div>
                 </div>
                 <div class="grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1 ">

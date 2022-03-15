@@ -106,6 +106,7 @@
                 <img src="assets/images/indsac-crm1.jpg" alt="product" class="img-responsive ">
             </div>
                 <div class="cwp4-text col-xl-6">
+
                     <h4>About CRM </h4>
                     <p class="para">Customer relationship management software is a special system with one primary purpose? improving relationships with
                         clients by providing businesses with smart tools to effectively develop a successful strategy. 
@@ -114,6 +115,7 @@
                     </p><br>
                      <p class="para">If your main concern is sales, you can make use of performance tracking for individual sales agents.
                                 The CRM software focuses on putting customer needs first and delivering a superior, more personalized customer experience.</p>
+
                 </div>
             </div>
         </div>

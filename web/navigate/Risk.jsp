@@ -100,7 +100,7 @@
                     <h4> CRM Risk Management </h4>
                     <p class="para">All businesses start with risk on the part of the enterprise, including Indsac. Running a business means investing your money into something without being 100% convinced about the outcome. Many entrepreneurs succeed just because they risked a million dollars.<br> <br>
                         A CRM strategy does not only reduce risks but helps you to make sound decisions for your business. Many business start-ups fear getting a CRM within their business. But with effective plans, your CRM will be a good asset for your business.<br>  <br>
-                        CRM enables you to cultivate customer loyalty. Loyal customers are the people that make a good percentage in your total revenue. Loyal customers will always turn to you even if you are experiencing a problem.
+                        CRM enables you to cultivate customer loyalty. Loyal customers are the people that make a good percentage of your total revenue. Loyal customers will always turn to you even if you are experiencing a problem.
                     </p>
                 </div>
             </div>
@@ -129,16 +129,15 @@ already known to meet the majority of your needs. </p>
     you are shifting the liability in addition to the ownership of the risk itself.</p>                                 
         <br><br>
         <p class="para"><h4>3. Risk Mitigation </h4> 
-      When you work to mitigate risk, you are trying to lessen its potential effect by lowering its 
-      exposure below your acceptable threshold. You defined whats acceptable during the initial 
-      phases of your risk analysis, so now you'll use those standards to help you target a response</p>   
-        <br>      <br> 
+     When you work to mitigate risk, you are trying to lessen its potential effect by lowering its exposure below your 
+     acceptable threshold. You defined what's acceptable during the initial phases of your risk analysis, so now you'll 
+     use those standards to help you target a response</p>   
+        <br> <br> 
         <p class="para"><h4>4. Risk Acceptance</h4>
-           we must accept the things we cannot change. In certain cases, you will have to do just that.
-           It's not ideal of course, but it is a necessary strategy for two main situations: Either 
-           the risks are minor enough that you can choose to handle them in the moment if they come 
-           up, or the necessary response is simply not possible due to lack of resources, budget, 
-           or time.
+          We must accept the things we cannot change. In certain cases, you will have to do just that. It's not ideal of
+          course, but it is a necessary strategy for two main situations: Either the risks are minor enough that you can 
+          choose to handle them at the moment if they come up, or the necessary response is simply not possible due to lack 
+          of resources, budget, or time.
 </p>
 <br><br>
  
@@ -154,7 +153,7 @@ already known to meet the majority of your needs. </p>
 	<p class="para">    </p>
 </div>
    <p class="para"><h4>1. Your CRM partner</h4>
-if you are new to CRM, you will need much more guidance from your CRM partner, so you
+If you are new to CRM, you will need much more guidance from your CRM partner, so you
 should choose one with an approach that matches your needs.</p><br><br>
 
  <p class="para"><h4>2. The CRM software</h4>
@@ -163,8 +162,8 @@ Taking the risk out of the software you choose to run involves a lot of checks w
 depending on what you need from CRM.</p><br><br>
 
 <p class="para"><h4>3. The CRM vendor</h4>
-When thinking about the company that owns and manages the product, you want to be sure that, 
-their reputation within the community on their own customer centricity is strong.</p><br><br>
+When thinking about the company that owns and manages the product, you want to be sure that, their reputation within the
+community on their customer-centricity is strong.</p><br><br>
 
 <p class="para"><h4>4. Your people </h4>
 Many professionals in the CRM industry believe that the biggest risk involved in adopting a CRM culture 

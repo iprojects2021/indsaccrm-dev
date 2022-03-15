@@ -98,7 +98,7 @@
             </div>
                 <div class="cwp4-text col-xl-6">
                     <h4> Managing Documents</h4>
-                    <p class="para">Centralized access to data sheets and other relevant documents.<br><br> Ensure the right people have access
+                    <p class="para">Centralized access to datasheets and other relevant documents.<br><br> Ensure the right people have access
                         to the right documents and associate these documents with their respective deals with a centralized repository
                         for all your sales collaterals.</p>
                 </div>
@@ -110,7 +110,7 @@
    				    <div class="recent-work ">
    				        <div class="container">
 <div class="left-text">
-	<h3>Benefits of an Document Management</h3>
+	<h3>Benefits of a Document Management</h3>
 	<p class="para">    </p>
 </div>
 <p class="para"><h4>1. Full Document Management within CRM</h4><br>

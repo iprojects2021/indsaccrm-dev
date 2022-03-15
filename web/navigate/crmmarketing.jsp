@@ -61,7 +61,6 @@
   </head>
   <body id="about">
 
-
       <%  Log.writeWEBLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" "+request.getProtocol()+", "+Poul.getPublicIP()+""
               + ", "+request.getRemoteHost()+", Entering about.jsp");
       %>
@@ -79,7 +78,6 @@
     });
   </script>
   <!-- disable body scroll which navbar is in active -->
-
 
 <!-- breadcrumbs -->
     <section class="w3l-inner-banner-main">
@@ -107,12 +105,11 @@
                     </p>
                        <br>
                        <p class="para">CRM Marketing is a term referring to the strategies and tactics, as well as to the technologies 
-                           supporting the execution of said strategies and tactics, marketers 
-                           use in order to manage the relationship with their customers throughout the customer lifecycle. </p>
+                           supporting the execution of said strategies and tactics, marketers use to manage 
+                           the relationship with their customers throughout the customer lifecycle. </p>
                    <br>
                    <p class="para"> The goal of CRM marketing is to improve and optimize customer relationships, 
-                       in order to drive customer loyalty, retention, revenue and customer lifetime value.</p>
-                    
+                       to drive customer loyalty, retention, revenue, and customer lifetime value.</p>                   
                 </div>
             </div>
         </div>
@@ -129,16 +126,18 @@
 	<div class="col-lg-4 col-md-6">
 		<div class="about-grids">
 <h4>Features and integrations</h4>
-<p class="para">For more sales, go for a CRM with basic marketing automation features like email marketing, lead capturing and engagement analytics. 
-    Also, make sure the CRM is customizable and scalable to grow with your evolving business and integration
-    needs.</p>
+<p class="para">For more sales, go for a CRM with basic marketing automation features like email marketing, lead capturing, 
+    and engagement analytics. Also, make sure the CRM is customizable and scalable to grow with your evolving business 
+    and integration needs.
+</p>
 		</div>
 	</div>
 	<div class="col-lg-4 col-md-6 about-line-top">
 		<div class="about-grids">
 <h4>Cost of CRM</h4>
-<p class="para">Ask questions about a CRM pricing tiers. Check how the pricing structure varies with additional users or functionality. 
-    Then, weigh the cost against its value to your business needs and goals.</p>
+<p class="para">Ask questions about CRM pricing tiers. Check how the pricing structure varies with additional users or functionality. 
+    Then, weigh the cost against its value to your business needs and goals.
+</p>
 		</div>
 	</div>
 	<div class="col-lg-4 col-md-6 about-line-top">
@@ -153,30 +152,28 @@
    <div class="left-text">
 	<h3> Aspects of CRM Oriented Marketing</h3>  <br> <br> 
 	 <h4>1. Web Marketing<h4> <br>
-             <p class="para">   1. It is relatively very inexpensive as it reduces the cost for physically reaching to the target customers for interaction. <br>
-2. Suppliers can reach to more number of customers in lesser amount of time. <br>
-3. The online marketing campaigns can be easily tracked, traced, calculated and tested. <br>
+             <p class="para">   1. It is relatively very inexpensive as it reduces the cost of physically reaching the target customers for interaction. <br>
+2. Suppliers can reach more customers in a lesser amount of time. <br>
+3. Online marketing campaigns can be easily tracked, traced, calculated, and tested. <br>
 4. Online marketing campaigns are more promotional as compared to manual campaigns.</p>       
            <br>  
  <h4>2. Email Marketing<h4><br>
-<p class="para">1. Email marketing has turned out to be more efficacious and inexpensive as compared to mail or phone based marketing strategies.<br>
-2. Email marketing is direct marketing which is data driven and leads to more accurate customer response and effective fulfillment of customer needs.<br>
-3. More attractive features include newsletters, sending of eCoupons, eCards, provision of saving events into calendars etc.</p><br>
+<p class="para">1. Email marketing has turned out to be more efficacious and inexpensive as compared to mail or phone-based marketing strategies.<br>
+2. Email marketing is direct marketing that is data-driven and leads to more accurate customer response and effective fulfillment of customer needs.<br>
+3. More attractive features include newsletters, sending of eCoupons, eCards, provision of saving events into calendars, etc.</p><br>
 
 <h4>3. Forecasting future marketing strategies <h4><br>
-<p class="para">1. Down the line marketing strategies keeps on changing according to the emotional behavioral change of customers.<br>
+<p class="para">1. Down-the-line marketing strategies keep on changing according to the emotional behavioral change of customers.<br>
 2. CRM market forecasting techniques help to understand this change through regression and statistical analysis of customer behavior online.<br>
-3. These are some complex but more accurate analysis techniques provided by CRM system which are proved to be one of best marketing strategies.</p><br>
+3. These are some complex but more accurate analysis techniques provided by the CRM system which are proved to be one of the best marketing strategies.</p><br>
 
 <h4>4. Building business impact models <h4><br>
-<p class="para">1. It is important for an organization to have check on marketing performance regularly so that the techniques never deteriorate and always match to yield greater results.<br>
-2. These CRM oriented models help in delivering accurate measurement of marketing performance throughout the organization and to do better every time.</p><br>
-
+<p class="para">1. It is important for an organization to have a check on marketing performance regularly so that the techniques never deteriorate and always match to yield greater results.<br>
+2. These CRM-oriented models help in delivering accurate measurement of marketing performance throughout the organization and to do better every time.</p><br>
 </div>                                 
     </div>
 </div>                                 
 </section>
-
 
 <%@include file="footer.jsp" %>
 

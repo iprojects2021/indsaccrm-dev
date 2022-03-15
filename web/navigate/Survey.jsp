@@ -109,7 +109,7 @@
                    <br><br><br>
                     <p class="para"> Connect with your customers to better understand their needs. </p><br>
                        <p class="para">Customer satisfaction surveys give you the insights you need to make better decisions.</p><br>
-                     <p class="para"> A consumer survey will help you understand your customers likes, dislikes, and where you need to make improvements. </p>
+                     <p class="para"> A consumer survey will help you understand your customer's likes, dislikes, and where you need to make improvements. </p>
                 </div>
             </div>
         </div>
@@ -123,9 +123,10 @@
           
                 <div class="cwp4-text col-xl-6">
                     <h4>INDSAC Surveys and Feedback Management</h4>
-                    <p class="para"> Create easy-to-use surveys by using simple editor collect feedback and information from your customers. 
-                        With Feedback Management capabilities, you can deliver relevant and personalized experiences to your customers. 
-                        Feedback Management simplifies your feedback management process and maps the feedback to existing customer records at every stage of the customer lifecycle.</p>
+                    <p class="para"> Create easy-to-use surveys by using a simple editor to collect feedback and information 
+                        from your customers. With Feedback Management capabilities, you can deliver relevant and personalized 
+                        experiences to your customers. Feedback Management simplifies your feedback management process and maps the 
+                        feedback to existing customer records at every stage of the customer lifecycle.</p>
                    </div>
 	 <div class="col-xl-6 cwp4-image ">
                 <img src="assets/images/survay2.gif" alt="product" class="img-responsive ">
@@ -139,13 +140,13 @@
             <div class="cwp4-two row">
           
                 <div class="cwp4-text col-xl-6">
-                    <h4> Benefit of Customer Feedback Surveys</h4>
+                    <h4> The benefit of Customer Feedback Surveys</h4>
                     <p class="para"> 1. They give every member of your audience an equal say.<br><br>
                     2. It allows them to be anonymous, and therefore more truthful with their opinions.<br><br> 
                     3. It can provide you with a clear, statistically significant analysis. <br><br>
                     4. You can target a specific audience, based on geography, demographics, and other filters. <br><br>
-                    5. You can direct the conversation to avenues you prefer to know more about, 
-                    avoiding the distractions that are otherwise abound.<br><br>
+                    5. You can direct the conversation to avenues you prefer to know more about, avoiding the distractions 
+                    that otherwise abound.<br><br>
                    </p>
                    </div>
 	 <div class="col-xl-6 cwp4-image ">
@@ -172,11 +173,10 @@
                 
                 <div class="cwp4-text col-xl-6">
                     <h3 class="header-name">  Capture Feedback </h3> <br>
-                <p class="para">Customer send their feedback via web link or email, then efficiently share insights 
-                    with your teams so you can deepen customer relationships and improve retention.</p>
+                <p class="para">Customer sends their feedback via web link or email, then efficiently share insights with 
+                    your teams so you can deepen customer relationships and improve retention.</p>
                     </div>
-                </div>
-            
+                </div>           
         </div>
     </div>
 </section>

@@ -99,11 +99,9 @@
             </div>
                 <div class="cwp4-text col-xl-6">
                     <h4>Business Stable Growth</h4>
-                    <p class="para">CRM are key to your organisation's growth, so you need to manage them as
-                        efficiently and effectively as possible.INDSAC-CRM help you be 
-                        more connected to customers, improves business performance, and grows your company bigger and faster 
-                        than ever.
-                    </p>
+                    <p class="para">CRM is key to your organization's growth, so you need to manage them as efficiently and 
+                        effectively as possible. INDSAC-CRM helps you be more connected to customers, improves business 
+                        performance, and grows your company bigger and faster than ever.</p>
                     <div class="jst-two-coloums mt-4">
                         <div class="icon-text">
                             <h5> <a href="#" ></a>
@@ -114,7 +112,7 @@
                        </div>
                         <div class="icon-text mt-lx-3 pt-lx-1">
                             <h5 ><a href="#" ></a>
-                               <p class="para"> The businesses need sales and to boost sales, our technology provide you effective environment to automate, 
+                               <p class="para"> Businesses need sales and to boost sales, our technicians provide you an effective environment to automate,
                                    engage, and create a platform to connect your needs.</p>
                         </div>
                     </div>
@@ -131,19 +129,15 @@
 <h3>Business Growth Factors</h3>
 </div>
 <h4>Find the right customers</h4>
-<p class="para"> Most businesses spend time and resources to generate leads and reps not find the right
-    opportunities to convert them into sales. Without a CRM system, it is reported that marketing leads are not converted into sales as per 
-    the survey. If you're a small or a big enterprise whose target is to grow through sales, 
-    then you can automate email using CRM software. 
-    The marketing teams, as well as sales teams, can view the leads to create the most engaging 
-    communication aspects thereby converting customers into sales which would help you to make better 
-    decisions.</p>
+<p class="para"> Most businesses spend time and resources to generate leads and reps do not find the right opportunities to
+    convert them into sales. Without a CRM system, it is reported that marketing leads are not converted into sales as per 
+    the survey. If you're a small or a big enterprise whose target is to grow through sales, then you can automate email
+    using CRM software. The marketing teams, as well as sales teams, can view the leads to create the most engaging
+    communication aspects thereby converting customers into sales which would help you to make better decisions.</p>
 <br><br>
 
 <h4>Build more sustainable relationships</h4>
-<p class="para"> The success factors for any organization rely on building sustainable relationships.
-    Our team understands customer,what they wants and expectations that helps organization 
-    build a business on trust and understanding.</p>
+<p class="para"> The success factors for any organization rely on building sustainable relationships. Our team understands customers, what they want, and expectations that help an organization build a business on trust and understanding.</p>
 
 
 <br><br>
@@ -153,15 +147,14 @@
     Though new customers are crucial for business growth, it's not easy. But here's we  
  gain opportunities by providing new business solutions to the existing customers. 
     The greater the renewal opportunities created, the higher would be the sales growth.</p>
-
 <br><br>
 
 <h4> Increase employee productivity</h4>
-<p class="para"> Adopting the right technology frees up your teams from process-heavy tasks and gives them more 
-    time to connect with customers. Manual operations like hunting for contact information or entering data
-    can be automated or eliminated from customer-related processes. Automation across sales, service, and 
-    marketing will free your employees so they can spend more time talking to prospective customers and 
-    strengthening relationships with existing ones, moving the needle for your business.</p>
+<p class="para"> Adopting the right technology frees up your teams from process-heavy tasks and gives them more time to 
+    connect with customers. Manual operations like hunting for contact information or entering data can be automated or
+    eliminated from customer-related processes. Automation across sales, service and marketing will free your employees so 
+    they can spend more time talking to prospective customers and strengthening relationships with existing ones, moving 
+    the needle for your business.</p>
 
   </div>
 </div>

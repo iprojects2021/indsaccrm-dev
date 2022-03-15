@@ -105,8 +105,7 @@
                         <div class="icon-text">
                             <h5> <a href="#" ></a>
                             </h5>
-                            <p class="para"> You can create multiple marketing campaigns and stages for different segments your 
-                                customer base and create automated campaigns.</p>
+                            <p class="para">You can create multiple marketing campaigns and stages for different segments of your customer base and create automated campaigns.</p>
                        </div>
                         <div class="icon-text mt-lx-3 pt-lx-1">
                             <h5 ><a href="#" ></a>
@@ -127,14 +126,14 @@
 	
 <p class="para"> <ul>
 <li>1. Campaign management software enables to launch, schedule, quickly coordinate, and monitor marketing campaigns across different channels. The marketing campaign execution now can happen in just a few hours. As a result, the lead time or campaign roll-outs is significantly decreased.</li><br><br>
-<li>2. Efficient marketing solution allows for tracking the efficiency of your campaign as well as finding things that are not working. By using testing, marketer's can gauge the probability of success of two different campaigns. By tracing the progress of a marketing campaign, marketer's can find what is working and what is not. </li><br><br>
-<li>3. According to statistics, personalization significantly improves customer satisfaction and eventually conversion rates. Marketer's can relate specific behaviors to individuals and then modify emails, landing pages, and offers.</li><br><br>
+<li>2. Efficient marketing solution allows for tracking the efficiency of your campaign as well as finding things that are not working. By using testing, marketers can gauge the probability of success of two different campaigns. By tracing the progress of a marketing campaign, marketers can find what is working and what is not. </li><br><br>
+<li>3. According to statistics, personalization significantly improves customer satisfaction and eventually conversion rates. A marketer can relate specific behaviors to individuals and then modify emails, landing pages, and offers.</li><br><br>
 </ul> </p>
 <br><br>
           <div class="main-titles-head text-center">
 
                 <h3 class="header-name">
-				Automation's that are always on-even <br>when you,re off
+				Automation's That Are Always On-Even <br>When You are Off
                 </h3>
             </div>
      </div>
@@ -147,11 +146,11 @@
             <div class="cwp4-two row">
                 <div class="cwp4-text col-xl-6">
                      <h3 class="header-name">Email Campaigns</h3> <br>
-                   <p class="para"> Use INSAC-CRM campaign management tools for email marketing campaign automation. 
-                       Select the email's you wish to send, insert the time you want the system to wait between each email, 
-                       and select the criteria for your campaign member list. Then turn it on and the system does the rest. 
-                       Include as many email's as you want in your email campaign. 
-                       It's a great way to manage you B2C or B2B email marketing efforts.
+                   <p class="para"> Use INDSAC-CRM campaign management tools for email marketing campaign automation. Select
+                       the emails you wish to send, insert the time you want the system to wait between each email, and
+                       select the criteria for your campaign member list. Then turn it on and the system does the rest. 
+                       Include as many emails as you want in your email campaign. It's a great way to manage your B2C or
+                       B2B email marketing efforts.
                    </p>
                 </div>
                 
@@ -174,10 +173,9 @@
             </div>
                 <div class="cwp4-text col-xl-6">
                     <h3 class="header-name">Multichannel Campaigns</h3> <br>
-                <p class="para">You can effortlessly create complex, multichannel marketing campaigns. 
-                    With so many campaign nodes to choose from, you can generate campaigns that leverage email sends, 
-                    SMS text messaging, automatic social media posts, landing pages, web forms and more.</p>
-                    
+                <p class="para">You can effortlessly create complex, multichannel marketing campaigns. With so many 
+                    campaign nodes to choose from, you can generate campaigns that leverage email sends, SMS text messaging,
+                    automatic social media posts, landing pages, web forms, and more.</p>                  
                     </div>
                 </div>
             </div>
@@ -192,10 +190,10 @@
                 <div class="cwp4-text col-xl-6">
                      <h3 class="header-name">Campaign Reporting and Analytics</h3> <br>
                    <p class="para"> With INDSAC-CRM campaign reporting and analysis features, you can do so in a matter of 
-                       minutes. Simply navigate to the campaign in question and click the reporting icon to display campaign 
-                       metrics such as email's opened, email links clicked, email bounces, unsubscribes, and spam complaints 
-                       related to the campaign. You can view campaign report data in a chronological time-line view, and drill 
-                       down into individual metrics for a more granular view.
+                       minutes. Simply navigate to the campaign in question and click the reporting icon to display campaign
+                       metrics such as emails opened, email links clicked, email bounces, unsubscribes, and spam complaints
+                       related to the campaign. You can view campaign report data in a chronological timeline view, and
+                       drill down into individual metrics for a more granular view.
                    </p>
                 </div>
                 
@@ -218,9 +216,8 @@
             </div>
                 <div class="cwp4-text col-xl-6">
                     <h3 class="header-name">Add Contacts to Live Campaigns</h3> <br>
-                <p class="para">If you have a drip marketing campaign, or other campaign that's ongoing over a long period of time, 
-                    you can add a campaign node that pulls new contacts into that campaign. </p>
-                    
+                <p class="para">If you have a drip marketing campaign or other campaigns that's ongoing over a long period
+                    of time, you can add a campaign node that pulls new contacts into that campaign. </p>                   
                     </div>
                 </div>
             </div>

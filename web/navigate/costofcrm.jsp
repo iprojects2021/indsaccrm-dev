@@ -99,8 +99,7 @@
                 <div class="cwp4-text col-xl-6">
                     <h4>No hidden costs</h4>
                     <p class="para">CRM vendors have different options on how they price their software and services.  
-                     <br>  <br>CRM vendors have different options on how they price their software and services. <br><br>Since CRM 
-                         It can change the dynamics of the total cost of the application.
+                     <br>  <br>CRM vendors have different options on how they price their software and services. <br><br>CRM can change the dynamics of the total cost of the application.
                       <br>  <br>
                 </div>
             </div>
@@ -115,23 +114,21 @@
 	<p class="para">    </p>
 </div>
 <p class="para"><h4>1. CRM Training</h4>
-Training is an essential part of installing a CRM system. If your users don't know how to 
-use the software, they want use it at all. So it's very important that all of your users are 
-trained. The ideal situation is to have your business processes already set up in the system before 
-everyone is trained. And the training is by role or team.</p>
+Training is an essential part of installing a CRM system. If your users don't know how to use the software, they want to 
+use it at all. So all of your users must be trained. The ideal situation is to have your business processes already set up
+in the system before everyone is trained. And the training is by role or team.</p>
               <br>      <br>                                
        <p class="para"><h4>2. CRM Integration </h4> 
-     Most companies today want to integrate or share data across all their major software applications. 
-     Connecting systems creates one central location (CRM) where important information can access by 
-     all team members. 
-     And also prevents double or trip data entry and keeps everyone and all records up to date. </p>                                 
+     Most companies today want to integrate or share data across all their major software applications. Connecting systems 
+     create one central location (CRM) where important information can access by all team members. And also prevents double
+     or trip data entry and keeps everyone and all records up to date.</p>                                 
         <br><br>
         <p class="para"><h4>3. CRM Implementation   </h4> 
-   Implementation consists of configuring and customizing your CRM system so that it fits your 
-   business model. This makes the interface more intuitive and users will be able to immediately 
-   start using the system without much of a learning curve.
-Implementation services are a one-time, upfront fee and are priced based on the number of
-man-hours needed. </p>   
+   The implementation consists of configuring and customizing your CRM system so that it fits your business model. This 
+   makes the interface more intuitive and users will be able to immediately start using the system without much of a 
+   learning curve. Implementation services are a one-time, upfront fee and are priced based on the number of man-hours
+   needed.
+ </p>   
         <br>      <br> 
 <p class="para"><h4>4. Additional Services</h4>
 The cost of the subscription per user is just the starting point for CRM implementation. Most CRM

@@ -122,13 +122,12 @@
             <div class="cwp4-two row">
           
                 <div class="cwp4-text col-xl-6">
-                    <h4>What is an opportunity management? </h4>
+                    <h4>What is opportunity management? </h4>
                     <p class="para"> Every business generates leads. However, leads don't bring in revenue, deals do. 
                         You generate leads, nurture them, and convert them when they show an interest in purchasing your products or service. </p><br>
                          <p class="para">   The stage between identifying a lead and closing or losing a deal is your "opportunity". </p> <br> 
-                          <p class="para">  Your sales team likely puts a substantial amount of effort in interacting with the right people, involving stakeholders, making presentations, 
-                        and showcasing demos to help them make that purchasing decision.
-                   </p>
+                          <p class="para">  Your sales team likely puts a substantial amount of effort into interacting with
+                              the right people, involving stakeholders, making presentations, and showcasing demos to help them make that purchasing decision.</p>
                    </div>
 	 <div class="col-xl-6 cwp4-image ">
                 <img src="assets/images/opp2.jpg" alt="product" class="img-responsive ">
@@ -165,8 +164,8 @@
                     <div class="back-color">
                         <a href=""><img class="img-responsive" src="assets/images/opp4.png" alt=" "></a>
                         <h4><a href="" class="title-head">Manage Your Pipeline</a></h4>
-                        <p class="para">ales and management reports and dashboards provide access to data and analytics, including an opportunity funnel, sales reports, 
-                            key performance indicators and pending activities.</p>
+                        <p class="para">ales and management reports and dashboards provide access to data and analytics, 
+                            including an opportunity funnel, sales reports, key performance indicators, and pending activities.</p>
                     </div>
                 </div>
                 
@@ -189,8 +188,9 @@
             <div class="cwp4-two row">
                 <div class="cwp4-text col-xl-6">
                      <h3 class="header-name">Capture opportunities easily without creating duplicates</h3> <br>
-                   <p class="para"> Auto-capture and map all the different opportunities associated with one contact, from no matter how many different channels of 
-                       inquiry including online and phone channel, manual bulk upload, or individual opportunity addition without creating duplicate contacts.
+                   <p class="para"> Auto-capture and map all the different opportunities associated with one contact, no
+                       matter how many different channels of inquiry including online and phone channel, manual bulk upload,
+                       or individual opportunity addition without creating duplicate contacts.
                    </p>
                 </div>
                 

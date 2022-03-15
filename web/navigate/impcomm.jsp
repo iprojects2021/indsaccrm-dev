@@ -99,12 +99,9 @@
             </div>
                 <div class="cwp4-text col-xl-6">
                     <h4>Improved Communication</h4>
-                    <p class="para"> Good communication delivering consistent brand messaging and support
-                        across all channels by understanding customer pain points. It also focuses on 
-                        strengthening customer relationships. Having a strong communication strategy 
-                        in place helps businesses to acquire and retain customers.
-
-                    </p>
+                    <p class="para">Good communication delivers consistent brand messaging and support across all channels 
+                        by understanding customer pain points. It also focuses on strengthening customer relationships. 
+                        Having a strong communication strategy in place helps businesses to acquire and retain customers.</p>
                     <div class="jst-two-coloums mt-4">
                         <div class="icon-text">
                             <h5> <a href="#" ></a>
@@ -132,9 +129,8 @@
 <br><br>
 
 <h4>Level up conversions </h4>
-<p class="para"> Assisting customers with the right answers in real time helps to close the sales faster and increase sales conversions.</p>
-
-
+<p class="para"> Assisting customers with the right answers in real-time helps to close the sales faster and increase sales conversions.
+</p>
 <br><br>
 <h4>Boost customer loyalty</h4>
 <p class="para"> Having personalized conversations with customers with the help of visual engagement tools builds trust and cultivates loyalty with your customers.</p>
@@ -153,9 +149,9 @@
           
                 <div class="cwp4-text col-xl-6">
                     <h4>How to improve customer service communication </h4>
-                    <p class="para"> 1. Use visual engagement tools for real time assistance <br><br>
-                    2. Build omni channel customer communication strategy<br> <br>
-                    3.  Improve the first customer experience <br><br>
+                    <p class="para"> 1. Use visual engagement tools for real-time assistance <br><br>
+                    2. Build omnichannel customer communication strategy<br> <br>
+                    3. Improve the first customer experience <br><br>
                     4. Deploy chatbots for automated customer communication<br><br>
                     5. Measure your customer communication metrics regularly<br>
                     </p>

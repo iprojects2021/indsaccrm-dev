@@ -99,7 +99,7 @@
             </div>
                 <div class="cwp4-text col-xl-6">
                     <h4>What is CRM?</h4>
-                    <p class="para">CRM (Customer Relationship Management), in its simplest form, that helps companies build and improve lead and customer relationships and improve the efficiency of customer-facing processes.
+                    <p class="para">CRM (Customer Relationship Management), in its simplest form, helps companies build and improve lead and customer relationships and improve the efficiency of customer-facing processes.
                     </p>
                     <div class="jst-two-coloums mt-4">
                         <div class="icon-text">
@@ -110,8 +110,11 @@
                         <div class="icon-text mt-lx-3 pt-lx-1">
                             <h5 ><a href="#" ></a>
                             </h5>
-                            <p class="para">CRM software was originally designed to help businesses build and maintain relationships with new and existing customers. Since then, CRM software has evolved from a simple contact management system 
-							into a robust tool that helps users manage sales, marketing, point-of-sale (POS) transactions, accounting, vendors and other types of operational data all in one easily accessible solution. </p>
+                            <p class="para">CRM software was originally designed to help businesses build and maintain 
+                                relationships with new and existing customers. Since then, CRM software has evolved from a 
+                                simple contact management system into a robust tool that helps users manage sales, marketing,
+                                point-of-sale (POS) transactions, accounting, vendors, and other types of operational data
+                                all in one easily accessible solution.</p>
                         </div>
                     </div>
                 </div>
@@ -126,8 +129,11 @@
 	<h3>Why do businesses need a CRM?</h3>
 	<p class="para">Customer relationship management is any tool, strategy, or process that helps businesses better organize and access customer data.
  It all started with handwritten notes but with the advent and proliferation of digital technology, it eventually evolved into databases stored on individual computers, and then the CRM definition shifted into something far more complex. </p><br>
-<p class="para"> It was no longer just notes. Managing your business relationships with customers became a complicated process. Now, in order to compete in any industry, you need a reliable system built on CRM software.
-Managing every aspect of the business can be made easier with a robust CRM system. It should readily understand the business, unite it with the employees and customers alike and capture the business information such that one gets a holistic view of each customer in real-time.  </p>
+<p class="para"> It was no longer just notes. Managing your business relationships with customers became a complicated 
+    process. Now, to compete in any industry, you need a reliable system built on CRM software. Managing every aspect of the
+    business can be made easier with a robust CRM system. It should readily understand the business, unite it with the 
+    employees and customers alike and capture the business information such that one gets a holistic view of each customer in
+    real-time.</p>
 </div>
 <br > <br>
 <div class="left-text">
@@ -157,7 +163,8 @@ Managing every aspect of the business can be made easier with a robust CRM syste
 	<div class="col-lg-4 col-md-6 about-line-top">
 		<div class="about-grids">
 <h4>Facilitates optimized marketing</h4>
-<p class="para">CRM enables a business understand the needs and behavior of their customers. This allows them to identify the correct time to market their products to customers.</p>
+<p class="para">CRM enables a business to understand the needs and behavior of its customers. This allows them to identify the correct time to market their products to customers.
+</p>
 <div class="mt-3 about-list">
 
 </div>
@@ -174,14 +181,14 @@ Managing every aspect of the business can be made easier with a robust CRM syste
 <div class="left-text">
 
 
-<h3> CRM system is really necessary for bussiness</h3>
+<h3> CRM system is really necessary for business</h3>
 	<p class="para">CRM helps businesses build a relationship with their customers that, in turn, creates loyalty and customer retention. Since customer loyalty and revenue are both qualities that affect a company's revenue, CRM is a management strategy that results in increased profits for a business. At its core, a CRM tool creates a simple user interface for a collection of data that helps businesses recognize and communicate with customers in a scalable way.
 Small businesses and even freelancers can benefit from CRM processes as well.</p><br>
 
 
 
 
-	<h3> How to choose best CRM</h3>
+	<h3>How to choose the best CRM</h3>
 	<p class="para">Choosing the right CRM for your business isn't easy.<br>
 The difficulty lies not only in the fact that there are many solutions and technologies to choose from. But you also have to consider deployment options, ability to customize, cost, scalability, and business value, before you decide.<br>
 With so many things to consider when choosing a CRM for your business, there is another important thing that your own needs.</p>

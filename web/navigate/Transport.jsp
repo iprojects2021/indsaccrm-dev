@@ -104,12 +104,12 @@
                         <div class="icon-text">
                             <h5> <a href="#" ></a>
                             </h5>
-                            <p class="para">This industry deals with the movement of humans, things and animals by various modes of transportation. </p>
+                            <p class="para">This industry deals with the movement of humans, things, and animals by various modes of transportation. </p>
                        </div>
                         <div class="icon-text mt-lx-3 pt-lx-1">
                             <h5 ><a href="#" ></a>
                             </h5>
-                            <p class="para">The main modes of transportation are air, land (Road and Rail) and water. The transportation industry makes the largest part of any country's economy. </p>
+                            <p class="para">The main modes of transportation are air, land (Road and Rail), and water. The transportation industry makes up the largest part of any country's economy.</p>
                         </div>
                     </div>
                 </div>
@@ -122,9 +122,9 @@
    				        <div class="container">
 <div class="left-text">
 	<h3>CRM  Solution for Transport Industry</h3>
-	<p class="para">Transporting management software is a necessity, because of the continuously growing demand, and thus, growing number of customers. Such industry as travel and transportation implies a variety of transfer services that should always be fast, safe, and simple.  </p>
+	<p class="para">Transporting management software is a necessity, because of the continuously growing demand, and thus, a growing number of customers. Such industry as travel and transportation implies a variety of transfer services that should always be fast, safe, and simple. </p>
 	<br>
-<p class="para">We are providing CRM solutions for global transportation services and travel agencies. No matter what kind of services you provide, our develop CRM  that would make your company reach new heights.</p>
+<p class="para">We are providing CRM solutions for global transportation services and travel agencies. No matter what kind of services you provide, we develop CRM that would make your company reach new heights.</p>
 </div>
 <br > <br>
 <div class="text-center">
@@ -134,7 +134,7 @@
 	<div class="col-lg-4 col-md-6">
 		<div class="about-grids">
 
-<h4>Centralise customer information</h4>
+<h4>Centralize Customer Information</h4>
 <p class="para">Transportation enables the company to centralize and share the information it has about customers. Your sales representatives will have a complete view of their contacts. </p>
 <div class="mt-3 about-list">
 	
@@ -145,7 +145,7 @@
 		<div class="about-grids">
 <h4>Monitor business activity</h4>
 
-<p class="para">With our CRM for transportation, integrated reporting tools (dashboards, etc.), through managers can monitor the activity of their teams.</p><br>
+<p class="para">With our CRM for transportation, integrated reporting tools (dashboards, etc.), managers can monitor the activity of their teams.</p><br>
 <div class="mt-3 about-list">
 	
 </div>
@@ -159,13 +159,11 @@
 
 </div>
 		</div>
-	</div>
-</div>
+	   </div>
+       </div>
        </div>
      </div>
 				</section>
-			
-			
 			<section class="w3l-recent-work-hobbies">
    				    <div class="recent-work ">
    				        <div class="container">
@@ -175,7 +173,7 @@
 		<div class="about-grids">
 
 <h4>Automated information updating</h4>
-<p class="para">CRM helps benefit business profitability focusing on timely updating customer information and fast order processing. It also allows to organize efficient shipping and delivery of goods. </p>
+<p class="para">CRM helps benefit business profitability by focusing on timely updating customer information and fast order processing. It also allows organizing efficient shipping and delivery of goods. </p>
 <div class="mt-3 about-list">
 	
 </div>
@@ -185,7 +183,7 @@
 		<div class="about-grids">
 <h4>Ensuring safety of shipments</h4>
 
-<p class="para">Customized CRM system can have integration with electronic databases to provide information about current status and location of goods and materials.</p><br><br>
+<p class="para">A customized CRM system can have integrated with electronic databases to provide information about the current status and location of goods and materials.</p><br><br>
 <div class="mt-3 about-list">
 	
 </div>

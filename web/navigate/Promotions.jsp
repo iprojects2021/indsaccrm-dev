@@ -75,7 +75,6 @@
   </script>
   <!-- disable body scroll which navbar is in active -->
 
-
 <!-- breadcrumbs -->
     <section class="w3l-inner-banner-main">
         <div class="about-inner inner2">
@@ -112,41 +111,42 @@
    				    <div class="recent-work ">
    				        <div class="container">
 <div class="left-text">
-	<h3>What's Sales Promotions?</h3>
+	<h3>What are Sales Promotions?</h3>
 	<p class="para">    </p>
 </div>
-<p class="para"> Sales promotions provide a breather to salespeople as it removes some weight off their shoulder and induces prospects to purchase the product. 
-    In many ways, sales promotions help your salespeople get more leads and ultimately more customers.    
-    If you have a product which is new in the market or which is not receiving a lot of attention, then you can promote this product to customers via sales promotions. 
+<p class="para"> Sales promotions provide a breather to salespeople as it removes some weight off their shoulder and induce prospects to purchase the product. 
+    In many ways, sales promotions help your salespeople get more leads and ultimately more customers. 
+    If you have a product that is new in the market or which is not receiving a lot of attention, then you can promote this product to customers via sales promotions. 
     Sales promotion is the process of persuading a potential customer to buy the product, 
-    It is designed to be used as a short-term tactic to boost sales-affecting long-term customer loyalty.  </p>
-        <br>
-        
+    It is designed to be used as a short-term tactic to boost sales-affecting long-term customer loyalty.
+  </p>
+        <br>       
         <div class="left-text">
 	<h3> Types of Sales Promotions</h3>
 	<p class="para">    </p>
 </div>
 <p class="para"> A) Consumer sales promotions :<br>
-Any sales promotion activity when you keep the end consumer in mind is known as consumer sales promotions.<br><br>
+Any sales promotion activity when you keep the end consumer in mind is known as consumer sales promotion.<br><br>
 
 B) Trade Sales promotions : <br>
-If your promotional activities are focused on dealers, distributors or agents, then it is known as trade promotions.<br></p>
+If your promotional activities are focused on dealers, distributors, or agents, then it is known as trade promotions.
+<br></p>
 <br><br>
 <div class="left-text">
 	<h3>There are some examples of sales promotions</h3>
 	<p class="para">    </p>
 </div>
-<p class="para"> 1-Money off coupons(Customer sales promotions) :
-Customers receive coupons, or cut coupons out of newspapers or a products packaging that enables them to buy the product next time at a reduced price.<br><br>
+<p class="para"> 1-Money off coupons(Customer sales promotions): 
+    Customers receive coupons, or cut coupons out of newspapers or the packaging of a product that enables them to buy the product next time at a reduced price.<br><br>
 
-2-Discount rates (Trade/Customer sales promotions):
-like a money off decrease.<br><br>
+2-Discount rates (Trade/Customer sales promotions): 
+like a money-off decrease.<br><br>
 
-3-Free gifts (Customer sales promotions) :
-A free product when buy another produc.<br><br>
+3-Free gifts (Customer sales promotions): 
+A free product when buying another product.<br><br>
 
-4-Free trial (Customer sales promotions) :
-You have come across several softwares or online programs which offer a free trial to you before you purchase the product.<br>
+4-Free trial (Customer sales promotions): 
+You have come across several software or online programs which offer a free trial to you before you purchase the product.<br>
 </p>
 
 </div>

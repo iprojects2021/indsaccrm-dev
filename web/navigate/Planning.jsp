@@ -115,17 +115,17 @@
 	<h3>Key Elements Of CRM Planning</h3>
 	<p class="para">    </p>
 </div>
-<p class="para"><h4>1. Technology </h4>We used latest technology for developed CRM for our clients. 
-   Data is collected from the entire customer lifecycle, including marketing and sales platforms,
-    digital commerce, and customer service interactions.  </p>
+<p class="para"><h4>1. Technology </h4>We used the latest technology for developed CRM for our clients. 
+Data is collected from the entire customer lifecycle, including marketing and sales platforms, digital commerce, 
+and customer service interactions.  </p>
               <br>      <br>                                
        <p class="para"><h4>2. Strategy </h4> 
-       Our CRM strategy should be based on clear goals and objectives. 
-       It should also align with coustomer company's positioning, culture, vision and values.  </p>                                 
+       Our CRM strategy should be based on clear goals and objectives. It should also align with the customer company's 
+       positioning, culture, vision, and values.  </p>                                 
         <br><br>
         <p class="para"><h4>3. Processes </h4> 
-       INDSAC-CRM strategy to work, all internal and external processes should be customer centric. 
- We provide the best possible customer experience. </p>   
+       INDSAC-CRM strategy to work, all internal and external processes should be customer-centric. 
+       We provide the best possible customer experience. </p>   
         <br>      <br> 
 <p class="para"><h4>4. People</h4>
 Developers focused on customer engagement.<br><br>

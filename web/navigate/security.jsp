@@ -117,16 +117,14 @@
 	<p class="para">    </p>
 </div>
 <p class="para"><h4>1. Monitor CRM Activity Regularly </h4>
- You don't need to monitor every activity of your employees as they use CRM system.
- Using security alerts that notify you in case of unauthorized access or security breaches.
- Real-time online dashboards to regularly monitor the security status of your
- CRM system and company network.   </p>
+ You don't need to monitor every activity of your employees as they use a CRM system. Use security alerts that notify you 
+ in case of unauthorized access or security breaches. Real-time online dashboards to regularly monitor the security status
+ of your CRM system and company network.   </p>
               <br>      <br>                                
        <p class="para"><h4>2. Secure Your Infrastructure </h4> 
-     It's also important to secure the very IT infrastructure that hosts your CRM data. 
-     We create multiple layers of security that makes it more difficult for hackers to get in. 
-     Start by installing a reputed firewall that will enable you to precisely control data access 
-     and permissions. </p>                                 
+     It's also important to secure the very IT infrastructure that hosts your CRM data. We create multiple layers of 
+     security that make it more difficult for hackers to get in. Start by installing a reputed firewall that will enable
+     you to precisely control data access and permissions. </p>                                 
         <br><br>
         <p class="para"><h4>3. Use Passwords Effectively  </h4> 
        One of the most common reasons for which a system can be hacked is that it uses common, 
@@ -134,8 +132,8 @@
        is a sentence that's at least 12 characters long) and use a unique password for each account. </p>   
         <br>      <br> 
 <p class="para"><h4>4. Educate Your Employees</h4>
-Many data breaches happen because employees unintentionally or carelessly pass around documents, data and even passwords.
-Train your employees on using their hardware, software and data and the right way to safeguard against breaches. </p>
+Many data breaches happen because employees unintentionally or carelessly pass around documents, data, and even passwords.
+Train your employees on using their hardware, software, and data and the right way to safeguard against breaches. </p>
 </div>
 </div>                                                             
 </section>

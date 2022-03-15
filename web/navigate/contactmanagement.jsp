@@ -102,21 +102,19 @@
             </div>
             <div class="cwp4-two row">
             <div class="col-xl-6 cwp4-image ">
-                <img src="assets/images/contactmgm.gif" alt="product" class="img-responsive ">
+                <img src="assets/images/indsac-contact-management.gif" alt="product" class="img-responsive ">
             </div>
                 <div class="cwp4-text col-xl-6">
                     <h4>The Key To Your Customer Success</h4>
-                    <p class="para"> INDSAC-CRM allows you to store and  loads all personal information about each customer. Provides customer conversation with all the information they need to form a quick rapport.
-                       
-                    </p>
+                    <p class="para"> INDSAC-CRM allows you to store and load all personal information about each customer. Provides customer conversation with all the information they need to form a quick rapport.</p>
                     <div class="jst-two-coloums mt-4">
                         <div class="icon-text">
                             <h5> Longer Customer Relationship</h5>
                             <p class="para">Built strong relationships that have value. Empower you to deliver a world-class customer experience</p>
                        </div>
                         <div class="icon-text mt-lx-3 pt-lx-1">
-                            <h5 >Improve Data Management</h5>
-                            <p class="para"> Displays the metrics that you need to see and can be accessed in a moments notice, making data-driven decisions quickly.</p>
+                            <h5>Improve Data Management</h5>
+                            <p class="para"> Displays the metrics that you need to see and can be accessed at a moment's notice, making data-driven decisions quickly.</p>
                         </div>
                     </div>
                 </div>
@@ -132,17 +130,15 @@
           
                 <div class="cwp4-text col-xl-6">
                     <h4>Best insights of Contacts</h4>
-                    <p class="para"> Get critical information which will help developing the relationships and promote your products and services.
-                       
-                    </p>
-                    <div class="jst-two-coloums mt-4">
+                    <p class="para"> Get critical information that will help develop the relationships and promote your products and services.</p>
+                   <div class="jst-two-coloums mt-4">
                         <div class="icon-text">
                             <h5> Increased Productivity </h5>
                             <p class="para">Automates the entire scheduling process which dramatically increases the productivity of business</p>
                        </div>
                         <div class="icon-text mt-lx-3 pt-lx-1">
                             <h5 >Improving Marketing Effectiveness </h5>
-                            <p class="para">A well designed INDSAC-CRM contact database  provides you a wealth of analytical data including better insight into the people and companies exhibiting interest in your products and services.</p>
+                            <p class="para">A well-designed INDSAC-CRM contact database provides you with a wealth of analytical data including better insight into the people and companies exhibiting interest in your products and services.</p>
                         </div>
                     </div>
                 </div>

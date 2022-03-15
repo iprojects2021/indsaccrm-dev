@@ -97,18 +97,18 @@
             </div>
                 <div class="cwp4-text col-xl-6">
                     <h4>INDSAC-CRM With Invoicing</h4>
-                    <p class="para">Easily organize your billing with INDSAC-CRM and invoicing software. 
-                        Perfect for large and small businesses, you get an all-round business tool that goes way beyond simply 
-                        quoting and invoicing. <br><br>Your CRM lets you grow your relationship with your customers, and quotes and 
-                        invoices are just one part of that. 
+                    <p class="para">Easily organize your billing with INDSAC-CRM and invoicing software. Perfect for large
+                        and small businesses, you get an all-around business tool that goes way beyond simply quoting and 
+                        invoicing. 
                     </p>
                     <br>
-                     <p class="para">With so many integrations, you can talk to your clients on whatever platform they want 
-                         and keep a record of all interactions and billing in one place. When you're ready to send the invoice, 
-                         in just a click of a button, you can send it by email or print it as a PDF.
-                    </p>
+                    <p class="para">Your CRM lets you grow your relationship with your customers, and quotes and invoices are just one part of that.</p>
                     <br>
-                  
+                     <p class="para">With so many integrations, you can talk to your clients on whatever platform they want
+                         and keep a record of all interactions and billing in one place. When you're ready to send the 
+                         invoice, with just a click of a button, you can send it by email or print it as a PDF.
+                    </p>
+                    <br>                 
                 </div>
             </div>
         </div>
@@ -118,38 +118,32 @@
    				    <div class="recent-work ">
    				        <div class="container">
 <div class="left-text">
-	<h3>Function of Invoice Management System</h3><br>
+	<h3>The function of the Invoice Management System</h3><br>
         <h3>Create</h3>
-	<p class="para"> Create invoice either directly adding up customer information such as addresS  and contact details or from finalized quotation
-            invoice system is thoroughly integrated with quotation system. 
-            The contact could be new contact or contact from contact database.
+	<p class="para"> Create invoice either directly adding up customer information such as address and contact details 
+            or from finalized quotation invoice system is thoroughly integrated with quotation system. The contact could 
+            be new contact or contact from the contact database.
         </p>
-        <br>
-        
+        <br>       
         <h3>Update</h3>
-	<p class="para"> Updation for created invoices are allowed. Onces the invoice is created you can send invoice
-            directly to client email address from your crm, save the invoice as PDF, and even print out
-            right from your web browser. Stored invoice in secured formate with advance search function
-            and active history.
+	<p class="para"> Updation for created invoices are allowed. Once the invoice is created you can send an invoice 
+            directly to the client email address from your CRM, save the invoice as PDF, and even print it outright from 
+            your web browser. Stored invoice in secured format with advance search function and active history.
         </p>
-        <br>
-        
+        <br>      
         <h3>Customize</h3>
-	<p class="para"> INDSAC-CRM Invoices serve you to create and send proficient invoices in a minute that 
-            help you get paid faster. Customize invoices from an variety of templates with your logo to make them perfect.
-            Customize header, footer details along with tax details.
+	<p class="para"> INDSAC-CRM Invoices serve you to create and send proficient invoices in a minute that help you get
+            paid faster. Customize invoices from a variety of templates with your logo to make them perfect. Customize 
+            header, footer details along tax details.
         </p>
-        <br>
-        
+        <br>       
         <h3>Alert</h3>
-	<p class="para">Set alert and reminders for invoice due dates and bill receivable pop-ups emails and notifications.
+	<p class="para">Set alerts and reminders for invoice due dates and bill receivable pop-ups emails and notifications.
         </p>
-        <br>
-        
+        <br>       
         <h3>Payment Terms</h3>
-	<p class="para">Select one of the default payment terms or create your own payment terms, 
-            customizing the customer payment periods specifying your required duration to allow your 
-            customers to make their payments.
+	<p class="para">Select one of the default payment terms or create your payment terms, customizing the customer 
+            payment periods specifying your required duration to allow your customers to make their payments.
         </p>
         <br>
 </div>                                        

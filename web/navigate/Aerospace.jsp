@@ -97,7 +97,7 @@
             </div>
                 <div class="cwp4-text col-xl-6">
                     <h4> Aerospace Industry?</h4>
-                    <p class="para"> Aerospace organizations research, design, manufacture, operate, or maintain aircraft or spacecraft. Aerospace activity is very diverse, with a multitude of commercial, industrial and military applications.
+                    <p class="para">Aerospace organizations research, design, manufacture, operate or maintain aircraft or spacecraft. Aerospace activity is very diverse, with a multitude of commercial, industrial, and military applications.Aerospace organizations research, design, manufacture, operate or maintain aircraft or spacecraft. Aerospace activity is very diverse, with a multitude of commercial, industrial, and military applications.
                     </p>
                     <div class="jst-two-coloums mt-4">
                         <div class="icon-text">
@@ -108,7 +108,7 @@
                         <div class="icon-text mt-lx-3 pt-lx-1">
                             <h5 ><a href="#" ></a>
                             </h5>
-                            <p class="para">The aerospace is a constantly evolving market that requires its players to take advantage of the latest and most effective practices and tools to meet growing customer expectations.</p>
+                            <p class="para">Aerospace is a constantly evolving market that requires its players to take advantage of the latest and most effective practices and tools to meet growing customer expectations.</p>
                         </div>
                     </div>
                 </div>
@@ -121,9 +121,12 @@
    				        <div class="container">
 <div class="left-text">
 	<h3>CRM for Aerospace Industry </h3>
-	<p class="para">Aerospace companies are not customer-driven, most of them have come to recognize the importance of customer relationship management (CRM) when it comes to improving sales and business development 
-	effectiveness, delivering superior customer service, improving product, quote, and order configuration accuracy, 
-	and maximizing employee productivity and knowledge sharing, among other things. CRM software  now offer a broad selection of CRM software capable of satisfying the complex and unique demands of aerospace and defense companies. </p> 
+	<p class="para">Aerospace companies are not customer-driven, most of them have come to recognize the importance of 
+            customer relationship management (CRM) when it comes to improving sales and business development effectiveness,
+            delivering superior customer service, improving the product, quote, and order configuration accuracy, and 
+            maximizing employee productivity and knowledge sharing, among other things. CRM software now offers a broad 
+            selection of CRM software capable of satisfying the complex and unique demands of aerospace and defense 
+            companies. </p> 
 	<br>
 	<p class="para"> Aerospace contracts are characterized by their complexity and wide-ranging scope. Their management is further complicated by exceedingly intricate procedures, stringent regulations, and strict requirements from both clients and the government. 
 A Cloud CRM solution in this environment must address the need for management of information security with exchanges as a priority from both operational and administrative perspectives in the Aerospace Sector.</p>
@@ -136,7 +139,7 @@ A Cloud CRM solution in this environment must address the need for management of
 	<div class="col-lg-4 col-md-6">
 		<div class="about-grids">
 		
-<p class="para">CRM software tools that target small and medium-sized businesses are seldom able to satisfy the complex requirements of aerospace companies. </p>
+<p class="para">CRM software tools that target small and medium-sized businesses are seldom able to satisfy the complex requirements of aerospace companies.</p>
 <div class="mt-3 about-list">
 	
 </div>
@@ -146,16 +149,15 @@ A Cloud CRM solution in this environment must address the need for management of
 		<div class="about-grids">
 
 
-<p class="para ">The most powerful benefit of using a CRM in aviation is that sales team spends more time connecting with customers and developing deals, and less time analyzing data.. </p>
-<div class="mt-3 about-list">
-	
+<p class="para ">The most powerful benefit of using a CRM in aviation is that the sales team spends more time connecting with customers and developing deals, and less time analyzing data... </p>
+<div class="mt-3 about-list">	
 </div>
 		</div>
 	</div>
 	<div class="col-lg-4 col-md-6 about-line-top">
 		<div class="about-grids">
 
-<p class="para"> Using CRM you can create much more effective and personalized marketing campaigns. CRM platforms allow you to really drill down into the data and get to know your passengers and their behavior.</p>
+<p class="para"> Using CRM you can create much more effective and personalized marketing campaigns. CRM platforms allow you to drill down into the data and get to know your passengers and their behavior.</p>
 <div class="mt-3 about-list">
 
 </div>

@@ -98,7 +98,7 @@
             </div>
                 <div class="cwp4-text col-xl-6">
                     <h4> Education CRM</h4>
-                    <p class="para">Education CRM systems are software applications means to automate and manage communications with cuurent students, employees and alumni etc.
+                    <p class="para">Education CRM systems are software applications means to automate and manage communications with current students, employees, alumni, etc.
 					</p>
                     <div class="jst-two-coloums mt-4">
                         <div class="icon-text">
@@ -120,32 +120,34 @@
    				        <div class="container">
 <div class="left-text">
 	<h3>Why educational industry need CRM</h3>
-	<p class="para">It is a software application used to automate and handle communication with current students, employees and alumni. 
-	All this work is done on a single system. Every connection with customers is tracked by the customer relationship management system in one place. 
-	With the help of customer relationship management software, you can take feedback from the customers, 
-	department and the students. Each interaction with your costumers is tracked by the customer relationship management system.</p> <br>
+	<p class="para">It is a software application used to automate and handle communication with current students, 
+            employees, and alumni. All this work is done on a single system. Every connection with customers is tracked by 
+            the customer relationship management system in one place. With the help of customer relationship management 
+            software, you can take feedback from the customers, department, and students. Each interaction with your 
+            customers is tracked by the customer relationship management system.</p> <br>
 </div>
 
 <div class="left-text">
 	<h3>Why choose INDSAC-CRM for educational purposes?</h3>
-	<p class="para">INDSAC-CRM is best for its services. It is a smart decision to access some business. In the educational field ether, it is a school or college, 
-	the load of work is more. It is always a question of how they manage the record of students, 
-	staffs and other employees in a perfect way. But the customer relationship management system solves this problem easily.</p> <br>
+	<p class="para">INDSAC-CRM is best for its services. It is a smart decision to access some businesses. In the
+            educational field ether, it is a school or college, the load of work is more. It is always a question of how 
+            they manage the record of students, staff, and other employees in a perfect way. But the customer relationship 
+            management system solves this problem easily.</p> <br>
 </div>
 
 <div class="left-text">
 	<h3>Features of CRM For Educational Organization</h3>
-	<p class="para">1. Centralize student's information. This keeps all the data of students, staff, and admission records at one software.<br><br>
-2. Manage students inquiry and courses enquired.<br><br>
-3. Manage students enrolment information<br><br>
-4. Maximize students admission efficiency<br><br>
+	<p class="para">1. Centralize students' information. This keeps all the data of students, staff, and admission records in one software.<br><br>
+2. Manage student inquiries and courses enquired.<br><br>
+3. Manage student's enrolment information<br><br>
+4. Maximize student's admission efficiency<br><br>
 5. Mange whole marketing and students admission lifecycle<br><br>
 6. Run emails, SMS marketing, and information campaigns to attract the students<br><br>
 7. Manage the facility data<br><br>
 8. Secure way to run the business<br><br>
 9. Cost-efficient<br><br>
 10. Real-time reporting and analytical reports<br><br>
-11.Use education customer relationship management system on desktop, phone, and tablets</p> 
+11. Use education customer relationship management system on the desktop, phone, and tablets</p> 
 </div>
 </div>
 </div>

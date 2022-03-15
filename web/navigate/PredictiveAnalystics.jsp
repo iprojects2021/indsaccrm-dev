@@ -99,8 +99,8 @@
                 <div class="cwp4-text col-xl-6">
                     <h4>Predictive Analytics</h4>
                     <p class="para">Predictive analytics is a technology that allows firms to analyze structured and 
-                        unstructured data for identifying key trends and correlations with an aim to uncover certain 
-                        customer behaviors.<br><br> CRM solutions are the ideal application for predictive analytics, enabling 
+                        unstructured data for identifying key trends and correlations to uncover certain customer 
+                        behaviors.<br><br> CRM solutions are the ideal application for predictive analytics, enabling 
                         a company to maximize revenue. Because making the wrong decisions can be costly to a firm, the 
                         ability to predict 'what' and 'where' is key to business success.
                       <br>  <br>Predictive analytics are now increasingly being tied to CRM as vendors respond to
@@ -112,24 +112,25 @@
     <div class="recent-work ">
    <div class="container">
 <div class="left-text">
-	<p class="para">  Predictive Analytics are all about finding the insights that will help you understand what might happen 
-            in the future. They help you recognize patterns in historical data, repeated transactions, and relationship cues. 
-            If you use predictive analytics effectively, you can facilitate a more proactive business approach.  </p>
+	<p class="para"> Predictive Analytics is all about finding the insights that will help you understand what might 
+            happen in the future. They help you recognize patterns in historical data, repeated transactions, and 
+            relationship cues. If you use predictive analytics effectively, you can facilitate a more proactive business 
+            approach.  </p>
           <br> 
-          <p class="para">Predictive Analytics approach makes use of tons of moments sellers have labored on in past years and evaluate 
-              win/loss predictions with advanced machine-learning algorithms. Data analytics paid emphasis on the things which have 
-              already occurred  in the past but, what predictive analytics does is that it learns and predicts about the future.
-        </p>
+          <p class="para">The predictive Analytics approach makes use of tons of moments sellers have labored on in past 
+              years and evaluates win/loss predictions with advanced machine-learning algorithms. Data analytics paid
+              emphasis on the things which have already occurred in the past but, what predictive analytics does is that 
+              it learns and predicts about the future.</p>
 </div>
        <br><br>
        <div class="recent-work ">
    <div class="container">
        <div class="left-text">
            <h3> Risk Analysis and decrement</h3><br>
-           <p class="para"> Predictive Analytic can transform the CRM experience by supplementing all those members or customers 
-               who are a threat to the company. Predictive analytics uses basic information to find fault among the behavioral patterns of the customers. Thus, this helps to cross-check the capability of its customers. 
-               Thereafter, it's definitely useful for the organization for a distant future.</p>
-           
+           <p class="para">Predictive Analytics can transform the CRM experience by supplementing all those members or 
+               customers who are a threat to the company. Predictive analytics uses basic information to find fault among 
+               the behavioral patterns of the customers. Thus, this helps to cross-check the capability of its customers. 
+               Thereafter, it's useful for the organization for the distant future.</p>           
            <br><br>
 <h3> Ceding primary importance to customers</h3><br>
            <p class="para"> Customers play a key role in marketing. Their needs are to be satisfied with the overall success of the firm.
@@ -138,10 +139,10 @@
            
            <br><br>
 <h3> Problem Solving Response</h3><br>
-           <p class="para"> People are aware of the fact that Predictive Analytics helps in forecasting or predicting the near future. 
-               Additionally, a problem-solving response also plays a major role in analytics. It helps in determining all the response and conduct of the customers. 
-               This creates an impact on the clients as the next notification they receive while working is what they actually require.</p>
-           
+           <p class="para"> People are aware of the fact that Predictive Analytics helps in forecasting or predicting the
+               near future. Additionally, a problem-solving response also plays a major role in analytics. It helps in 
+               determining all the responses and conduct of the customers. This creates an impact on the clients as the next
+               notification they receive while working is what they require.</p>          
            <br><br>
 <h3> Accounting customer trends</h3><br>
            <p class="para"> Predictive Analytics has a special built-in feature Algorithm feature, which constantly extracts data from various companies. 

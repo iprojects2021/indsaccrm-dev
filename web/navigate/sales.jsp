@@ -110,7 +110,7 @@
                         processes. It employs the latest technologies such as Artificial Intelligence, which offer you a deeper penetration into the purchasing 
                         intent of your customers.</p><br>
                        <p class="para">Sales Automation is an excellent tool to create customizable workflows automatically, and reduce time spent on manual or repetitive tasks. </p><br>
-                     <p class="para"> Interesting and crucial benefit offered by Sales force automation tools is customer and market intelligence that comes with sterling reports and analytics related to your customers.</p>
+                     <p class="para"> An interesting and crucial benefit offered by Salesforce automation tools is customer and market intelligence that comes with sterling reports and analytics related to your customers.</p>
                 </div>
             </div>
         </div>
@@ -125,13 +125,12 @@
           
                 <div class="cwp4-text col-xl-6">
                     <h4>Benefits of using sales automation </h4>
-                    <p class="para"> 1. Sales force automation plays a crucial role in motivating your sales team, keeping them informed in terms of the entire supply chain data, 
-                        and enables them to make smarter decisions. <br><br>
-                    2. Sales force automation offers seamless integration across devices without compromising organizational security.<br><br> 
+                    <p class="para"> 1. Salesforce automation plays a crucial role in motivating your sales team, keeping 
+                        them informed in terms of the entire supply chain data, and enabling them to make smarter decisions. <br><br>
+                    2. Salesforce automation offers seamless integration across devices without compromising organizational security.<br><br> 
                     3. Managers can get actionable insights into real-time data and act accordingly.  <br><br>
                     4. It improves overall productivity, keeps the motivation high, boosts range selling, and increases market coverage, all the while 
-                    empowering you to make smart sales teams. <br><br>
-                   
+                    empowering you to make smart sales teams. <br><br>                  
                    </p>
                    </div>
 	 <div class="col-xl-6 cwp4-image ">
@@ -148,7 +147,7 @@
             <div class="main-titles-head text-center">
 
                 <h3 class="header-name">
-				Focus on the right Sales Automation for Faster Growth
+                    Focus on the right Sales Automation for Faster Growth
                 </h3>
             </div>
             <div class="features-effect row text-center">
@@ -196,12 +195,10 @@
                     <div class="back-color">
                         <a href="ContSync.jsp"><img class="img-responsive" src="assets/images/sa4.png" alt=" "></a>
                         <h4><a href="ContSync.jsp" class="title-head"> Catalog Sync</a></h4>
-                        <p class="para">Sales force automation in India that allows your sales teams to display a digital product catalogue that is continuously 
-                            synced with the main server in real-time. </p>
+                        <p class="para">Salesforce automation in India allows your sales teams to display a digital product catalog that is continuously synced with the main server in real-time. </p>
                     </div>
                 </div>
-                
-                
+                      
                 <div class=" grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1">
 
                     <div class="back-color">
@@ -210,15 +207,13 @@
                         <p class="para">The predictive analysis allows your sales reps to suggest orders based on the specific point of sale history and enables them to offer 
                             a seamless purchase experience to the distributors.  </p>
                     </div>
-                </div>
-                
-                 </div>
+                </div>               
+              </div>
              </div>
-         </div>
+          </div>
         </section>>
 
 <%@include file="footer.jsp" %>
-
 
 
 <!-- move top -->

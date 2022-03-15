@@ -105,9 +105,8 @@
                         <div class="icon-text">
                             <h5> <a href="#" ></a>
                             </h5>
-                            <p class="para">Flexibility is an important and essential requirement for most professionals today due to 
-                                the diverse working conditions, 
-                             including remote working, work from home, and more. </p>
+                            <p class="para">Flexibility is an essential requirement for most professionals today due to the 
+                                diverse working conditions, including remote working, work from home, and more. </p>
                        </div>
                         <div class="icon-text mt-lx-3 pt-lx-1">
                             <h5 ><a href="#" ></a>
@@ -128,12 +127,12 @@
 	<p class="para">A mobile CRM goal is to grow sales. It does this by increasing productivity, 
             streamlining communication, and building stronger client relationships.</p> 
 	<br>
-	<p class="para"> But different groups (businesses, their employees, and their customers) benefit 
-            in different ways. So let's see how mobile CRM help each set.</p>
+	<p class="para"> But different groups (businesses, their employees, and their customers) benefit in different ways. 
+            So let's see how mobile CRM helps each set.</p>
 <br>
 <br>
 <br>
-	<h3>Mobile CRM benefits for Employees</h3>
+	<h3>Mobile CRM Benefits for Employees</h3>
 	<div class="row about-about">
 	<div class="col-lg-4 col-md-6">
 		<div class="about-grids">
@@ -160,25 +159,25 @@
 	<div class="col-lg-4 col-md-6 about-line-top">
 		<div class="about-grids">
 <h4> Preparing for meetings better</h4>
-<p class="para">A mobile CRM helps you prepare well for customer meetings. Say you are having a busy day and are about to meet a customer whom you haven't spoken to in sometime. 
-    You can update yourself about who they are in seconds by looking them up on your mobile CRM.</p><br>
+<p class="para">A mobile CRM helps you prepare well for customer meetings. Say you are having a busy day and are about to 
+    meet a customer whom you haven't spoken to in some time. You can update yourself about who they are in seconds by 
+    looking them up on your mobile CRM.</p><br>
 <div class="mt-3 about-list">
-
 </div>
 		</div>
 	</div>
 </div> 
 <br>
 <br>
-        <h3>Mobile CRM benefits for Businesses</h3>
+        <h3>Mobile CRM Benefits for Businesses</h3>
 	<div class="row about-about">
 	<div class="col-lg-4 col-md-6">
 		<div class="about-grids">
 
 <h4>Making customers happy</h4>
-<p class="para">When businesses use mobile CRMs to build relationships and offer personalised service, 
-    customers feel valued. When customers are happy, businesses enjoy repeat orders and referrals. This helps them maintain a good brand reputation. The result, more sales.
-
+<p class="para">When businesses use mobile CRMs to build relationships and offer personalized service, customers feel 
+    valued. When customers are happy, businesses enjoy repeat orders and referrals. This helps them maintain a good
+    brand reputation. The result, more sales.
  </p><br>
 <div class="mt-3 about-list">
 	
@@ -216,38 +215,33 @@
 	<h3>Features of a Mobile CRM </h3>
 
   <h4>Customer profiling<h4>
-<p class="para" > A mobile CRM contains individual customer profiles based on their needs, likes, interests, budget, etc. This gives you personalised insights for each customer, 
-    so you can recommend the most relevant products.</p><br>
+<p class="para" >A mobile CRM contains individual customer profiles based on their needs, likes, interests, budget, etc. 
+    This gives you personalized insights for each customer, so you can recommend the most relevant products.</p><br>
 
 <h4>Calendar and follow-up reminders <h4>
-<p class="para" > Good mobile CRM make following up with customers easy with built-in calendars and 
-    reminders. They make it stay in touch with customers and keep your relationships warm, increasing 
-    the likelihood they'll buy from you in the future.</p><br>
+<p class="para" > Good mobile CRM makes following up with customers easy with built-in calendars and reminders. 
+    They make it stay in touch with customers and keep your relationships warm, increasing the likelihood they'll 
+    buy from you in the future.</p><br>
 
 <h4>Calls and messaging<h4>
-<p class="para" >Mobile CRM make it easy to contact your leads and view past conversations from one 
-    place. There is no need to switch back and forth between WhatsApp, SMS, iMessage, phone calls, 
-    and email just to send a simple follow-up message.</p><br>
+<p class="para" >Mobile CRM makes it easy to contact your leads and view past conversations from one place. 
+    There is no need to switch back and forth between WhatsApp, SMS, iMessage, phone calls, and email just to send 
+    a simple follow-up message.</p><br>
 
 <h4>Customer timelines  <h4>
-<p class="para" >Mobile CRMs track all your customers no matter where they are in your sales pipeline, 
-    giving you a detailed timeline for each client. This includes notes about the customer, personal 
-    information, a history of past interactions, and follow up tasks.</p><br>
+<p class="para">Mobile CRMs track all your customers no matter where they are in your sales pipeline, giving you a 
+    detailed timeline for each client. This includes notes about the customer, personal information, a history of 
+    past interactions, and follow-up tasks.</p><br>
 
 <h4>Lead integrations and alerts <h4>
-<p class="para" >Many mobile CRMs have integrations to connect your lead sources to alert you of new 
-    leads and save them into your client list. With new lead notifications you can respond to people while they're still interested.</p><br>
+<p class="para" >Many mobile CRMs have integrations to connect your lead sources to alert you of new leads and save 
+    them into your client list. With new lead notifications, you can respond to people while they're still interested.</p><br>
 </div>
   </div>
      </div>
     </section>
-			
-
 
 <%@include file="footer.jsp" %>
-
-
-
 
 <!-- move top -->
 <button onclick="topFunction()" id="movetop" title="Go to top">

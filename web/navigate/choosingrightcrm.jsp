@@ -99,43 +99,41 @@
 	<p class="para"> Before you start evaluating CRM vendors, ask yourself these questions:-</p><br>
 <ul>
   <li>  1. What are the most inefficient processes in our business and what do we want to improve with a CRM system?</li><br>
- <li>   2. What operational process and workflows we lack and need to add?</li><br>
+ <li>   2. What operational processes and workflows do we lack and need to add?</li><br>
      <li> 3. Who in our company is going to use CRM? How many users do we need?</li><br>
   <li>    4. What other software do we want to integrate with a CRM system?</li><br>
     <li>  5. What is our budget? </li>
    </ul> <br>
   <h4>Know what features and functionality you need<h4>
 <p class="para" > 
- CRM software comes with a lot of functions that need to appeal to a wide spectrum of businesses. But, why pay for the functions you don't need or use. First-time CRM buyers often overestimate what features they actually need. Different users need different user plans. 
-Thus, sales departments might need a CRM with an advanced sales set and a possibility to use CRM on their mobile devices; 
-while your communication team may need to only use the marketing-related functionality.choose the CRM that can adapt to your needs. </p><br>
+CRM software comes with a lot of functions that need to appeal to a wide spectrum of businesses. But, why pay for the 
+functions you don't need or use. First-time CRM buyers often overestimate what features they actually need. Different users
+need different user plans. Thus, sales departments might need a CRM with an advanced sales set and a possibility to use CRM
+on their mobile devices; while your communication team may need to only use the marketing-related functionality. Choose a 
+CRM that can adapt to your needs.
+ </p><br>
 
 <h4>Make sure the system integrates with other applications<h4>
 <p class="para" > 
- This is one of the most important things to consider when choosing a CRM for your business.CRM software integrate with: an ERP or other accounting software, a HR software, your 
-own website and web forms to import new leads, billing and e-commerce platforms to register transactions, as well as marketing solutions. </p><br>
+This is one of the most important things to consider when choosing a CRM for your business. CRM software integrates with: 
+an ERP or other accounting software, HR software, your own website and web forms to import new leads, billing and e-commerce platforms to register transactions, as well as marketing solutions.
+ </p><br>
 
 <h4>Request a demonstration and test drive a free trial<h4>
-<p class="para" > Never take a CRM system at face value. it's always a good idea to test it out.
-The best solution is to start with a personalized demonstration and then move onto a free trial.
-During a demo session, a sales person walks you through the software and shows you how to use it. Then, you can ask specific questions that related to your business.
-After that you can move on to playing with a trial version in order to get a good feel how everything works and see the systems strengths and weaknesses. Look at things like ease of use, key functionality and the ability to expand. </p><br>
+<p class="para" >Never take a CRM system at face value. it's always a good idea to test it out. The best solution is to 
+    start with a personalized demonstration and then move on to a free trial. During a demo session, a salesperson walks 
+    you through the software and shows you how to use it. Then, you can ask specific questions that are related to your
+    business. After that, you can move on to playing with a trial version to get a good feel of how everything works and 
+    see the system's strengths and weaknesses. Look at things like ease of use, key functionality, and the ability to expand. </p><br>
 
 <h4>Check whether customization and training are available<h4>
-<p class="para" > A CRM system should complement your business and reflect your sales process, your marketing strategy, your customer service activities, your contact management routines. That's why you should choose a system that is easy to configure.
-So, when you're asking for a price, make sure to ask how much it will cost to configure the solution to your needs and to personalize training sessions. </p><br>
-
-
+<p class="para" > A CRM system should complement your business and reflect your sales process, your marketing strategy, your
+    customer service activities, your contact management routines. That's why you should choose a system that is easy to configure. So, when you're asking for a price, make sure to ask how much it will cost to configure the solution to your needs and to personalize training sessions. </p><br>
 </div>
-
-
-       </div>
+     </div>
      </div>
                                 </section>			
 <%@include file="footer.jsp" %>
-
-
-
 
 <!-- move top -->
 <button onclick="topFunction()" id="movetop" title="Go to top">

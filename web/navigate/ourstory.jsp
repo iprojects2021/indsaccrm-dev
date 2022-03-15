@@ -104,9 +104,8 @@
                 <div class="cwp4-text col-xl-6">
                     
                     <h2 style="font-size: 30px;"> INDSAC-CRM is a CRM company that builds software designed to improve customer relationships. 
-					<br><br>The INDSAC-CRM platform makes it easy for your entire company to work together from marketing, to sales, to customer service. Each hub is powerful 
-					alone, but they're even better together.</h2>
-                   
+					<br><br>The INDSAC-CRM platform makes it easy for your entire company to work together from marketing
+                                        to sales, to customer service. Each hub is powerful alone, but they're even better together.</h2>                  
                 </div>
             </div>
         </div>
@@ -114,10 +113,6 @@
 </section>
 
 <%@include file="footer.jsp" %>
-
-
-
-
 
 <!-- move top -->
 <button onclick="topFunction()" id="movetop" title="Go to top">

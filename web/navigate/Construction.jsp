@@ -97,20 +97,21 @@
             </div>
                 <div class="cwp4-text col-xl-6">
                     <h4> Construction Industry</h4>
-                    <p class="para"> Construction sector is one of the most sophisticated sectors. The competition within this industry is remarkable.</p>
+                    <p class="para"> The construction sector is one of the most sophisticated sectors. The competition within this industry is remarkable.</p>
                     <div class="jst-two-coloums mt-4">
                         <div class="icon-text">
                             <h5> <a href="#" ></a>
                             </h5>
-                            <p class="para"> Industries with similar profile need something distinct at their management solutions to stay ahead of others failing to 
-							which they may get drowned. CRM is an approach to managing and improving the relationships between a company and its leads, prospects and customers.  </p>
+                            <p class="para"> Industries with similar profiles need something distinct at their management 
+                                solutions to stay ahead of others failing to which they may get drowned. CRM is an approach to managing and improving the relationships between a company and its leads, prospects, and customers.  </p>
                        </div>
                         <div class="icon-text mt-lx-3 pt-lx-1">
                             <h5 ><a href="#" ></a>
                             </h5>
-                            <p class="para">CRM is a software that's specifically designed to help you track and manage customer relationships, it also can help you to 
-							improve internal operations by providing automated assistance to streamline tasks, collaboration tools to help your team work more 
-							cohesively and reports to help you identify areas of improvement.</p>
+                            <p class="para">CRM is a software that's specifically designed to help you track and manage 
+                                customer relationships, it also can help you to improve internal operations by providing 
+                                automated assistance to streamline tasks, collaboration tools to help your team work more 
+                                cohesively, and reports to help you identify areas of improvement.</p>
                         </div>
                     </div>
                 </div>
@@ -126,8 +127,8 @@
 	<p class="para">Many construction firms use paper files to keep track of their contacts. While today they're more likely to use an email client or a 
 	spreadsheet, it's often frustrating for staff to find the information they need. Even if they do manage to find what they're looking for, the details may be out of date. </p><br>
 
-	<p class="para">With a INDSAC-CRM , your team can see a contact's details and status in real-time, along with the necessary next steps in a deal or operation. 
-A CRM can help you to stay organized, easily share key information and accurately forecast financials.
+	<p class="para">With an INDSAC-CRM, your team can see a contact's details and status in real-time, along with the 
+            necessary next steps in a deal or operation. A CRM can help you to stay organized, easily share key information and accurately forecast financials.
 <br><br>There are many more advantages to using construction CRM software for 
 your construction business and sales team. </p>
 </div>
@@ -144,9 +145,10 @@ your construction business and sales team. </p>
             </div>
                 <div class="cwp4-text col-xl-6">
                     <h4> Performance monitoring</h4>
-                    <p class="para"> It is challenging for construction companies to keep track of everything that's going on at once. Employee and contractor CRM 
-					software makes it easy to monitor your operations at both a high-level and through detailed project views so that you can quickly see what your teams are doing.
-					Additionally, keeping all the data you need in one place makes it easier to get insights and accurately forecast future performance, scope and project timelines. </p>
+                    <p class="para"> It is challenging for construction companies to keep track of everything that's going 
+                        on at once. Employee and contractor CRM software makes it easy to monitor your operations at both a
+                        high level and through detailed project views so that you can quickly see what your teams are doing.
+                        Additionally, keeping all the data you need in one place makes it easier to get insights and accurately forecast future performance, scope, and project timelines.</p>
                 </div>
             </div>
         </div>
@@ -181,9 +183,10 @@ your construction business and sales team. </p>
             </div>
                 <div class="cwp4-text col-xl-6">
                     <h4> Improved intelligence</h4>
-                    <p class="para">There are a lot of moving parts in a construction deal, with plenty of details that you need to be aware of and able to access at a moment
-					notice. From document management, deadlines and lead times to job site access and time tracking, there's a lot of information you need to stay on top of. A 
-					construction contractor CRM keeps all the details you need in easy reach. It also makes it easier to manage your pipeline and make smarter decisions. </p>
+                    <p class="para">There are a lot of moving parts in a construction deal, with plenty of details that you need to be aware of and 
+                        able to access at a moment's notice. From document management, deadlines, and lead times to job site access and time
+                        tracking, there's a lot of information you need to stay on top of. A construction contractor CRM keeps all the details 
+                        you need in easy reach. It also makes it easier to manage your pipeline and make smarter decisions. </p>
                 </div>
             </div>
         </div>
@@ -198,9 +201,10 @@ your construction business and sales team. </p>
            
                 <div class="cwp4-text col-xl-6">
                     <h4>Forecasting</h4>
-                    <p class="para">CRM can help you forecast the future. What deals you can expect to close, when they should close and how much those deals will be worth. 
-					Not only can this help with business planning, but it can also help your sales team know what to expect. Rather than relying on a sales manager to 
-					tell them whether they are on target or not, they can see for themselves what deals they need to focus.</p>
+                    <p class="para">CRM can help you forecast the future. What deals you can expect to close, when they 
+                        should close and how much those deals will be worth. Not only can this help with business planning, 
+                        but it can also help your sales team know what to expect. Rather than relying on a sales manager to
+                        tell them whether they are on target or not, they can see for themselves what deals they need to focus on.</p>
                 </div>
 				 <div class="col-xl-6 cwp4-image ">
                 <img src="assets/images/const2.jpg" alt="product" class="img-responsive ">

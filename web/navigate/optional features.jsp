@@ -104,11 +104,11 @@
             </div>
                 <div class="cwp4-text col-xl-6">
 				
-                    <h4> Call Center Automation</h4>
-                    <p class="para">CRM with call center automation enables service agent to solve customers problems quickly. It gives right information at the right time to improve overall customer experience.
-
-Interactive voice response (IVR), virtual agents, automatic call distribution are just few examples of call center automation.</p>
-                   
+                    <h4>Call Center Automation</h4>
+                    <p class="para">CRM with call center automation enables service agents to solve customers' problems 
+                        quickly. It gives the right information at the right time to improve the overall customer experience. 
+                        Interactive voice response (IVR), virtual agents, automatic call distribution are just a few examples 
+                        of call center automation.</p>                  
                 </div>
             </div>
         </div>
@@ -122,13 +122,11 @@ Interactive voice response (IVR), virtual agents, automatic call distribution ar
            
                 <div class="cwp4-text col-xl-6">
                     <h4>Training and Ease to learn</h4>
-                    <p class="para">Every CRM has different learning curve.
-
-It will not make any difference if your employees do not understand the application easily.
-
-INDSAC-CRM   provide training to make the product more usable. Also  CRM applications have built in Help functionality to guide user step by step.</p>
-                    
-				   </div>
+                    <p class="para">Every CRM has a different learning curve. It will not make any difference if your 
+                        employees do not understand the application easily. INDSAC-CRM provides training to make the 
+                        product more usable. Also, CRM applications have built-in Help functionality to guide users step by
+                        step.</p>
+                    		 </div>
 				 <div class="col-xl-6 cwp4-image ">
                 <img src="assets/images/t1.png" alt="product" class="img-responsive ">
             </div>
@@ -147,10 +145,8 @@ INDSAC-CRM   provide training to make the product more usable. Also  CRM applica
             </div>
                 <div class="cwp4-text col-xl-6">
                     <h4>  Easy Customization</h4>
-                    <p class="para">Every business has its unique strategies and processes.
-
-And to automate those processes, you have to customize CRM. We provide easy customization feature to make your work easy.</p>
-                   
+                    <p class="para">Every business has its unique strategies and processes. And to automate those processes, 
+                        you have to customize CRM. We provide an easy customization feature to make your work easy.</p>                 
                 </div>
             </div>
         </div>

@@ -104,7 +104,7 @@
                         <div class="icon-text">
                             <h5> <a href="#" ></a>
                             </h5>
-                            <p class="para">It includes businesses of computer hardware, developing and maintaining computer software and computer networking. One major area which has been growing proliferatively is service sector. </p>
+                            <p class="para">It includes businesses of computer hardware, developing and maintaining computer software, and computer networking. One major area which has been growing proliferatively is the service sector.</p>
                        </div>
                         <div class="icon-text mt-lx-3 pt-lx-1">
                             <h5 ><a href="#" ></a>
@@ -124,8 +124,8 @@
 	<h3>What is CRM for IT Industry?</h3>
 	<p class="para">CRM software keeps getting attention because it enables businesses to stay updated with the needs of customers, which are constantly evolving. Rapid progress in the IT sector has especially enhanced the need for IT companies to adopt CRM software. </p><br>
 	
-<p class="para">CRM enables businesses to build relations with customers and increase acquisition, retention, loyalty, and profitability. But INDSAC-CRM tools do much more. They allow IT companies to improve operational efficiency and substantially reduce the time spent in generating reports
- for internal purposes and for clients. CRM system stores and analyzes massive amounts of customer data and provides insights into customer behavior and how a company can influence. </p>
+<p class="para">CRM enables businesses to build relations with customers and increase acquisition, retention, loyalty, and
+    profitability. But INDSAC-CRM tools do much more. They allow IT companies to improve operational efficiency and substantially reduce the time spent in generating reports for internal purposes and clients. CRM system stores and analyzes massive amounts of customer data and provides insights into customer behavior and how a company can influence it. </p>
 </div>
 <br > <br>
 <div class="left-text">
@@ -137,7 +137,7 @@
 
 <h4>Stable Growth </h4>
  <a href="StableGrowth.jsp"><img class="img-responsive" src="assets/images/sg.png" alt=" "></a>
-<p class="para">INDSAC-CRM tool helps in growing the company scientifically and substainably in the national and international landscape.</p>
+<p class="para">INDSAC-CRM tool helps in growing the company scientifically and sustainably in the national and international landscape.</p>
 <div class="mt-3 about-list">
 	
 </div>
@@ -147,7 +147,7 @@
 		<div class="about-grids">
 <h4>Improved Communication </h4>
 <a href="impcomm.jsp"><img class="img-responsive" src="assets/images/ic.jpg" alt=" "></a><br>
-<p class="para"> Customers, partners, employees, and other stackeholders communicate in clearer and faster ways with each other.</p>
+<p class="para"> Customers, partners, employees, and other stakeholders communicate in clearer and faster ways with each other.</p>
 <div class="mt-3 about-list">
 	
 </div>
@@ -178,7 +178,7 @@
 
 <h4>Feedback and Referrals</h4>
 <a href="Survey.jsp"><img class="img-responsive" src="assets/images/ind.jpeg" alt=" "></a>
-<p class="para"> Collect customer feedback to improve overall experience, and generate referrals to convert into customers and increase sales for your dealership. </p>
+<p class="para"> Collect customer feedback to improve the overall experience, and generate referrals to convert into customers and increase sales for your dealership. </p>
 <div class="mt-3 about-list">
 	
 </div>
@@ -201,27 +201,25 @@
 <p class="para">Establish and track sales and operations goals, and monitor individual performance and contributions to business goals.</p><br><br>
 <div class="mt-3 about-list">
 
-</div>
+                 </div>
 		</div>
-	</div>
-</div>
+	     </div>
+           </div>
        </div>
      </div>
-				</section>
-	
-				
-	
-			
-<section class="w3l-recent-work-hobbies">
+				</section>			
+             <section class="w3l-recent-work-hobbies">
    				    <div class="recent-work ">
    				        <div class="container">
 <div class="left-text">
 
-
 <h3> Services of INDSAC-CRM  for Your IT Industry</h3>
-	<p class="para">CRM system is the one that can play a key role to open up the doors of business growth and development that you are working on. The expectation of rapid growth is true as you can expect this when you have CRM software in your working activity. 
-	The IT industry needs to stop investing bundles of money on any vintage software because CRM can help to improve operational efficiency, save your countless hours on working on reports for the clients and much more. 
-	INDSAC-CRM software has a superior power to hike up retention, loyalty, acquisitions, etc. </p>
+	<p class="para">CRM system is the one that can play a key role to open up the doors of business growth and
+            development that you are working on. The expectation of rapid growth is true as you can expect this when you 
+            have CRM software in your working activity. The IT industry needs to stop investing bundles of money on any 
+            vintage software because CRM can help to improve operational efficiency, save countless hours on working on 
+            reports for the clients, and much more. INDSAC-CRM software has a superior power to hike up retention, loyalty,
+            acquisitions, etc. </p>
 	<a href="comservice.jsp" class="btn action-button mt-lg-5 mt-4 ">Read more</a>
 	
 

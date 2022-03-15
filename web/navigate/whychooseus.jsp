@@ -111,12 +111,12 @@
 				<div class="left-text">
 	<h3 style="font-size: 45px">INDSAC-CRM is not 
 	<br>just different, it's better.</h3><br>
-	<p class="para">CRM software is used by the organizations to run their sales processes. While these solutions might be user-friendly robust, and secure, 
-	the amount of complexity leads to the user experience suffering, which often requires you to change the way you work to suit the software.</p><br>
+	<p class="para">CRM software is used by organizations to run their sales processes. While these solutions might be user-friendly robust, and secure, the amount of complexity leads to the user 
+            experience suffering, which often requires you to change the way you work to suit the software.</p><br>
 	
-<p class="para">INDSAC-CRM with its broad coverage, deep features can go head to head when it comes to 
-technology and functionality. Where other CRMs use predatory business practices and aggressive, multi-year contracts to strong arm users into sticking around, we 
-are so confident in the strength of our product that we offer flexible, month-to-month subscriptions that can grow with your business.</p>
+<p class="para">INDSAC-CRM with its broad coverage, deep features can go head to head when it comes to technology and 
+    functionality. Where other CRMs use predatory business practices and aggressive, multi-year contracts to strong-arm 
+    users into sticking around, we are so confident in the strength of our product that we offer flexible, month-to-month subscriptions that can grow with your business.</p>
 </div>
             </div>
         </div>
@@ -154,8 +154,8 @@ are so confident in the strength of our product that we offer flexible, month-to
                     <div class="back-color">
                     <span class="fa fa-phone-square" aria-hidden="true"></span>
                     <h4><a href="contact.jsp" class="title-head">Customer support</a></h4>
-                    <p class="para">With our support system, you will have access to a team of highly skilled support engineers on standby 24 hours a day, all year long. 
-					They can assist you with all your issues, big and small, generating solutions in average time period.</p>
+                    <p class="para">With our support system, you will have access to a team of highly skilled support 
+                        engineers on standby 24 hours a day, all year long. They can assist you with all your issues, big and small, generating solutions in the average period.</p>
                 </div>
             </div>
                 <div class="grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1">

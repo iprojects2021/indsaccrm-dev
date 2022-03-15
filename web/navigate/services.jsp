@@ -76,7 +76,6 @@
   </script>
   <!-- disable body scroll which navbar is in active -->
 
-
 <!-- breadcrumbs -->
     <section class="w3l-inner-banner-main">
         <div class="about-inner inner2">
@@ -95,14 +94,11 @@
             <div class="main-titles-head text-center">
 
                 <h3 class="header-name">
-				Save time with INDSAC-CRM powerful automations
+		Save time with INDSAC-CRM powerful automations
                 </h3>
             </div>
             <div class="features-effect row text-center">
-			
-				
-                <div class="grids-effect-2 col-lg-4 col-md-6 col-sm-6">
-
+              <div class="grids-effect-2 col-lg-4 col-md-6 col-sm-6">
                     <div class="back-color">
                         <a href="contactmanagement.jsp"><img class="img-responsive" src="assets/images/con1.jpg" alt=" "></a>
                         <h4><a href="contactmanagement.jsp" class="title-head">Contact Management</a></h4>
@@ -113,8 +109,8 @@
                     <div class="back-color">
                           <a href="task.jsp "><img class="img-responsive" src="assets/images/taskmg.png" alt=" "></a>
                         <h4><a href="task.jsp" class="title-head">Task Management </a></h4>
-                        <p class="para"> CRM system that include task management capabilities sales peoples increase their workflow and keep on top 
-						of their follow up.  </p>
+                        <p class="para"> CRM system that includes task management capabilities sales peoples increase their
+                            workflow and keep on top of their follow up. </p>
                     </div>
                 </div>
                   <div class="grids-effect-2 col-lg-4 col-md-6 col-sm-6">
@@ -131,8 +127,7 @@
                         <h4><a href="salesforcasting.jsp" class="title-head"> Sales Forecasting  </a></h4>
                         <p class="para">A CRM software predicts your future sales based on data from your current pipeline. You may need to alter your marketing plan based on the sales forecast.</p>
                     </div>
-                </div>
-                
+                </div>               
                 <div class="grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1 ">
                     <div class="back-color">
                           <a href="dashboard.jsp"><img class="img-responsive" src="assets/images/reportmg.png" alt=" "></a>
@@ -146,8 +141,9 @@ Utilize dashboards and reports for management, sales, marketing & more. </p>
                     <div class="back-color">
                        <a href="panalysis.jsp"><img class="img-responsive" src="assets/images/productivitymg.png" alt=" "></a>
                         <h4><a href="panalysis.jsp" class="title-head"> Productivity Analysis </h4>
-                        <p class="para">Track and measure your team's progress, know the status of key opportunities and ensure you're getting results. Compare productivity among departments and representatives.
-Track detailed marketing campaign metrics. </p>
+                        <p class="para">Track and measure your team's progress, know the status of key opportunities, and 
+                            ensure you're getting results. Compare productivity among departments and representatives. 
+                            Track detailed marketing campaign metrics. </p>
                     </div>
                 </div>
                 
@@ -159,43 +155,31 @@ Track detailed marketing campaign metrics. </p>
 						the sales representatives and converted into a sale. </p>
                     </div>
                 </div>	
-					
-				 <div class="grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1 ">
+                
+		 <div class="grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1 ">
                     <div class="back-color">
                          <a href="email.jsp"><img class="img-responsive" src="assets/images/emailmg.jpg" alt=" "></a><br>
                         <h4><a href="email.jsp" class="title-head">Email Integration</a></h4>
-                        <p class="para"> An email service in a INDSAC-CRM helps keep your sales team organized and productive. They can integrate their calendars 
-						to schedule appointments and engage prospects and customers accordingly. 
-						 </p>
+                        <p class="para"> Email service in an INDSAC-CRM helps keep your sales team organized and productive. 
+                            They can integrate their calendars to schedule appointments and engage prospects and customers 
+                            accordingly.</p>
                     </div>
                 </div>
+                
 		<div class=" grids-effect-2 col-lg-4 col-md-6 col-sm-6 mt-4 pt-1">
                     <div class="back-color">
                        <a href="opp.jsp "><img class="img-responsive" src="assets/images/oppormg.png" alt=" "></a><br>
                         <h4><a href="opp.jsp" class="title-head">Opportunity Management</a></h4>
                         <p class="para">It provides opportunity tracking so you'll always know the details for each prospective sale, and allows you to 
-						review forecasts in real-time with detailed reports., dashboards and lists.</p>
+				review forecasts in real-time with detailed reports., dashboards and lists.</p>
                     </div>
                 </div>		
-					 
-				
-				
-				
-		
-				
-				
-				
-            </div>
+           </div>
         </div>
     </div>
 </section>
 
-
-
-
 <%@include file="footer.jsp" %>
-
-
 
 <!-- move top -->
 <button onclick="topFunction()" id="movetop" title="Go to top">

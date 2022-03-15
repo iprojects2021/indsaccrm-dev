@@ -62,8 +62,8 @@ public static String getProdServerLink(){
 //test environment end
 
 
-
 /*
+
 //server dev environment start
    public static Connection getConnectionCRM() {
 	Connection con=null;
@@ -96,7 +96,52 @@ public static String getProdServerLink(){
     return  "https://indsaccrm.com/";
 }
  //prod server dev end
+
+
 */
+
+
+
+/*
+
+//prod environment start
+   public static Connection getConnectionCRM() {
+	Connection con=null;
+	try{ 
+		Class.forName("com.mysql.jdbc.Driver");
+		con=DriverManager.getConnection("jdbc:mysql://localhost:3306/indsaccr_ushaaicrm",Nd.Decrypt("2a2e2a746f74616c66696e64776f726b"),Nd.Decrypt("2a2e2a746135793875357568"));
+	}catch(Exception e){System.out.println(e);
+         String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" \n Poul.java-----\n"
+                   + "\nLINE=62 \n Production: getConnectionCRM() ";
+         Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
+       
+        
+        
+        }
+	return con;
+    } 
+
+  public static String getDirPath(){
+String path="/home/indsaccr/files/crmfiles/";
+
+ return path;}
+ public static String getProjectPath(){
+String path="/home/indsaccr/webapps/myindsactools/";
+return path;}
+public static String getWeblogsDirPath(){
+   String path="/home/indsaccr/files/weblogs/"; 
+return path;
+}
+public static String getProdServerLink(){
+    return  "https://indsaccrm.com/";
+}
+ //prod environ end
+*/
+
+
+
+
+
    public static String getEmailResponseUser(){
 //String path="";
 String user="service@indsaccrm.com";

@@ -2,15 +2,20 @@
 <%@page import="blezz.Poul"%>
 <%@page import="log.Log"%>
 <!--
-   Author:indsaccrm.com
-   Author URL: http://indsaccrm.com
+   Author:www.indsaccrm.com
+   Author URL: https://www.indsaccrm.com
 -->
 <!doctype html>
 <html lang="en">
   <head><link rel="shortcut icon" href="../dist/img/u.png" type="image/x-icon" />
+      <link rel="canonical" href="https://www.indsaccrm.com/Planning.jsp" />
+      <link rel="apple-touch-icon" href="dist/img/u.png"/>
+      <link rel="alternate" hreflang="en" href ="https://www.indsaccrm.com/" />
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="CRM Planning is a term used to describe all activities, strategies, and tools used by a company to manage the way it interacts with its customer base">
+
 
    <title>Best CRM Software | Planning :: indsaccrm.com</title>
     <!-- Template CSS -->

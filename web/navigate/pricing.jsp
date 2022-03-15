@@ -96,10 +96,10 @@
             <div class="main-titles-head text-center">
                 <h3 class="header-name">
                     Drop us Message for any Query
-					<a href="login.jsp" class="btn action-button mt-6">Get Free CRM</a>
+		  <a href="login.jsp" class="btn action-button mt-6">Get Free CRM</a>
                 </h3> 
-
             </div>
+            
             <div class="contact row">
                 <!-- email -->
                 <div class="col-lg-3 col-md-6 col-sm-6 contact-grids">
@@ -122,9 +122,6 @@
                 <a href="tel:+7-800-999-800">
                     <p class="contact-text-sub">+91 7676289081</p>
                 </a>
-                <a href="tel:+1-222-333-800">
-                    <p class="contact-text-sub">+91 7999814068</p>
-                </a>
             </div>
             </div>
 			 <!-- address -->
@@ -132,18 +129,25 @@
                     <div class="contact-gtids ">
                         <span class="fa fa-building" aria-hidden="true"></span>
                     <h4>Address Line</h4>
-                <p class="contact-text-sub">373, Aswath Nagar, 2nd Main Road, Marathahalli, Bangalore - 560037</p>
-    
+                <p class="contact-text-sub">INDSAC SOFTECH  <br> Manyata Embassy Business Park Ground Floor, E-1, Nagavara, Bengaluru, Karnataka 560045</p>   
             </div>
         </div>
+                <!-- 24 customer service -->         
+                         <div class="col-lg-3 col-md-6 col-sm-6 contact-grids">
+                    <div class="contact-gtids ">
+                        <span class="fa fa-headphones" aria-hidden="true"></span>
+                    <h4>Support</h4>
+                    <p class="contact-text-sub">24/7 Ready Our Support Team For You.</p>
+
+                </div>
+            </div>
 			</div>
-			</div>
-			</div>
+		</div>
+	</div>
 
 </section>
 
 <%@include file="footer.jsp" %>
-
 
 <!-- move top -->
 <button onclick="topFunction()" id="movetop" title="Go to top">

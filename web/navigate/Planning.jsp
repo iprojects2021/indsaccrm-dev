@@ -17,7 +17,7 @@
     <meta name="description" content="CRM Planning is a term used to describe all activities, strategies, and tools used by a company to manage the way it interacts with its customer base">
 
 
-   <title>Best CRM Software | Planning :: indsaccrm.com</title>
+   <title>CRM Planning | Planning :: indsaccrm.com</title>
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700&display=swap" rel="stylesheet">

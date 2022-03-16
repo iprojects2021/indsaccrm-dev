@@ -21,7 +21,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="About Indsac CRM">
 
-    <title>Best CRM Software | Invoice Management System :: indsaccrm.com</title>
+    <title>Our Story | Invoice Management System :: indsaccrm.com</title>
     
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">

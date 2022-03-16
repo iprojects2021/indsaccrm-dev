@@ -17,7 +17,7 @@
     <meta name="description" content="promotions provide a breather to salespeople as it removes some weight off their shoulder and induces prospects to purchase the product">
 
 
-   <title>Best CRM Software | Promotions :: indsaccrm.com</title>
+   <title>Sales Promotions | Promotions :: indsaccrm.com</title>
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700&display=swap" rel="stylesheet">

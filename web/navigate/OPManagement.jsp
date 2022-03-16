@@ -2,15 +2,21 @@
 <%@page import="blezz.Poul"%>
 <%@page import="log.Log"%>
 <!--
-   Author: indsaccrm.com
-   Author URL: http://indsaccrm.com.com
+   Author: www.indsaccrm.com
+   Author URL: https://www.indsaccrm.com
 -->
 <!doctype html>
 <html lang="en">
   <head><link rel="shortcut icon" href="../dist/img/u.png" type="image/x-icon" />
+        <link rel="canonical" href="https://www.indsaccrm.com/OPManagement.jsp" />
+        <link rel="apple-touch-icon" href="dist/img/u.png"/>
+        <link rel="alternate" hreflang="en" href ="https://www.indsaccrm.com/" />
+        
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="An operational CRM is designed to improve routine business operations and securely store data on all your business activities with customers and prospects">
+
 
     <title>Operational Management | Best CRM Software |Pharmaceutical Industry :: indsaccrm.com</title>
 

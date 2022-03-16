@@ -2,17 +2,23 @@
 <%@page import="blezz.Poul"%>
 <%@page import="log.Log"%>
 <!--
-   Author: indsaccrm.com
-   Author URL: http://indsaccrm.com.com
+   Author: www.indsaccrm.com
+   Author URL: https://www.indsaccrm.com
 -->
 <!doctype html>
 <html lang="en">
-  <head>   <link rel="shortcut icon" href="../dist/img/u.png" type="image/x-icon" />
+  <head><link rel="shortcut icon" href="../dist/img/u.png" type="image/x-icon" />
+        <link rel="canonical" href="https://www.indsaccrm.com/Food.jsp" />
+        <link rel="apple-touch-icon" href="dist/img/u.png"/>
+        <link rel="alternate" hreflang="en" href ="https://www.indsaccrm.com/" />
+        
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="The food Industry comprises processing, preservation, conversion, and preservation of eatable items">
 
-    <title>Best Customer Relationship Management Software | Food Industry :: indsaccrm.com</title>
+
+    <title>Food Industry | Food Industry :: indsaccrm.com</title>
 
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">

@@ -2,17 +2,23 @@
 <%@page import="log.Log"%>
 <%@page import="blezz.Poul"%>
 <!--
-   Author: indsaccrm.com
-   Author URL: http://indsaccrm.com.com
+   Author: www.indsaccrm.com
+   Author URL: https://www.indsaccrm.com
 -->
 <!doctype html>
 <html lang="en">
   <head> <link rel="shortcut icon" href="../dist/img/u.png" type="image/x-icon" />
+         <link rel="canonical" href="https://www.indsaccrm.com/Computer.jsp" />
+         <link rel="apple-touch-icon" href="dist/img/u.png"/>
+         <link rel="alternate" hreflang="en" href ="https://www.indsaccrm.com/" />
+         
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Computer Industry has taken over almost every other industry. Computer industry or also known as Information Technology (IT) Industry.It includes businesses of computer hardware, developing and maintaining computer software, and computer networking">
 
-    <title>Best Customer Relationship Management Software | Industry :: indsaccrm.com</title>
+
+    <title>Computer Industry | Industry :: indsaccrm.com</title>
 
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">

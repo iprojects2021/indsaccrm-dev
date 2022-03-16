@@ -17,7 +17,7 @@
     <meta name="description" content="The term 360 degree view of the customer designates all available and significant information about the customer">
 
 
-   <title>Best CRM Software | 360 Degree view :: indsaccrm.com</title>
+   <title>360 Degree | 360 Degree view :: indsaccrm.com</title>
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700&display=swap" rel="stylesheet">

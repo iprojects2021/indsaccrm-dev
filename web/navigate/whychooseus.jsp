@@ -2,17 +2,23 @@
 <%@page import="blezz.Poul"%>
 <%@page import="log.Log"%>
 <!--
-   Author: indsaccrm.com
-   Author URL: http://indsaccrm.com.com
+   Author: www.indsaccrm.com
+   Author URL: https://www.indsaccrm.com
 -->
 <!doctype html>
 <html lang="en">
-  <head>   <link rel="shortcut icon" href="../dist/img/u.png" type="image/x-icon" />
+  <head><link rel="shortcut icon" href="../dist/img/u.png" type="image/x-icon" />
+        <link rel="canonical" href="https://www.indsaccrm.com/whychooseus.jsp" />
+        <link rel="apple-touch-icon" href="dist/img/u.png"/>
+        <link rel="alternate" hreflang="en" href ="https://www.indsaccrm.com/" />
+      
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="we have grown to support customers by putting their needs at the center of everything we do. We have got your back today, tomorrow, and all the days ahead">
 
-    <title>Best Customer Relationship Management Software | Why Choose INDSAC-CRM :: indsaccrm.com</title>
+
+    <title>Why Choose INDSAC-CRM? | Why Choose INDSAC-CRM :: indsaccrm.com</title>
 
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">

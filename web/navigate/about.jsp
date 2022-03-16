@@ -2,17 +2,22 @@
 <%@page import="blezz.Poul"%>
 <%@page import="log.Log"%>
 <!--
-   Author:indsaccrm.com
-   Author URL: http://indsaccrm.com
+   Author:www.indsaccrm.com
+   Author URL: https://www.indsaccrm.com
 -->
 <!doctype html>
 <html lang="en">
   <head><link rel="shortcut icon" href="../dist/img/u.png" type="image/x-icon" />
+      <link rel="canonical" href="https://www.indsaccrm.com/about.jsp" />
+      <link rel="apple-touch-icon" href="dist/img/u.png"/>
+      <link rel="alternate" hreflang="en" href ="https://www.indsaccrm.com/" />
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="INDSAC-CRM has a very well-equipped solution with some unique features. Providing business solutions across all industry segments to give access to all">
 
-   <title>Best CRM Software | About :: indsaccrm.com</title>
+
+   <title>About INDSAC CRM | About :: indsaccrm.com</title>
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700&display=swap" rel="stylesheet">

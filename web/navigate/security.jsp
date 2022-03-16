@@ -2,17 +2,23 @@
 <%@page import="blezz.Poul"%>
 <%@page import="log.Log"%>
 <!--
-   Author:indsaccrm.com
-   Author URL: http://indsaccrm.com
+   Author:www.indsaccrm.com
+   Author URL: https://www.indsaccrm.com
 -->
 <!doctype html>
 <html lang="en">
   <head><link rel="shortcut icon" href="../dist/img/u.png" type="image/x-icon" />
+        <link rel="canonical" href="https://www.indsaccrm.com/security.jsp" />
+        <link rel="apple-touch-icon" href="dist/img/u.png"/>
+        <link rel="alternate" hreflang="en" href ="https://www.indsaccrm.com/" />
+        
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="They enable businesses to store customer data, which can be utilized to build meaningful customer relationships, find new customers and grow revenues">
 
-   <title>Best CRM Software | Secure And Reliable :: indsaccrm.com</title>
+
+   <title>Secure CRM | Secure And Reliable :: indsaccrm.com</title>
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700&display=swap" rel="stylesheet">

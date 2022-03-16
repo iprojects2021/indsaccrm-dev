@@ -12,7 +12,7 @@
 <%@page  import="log.Log" %>
 <html lang= "en">
   <head><link rel="shortcut icon" href="dist/img/u.png" type="image/x-icon" />
-      <link rel="canonical" href="https://www.indsaccrm.com/index.jsp" />
+      <link rel="canonical" href="https://www.indsaccrm.com" />
       <link rel="apple-touch-icon" href="dist/img/u.png"/>
       <link rel="alternate" hreflang="en" href ="https://www.indsaccrm.com/" />
           

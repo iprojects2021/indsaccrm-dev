@@ -2,17 +2,23 @@
 <%@page import="blezz.Poul"%>
 <%@page import="log.Log"%>
 <!--
-   Author: indsaccrm.com
-   Author URL: http://indsaccrm.com.com
+   Author: www.indsaccrm.com
+   Author URL: https://www.indsaccrm.com
 -->
 <!doctype html>
 <html lang="en">
-  <head> <link rel="shortcut icon" href="../dist/img/u.png" type="image/x-icon" />
+  <head><link rel="shortcut icon" href="../dist/img/u.png" type="image/x-icon" />
+        <link rel="canonical" href="https://www.indsaccrm.com/termsofuse.jsp" />
+        <link rel="apple-touch-icon" href="dist/img/u.png"/>
+        <link rel="alternate" hreflang="en" href ="https://www.indsaccrm.com/" />
+        
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Welcome to INDSAC-CRM. We are glad you are here, and we hope you enjoy everything we have to offer. Please read these Terms carefully because they are a binding agreement between you and indsaccrm.com">
 
-    <title>Best Customer Relationship Management Software | Resources :: indsaccrm.com</title>
+
+    <title>Terms of Use | Resources :: indsaccrm.com</title>
 
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">

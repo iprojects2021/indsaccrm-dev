@@ -1,17 +1,23 @@
 
 <%@page import="log.Log"%>
 <!--
-   Author: indsaccrm.com
-   Author URL: http://indsaccrm.com.com
+   Author: www.indsaccrm.com
+   Author URL: https://www.indsaccrm.com
 -->
 <!doctype html>
 <html lang="en">
   <head> <link rel="shortcut icon" href="../dist/img/u.png" type="image/x-icon" />
+         <link rel="canonical" href="https://www.indsaccrm.com/pricing.jsp" />
+         <link rel="apple-touch-icon" href="dist/img/u.png"/>
+         <link rel="alternate" hreflang="en" href ="https://www.indsaccrm.com/" />
+         
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="It's free you can use it">
 
-    <title>Best Customer Relationship Management Software | Pricing :: indsaccrm.com</title>
+
+    <title>Pricing | Pricing :: indsaccrm.com</title>
 
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
@@ -96,7 +102,6 @@
             <div class="main-titles-head text-center">
                 <h3 class="header-name">
                     Drop us Message for any Query
-		  <a href="login.jsp" class="btn action-button mt-6">Get Free CRM</a>
                 </h3> 
             </div>
             

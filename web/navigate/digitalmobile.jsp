@@ -17,7 +17,7 @@
     <meta name="description" content="Mobile CRM can be defined as a CRM platform that has been specifically designed for mobile devices and tablets">
 
 
-    <title>Best Customer Relationship Management Software | Digital & Mobile :: indsaccrm.com</title>
+    <title>Mobile CRM | Digital & Mobile :: indsaccrm.com</title>
 
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">

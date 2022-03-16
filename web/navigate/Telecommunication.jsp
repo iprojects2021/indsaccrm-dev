@@ -2,17 +2,23 @@
 <%@page import="blezz.Poul"%>
 <%@page import="log.Log"%>
 <!--
-   Author: indsaccrm.com
-   Author URL: http://indsaccrm.com.com
+   Author: www.indsaccrm.com
+   Author URL: https://www.indsaccrm.com
 -->
 <!doctype html>
 <html lang="en">
   <head> <link rel="shortcut icon" href="../dist/img/u.png" type="image/x-icon" />
+         <link rel="canonical" href="https://www.indsaccrm.com/Telecommunication.jsp" />
+         <link rel="apple-touch-icon" href="dist/img/u.png"/>
+         <link rel="alternate" hreflang="en" href ="https://www.indsaccrm.com/" />
+         
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="The telecommunication industry consists of companies that make communication possible worldwide through mobile phones, the internet, cable, or wirelessly">
 
-    <title>Best Customer Relationship Management Software | Telecommunication :: indsaccrm.com</title>
+
+    <title>Telecommunication Industry | Telecommunication :: indsaccrm.com</title>
 
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">

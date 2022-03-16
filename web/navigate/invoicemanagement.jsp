@@ -21,7 +21,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Your CRM lets you grow your relationship with your customers, and quotes and invoices are just one part of that">
 
-    <title>Best CRM Software | Invoice Management System :: indsaccrm.com</title>
+    <title> CRM Invoice | Invoice Management System :: indsaccrm.com</title>
     
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">

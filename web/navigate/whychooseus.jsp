@@ -8,15 +8,26 @@
 <!doctype html>
 <html lang="en">
   <head><link rel="shortcut icon" href="../dist/img/u.png" type="image/x-icon" />
-        <link rel="canonical" href="https://www.indsaccrm.com/whychooseus.jsp" />
+        <link rel="canonical" href="https://indsaccrm.com/navigate/whychooseus.jsp" />
         <link rel="apple-touch-icon" href="dist/img/u.png"/>
-        <link rel="alternate" hreflang="en" href ="https://www.indsaccrm.com/" />
+        <link rel="alternate" hreflang="en" href ="https://indsaccrm.com/navigate/whychooseus.jsp" />
       
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="we have grown to support customers by putting their needs at the center of everything we do. We have got your back today, tomorrow, and all the days ahead">
+    <meta property="og:title" content="Why Choose INDSAC-CRM?"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="https://indsaccrm.com/navigate/whychooseus.jsp"/>
+    <meta property="og:image" content="https://www.indsaccrm.com/web/navigate/assets/images/CRMImage.jpg"/>
+    <meta property="og:image:secure_url" content="https://www.indsaccrm.com/web/navigate/assets/images/CRMImage.jpg"/>
+    <meta property="og:site_name" content="indsaccrm.com"/>
+    <meta property="og:description" content="we have grown to support customers by putting their needs at the center of everything we do. We have got your back today, tomorrow, and all the days ahead"/>
+    <meta property="og:locale" content="en_US" />
 
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Why Choose INDSAC-CRM?",
+"logo":{"@type":"ImageObject","url":"https://www.indsaccrm.com/web/dist/img/u.png"},"url":"https://indsaccrm.com/navigate/whychooseus.jsp"}
+</script>
 
     <title>Why Choose INDSAC-CRM? | Why Choose INDSAC-CRM :: indsaccrm.com</title>
 

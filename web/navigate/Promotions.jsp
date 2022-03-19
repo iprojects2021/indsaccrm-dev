@@ -8,14 +8,25 @@
 <!doctype html>
 <html lang="en">
   <head><link rel="shortcut icon" href="../dist/img/u.png" type="image/x-icon" />
-      <link rel="canonical" href="https://www.indsaccrm.com/Promotions.jsp" />
+      <link rel="canonical" href="https://indsaccrm.com/navigate/Promotions.jsp" />
       <link rel="apple-touch-icon" href="dist/img/u.png"/>
-      <link rel="alternate" hreflang="en" href ="https://www.indsaccrm.com/" />
+      <link rel="alternate" hreflang="en" href ="https://indsaccrm.com/navigate/Promotions.jsp" />
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="promotions provide a breather to salespeople as it removes some weight off their shoulder and induces prospects to purchase the product">
+    <meta property="og:title" content="Sales Promotions" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://indsaccrm.com/navigate/Promotions.jsp" />
+    <meta property="og:image" content="https://www.indsaccrm.com/web/navigate/assets/images/promotions.jpeg" />
+    <meta property="og:image:secure_url" content="https://www.indsaccrm.com/web/navigate/assets/images/promotions.jpeg" />
+    <meta property="og:site_name" content="indsaccrm.com" />
+    <meta property="og:description" content="promotions provide a breather to salespeople as it removes some weight off their shoulder and induces prospects to purchase the product" />
+    <meta property="og:locale" content="en_US" />
 
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Sales Promotions",
+"logo":{"@type":"ImageObject","url":"https://www.indsaccrm.com/web/dist/img/u.png"},"url":"https://www.indsaccrm.com/navigate/Promotions.jsp"}
+</script>
 
    <title>Sales Promotions | Promotions :: indsaccrm.com</title>
     <!-- Template CSS -->
@@ -63,7 +74,7 @@
 
 
       <%  Log.writeWEBLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" "+request.getProtocol()+", "+Poul.getPublicIP()+""
-              + ", "+request.getRemoteHost()+", Entering about.jsp");
+              + ", "+request.getRemoteHost()+", Entering Promotions.jsp");
       %>
  <%@include file="header.jsp" %>
     <script src="assets/js/jquery-3.3.1.min.js"></script> <!-- Common jquery plugin -->
@@ -101,7 +112,7 @@
             </div>
                 <div class="cwp4-text col-xl-6">
                     <h4>CRM Promotions</h4>
-                    <p class="para">Promotion is any form of communication a business or organization uses to inform,
+                    <p class="para">Promotion is any form of <a href="https://www.indsaccrm.com/navigate/impcomm.jsp">communication</a> a business or organization uses to inform,
                         persuade, or remind people about its products and improve its public image. Product Promotion :
                         <br><br> 1) explains the major features and benefits of its products (especially in relation to 
                         competitors), <br>2) tells where the products are sold, <br>3) advertises sales on those products,
@@ -119,8 +130,8 @@
 	<h3>What are Sales Promotions?</h3>
 	<p class="para">    </p>
 </div>
-<p class="para"> Sales promotions provide a breather to salespeople as it removes some weight off their shoulder and induce prospects to purchase the product. 
-    In many ways, sales promotions help your salespeople get more leads and ultimately more customers. 
+<p class="para"> <a href="https://www.indsaccrm.com/navigate/sales.jsp">Sales</a> promotions provide a breather to salespeople as it removes some weight off their shoulder and induce prospects to purchase the product. 
+    In many ways, sales promotions help your salespeople get more  <a href="https://www.indsaccrm.com/navigate/lead.jsp">leads</a> and ultimately more customers. 
     If you have a product that is new in the market or which is not receiving a lot of attention, then you can promote this product to customers via sales promotions. 
     Sales promotion is the process of persuading a potential customer to buy the product, 
     It is designed to be used as a short-term tactic to boost sales-affecting long-term customer loyalty.
@@ -187,7 +198,7 @@ You have come across several software or online programs which offer a free tria
 </script>
 <!-- /move top -->
 <%  Log.writeWEBLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" "+request.getProtocol()+", "+Poul.getPublicIP()+""
-              + ", "+request.getRemoteHost()+", Leaving about.jsp");
+              + ", "+request.getRemoteHost()+", Leaving Promotions.jsp");
       %>
 </body>
 

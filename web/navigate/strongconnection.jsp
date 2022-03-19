@@ -8,15 +8,24 @@
 <!doctype html>
 <html lang="en">
   <head> <link rel="shortcut icon" href="../dist/img/u.png" type="image/x-icon" />
-         <link rel="canonical" href="https://www.indsaccrm.com/strongconnection.jsp" />
+         <link rel="canonical" href="https://indsaccrm.com/navigate/strongconnection.jsp" />
          <link rel="apple-touch-icon" href="dist/img/u.png"/>
-         <link rel="alternate" hreflang="en" href ="https://www.indsaccrm.com/" />
+         <link rel="alternate" hreflang="en" href ="https://indsaccrm.com/navigate/strongconnection.jsp" />
         
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Establish A Strong Connection With Customers">
+    <meta property="og:title" content="Strong Connection"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="https://indsaccrm.com/navigate/strongconnection.jsp"/>
+    <meta property="og:site_name" content="indsaccrm.com"/>
+    <meta property="og:description" content="Establish A Strong Connection With Customers"/>
+    <meta property="og:locale" content="en_US" />
 
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Strong Connection",
+"logo":{"@type":"ImageObject","url":"https://www.indsaccrm.com/web/dist/img/u.png"},"url":"https://indsaccrm.com/navigate/strongconnection.jsp"}
+</script>
 
     <title>Strong Connection | Pharmaceutical Industry:: indsaccrm.com</title>
 
@@ -65,7 +74,7 @@
 
 
       <%  Log.writeWEBLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" "+request.getProtocol()+", "+Poul.getPublicIP()+""
-              + ", "+request.getRemoteHost()+", Entering choosingrightcrm.jsp");
+              + ", "+request.getRemoteHost()+", Entering strongconnection.jsp");
       %>
        <%@include file="header.jsp" %>
 
@@ -174,7 +183,7 @@ an ERP or other accounting software, HR software, your website, and web forms to
 </script>
 <!-- /move top -->
 <%  Log.writeWEBLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" "+request.getProtocol()+", "+Poul.getPublicIP()+""
-              + ", "+request.getRemoteHost()+", Leaving choosingrightcrm.jsp");
+              + ", "+request.getRemoteHost()+", Leaving strongconnection.jsp");
       %>
 </body>
 

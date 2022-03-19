@@ -8,14 +8,26 @@
 <!doctype html>
 <html lang="en">
   <head><link rel="shortcut icon" href="../dist/img/u.png" type="image/x-icon" />
-      <link rel="canonical" href="https://www.indsaccrm.com/digitalmarketing.jsp" />
+      <link rel="canonical" href="https://indsaccrm.com/navigate/digitalmarketing.jsp" />
       <link rel="apple-touch-icon" href="dist/img/u.png"/>
-      <link rel="alternate" hreflang="en" href ="https://www.indsaccrm.com/" />
+      <link rel="alternate" hreflang="en" href ="https://indsaccrm.com/navigate/digitalmarketing.jsp" />
       
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Digital marketing is every marketing activity, a strategy that is used on digital platforms such as social media, websites to attract prospective customers">
+    <meta property="og:title" content="Best CRM Digital Marketing"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="https://indsaccrm.com/navigate/digitalmarketing.jsp"/>
+    <meta property="og:image" content="https://www.indsaccrm.com/web/navigate/assets/images/digitalmarketing.jpg"/>
+    <meta property="og:image:secure_url" content="https://www.indsaccrm.com/web/navigate/assets/images/digitalmarketing.jpg"/>
+    <meta property="og:site_name" content="indsaccrm.com"/>
+    <meta property="og:description" content="Digital marketing is every marketing activity, a strategy that is used on digital platforms such as social media, websites to attract prospective customers"/>
+    <meta property="og:locale" content="en_US"/>
+
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Digital Marketing",
+"logo":{"@type":"ImageObject","url":"https://www.indsaccrm.com/web/dist/img/u.png"},"url":"https://www.indsaccrm.com/navigate/digitalmarketing.jsp"}
+</script>
 
 
    <title>Best CRM Digital Marketing | Digital Marketing :: indsaccrm.com</title>
@@ -64,7 +76,7 @@
 
 
       <%  Log.writeWEBLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" "+request.getProtocol()+", "+Poul.getPublicIP()+""
-              + ", "+request.getRemoteHost()+", Entering about.jsp");
+              + ", "+request.getRemoteHost()+", Entering digitalmarketing.jsp");
       %>
  <%@include file="header.jsp" %>
     <script src="assets/js/jquery-3.3.1.min.js"></script> <!-- Common jquery plugin -->
@@ -174,7 +186,7 @@
 </script>
 <!-- /move top -->
 <%  Log.writeWEBLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" "+request.getProtocol()+", "+Poul.getPublicIP()+""
-              + ", "+request.getRemoteHost()+", Leaving about.jsp");
+              + ", "+request.getRemoteHost()+", Leaving digitalmarketing.jsp");
       %>
 </body>
 

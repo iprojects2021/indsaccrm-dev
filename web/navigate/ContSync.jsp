@@ -8,14 +8,26 @@
 <!doctype html>
 <html lang="en">
   <head><link rel="shortcut icon" href="../dist/img/u.png" type="image/x-icon" />
-        <link rel="canonical" href="https://www.indsaccrm.com/ContSync.jsp" />
+        <link rel="canonical" href="https://indsaccrm.com/navigate/ContSync.jsp" />
         <link rel="apple-touch-icon" href="dist/img/u.png"/>
-        <link rel="alternate" hreflang="en" href ="https://www.indsaccrm.com/" />
+        <link rel="alternate" hreflang="en" href ="https://indsaccrm.com/navigate/ContSync.jsp" />
         
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="CRM Planning is a term used to describe all activities, strategies, and tools used by a company to manage the way it interacts with its customer base">
+    <meta property="og:title" content="Catalog Sync"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="https://indsaccrm.com/navigate/ContSync.jsp"/>
+    <meta property="og:image" content="https://www.indsaccrm.com/web/navigate/assets/images/indsac-catalog-sync.gif"/>
+    <meta property="og:image:secure_url" content="https://www.indsaccrm.com/web/navigate/assets/images/indsac-catalog-sync.gif"/>
+    <meta property="og:site_name" content="indsaccrm.com"/>
+    <meta property="og:description" content="CRM Planning is a term used to describe all activities, strategies, and tools used by a company to manage the way it interacts with its customer base"/>
+    <meta property="og:locale" content="en_US" />
+
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Catalog Sync",
+"logo":{"@type":"ImageObject","url":"https://www.indsaccrm.com/web/dist/img/u.png"},"url":"https://www.indsaccrm.com/navigate/ContSync.jsp"}
+</script>
 
 
    <title>Catalog Sync | Catalog Sync :: indsaccrm.com</title>
@@ -64,7 +76,7 @@
 
 
       <%  Log.writeWEBLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" "+request.getProtocol()+", "+Poul.getPublicIP()+""
-              + ", "+request.getRemoteHost()+", Entering about.jsp");
+              + ", "+request.getRemoteHost()+", Entering ContSync.jsp");
       %>
  <%@include file="header.jsp" %>
     <script src="assets/js/jquery-3.3.1.min.js"></script> <!-- Common jquery plugin -->
@@ -169,7 +181,7 @@ Developers focused on customer engagement.<br><br>
 </script>
 <!-- /move top -->
 <%  Log.writeWEBLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" "+request.getProtocol()+", "+Poul.getPublicIP()+""
-              + ", "+request.getRemoteHost()+", Leaving about.jsp");
+              + ", "+request.getRemoteHost()+", Leaving ContSync.jsp");
       %>
 </body>
 

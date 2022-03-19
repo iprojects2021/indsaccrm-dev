@@ -8,15 +8,26 @@
 <!doctype html>
 <html lang="en">
   <head><link rel="shortcut icon" href="../dist/img/u.png" type="image/x-icon" />
-        <link rel="canonical" href="https://www.indsaccrm.com/workflowmanagement.jsp" />
+        <link rel="canonical" href="https://indsaccrm.com/navigate/workflowmanagement.jsp" />
         <link rel="apple-touch-icon" href="dist/img/u.png"/>
-        <link rel="alternate" hreflang="en" href ="https://www.indsaccrm.com/" />
+        <link rel="alternate" hreflang="en" href ="https://indsaccrm.com/navigate/workflowmanagement.jsp" />
         
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="CRM workflows can also alert your team to major lead and prospect updates that could help you for your next customer or client. Best of all, CRM workflows are easy to set up">
+    <meta property="og:title" content="Workflow Management"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="https://indsaccrm.com/navigate/workflowmanagement.jsp"/>
+    <meta property="og:image" content="https://www.indsaccrm.com/web/navigate/assets/images/wm2.jpg"/>
+    <meta property="og:image:secure_url" content="https://www.indsaccrm.com/web/navigate/assets/images/wm2.jpg"/>
+    <meta property="og:site_name" content="indsaccrm.com"/>
+    <meta property="og:description" content="CRM workflows can also alert your team to major lead and prospect updates that could help you for your next customer or client. Best of all, CRM workflows are easy to set up"/>
+    <meta property="og:locale" content="en_US" />
 
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Workflow Management",
+"logo":{"@type":"ImageObject","url":"https://www.indsaccrm.com/web/dist/img/u.png"},"url":"https://indsaccrm.com/navigate/workflowmanagement.jsp"}
+</script>
 
     <title>Workflow Management | Best CRM Software |Telecommunication Industry :: indsaccrm.com</title>
 
@@ -65,7 +76,7 @@
 
 
       <%  Log.writeWEBLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" "+request.getProtocol()+", "+Poul.getPublicIP()+""
-              + ", "+request.getRemoteHost()+", Entering E-Mail Integration email.jsp");
+              + ", "+request.getRemoteHost()+", Entering workflowmanagement.jsp");
       %>
 <%@include file="header.jsp" %>
 
@@ -252,7 +263,7 @@
 </script>
 <!-- /move top -->
 <%  Log.writeWEBLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" "+request.getProtocol()+", "+Poul.getPublicIP()+""
-              + ", "+request.getRemoteHost()+", Leaving E-Mail Integration email.jsp");
+              + ", "+request.getRemoteHost()+", Leaving workflowmanagement.jsp");
       %>
 </body>
 

@@ -7,15 +7,24 @@
 <!doctype html>
 <html lang="en">
   <head> <link rel="shortcut icon" href="../dist/img/u.png" type="image/x-icon" />
-         <link rel="canonical" href="https://www.indsaccrm.com/pricing.jsp" />
+         <link rel="canonical" href="https://indsaccrm.com/navigate/pricing.jsp" />
          <link rel="apple-touch-icon" href="dist/img/u.png"/>
-         <link rel="alternate" hreflang="en" href ="https://www.indsaccrm.com/" />
+         <link rel="alternate" hreflang="en" href ="https://indsaccrm.com/navigate/pricing.jsp" />
          
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="It's free you can use it">
+    <meta property="og:title" content="Productivity Analysis"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="https://indsaccrm.com/navigate/pricing.jsp"/>
+    <meta property="og:site_name" content="indsaccrm.com"/>
+    <meta property="og:description" content="It's free you can use it"/>
+    <meta property="og:locale" content="en_US" />
 
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Pricing",
+"logo":{"@type":"ImageObject","url":"https://www.indsaccrm.com/web/dist/img/u.png"},"url":"https://www.indsaccrm.com/navigate/pricing.jsp"}
+</script>
 
     <title>Pricing | Pricing :: indsaccrm.com</title>
 

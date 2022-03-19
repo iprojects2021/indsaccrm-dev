@@ -7,14 +7,26 @@
 -->
 <!doctype html>
 <html lang="en">
-  <head> <link rel="shortcut icon" href="../dist/img/u.png" type="image/x-icon" />
-      <link rel="canonical" href="https://www.indsaccrm.com/digitalmobile.jsp" />
-      <link rel="apple-touch-icon" href="dist/img/u.png"/>
-      <link rel="alternate" hreflang="en" href ="https://www.indsaccrm.com/" />
+  <head> <link rel="shortcut icon" href="../dist/img/https://www.indsaccrm.com/digitalmobile.jsp" />
+         <link rel="canonical" href="https://indsaccrm.com/navigate/digitalmobile.jsp" />
+         <link rel="apple-touch-icon" href="dist/img/u.png"/>
+         <link rel="alternate" hreflang="en" href ="https://indsaccrm.com/navigate/digitalmobile.jsp" />
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Mobile CRM can be defined as a CRM platform that has been specifically designed for mobile devices and tablets">
+    <meta property="og:title" content="Mobile CRM"/>
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://indsaccrm.com/navigate/digitalmobile.jsp" />
+    <meta property="og:image" content="https://www.indsaccrm.com/web/navigate/assets/images/indsac-mobile-crm.gif" />
+    <meta property="og:image:secure_url" content="https://www.indsaccrm.com/web/navigate/assets/images/indsac-mobile-crm.gif" />
+    <meta property="og:site_name" content="indsaccrm.com"/>
+    <meta property="og:description" content="Mobile CRM can be defined as a CRM platform that has been specifically designed for mobile devices and tablets"/>
+    <meta property="og:locale" content="en_US"/>
+
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Mobile CRM",
+"logo":{"@type":"ImageObject","url":"https://www.indsaccrm.com/web/dist/img/u.png"},"url":"https://www.indsaccrm.com/navigate/digitalmobile.jsp"}
+</script>
 
 
     <title>Mobile CRM | Digital & Mobile :: indsaccrm.com</title>
@@ -62,7 +74,7 @@
   </head>
   <body id="Aerospace">
       <%  Log.writeWEBLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" "+request.getProtocol()+", "+Poul.getPublicIP()+""
-              + ", "+request.getRemoteHost()+", Entering Aerospace.jsp");
+              + ", "+request.getRemoteHost()+", Entering digitalmobile.jsp");
       %>
       <%@include file="header.jsp" %>
 
@@ -274,7 +286,7 @@
 </script>
 <!-- /move top -->
 <%  Log.writeWEBLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" "+request.getProtocol()+", "+Poul.getPublicIP()+""
-              + ", "+request.getRemoteHost()+", Leaving Aerospace.jsp");
+              + ", "+request.getRemoteHost()+", Leaving digitalmobile.jsp");
       %>
 </body>
 

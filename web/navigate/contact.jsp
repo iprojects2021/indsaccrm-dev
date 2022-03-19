@@ -12,15 +12,24 @@
 <!doctype html>
 <html lang="en">
   <head> <link rel="shortcut icon" href="../dist/img/u.png" type="image/x-icon" />
-         <link rel="canonical" href="https://www.indsaccrm.com/contact.jsp" />
+         <link rel="canonical" href="https://indsaccrm.com/navigate/contact.jsp" />
          <link rel="apple-touch-icon" href="dist/img/u.png"/>
-         <link rel="alternate" hreflang="en" href ="https://www.indsaccrm.com/" />
+         <link rel="alternate" hreflang="en" href ="https://indsaccrm.com/navigate/contact.jsp" />
          
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Drop Us Message For Any Query">
+    <meta property="og:title" content="Contact Us"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="https://indsaccrm.com/navigate/contact.jsp"/>
+    <meta property="og:site_name" content="indsaccrm.com"/>
+    <meta property="og:description" content="Drop Us Message For Any Query"/>
+    <meta property="og:locale" content="en_US" />
 
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":" Contact Us",
+"logo":{"@type":"ImageObject","url":"https://www.indsaccrm.com/web/dist/img/u.png"},"url":"https://www.indsaccrm.com/navigate/contact.jsp"}
+</script>
 
     <title>Contact Us | Contact Us :: indsaccrm.com</title>
 
@@ -89,7 +98,7 @@
         
             }catch(Exception e){
             String errormsg=java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" \n contact.jsp-----\n"
-            + "\nLINE=86 \n insert into contact values '"+firstname+"','"+lastname+"','"+email+"','"+message+"','"+status+" ";
+            + "\nLINE=104 \n insert into contact values '"+firstname+"','"+lastname+"','"+email+"','"+message+"','"+status+" ";
             Log.writeLogWarn(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+"  /n"+errormsg+" /n"+e);
             EmergencyEmail.send(e,errormsg);  
         }         

@@ -8,14 +8,26 @@
 <!doctype html>
 <html lang="en">
   <head> <link rel="shortcut icon" href="../dist/img/u.png" type="image/x-icon" /> 
-        <link rel="canonical" href="https://www.indsaccrm.com/HealthCare.jsp" />
+        <link rel="canonical" href="https://indsaccrm.com/navigate/Health Care.jsp" />
         <link rel="apple-touch-icon" href="dist/img/u.png"/>
-        <link rel="alternate" hreflang="en" href ="https://www.indsaccrm.com/" />
+        <link rel="alternate" hreflang="en" href ="https://indsaccrm.com/navigate/Health Care.jsp" />
         
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="The goal of all healthcare providers is to deliver care of the highest quality to patients and consumers">
+    <meta property="og:title" content="Health Care Industry"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="https://indsaccrm.com/navigate/Health Care.jsp"/>
+    <meta property="og:image" content="https://www.indsaccrm.com/web/navigate/assets/images/h1.jpg"/>
+    <meta property="og:image:secure_url" content="https://www.indsaccrm.com/web/navigate/assets/images/h1.jpg"/>
+    <meta property="og:site_name" content="indsaccrm.com"/>
+    <meta property="og:description" content="The goal of all healthcare providers is to deliver care of the highest quality to patients and consumers"/>
+    <meta property="og:locale" content="en_US" />
+
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Health Care Industry",
+"logo":{"@type":"ImageObject","url":"https://www.indsaccrm.com/web/dist/img/u.png"},"url":"https://www.indsaccrm.com/navigate/Health Care.jsp"}
+</script>
 
 
     <title>Health Care Industry | Industry :: indsaccrm.com</title>

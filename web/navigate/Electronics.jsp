@@ -8,15 +8,26 @@
 <!doctype html>
 <html lang="en">
   <head><link rel="shortcut icon" href="../dist/img/u.png" type="image/x-icon" />
-        <link rel="canonical" href="https://www.indsaccrm.com/Electronics.jsp" />
+        <link rel="canonical" href="https://indsaccrm.com/navigate/Electronics.jsp" />
         <link rel="apple-touch-icon" href="dist/img/u.png"/>
-        <link rel="alternate" hreflang="en" href ="https://www.indsaccrm.com/" />
+        <link rel="alternate" hreflang="en" href ="https://indsaccrm.com/navigate/Electronics.jsp" />
         
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="E-CRM, or Electronic Customer Relationship Management, is an integrated online sales, marketing, and service strategy that is used to identify, attract and retain an organization's customers">
+    <meta property="og:title" content="E-CRM? "/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="https://indsaccrm.com/navigate/Electronics.jsp"/>
+    <meta property="og:image" content="https://www.indsaccrm.com/web/navigate/assets/images/erm.jpg"/>
+    <meta property="og:image:secure_url" content="https://www.indsaccrm.com/web/navigate/assets/images/erm.jpg"/>
+    <meta property="og:site_name" content="indsaccrm.com"/>
+    <meta property="og:description" content="E-CRM, or Electronic Customer Relationship Management, is an integrated online sales, marketing, and service strategy that is used to identify, attract and retain an organization's customers"/>
+    <meta property="og:locale" content="en_US" />
 
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"E-CRM?  ",
+"logo":{"@type":"ImageObject","url":"https://www.indsaccrm.com/web/dist/img/u.png"},"url":"https://www.indsaccrm.com/navigate/Electronics.jsp"}
+</script>
 
     <title>E-CRM? | Industry :: indsaccrm.com</title>
 

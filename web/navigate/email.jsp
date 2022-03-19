@@ -8,15 +8,26 @@
 <!doctype html>
 <html lang="en">
   <head><link rel="shortcut icon" href="../dist/img/u.png" type="image/x-icon" />
-        <link rel="canonical" href="https://www.indsaccrm.com/email.jsp" />
+        <link rel="canonical" href="https://indsaccrm.com/navigate/email.jsp" />
         <link rel="apple-touch-icon" href="dist/img/u.png"/>
-        <link rel="alternate" hreflang="en" href ="https://www.indsaccrm.com/" />
+        <link rel="alternate" hreflang="en" href ="https://indsaccrm.com/navigate/email.jsp" />
         
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Email integration in your CRM lets you automatically capture your messages to and from your contacts to your account. INDSAC-CRM automatically associates all e-mails with their respective customer records">
+    <meta property="og:title" content="E-Mail Integration"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="https://indsaccrm.com/navigate/email.jsp"/>
+    <meta property="og:image" content="https://www.indsaccrm.com/web/navigate/assets/images/email1.png"/>
+    <meta property="og:image:secure_url" content="https://www.indsaccrm.com/web/navigate/assets/images/email1.png"/>
+    <meta property="og:site_name" content="indsaccrm.com"/>
+    <meta property="og:description" content="Email integration in your CRM lets you automatically capture your messages to and from your contacts to your account. INDSAC-CRM automatically associates all e-mails with their respective customer records"/>
+    <meta property="og:locale" content="en_US" />
 
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"E-Mail Integration ",
+"logo":{"@type":"ImageObject","url":"https://www.indsaccrm.com/web/dist/img/u.png"},"url":"https://www.indsaccrm.com/navigate/email.jsp"}
+</script>
 
     <title>E-Mail Integration | Best CRM Software | Indsac Crm :: indsaccrm.com</title>
 
@@ -65,7 +76,7 @@
 
 
       <%  Log.writeWEBLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" "+request.getProtocol()+", "+Poul.getPublicIP()+""
-              + ", "+request.getRemoteHost()+", Entering E-Mail Integration email.jsp");
+              + ", "+request.getRemoteHost()+", Entering email.jsp");
       %>
 <%@include file="header.jsp" %>
 
@@ -277,7 +288,7 @@
 </script>
 <!-- /move top -->
 <%  Log.writeWEBLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" "+request.getProtocol()+", "+Poul.getPublicIP()+""
-              + ", "+request.getRemoteHost()+", Leaving E-Mail Integration email.jsp");
+              + ", "+request.getRemoteHost()+", Leaving email.jsp");
       %>
 </body>
 

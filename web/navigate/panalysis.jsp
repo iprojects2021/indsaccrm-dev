@@ -8,15 +8,26 @@
 <!doctype html>
 <html lang="en">
   <head><link rel="shortcut icon" href="../dist/img/u.png" type="image/x-icon" />
-        <link rel="canonical" href="https://www.indsaccrm.com/panalysis.jsp" />
+        <link rel="canonical" href="https://indsaccrm.com/navigate/panalysis.jsp" />
         <link rel="apple-touch-icon" href="dist/img/u.png"/>
-        <link rel="alternate" hreflang="en" href ="https://www.indsaccrm.com/" />
+        <link rel="alternate" hreflang="en" href ="https://indsaccrm.com/navigate/panalysis.jsp" />
         
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Save time in gathering information, save time in making smart decisions, save time from bad strategic decisions, save time for the more enjoyable parts of business life">
+    <meta property="og:title" content="Productivity Analysis"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="https://indsaccrm.com/navigate/panalysis.jsp"/>
+    <meta property="og:image" content="https://www.indsaccrm.com/web/navigate/assets/images/pa1.jpg"/>
+    <meta property="og:image:secure_url" content="https://www.indsaccrm.com/web/navigate/assets/images/pa1.jpg"/>
+    <meta property="og:site_name" content="indsaccrm.com"/>
+    <meta property="og:description" content="Save time in gathering information, save time in making smart decisions, save time from bad strategic decisions, save time for the more enjoyable parts of business life"/>
+    <meta property="og:locale" content="en_US" />
 
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Productivity Analysis",
+"logo":{"@type":"ImageObject","url":"https://www.indsaccrm.com/web/dist/img/u.png"},"url":"https://www.indsaccrm.com/navigate/panalysis.jsp"}
+</script>
 
     <title>Productivity Analysis| Best CRM Software | Indsac Crm :: indsaccrm.com</title>
 
@@ -65,7 +76,7 @@
 
 
       <%  Log.writeWEBLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" "+request.getProtocol()+", "+Poul.getPublicIP()+""
-              + ", "+request.getRemoteHost()+", Entering Productivity Analysis  panalysis.jsp");
+              + ", "+request.getRemoteHost()+", Entering  panalysis.jsp");
       %>
 <%@include file="header.jsp" %>
 
@@ -237,7 +248,7 @@
 </script>
 <!-- /move top -->
 <%  Log.writeWEBLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" "+request.getProtocol()+", "+Poul.getPublicIP()+""
-              + ", "+request.getRemoteHost()+", Leaving Productivity Analysis panalysis.jsp");
+              + ", "+request.getRemoteHost()+", Leaving panalysis.jsp");
       %>
 </body>
 

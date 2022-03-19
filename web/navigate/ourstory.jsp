@@ -12,14 +12,26 @@
 <%@page  import="log.Log" %>
 <html lang= "en">
   <head><link rel="shortcut icon" href="../dist/img/u.png" type="image/x-icon" />
-      <link rel="canonical" href="https://www.indsaccrm.com/ourstory.jsp" />
+      <link rel="canonical" href="https://indsaccrm.com/navigate/ourstory.jsp" />
       <link rel="apple-touch-icon" href="dist/img/u.png"/>
-      <link rel="alternate" hreflang="en" href ="https://www.indsaccrm.com/" />
+      <link rel="alternate" hreflang="en" href ="https://indsaccrm.com/navigate/ourstory.jsp" />
           
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="About Indsac CRM">
+    <meta property="og:title" content="Our Story"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="https://indsaccrm.com/navigate/ourstory.jsp"/>
+    <meta property="og:image" content="https://www.indsaccrm.com/web/navigate/assets/images/indsac-crm1.jpg"/>
+    <meta property="og:image:secure_url" content="https://www.indsaccrm.com/web/navigate/assets/images/indsac-crm1.jpg"/>
+    <meta property="og:site_name" content="indsaccrm.com"/>
+    <meta property="og:description" content="About Indsac CRM"/>
+    <meta property="og:locale" content="en_US" />
+
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Our Story",
+"logo":{"@type":"ImageObject","url":"https://www.indsaccrm.com/web/dist/img/u.png"},"url":"https://www.indsaccrm.com/navigate/ourstory.jsp"}
+</script>
 
     <title>Our Story | Invoice Management System :: indsaccrm.com</title>
     
@@ -66,7 +78,7 @@
   </head>
   <body id="Our Story">
       <%  Log.writeWEBLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" "+request.getProtocol()+", "+request.getRemoteAddr()+""
-              + ", "+request.getRemoteHost()+", Entering about.jsp");
+              + ", "+request.getRemoteHost()+", Entering ourstory.jsp");
       %>
             
 <%@include file="header.jsp" %>
@@ -191,7 +203,7 @@
 </script>
 <!-- /move top -->
 <%  Log.writeWEBLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" "+request.getProtocol()+", "+request.getRemoteAddr()+""
-              + ", "+request.getRemoteHost()+", Leaving index.jsp");
+              + ", "+request.getRemoteHost()+", Leaving ourstory.jsp");
       %>
 </body>
 

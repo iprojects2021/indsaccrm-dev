@@ -8,16 +8,27 @@
 <!doctype html>
 <html lang="en">
   <head><link rel="shortcut icon" href="../dist/img/u.png" type="image/x-icon" />
-      <link rel="canonical" href="https://www.indsaccrm.com/crmmarketing.jsp" />
+      <link rel="canonical" href="https://indsaccrm.com/navigate/crmmarketing.jsp" />
       <link rel="apple-touch-icon" href="dist/img/u.png"/>
-      <link rel="alternate" hreflang="en" href ="https://www.indsaccrm.com/" />
+      <link rel="alternate" hreflang="en" href ="https://indsaccrm.com/navigate/crmmarketing.jsp" />
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="CRM Marketing is a term referring to the strategies and tactics, as well as to the technologies supporting the execution of said strategies and tactics ">
+    <meta property="og:title" content="CRM Marketing" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://indsaccrm.com/navigate/crmmarketing.jsp" />
+    <meta property="og:image" content="https://www.indsaccrm.com/web/navigate/assets/images/crmmarketing.jpg" />
+    <meta property="og:image:secure_url" content="https://www.indsaccrm.com/web/navigate/assets/images/crmmarketing.jpg" />
+    <meta property="og:site_name" content="indsaccrm.com" />
+    <meta property="og:description" content="CRM Marketing is a term referring to the strategies and tactics, as well as to the technologies supporting the execution of said strategies and tactics" />
+    <meta property="og:locale" content="en_US" />
 
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"CRM Marketing",
+"logo":{"@type":"ImageObject","url":"https://www.indsaccrm.com/web/dist/img/u.png"},"url":"https://www.indsaccrm.com/navigate/crmmarketing.jsp"}
+</script>
 
-   <title>Best CRM Software | Marketing :: indsaccrm.com</title>
+   <title>CRM Marketing  | Marketing :: indsaccrm.com</title>
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700&display=swap" rel="stylesheet">
@@ -62,7 +73,7 @@
   <body id="about">
 
       <%  Log.writeWEBLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" "+request.getProtocol()+", "+Poul.getPublicIP()+""
-              + ", "+request.getRemoteHost()+", Entering about.jsp");
+              + ", "+request.getRemoteHost()+", Entering crmmarketing.jsp");
       %>
  <%@include file="header.jsp" %>
     <script src="assets/js/jquery-3.3.1.min.js"></script> <!-- Common jquery plugin -->
@@ -126,8 +137,8 @@
 	<div class="col-lg-4 col-md-6">
 		<div class="about-grids">
 <h4>Features and integrations</h4>
-<p class="para">For more sales, go for a CRM with basic marketing automation features like email marketing, lead capturing, 
-    and engagement analytics. Also, make sure the CRM is customizable and scalable to grow with your evolving business 
+<p class="para">For more <a href="https://www.indsaccrm.com/navigate/sales.jsp">Sales</a>, go for a CRM with basic marketing automation <a href="https://www.indsaccrm.com/navigate/feature.jsp">features</a> like email marketing, lead capturing, 
+    and engagement <a href="https://www.indsaccrm.com/navigate/Analytics.jsp">analytics</a> . Also, make sure the CRM is customizable and scalable to grow with your evolving business 
     and integration needs.
 </p>
 		</div>
@@ -135,7 +146,7 @@
 	<div class="col-lg-4 col-md-6 about-line-top">
 		<div class="about-grids">
 <h4>Cost of CRM</h4>
-<p class="para">Ask questions about CRM pricing tiers. Check how the pricing structure varies with additional users or functionality. 
+<p class="para">Ask questions about CRM <a href="https://www.indsaccrm.com/navigate/pricing.jsp">pricing</a> tiers. Check how the pricing structure varies with additional users or functionality. 
     Then, weigh the cost against its value to your business needs and goals.
 </p>
 		</div>
@@ -143,7 +154,7 @@
 	<div class="col-lg-4 col-md-6 about-line-top">
 		<div class="about-grids">
 <h4>Support</h4>
-<p class="para"> Find out if your CRM provider offers onboarding support. Also, confirm how accessible, affordable or relevant their articles, 
+<p class="para"> Find out if your CRM provider offers <a href="https://www.indsaccrm.com/navigate/coustomeronbording.jsp">onboarding</a>  support. Also, confirm how accessible, affordable or relevant their articles, 
     videos, or agents are in helping you utilize the marketing automation features.</p>
 		</div>
 	</div>
@@ -164,7 +175,7 @@
 
 <h4>3. Forecasting future marketing strategies <h4><br>
 <p class="para">1. Down-the-line marketing strategies keep on changing according to the emotional behavioral change of customers.<br>
-2. CRM market forecasting techniques help to understand this change through regression and statistical analysis of customer behavior online.<br>
+2. CRM market <a href="https://www.indsaccrm.com/navigate/salesforcasting.jsp">forecasting</a> techniques help to understand this change through regression and statistical analysis of customer behavior online.<br>
 3. These are some complex but more accurate analysis techniques provided by the CRM system which are proved to be one of the best marketing strategies.</p><br>
 
 <h4>4. Building business impact models <h4><br>
@@ -203,7 +214,7 @@
 </script>
 <!-- /move top -->
 <%  Log.writeWEBLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" "+request.getProtocol()+", "+Poul.getPublicIP()+""
-              + ", "+request.getRemoteHost()+", Leaving about.jsp");
+              + ", "+request.getRemoteHost()+", Leaving crmmarketing.jsp");
       %>
 </body>
 

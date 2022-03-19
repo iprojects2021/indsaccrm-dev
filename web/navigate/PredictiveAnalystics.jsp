@@ -2,17 +2,34 @@
 <%@page import="blezz.Poul"%>
 <%@page import="log.Log"%>
 <!--
-   Author:indsaccrm.com
-   Author URL: http://indsaccrm.com
+   Author:www.indsaccrm.com
+   Author URL: https://www.indsaccrm.com
 -->
 <!doctype html>
 <html lang="en">
   <head><link rel="shortcut icon" href="../dist/img/u.png" type="image/x-icon" />
+        <link rel="canonical" href="https://indsaccrm.com/navigate/PredictiveAnalystics.jsp" />
+        <link rel="apple-touch-icon" href="dist/img/u.png"/>
+        <link rel="alternate" hreflang="en" href ="https://indsaccrm.com/navigate/PredictiveAnalystics.jsp" />
+        
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Predictive analytics is a technology that allows firms to analyze structured and unstructured data for identifying key trends and correlations to uncover certain customer behaviors">
+    <meta property="og:title" content="Predictive Analytics"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="https://indsaccrm.com/navigate/PredictiveAnalystics.jsp"/>
+    <meta property="og:image" content="https://www.indsaccrm.com/web/navigate/assets/images/panalysis.gif"/>
+    <meta property="og:image:secure_url" content="https://www.indsaccrm.com/web/navigate/assets/images/panalysis.gif"/>
+    <meta property="og:site_name" content="indsaccrm.com"/>
+    <meta property="og:description" content="Predictive analytics is a technology that allows firms to analyze structured and unstructured data for identifying key trends and correlations to uncover certain customer behaviors"/>
+    <meta property="og:locale" content="en_US" />
 
-   <title>Best CRM Software | Predictive Analytics :: indsaccrm.com</title>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Predictive Analytics",
+"logo":{"@type":"ImageObject","url":"https://www.indsaccrm.com/web/dist/img/u.png"},"url":"https://www.indsaccrm.com/navigate/PredictiveAnalystics.jsp"}
+</script>
+
+   <title>Predictive Analytics | Predictive Analytics :: indsaccrm.com</title>
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700&display=swap" rel="stylesheet">
@@ -58,7 +75,7 @@
 
 
       <%  Log.writeWEBLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" "+request.getProtocol()+", "+Poul.getPublicIP()+""
-              + ", "+request.getRemoteHost()+", Entering about.jsp");
+              + ", "+request.getRemoteHost()+", Entering PredictiveAnalystics.jsp");
       %>
  <%@include file="header.jsp" %>
     <script src="assets/js/jquery-3.3.1.min.js"></script> <!-- Common jquery plugin -->
@@ -182,7 +199,7 @@
 </script>
 <!-- /move top -->
 <%  Log.writeWEBLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" "+request.getProtocol()+", "+Poul.getPublicIP()+""
-              + ", "+request.getRemoteHost()+", Leaving about.jsp");
+              + ", "+request.getRemoteHost()+", Leaving PredictiveAnalystics.jsp");
       %>
 </body>
 

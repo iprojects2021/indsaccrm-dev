@@ -2,17 +2,34 @@
 <%@page import="blezz.Poul"%>
 <%@page import="log.Log"%>
 <!--
-   Author: indsaccrm.com
-   Author URL: http://indsaccrm.com.com
+   Author: www.indsaccrm.com
+   Author URL: https://www.indsaccrm.com
 -->
 <!doctype html>
 <html lang="en">
   <head> <link rel="shortcut icon" href="../dist/img/u.png" type="image/x-icon" />
+      <link rel="canonical" href="https://www.indsaccrm.com/navigate/feature.jsp" />
+      <link rel="apple-touch-icon" href="dist/img/u.png"/>
+      <link rel="alternate" hreflang="en" href ="https://www.indsaccrm.com/navigate/feature.jsp" />
+      
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="CRM software can also help you boost sales by keeping an eye on customers, from nurturing leads to closing the sale and maintaining customer loyalty">
+    <meta property="og:title" content="CRM Features"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="https://www.indsaccrm.com/navigate/feature.jsp"/>
+    <meta property="og:image" content="https://www.indsaccrm.com/web/navigate/assets/images/analytics.gif"/>
+    <meta property="og:image:secure_url" content="https://www.indsaccrm.com/web/navigate/assets/images/analytics.gif"/>
+    <meta property="og:site_name" content="indsaccrm.com"/>
+    <meta property="og:description" content="CRM software can also help you boost sales by keeping an eye on customers, from nurturing leads to closing the sale and maintaining customer loyalty"/>
+    <meta property="og:locale" content="en_US"/>
 
-    <title>Best Customer Relationship Management Software | Features :: indsaccrm.com</title>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"CRM Features",
+"logo":{"@type":"ImageObject","url":"https://www.indsaccrm.com/web/dist/img/u.png"},"url":"https://www.indsaccrm.com/navigate/feature.jsp"}
+</script>
+
+    <title> CRM Features | Features :: indsaccrm.com</title>
 
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
@@ -59,7 +76,7 @@
 
 
       <%  Log.writeWEBLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" "+request.getProtocol()+", "+Poul.getPublicIP()+""
-              + ", "+request.getRemoteHost()+", Entering features.jsp");
+              + ", "+request.getRemoteHost()+", Entering feature.jsp");
       %>
 <%@include file="header.jsp" %>
 
@@ -184,7 +201,7 @@
 </script>
 <!-- /move top -->
 <%  Log.writeWEBLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" "+request.getProtocol()+", "+Poul.getPublicIP()+""
-              + ", "+request.getRemoteHost()+", Leaving features.jsp");
+              + ", "+request.getRemoteHost()+", Leaving feature.jsp");
       %>
 </body>
 

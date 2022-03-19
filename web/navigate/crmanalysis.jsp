@@ -2,17 +2,33 @@
 <%@page import="blezz.Poul"%>
 <%@page import="log.Log"%>
 <!--
-   Author:indsaccrm.com
-   Author URL: http://indsaccrm.com
+   Author:www.indsaccrm.com
+   Author URL: https://www.indsaccrm.com
 -->
 <!doctype html>
 <html lang="en">
   <head><link rel="shortcut icon" href="../dist/img/u.png" type="image/x-icon" />
+      <link rel="canonical" href="https://indsaccrm.com/navigate/crmanalysis.jsp" />
+      <link rel="apple-touch-icon" href="dist/img/u.png"/>
+      <link rel="alternate" hreflang="en" href ="https://indsaccrm.com/navigate/crmanalysis.jsp" />
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Data analysis is defined as a process of cleaning, transforming, and modeling data to discover useful information for business decision-making">
+    <meta property="og:title" content="CRM Analysis"/>
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://indsaccrm.com/navigate/crmanalysis.jsp"/>
+    <meta property="og:image" content="https://www.indsaccrm.com/web/navigate/assets/images/Analysis.png"/>
+    <meta property="og:image:secure_url" content="https://www.indsaccrm.com/web/navigate/assets/images/Analysis.png"/>
+    <meta property="og:site_name" content="indsaccrm.com"/>
+    <meta property="og:description" content="Data analysis is defined as a process of cleaning, transforming, and modeling data to discover useful information for business decision-making" />
+    <meta property="og:locale" content="en_US"/>
 
-   <title>Best CRM Software | CRM Analysis :: indsaccrm.com</title>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"CRM Analysis",
+"logo":{"@type":"ImageObject","url":"https://www.indsaccrm.com/web/dist/img/u.png"},"url":"https://www.indsaccrm.com/navigate/crmanalysis.jsp"}
+</script>
+
+   <title>CRM Analysis | CRM Analysis :: indsaccrm.com</title>
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700&display=swap" rel="stylesheet">
@@ -58,7 +74,7 @@
 
 
       <%  Log.writeWEBLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" "+request.getProtocol()+", "+Poul.getPublicIP()+""
-              + ", "+request.getRemoteHost()+", Entering about.jsp");
+              + ", "+request.getRemoteHost()+", Entering crmanalysis.jsp");
       %>
  <%@include file="header.jsp" %>
     <script src="assets/js/jquery-3.3.1.min.js"></script> <!-- Common jquery plugin -->
@@ -189,7 +205,7 @@ Data Analysis consists of the following phases: <br> <br>
 </script>
 <!-- /move top -->
 <%  Log.writeWEBLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" "+request.getProtocol()+", "+Poul.getPublicIP()+""
-              + ", "+request.getRemoteHost()+", Leaving about.jsp");
+              + ", "+request.getRemoteHost()+", Leaving crmanalysis.jsp");
       %>
 </body>
 

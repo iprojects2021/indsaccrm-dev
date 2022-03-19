@@ -2,15 +2,33 @@
 <%@page import="blezz.Poul"%>
 <%@page import="log.Log"%>
 <!--
-   Author: indsaccrm.com
-   Author URL: http://indsaccrm.com.com
+   Author: www.indsaccrm.com
+   Author URL: https://www.indsaccrm.com
 -->
 <!doctype html>
 <html lang="en">
   <head><link rel="shortcut icon" href="../dist/img/u.png" type="image/x-icon" />
+        <link rel="canonical" href="https://indsaccrm.com/navigate/OPManagement.jsp" />
+        <link rel="apple-touch-icon" href="dist/img/u.png"/>
+        <link rel="alternate" hreflang="en" href ="https://indsaccrm.com/navigate/OPManagement.jsp" />
+        
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="An operational CRM is designed to improve routine business operations and securely store data on all your business activities with customers and prospects">
+    <meta property="og:title" content="Operational Management"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="https://indsaccrm.com/navigate/OPManagement.jsp"/>
+    <meta property="og:image" content="https://www.indsaccrm.com/web/navigate/assets/images/email1.png"/>
+    <meta property="og:image:secure_url" content="https://www.indsaccrm.com/web/navigate/assets/images/email1.png"/>
+    <meta property="og:site_name" content="indsaccrm.com"/>
+    <meta property="og:description" content="An operational CRM is designed to improve routine business operations and securely store data on all your business activities with customers and prospects"/>
+    <meta property="og:locale" content="en_US" />
+
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Operational Management",
+"logo":{"@type":"ImageObject","url":"https://www.indsaccrm.com/web/dist/img/u.png"},"url":"https://www.indsaccrm.com/navigate/OPManagement.jsp"}
+</script>
+
 
     <title>Operational Management | Best CRM Software |Pharmaceutical Industry :: indsaccrm.com</title>
 
@@ -59,7 +77,7 @@
 
 
       <%  Log.writeWEBLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" "+request.getProtocol()+", "+Poul.getPublicIP()+""
-              + ", "+request.getRemoteHost()+", Entering E-Mail Integration email.jsp");
+              + ", "+request.getRemoteHost()+", Entering OPManagement.jsp");
       %>
 <%@include file="header.jsp" %>
 
@@ -253,7 +271,7 @@
 </script>
 <!-- /move top -->
 <%  Log.writeWEBLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" "+request.getProtocol()+", "+Poul.getPublicIP()+""
-              + ", "+request.getRemoteHost()+", Leaving E-Mail Integration email.jsp");
+              + ", "+request.getRemoteHost()+", Leaving OPManagement.jsp");
       %>
 </body>
 

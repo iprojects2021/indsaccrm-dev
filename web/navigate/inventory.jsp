@@ -2,17 +2,33 @@
 <%@page import="blezz.Poul"%>
 <%@page import="log.Log"%>
 <!--
-   Author: indsaccrm.com
-   Author URL: http://indsaccrm.com.com
+   Author: www.indsaccrm.com
+   Author URL: https://www.indsaccrm.com
 -->
 <!doctype html>
 <html lang="en">
   <head> <link rel="shortcut icon" href="../dist/img/u.png" type="image/x-icon" />
+        <link rel="canonical" href="https://indsaccrm.com/navigate/inventory.jsp" />
+        <link rel="apple-touch-icon" href="dist/img/u.png"/>
+        <link rel="alternate" hreflang="en" href ="https://indsaccrm.com/navigate/inventory.jsp" />
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Inventory management system controls and tracks a company's inventory levels, orders, sales, and deliveries. It helps in identifying the right amount of stock to order">
+    <meta property="og:title" content="Inventory Management"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="https://indsaccrm.com/navigate/inventory.jsp"/>
+    <meta property="og:image" content="https://www.indsaccrm.com/web/navigate/assets/images/inventory1.jpg"/>
+    <meta property="og:image:secure_url" content="https://www.indsaccrm.com/web/navigate/assets/images/inventory1.jpg"/>
+    <meta property="og:site_name" content="indsaccrm.com"/>
+    <meta property="og:description" content="Inventory management system controls and tracks a company's inventory levels, orders, sales, and deliveries. It helps in identifying the right amount of stock to order"/>
+    <meta property="og:locale" content="en_US"/>
 
-    <title>Best Customer Relationship Management Software | Inventory Management :: indsaccrm.com</title>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Inventory Management",
+"logo":{"@type":"ImageObject","url":"https://www.indsaccrm.com/web/dist/img/u.png"},"url":"https://www.indsaccrm.com/navigate/inventory.jsp"}
+</script>
+
+    <title>Inventory Management | Inventory Management :: indsaccrm.com</title>
 
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
@@ -57,7 +73,7 @@
   </head>
   <body id="Aerospace">
       <%  Log.writeWEBLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" "+request.getProtocol()+", "+Poul.getPublicIP()+""
-              + ", "+request.getRemoteHost()+", Entering Aerospace.jsp");
+              + ", "+request.getRemoteHost()+", Entering inventory.jsp");
       %>
       <%@include file="header.jsp" %>
 
@@ -206,7 +222,7 @@
 </script>
 <!-- /move top -->
 <%  Log.writeWEBLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" "+request.getProtocol()+", "+Poul.getPublicIP()+""
-              + ", "+request.getRemoteHost()+", Leaving Aerospace.jsp");
+              + ", "+request.getRemoteHost()+", Leaving inventory.jsp");
       %>
 </body>
 

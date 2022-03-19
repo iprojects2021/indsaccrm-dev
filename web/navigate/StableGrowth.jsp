@@ -2,17 +2,34 @@
 <%@page import="log.Log"%>
 <%@page import="blezz.Poul"%>
 <!--
-   Author: indsaccrm.com
-   Author URL: http://indsaccrm.com.com
+   Author: www.indsaccrm.com
+   Author URL: https://www.indsaccrm.com
 -->
 <!doctype html>
 <html lang="en">
   <head> <link rel="shortcut icon" href="../dist/img/u.png" type="image/x-icon" />
+         <link rel="canonical" href="https://indsaccrm.com/navigate/StableGrowth.jsp" />
+         <link rel="apple-touch-icon" href="dist/img/u.png"/>
+         <link rel="alternate" hreflang="en" href ="https://indsaccrm.com/navigate/StableGrowth.jsp" />
+         
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="CRM is key to your organization's growth, so you need to manage them as efficiently and effectively as possible">
+    <meta property="og:title" content="Business Stable Growth"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="https://indsaccrm.com/navigate/StableGrowth.jsp"/>
+    <meta property="og:image" content="https://www.indsaccrm.com/web/navigate/assets/images/sg.gif"/>
+    <meta property="og:image:secure_url" content="https://www.indsaccrm.com/web/navigate/assets/images/sg.gif"/>
+    <meta property="og:site_name" content="indsaccrm.com"/>
+    <meta property="og:description" content="CRM is key to your organization's growth, so you need to manage them as efficiently and effectively as possible"/>
+    <meta property="og:locale" content="en_US" />
 
-    <title>Best Customer Relationship Management Software |Computer Industry :: indsaccrm.com</title>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Business Stable Growth",
+"logo":{"@type":"ImageObject","url":"https://www.indsaccrm.com/web/dist/img/u.png"},"url":"https://www.indsaccrm.com/navigate/StableGrowth.jsp"}
+</script>
+
+    <title>Business Stable Growth |Computer Industry :: indsaccrm.com</title>
 
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
@@ -58,7 +75,7 @@
   <body id="Computer">
 
       <%  Log.writeWEBLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" "+request.getProtocol()+", "+Poul.getPublicIP()+""
-              + ", "+request.getRemoteHost()+", Entering Computer.jsp");
+              + ", "+request.getRemoteHost()+", Entering StableGrowth.jsp");
       %>
  <%@include file="header.jsp" %>
 
@@ -215,7 +232,7 @@
 </script>
 <!-- /move top -->
 <%  Log.writeWEBLog(java.time.LocalDate.now()+" "+java.time.LocalTime.now()+" "+request.getProtocol()+", "+Poul.getPublicIP()+""
-              + ", "+request.getRemoteHost()+", Leaving Computer.jsp");
+              + ", "+request.getRemoteHost()+", Leaving StableGrowth.jsp");
       %>
 </body>
 
